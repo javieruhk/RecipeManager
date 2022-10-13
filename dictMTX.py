@@ -4,209 +4,157 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 from nltk.corpus import stopwords
 import json
-import warnings
-from collections import OrderedDict
-
-#from nltk.tokenize import word_tokenize
-
-phenol_foods = "./dbs/foods.xls"
-foodex2_file = "./dbs/MTX.xls"
-phenol_composition_file = "./dbs/composition-data.xlsx"
-
-"""
-foodex2_data = pd.read_excel(foodex2_file, sheet_name="term")
-foodex2_df = pd.DataFrame(foodex2_data)
-foodex2_dict = dict(zip(foodex2_df['termCode'], foodex2_df['termExtendedName']))
 
 
-stopwords = set(stopwords.words('english'))
+input_directory = "./input dbs/"
+phenol_foods = input_directory + "foods.xls"
+foodex2_file = input_directory + "MTX.xls"
+phenol_composition_file = input_directory + "composition-data.xlsx"
+BEDCA_file = input_directory + "bedca-2.1.csv"
+
+output_directory = "./output json files/"
+BEDCA_lemas_file = output_directory + "BEDCA lemas.json"
+foodex2_lemas_file = output_directory + "foodex2 lemas.json"
+BEDCA_foodex2_matches_file = output_directory + "BEDCA_foodex2 matches.json"
 
 
-lemmatizer = WordNetLemmatizer()
-
-for code in foodex2_dict:
-	extended_name = foodex2_dict.get(code)
-
-	tk_content = word_tokenize(extended_name)
-	wordsFiltered=[]
-	for i in tk_content:
-		if i not in stopwords:
-			wordsFiltered.append(i)
-
-	lemmatized_words = [lemmatizer.lemmatize(i) for i in wordsFiltered] 
-	foodex2_dict[code] = lemmatized_words
-	
-print(foodex2_dict)
-"""
-
-#warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
-
-def create_foodex2_dict():
+def create_foodex2_dict(foodex2_file):
 	foodex2_data = pd.read_excel(foodex2_file, sheet_name="term")
 	foodex2_df = pd.DataFrame(foodex2_data)		
 	return dict(zip(foodex2_df['termCode'], foodex2_df['termExtendedName']))
 
+def create_BEDCA_dict(BEDCA_file):
+	foodex2_data = pd.read_csv(BEDCA_file, sep=';', encoding='windows-1252') 
+	foodex2_df = pd.DataFrame(foodex2_data)		
+	return dict(zip(foodex2_df['id'], foodex2_df['nombre_inglés']))
+
+def lemmatize_food_name(lemmatizer, stopwords, extended_food_name):
+	extended_food_name_tagged = nltk.pos_tag(nltk.regexp_tokenize(extended_food_name, pattern=r"\s|[\.,;'()-]", gaps=True))
+	extended_food_name_lemas = []
+	
+	for (word, tag) in extended_food_name_tagged:
+		if word not in stopwords:
+			if(tag.startswith('J')):
+				lema = lemmatizer.lemmatize(word, wordnet.ADJ)
+				extended_food_name_lemas.append(lema.lower())
+			elif tag.startswith('V'):
+				lema = lemmatizer.lemmatize(word, wordnet.VERB)
+				extended_food_name_lemas.append(lema.lower())
+			elif tag.startswith('N'):
+				lema = lemmatizer.lemmatize(word, wordnet.NOUN)
+				extended_food_name_lemas.append(lema.lower())
+			elif tag.startswith('R'):
+				lema = lemmatizer.lemmatize(word, wordnet.ADV)        
+				extended_food_name_lemas.append(lema.lower())
+			else:
+				lema = lemmatizer.lemmatize(word)
+				extended_food_name_lemas.append(lema.lower())
+	
+	return extended_food_name_lemas
+
 def lemmatize_foodex2_dict(stopwords, foodex2_dict):
 	stopwords = set(stopwords.words('english'))
 	lemmatizer = WordNetLemmatizer()
-	lemmatized_foodex2_dict = {}
+	lemmatized_dict = {}
 
 	for foodex2_code in foodex2_dict:
 		extended_food_name = foodex2_dict[foodex2_code]
 		#extended_food_name_tagged = nltk.pos_tag(word_tokenize(extended_food_name))
 		#print(extended_food_name_tagged)
-		extended_food_name_tagged = nltk.pos_tag(nltk.regexp_tokenize(extended_food_name, pattern=r"\s|[\.,;'()-]", gaps=True))
-		extended_food_name_lema = []
-		
-		for (word, tag) in extended_food_name_tagged:
-			if word not in stopwords:
-				if(tag.startswith('J')):
-					lema = lemmatizer.lemmatize(word, wordnet.ADJ)
-					extended_food_name_lema.append(lema.lower())
-				elif tag.startswith('V'):
-					lema = lemmatizer.lemmatize(word, wordnet.VERB)
-					extended_food_name_lema.append(lema.lower())
-				elif tag.startswith('N'):
-					lema = lemmatizer.lemmatize(word, wordnet.NOUN)
-					extended_food_name_lema.append(lema.lower())
-				elif tag.startswith('R'):
-					lema = lemmatizer.lemmatize(word, wordnet.ADV)        
-					extended_food_name_lema.append(lema.lower())
-				else:
-					lema = lemmatizer.lemmatize(word)
-					extended_food_name_lema.append(lema.lower())
-		
-		lemmatized_foodex2_dict[foodex2_code] = extended_food_name_lema
+		extended_food_name_lemas = lemmatize_food_name(lemmatizer, stopwords, extended_food_name)
+		lemmatized_dict[foodex2_code] = extended_food_name_lemas
 	
-	#print(lemmatized_foodex2_dict)
-	return lemmatized_foodex2_dict
+	#print(lemmatized_dict)
+	return lemmatized_dict
 
-def create_foodex2_json(lemmatized_foodex2_dict):
-	#result = json.dumps(lemmatized_foodex2_dict, indent = 4)
+def lemmatize_BEDCA_dict(stopwords, BEDCA_dict):
+	stopwords = set(stopwords.words('english'))
+	lemmatizer = WordNetLemmatizer()
+	lemmatized_dict = {}
+
+	#[[oat, grain], [roll], [red]]
+	for BEDCA_code in BEDCA_dict:
+		extended_food_name = BEDCA_dict[BEDCA_code]
+		extended_food_modifiers = extended_food_name.split(", ")
+		extended_food_lemas = []
+
+		for modifier in extended_food_modifiers:
+			modifier_lemas = lemmatize_food_name(lemmatizer, stopwords, modifier)
+			extended_food_lemas.append(modifier_lemas)
+			
+		lemmatized_dict[BEDCA_code] = extended_food_lemas
+	
+	#print(lemmatized_dict)
+	return lemmatized_dict
+
+def create_json(lemmatized_dict, file_name):
+	#result = json.dumps(lemmatized_dict, indent = 4)
 	#print(result)
-	with open("./dbs/sample.json", "w") as outfile:
-	    json.dump(lemmatized_foodex2_dict, outfile, indent = 4)
-
-"""
-name_BEDCA = "oat"
-matches_dict = {}
-for code in foodex2_dict:
-	extended_name = foodex2_dict.get(code)
-	for words in extended_name:
-		if words == name_BEDCA:
-			matches_dict[code] = extended_name
-
-print(matches_dict)
-"""
-#foodex2_dict = {'A': ["oat", "fee", "parpa", "paco"],
-#				'B': ["paco", "oat"],
-#				'C': ["pepe", "amancio"]}
-
-def format_BEDCA_name(BEDCA_food_name):
-	BEDCA_food_ingredients_list = []
-	BEDCA_food_ingredient = BEDCA_food_name.split(", ")
-	
-	for BEDCA_food_modifier in BEDCA_food_ingredient:
-		BEDCA_food_ingredients_list.append(BEDCA_food_modifier.split(" "))
-	
-	return BEDCA_food_ingredients_list
-	#BEDCA_food_ingredients_list = [[oat, fee], [fee, parpa], [papa, paprre, perd]]
+	with open(file_name, "w") as outfile:
+	    json.dump(lemmatized_dict, outfile, indent = 4)
 
 def create_BEDCA_foodex2_matches_dict(BEDCA_food_ingredients_list, lemmatized_foodex2_dict):
 	BEDCA_foodex2_matches_dict = {}
-	
-	matched = True
+	BEDCA_foodex2_matches_code_list = [] 
+	most_matches_n = 0
+
 	for foodex2_code in lemmatized_foodex2_dict:
-		for ingredient_to_match in BEDCA_food_ingredients_list[0]:						#primer elemento de la lista oat de [oat, fee]
-			if ingredient_to_match not in lemmatized_foodex2_dict[foodex2_code]:
-				matched = False
-				break
-	
-		if matched == True:
-			BEDCA_foodex2_matches_dict[foodex2_code] = (0, lemmatized_foodex2_dict[foodex2_code])
+		matches_n = 0
 		
-		matched = True
+		for ingredient_to_match in BEDCA_food_ingredients_list[0]:
+			if ingredient_to_match in lemmatized_foodex2_dict[foodex2_code]:
+				matches_n = matches_n+1
+		
+		if matches_n > most_matches_n:
+			most_matches_n = matches_n
+			BEDCA_foodex2_matches_code_list = [foodex2_code]
+		elif matches_n == most_matches_n:
+			BEDCA_foodex2_matches_code_list.append(foodex2_code)
+
+	for foodex2_code in BEDCA_foodex2_matches_code_list:
+		BEDCA_foodex2_matches_dict[foodex2_code] = lemmatized_foodex2_dict[foodex2_code]
 
 	#print(BEDCA_foodex2_matches_dict)
 	return BEDCA_foodex2_matches_dict
 
 def update_BEDCA_foodex2_matches_dict(BEDCA_food_ingredients_list, BEDCA_foodex2_matches_dict):
-	matched = True
-	for foodex2_code in BEDCA_foodex2_matches_dict:
-		for modifier_n in range(1, len(BEDCA_food_ingredients_list)):
-			for modifier_to_match in BEDCA_food_ingredients_list[modifier_n]:
-				(matches_accumulator, extended_food_name_lema) = BEDCA_foodex2_matches_dict[foodex2_code]
-				if modifier_to_match not in extended_food_name_lema:
-					matched = False
-					break
-			
-			if matched == True:
-				(matches_accumulator, extended_food_name_lema) = BEDCA_foodex2_matches_dict[foodex2_code]
-				BEDCA_foodex2_matches_dict[foodex2_code] = (matches_accumulator+1, extended_food_name_lema)
-			
-			matched = True
-	
-	#print(BEDCA_foodex2_matches_dict)
-	return BEDCA_foodex2_matches_dict
-
-
-def create_BEDCA_foodex2_matches_dict_sorted(BEDCA_foodex2_matches_dict):
-	reverse_order_BEDCA_foodex2_matches_dict = OrderedDict()
-
-	for foodex2_code in BEDCA_foodex2_matches_dict:
-		(matches_accumulator, extended_food_name_lema) = BEDCA_foodex2_matches_dict[foodex2_code]
-		reverse_order_BEDCA_foodex2_matches_list = sorted(reverse_order_BEDCA_foodex2_matches_dict.keys())
-		last_key = -1
-		
-		if reverse_order_BEDCA_foodex2_matches_list != []:
-			last_key = reverse_order_BEDCA_foodex2_matches_list[-1]
-
-		if matches_accumulator > last_key or last_key == -1:
-			reverse_order_BEDCA_foodex2_matches_dict[matches_accumulator] = [(foodex2_code, extended_food_name_lema)]
-		else:
-			reverse_order_BEDCA_foodex2_matches_dict[matches_accumulator].append((foodex2_code, extended_food_name_lema))
-
-	sorted_BEDCA_foodex2_matches_dict = OrderedDict(reversed(list(reverse_order_BEDCA_foodex2_matches_dict.items())))
-	
-	print("\nSorted BEDCA-foodex2 matches dict: " + str(sorted_BEDCA_foodex2_matches_dict), end='\n\n')
-	return sorted_BEDCA_foodex2_matches_dict	
-
-def create_most_BEDCA_foodex2_matches_dict(sorted_BEDCA_foodex2_matches_dict):
-	most_BEDCA_foodex2_matches_list = list(sorted_BEDCA_foodex2_matches_dict.items())[0]
-	(matches_accumulator, matches_list) = most_BEDCA_foodex2_matches_list
 	most_BEDCA_foodex2_matches_dict = {}
-	
-	for match in matches_list:
-		(code, extended_name_lemas) = match
-		most_BEDCA_foodex2_matches_dict[code] = extended_name_lemas
-	
-	print("Most BEDCA-foodex2 matches: " + str(most_BEDCA_foodex2_matches_dict), end='\n\n')
+	most_BEDCA_foodex2_matches_code_list = [] 
+	most_matches_n = 0
+
+	for foodex2_code in BEDCA_foodex2_matches_dict:
+		matches_n = 0
+		
+		for modifier_n in range(1, len(BEDCA_food_ingredients_list)):#ver si poner a partir de la coma todos en una lista
+			for modifier_to_match in BEDCA_food_ingredients_list[modifier_n]:
+				if modifier_to_match in BEDCA_foodex2_matches_dict[foodex2_code]:
+					matches_n = matches_n+1
+		
+		if matches_n > most_matches_n:
+			most_matches_n = matches_n
+			most_BEDCA_foodex2_matches_code_list = [foodex2_code]
+		elif matches_n == most_matches_n:
+			most_BEDCA_foodex2_matches_code_list.append(foodex2_code)
+
+	for foodex2_code in most_BEDCA_foodex2_matches_code_list:
+		most_BEDCA_foodex2_matches_dict[foodex2_code] = BEDCA_foodex2_matches_dict[foodex2_code]
+
+	#print(most_BEDCA_foodex2_matches_dict)
 	return most_BEDCA_foodex2_matches_dict
 
-"""
-def create_most_matches_dict1(matches_dict):
-	biggest_match = 0
-	for code in matches_dict:
-		(acc, entry) = matches_dict[code]
-		if acc > biggest_match:
-			biggest_match = acc
-	#print(biggest_match)
 
-	most_matched_dict = {}
-	for code in matches_dict:
-		(acc, entry) = matches_dict[code]
-		if acc == biggest_match:
-			most_matched_dict[code] = (acc, entry)
-	print(most_matched_dict)
-"""
 
-foodex2_dict = create_foodex2_dict()
+foodex2_dict = create_foodex2_dict(foodex2_file)
 lemmatized_foodex2_dict = lemmatize_foodex2_dict(stopwords, foodex2_dict)
-create_foodex2_json(lemmatized_foodex2_dict)
-BEDCA_name = "oat grain, roll, red"
-#BEDCA_name = input("Introduce a BEDCA food name: ") #"oat grain, roll, red"
-BEDCA_food_ingredients_list = format_BEDCA_name(BEDCA_name)
-BEDCA_foodex2_matches_dict = create_BEDCA_foodex2_matches_dict(BEDCA_food_ingredients_list, lemmatized_foodex2_dict)
-BEDCA_foodex2_matches_dict = update_BEDCA_foodex2_matches_dict(BEDCA_food_ingredients_list, BEDCA_foodex2_matches_dict)
-BEDCA_foodex2_matches_dict_sorted = create_BEDCA_foodex2_matches_dict_sorted(BEDCA_foodex2_matches_dict)
-most_BEDCA_foodex2_matches_dict = create_most_BEDCA_foodex2_matches_dict(BEDCA_foodex2_matches_dict_sorted)
+create_json(lemmatized_foodex2_dict, foodex2_lemas_file)
+
+BEDCA_dict = create_BEDCA_dict(BEDCA_file)
+lemmatized_BEDCA_dict = lemmatize_BEDCA_dict(stopwords, BEDCA_dict)
+create_json(lemmatized_BEDCA_dict, BEDCA_lemas_file)
+
+BEDCA_all_foodex2_matches_dict = {}
+for BEDCA_food_ingredients_list in lemmatized_BEDCA_dict:
+	BEDCA_foodex2_matches_dict = create_BEDCA_foodex2_matches_dict(lemmatized_BEDCA_dict[BEDCA_food_ingredients_list], lemmatized_foodex2_dict)
+	BEDCA_foodex2_matches_dict = update_BEDCA_foodex2_matches_dict(lemmatized_BEDCA_dict[BEDCA_food_ingredients_list], BEDCA_foodex2_matches_dict)
+	BEDCA_all_foodex2_matches_dict[BEDCA_food_ingredients_list] = BEDCA_foodex2_matches_dict
+create_json(BEDCA_all_foodex2_matches_dict, BEDCA_foodex2_matches_file)
