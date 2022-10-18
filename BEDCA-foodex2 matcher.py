@@ -29,7 +29,7 @@ def create_BEDCA_dict(BEDCA_file):
 	return dict(zip(foodex2_df['id'], foodex2_df['nombre_inglés']))
 
 def lemmatize_food_name(lemmatizer, stopwords, extended_food_name):
-	extended_food_name_tagged = nltk.pos_tag(nltk.regexp_tokenize(extended_food_name, pattern=r"\s|[\.,;'()-]", gaps=True))
+	extended_food_name_tagged = nltk.pos_tag(nltk.regexp_tokenize(extended_food_name, pattern=r"\s|[\.,;'(/)-]", gaps=True))
 	extended_food_name_lemas = []
 	
 	for (word, tag) in extended_food_name_tagged:

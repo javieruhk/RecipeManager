@@ -501,7 +501,10 @@
         "flour",
         "mix",
         "like",
-        "wheat/rye/barley/oats"
+        "wheat",
+        "rye",
+        "barley",
+        "oat"
     ],
     "A004T": [
         "other",
@@ -985,7 +988,8 @@
         "yeast"
     ],
     "A008S": [
-        "mixture/mass",
+        "mixture",
+        "mass",
         "baumkuchen"
     ],
     "A008T": [
@@ -994,7 +998,8 @@
     ],
     "A008V": [
         "waffle",
-        "dough/mixture"
+        "dough",
+        "mixture"
     ],
     "A008X": [
         "short",
@@ -1067,7 +1072,8 @@
     "A009J": [
         "cake",
         "pre",
-        "mixes/batter"
+        "mix",
+        "batter"
     ],
     "A009K": [
         "sponge",
@@ -2648,7 +2654,8 @@
         "skirrets"
     ],
     "A00RR": [
-        "stems/stalks",
+        "stems",
+        "stalk",
         "eaten",
         "vegetable"
     ],
@@ -3155,7 +3162,6 @@
     ],
     "A00ZJ": [
         "pickled",
-        "/",
         "marinate",
         "vegetable"
     ],
@@ -3369,7 +3375,8 @@
         "starchy",
         "root",
         "base",
-        "dishes/snacks",
+        "dish",
+        "snack",
         "deprecate"
     ],
     "A011L": [
@@ -5252,7 +5259,6 @@
     "A01MM": [
         "jam",
         "fruit",
-        "/",
         "vegetable"
     ],
     "A01MN": [
@@ -5422,7 +5428,6 @@
     "A01PD": [
         "compote",
         "fruit",
-        "/",
         "vegetable"
     ],
     "A01PE": [
@@ -5591,7 +5596,6 @@
         "fruit",
         "preparation",
         "filling",
-        "and/or",
         "flavour"
     ],
     "A01QQ": [
@@ -5946,14 +5950,16 @@
     "A01TP": [
         "mixed",
         "pork",
-        "mutton/lamb",
+        "mutton",
+        "lamb",
         "fresh",
         "meat"
     ],
     "A01TQ": [
         "mixed",
         "beef",
-        "mutton/lamb",
+        "mutton",
+        "lamb",
         "fresh",
         "meat"
     ],
@@ -7121,7 +7127,8 @@
         "salami"
     ],
     "A025B": [
-        "pepperoni/paprika",
+        "pepperoni",
+        "paprika",
         "type",
         "sausage"
     ],
@@ -8438,20 +8445,23 @@
         "fish"
     ],
     "A02KJ": [
-        "canned/jarred",
+        "canned",
+        "jarred",
         "smoke",
         "fish",
         "oil",
         "deprecate"
     ],
     "A02KK": [
-        "canned/jarred",
+        "canned",
+        "jarred",
         "fish",
         "oil",
         "deprecate"
     ],
     "A02KL": [
-        "canned/jarred",
+        "canned",
+        "jarred",
         "fish",
         "vinegar",
         "pickle",
@@ -8459,7 +8469,8 @@
         "deprecate"
     ],
     "A02KM": [
-        "canned/jarred",
+        "canned",
+        "jarred",
         "fish",
         "brine",
         "deprecate"
@@ -8783,8 +8794,7 @@
         "drink",
         "include",
         "sweeten",
-        "and/or",
-        "flavoured",
+        "flavour",
         "variant"
     ],
     "A02NR": [
@@ -9234,7 +9244,8 @@
         "cheese"
     ],
     "A02SV": [
-        "firm/semi",
+        "firm",
+        "semi",
         "hard",
         "cheese",
         "gouda",
@@ -10494,11 +10505,13 @@
     ],
     "A037M": [
         "coconut",
-        "oil/fat"
+        "oil",
+        "fat"
     ],
     "A037N": [
         "palm",
-        "oil/fat"
+        "oil",
+        "fat"
     ],
     "A037P": [
         "palm",
@@ -10677,7 +10690,8 @@
     ],
     "A039F": [
         "butter",
-        "margarine/oil",
+        "margarine",
+        "oil",
         "blend"
     ],
     "A039G": [
@@ -10689,12 +10703,14 @@
     "A039H": [
         "functional",
         "vegetable",
-        "margarines/fats"
+        "margarine",
+        "fat"
     ],
     "A039J": [
         "blended",
         "frying",
-        "oil/fats"
+        "oil",
+        "fat"
     ],
     "A039K": [
         "fruit",
@@ -10910,7 +10926,8 @@
     "A03BM": [
         "concentrated",
         "dehydrate",
-        "fruit/vegetables",
+        "fruit",
+        "vegetable",
         "juice"
     ],
     "A03BN": [
@@ -10997,7 +11014,8 @@
         "cherry"
     ],
     "A03CG": [
-        "dehydrated/powdered",
+        "dehydrated",
+        "powder",
         "fruit",
         "juice"
     ],
@@ -11075,7 +11093,8 @@
         "concentrate"
     ],
     "A03DA": [
-        "dehydrated/powdered",
+        "dehydrated",
+        "powder",
         "vegetable",
         "juice"
     ],
@@ -12796,7 +12815,8 @@
     ],
     "A03TC": [
         "mixed",
-        "supplements/formulations"
+        "supplement",
+        "formulation"
     ],
     "A03TD": [
         "meat",
@@ -13195,48 +13215,56 @@
     "A03ZA": [
         "sandwich",
         "cheese",
-        "topping/filling"
+        "top",
+        "filling"
     ],
     "A03ZB": [
         "sandwich",
         "processed",
         "meat",
-        "topping/filling"
+        "top",
+        "fill"
     ],
     "A03ZC": [
         "sandwich",
         "fish",
-        "topping/filling"
+        "top",
+        "filling"
     ],
     "A03ZD": [
         "sandwich",
         "vegetable",
-        "topping/filling"
+        "top",
+        "filling"
     ],
     "A03ZE": [
         "sandwich",
         "cheese",
         "vegetable",
-        "topping/filling"
+        "topping",
+        "filling"
     ],
     "A03ZF": [
         "sandwich",
         "cheese",
         "egg",
         "vegetable",
-        "topping/filling"
+        "topping",
+        "filling"
     ],
     "A03ZG": [
         "sandwich",
         "meat",
         "vegetable",
-        "topping/filling"
+        "topping",
+        "filling"
     ],
     "A03ZH": [
         "sandwich",
         "fish",
         "vegetable",
-        "topping/filling"
+        "topping",
+        "filling"
     ],
     "A03ZJ": [
         "doner",
@@ -13277,8 +13305,9 @@
     "A03ZR": [
         "pizza",
         "similar",
-        "fish/seafood",
-        "top"
+        "fish",
+        "seafood",
+        "topping"
     ],
     "A03ZS": [
         "pizza",
@@ -13404,13 +13433,15 @@
     "A040S": [
         "pasta",
         "cook",
-        "cheese/cream"
+        "cheese",
+        "cream"
     ],
     "A040T": [
         "pasta",
         "cook",
         "vegetable",
-        "cheese/cream"
+        "cheese",
+        "cream"
     ],
     "A040V": [
         "pasta",
@@ -13532,7 +13563,8 @@
         "soup"
     ],
     "A041Z": [
-        "dairy/egg",
+        "dairy",
+        "egg",
         "soup"
     ],
     "A042A": [
@@ -13588,8 +13620,11 @@
     ],
     "A042M": [
         "prepared",
-        "mix",
-        "egg/meat/fish/vegetable",
+        "mixed",
+        "egg",
+        "meat",
+        "fish",
+        "vegetable",
         "salad"
     ],
     "A042N": [
@@ -13960,7 +13995,8 @@
     ],
     "A046F": [
         "dessert",
-        "sauces/toppings"
+        "sauce",
+        "topping"
     ],
     "A046G": [
         "fruit",
@@ -14271,7 +14307,6 @@
         "mammal",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14326,7 +14361,6 @@
         "bovine",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14366,7 +14400,6 @@
         "pig",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14406,7 +14439,6 @@
         "sheep",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14446,7 +14478,6 @@
         "goat",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14486,7 +14517,6 @@
         "horse",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14532,7 +14562,6 @@
         "hinny",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14582,7 +14611,6 @@
         "rabbit",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14622,7 +14650,6 @@
         "deer",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14665,7 +14692,6 @@
         "boar",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14713,7 +14739,6 @@
         "mammal",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14760,7 +14785,6 @@
         "poultry",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14805,7 +14829,6 @@
         "chicken",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14845,7 +14868,6 @@
         "turkey",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14885,7 +14907,6 @@
         "duck",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14925,7 +14946,6 @@
         "goose",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -14965,7 +14985,6 @@
         "ratites",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -15008,7 +15027,6 @@
         "poultry",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -15056,7 +15074,6 @@
         "mammal",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -15104,7 +15121,6 @@
         "bird",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -15147,7 +15163,6 @@
         "pig",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -15180,7 +15195,6 @@
         "mixed",
         "fresh",
         "meat",
-        "/",
         "fat",
         "tissue"
     ],
@@ -15517,7 +15531,6 @@
         "teas",
         "leave",
         "dry",
-        "and/or",
         "ferment",
         "similar"
     ],
@@ -15613,7 +15626,7 @@
     "A04LE": [
         "pasta",
         "flavour",
-        "and/or/coloured",
+        "colour",
         "deprecated"
     ],
     "A04LF": [
@@ -15776,7 +15789,6 @@
     ],
     "A04MN": [
         "fruit",
-        "/",
         "vegetable",
         "spread",
         "similar"
@@ -17832,7 +17844,6 @@
     ],
     "A056Z": [
         "farmed",
-        "/",
         "non",
         "game",
         "mammal",
@@ -18255,7 +18266,6 @@
     "A05BG": [
         "leafy",
         "brassica",
-        "/",
         "brassica",
         "leafy",
         "vegetable",
@@ -21101,7 +21111,6 @@
     ],
     "A067A": [
         "bulb",
-        "/",
         "clove",
         "part",
         "nature"
@@ -21214,7 +21223,6 @@
     ],
     "A067S": [
         "stem",
-        "/",
         "stalk",
         "part",
         "nature"
@@ -21245,7 +21253,8 @@
         "nature"
     ],
     "A067Z": [
-        "flour/meal",
+        "flour",
+        "meal",
         "finely",
         "ground",
         "powder",
@@ -21317,8 +21326,11 @@
         "nature"
     ],
     "A068L": [
-        "nut/seeds",
-        "paste/emulsion/mass",
+        "nut",
+        "seed",
+        "paste",
+        "emulsion",
+        "mass",
         "part",
         "nature"
     ],
@@ -21341,7 +21353,6 @@
     ],
     "A068P": [
         "fruit",
-        "/",
         "vegetable",
         "spread",
         "similar",
@@ -21350,7 +21361,6 @@
     ],
     "A068Q": [
         "fruit",
-        "/",
         "vegetable",
         "juice",
         "nectar",
@@ -21358,7 +21368,8 @@
         "nature"
     ],
     "A068R": [
-        "fruit/vegetable",
+        "fruit",
+        "vegetable",
         "juice",
         "ingredient",
         "part",
@@ -21366,19 +21377,22 @@
         "deprecate"
     ],
     "A068S": [
-        "fruit/vegetable",
+        "fruit",
+        "vegetable",
         "concentrate",
         "part",
         "nature"
     ],
     "A068T": [
-        "fruit/vegetable",
+        "fruit",
+        "vegetable",
         "powder",
         "part",
         "nature"
     ],
     "A068V": [
-        "fruit/vegetable",
+        "fruit",
+        "vegetable",
         "juice",
         "ready",
         "drink",
@@ -21386,7 +21400,8 @@
         "nature"
     ],
     "A068X": [
-        "fruit/vegetable",
+        "fruit",
+        "vegetable",
         "nectar",
         "ready",
         "drink",
@@ -21570,7 +21585,6 @@
     ],
     "A06AJ": [
         "trotter",
-        "/",
         "foot",
         "part",
         "nature"
@@ -21605,7 +21619,8 @@
         "nature"
     ],
     "A06AQ": [
-        "preserved/processed",
+        "preserved",
+        "process",
         "fat",
         "tissue",
         "part",
@@ -22011,7 +22026,8 @@
     "A06DJ": [
         "cake",
         "pre",
-        "mixes/batter",
+        "mix",
+        "batter",
         "part",
         "nature"
     ],
@@ -22054,7 +22070,8 @@
     "A06DR": [
         "shortcrust",
         "pastry",
-        "pies/tarts",
+        "pie",
+        "tarts",
         "part",
         "nature"
     ],
@@ -22627,7 +22644,8 @@
     ],
     "A06HH": [
         "dessert",
-        "sauces/toppings",
+        "sauce",
+        "topping",
         "part",
         "nature"
     ],
@@ -22673,7 +22691,6 @@
     ],
     "A06HR": [
         "integral",
-        "/not",
         "refine"
     ],
     "A06HS": [
@@ -22691,7 +22708,8 @@
         "strong"
     ],
     "A06HY": [
-        "whole/unsplit",
+        "whole",
+        "unsplit",
         "form",
         "include",
         "artificial",
@@ -22700,9 +22718,7 @@
     "A06HZ": [
         "primal",
         "cut",
-        "/",
         "fillet",
-        "/",
         "half",
         "quarter"
     ],
@@ -22714,14 +22730,11 @@
     ],
     "A06JB": [
         "dices",
-        "/",
         "stick"
     ],
     "A06JC": [
         "fragments",
-        "/",
-        "granule",
-        "/",
+        "granules",
         "splinter"
     ],
     "A06JD": [
@@ -22730,7 +22743,6 @@
     "A06JE": [
         "coarse",
         "paste",
-        "/",
         "mince"
     ],
     "A06JF": [
@@ -22745,7 +22757,6 @@
     ],
     "A06JJ": [
         "bars",
-        "/",
         "table"
     ],
     "A06JK": [
@@ -22758,7 +22769,8 @@
     "A06JM": [
         "with",
         "solid",
-        "particles/pieces"
+        "particle",
+        "piece"
     ],
     "A06JV": [
         "mint",
@@ -23289,7 +23301,6 @@
     ],
     "A06QK": [
         "malaga",
-        "/",
         "raisins",
         "flavour"
     ],
@@ -23767,7 +23778,8 @@
     ],
     "A06XM": [
         "in",
-        "fruit/vegetable",
+        "fruit",
+        "vegetable",
         "juice"
     ],
     "A06XN": [
@@ -24960,7 +24972,6 @@
     ],
     "A077M": [
         "low",
-        "/",
         "reduced",
         "sugar"
     ],
@@ -24970,1237 +24981,1428 @@
         "1",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A077P": [
         "0",
         "1",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A077Q": [
         "0",
         "2",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A077R": [
         "0",
         "3",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A077S": [
         "0",
         "4",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A077T": [
         "0",
         "5",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A077V": [
         "0",
         "6",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A077X": [
         "0",
         "7",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A077Y": [
         "0",
         "8",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A077Z": [
         "0",
         "9",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078A": [
         "1",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078B": [
         "1",
         "1",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078C": [
         "1",
         "2",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078D": [
         "1",
         "3",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078E": [
         "1",
         "4",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078F": [
         "1",
         "5",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078G": [
         "1",
         "6",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078H": [
         "1",
         "7",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078J": [
         "1",
         "8",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078K": [
         "1",
         "9",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078L": [
         "2",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078M": [
         "2",
         "1",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078N": [
         "2",
         "2",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078P": [
         "2",
         "3",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078Q": [
         "2",
         "4",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078R": [
         "2",
         "5",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078S": [
         "2",
         "6",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078T": [
         "2",
         "7",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078V": [
         "2",
         "8",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078X": [
         "2",
         "9",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078Y": [
         "3",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A078Z": [
         "3",
         "1",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079A": [
         "3",
         "2",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079B": [
         "3",
         "3",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079C": [
         "3",
         "4",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079D": [
         "3",
         "5",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079E": [
         "3",
         "6",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079F": [
         "3",
         "7",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079G": [
         "3",
         "8",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079H": [
         "3",
         "9",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079J": [
         "4",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079K": [
         "4",
         "1",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079L": [
         "4",
         "2",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079M": [
         "4",
         "3",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079N": [
         "4",
         "4",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079P": [
         "4",
         "5",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079Q": [
         "4",
         "6",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079R": [
         "4",
         "7",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079S": [
         "4",
         "8",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079T": [
         "4",
         "9",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079V": [
         "5",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079X": [
         "5",
         "1",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079Y": [
         "5",
         "2",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A079Z": [
         "5",
         "3",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AA": [
         "5",
         "4",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AB": [
         "5",
         "5",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AC": [
         "5",
         "6",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AD": [
         "5",
         "7",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AE": [
         "5",
         "8",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AF": [
         "5",
         "9",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AG": [
         "6",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AH": [
         "6",
         "1",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AJ": [
         "6",
         "2",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AK": [
         "6",
         "3",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AL": [
         "6",
         "4",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AM": [
         "6",
         "5",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AN": [
         "6",
         "6",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AP": [
         "6",
         "7",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AQ": [
         "6",
         "8",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AR": [
         "6",
         "9",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AS": [
         "7",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AT": [
         "7",
         "1",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AV": [
         "7",
         "2",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AX": [
         "7",
         "3",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AY": [
         "7",
         "4",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07AZ": [
         "7",
         "5",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BA": [
         "7",
         "6",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BB": [
         "7",
         "7",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BC": [
         "7",
         "8",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BD": [
         "7",
         "9",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BE": [
         "8",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BF": [
         "8",
         "1",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BG": [
         "8",
         "2",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BH": [
         "8",
         "3",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BJ": [
         "8",
         "4",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BK": [
         "8",
         "5",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BL": [
         "8",
         "6",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BM": [
         "8",
         "7",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BN": [
         "8",
         "8",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BP": [
         "8",
         "9",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BQ": [
         "9",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BR": [
         "9",
         "1",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BS": [
         "9",
         "2",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BT": [
         "9",
         "3",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BV": [
         "9",
         "4",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BX": [
         "9",
         "5",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BY": [
         "9",
         "6",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07BZ": [
         "9",
         "7",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CA": [
         "9",
         "8",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CB": [
         "9",
         "9",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CC": [
         "10",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CD": [
         "11",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CE": [
         "12",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CF": [
         "13",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CG": [
         "14",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CH": [
         "15",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CJ": [
         "16",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CK": [
         "17",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CL": [
         "18",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CM": [
         "19",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CN": [
         "20",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CP": [
         "21",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CQ": [
         "22",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CR": [
         "23",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CS": [
         "24",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CT": [
         "25",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CV": [
         "26",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CX": [
         "27",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CY": [
         "28",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07CZ": [
         "29",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DA": [
         "30",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DB": [
         "31",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DC": [
         "32",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DD": [
         "33",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DE": [
         "34",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DF": [
         "35",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DG": [
         "36",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DH": [
         "37",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DJ": [
         "38",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DK": [
         "39",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DL": [
         "40",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DM": [
         "41",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DN": [
         "42",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DP": [
         "43",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DQ": [
         "44",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DR": [
         "45",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DS": [
         "46",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DT": [
         "47",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DV": [
         "48",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DX": [
         "49",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DY": [
         "50",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07DZ": [
         "51",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EA": [
         "52",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EB": [
         "53",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EC": [
         "54",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07ED": [
         "55",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EE": [
         "56",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EF": [
         "57",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EG": [
         "58",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EH": [
         "59",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EJ": [
         "60",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EK": [
         "61",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EL": [
         "62",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EM": [
         "63",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EN": [
         "64",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EP": [
         "65",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EQ": [
         "66",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07ER": [
         "67",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07ES": [
         "68",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07ET": [
         "69",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EV": [
         "70",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EX": [
         "71",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EY": [
         "72",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07EZ": [
         "73",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FA": [
         "74",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FB": [
         "75",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FC": [
         "76",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FD": [
         "77",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FE": [
         "78",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FF": [
         "79",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FG": [
         "80",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FH": [
         "81",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FJ": [
         "82",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FK": [
         "83",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FL": [
         "84",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FM": [
         "85",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FN": [
         "86",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FP": [
         "87",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FQ": [
         "88",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FR": [
         "89",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FS": [
         "90",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FT": [
         "91",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FV": [
         "92",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FX": [
         "93",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FY": [
         "94",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07FZ": [
         "95",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07GA": [
         "96",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07GB": [
         "97",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07GC": [
         "98",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07GD": [
         "99",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07GE": [
         "100",
         "%",
         "alcohol",
-        "v/v"
+        "v",
+        "v"
     ],
     "A07GF": [
         "blanching"
@@ -26244,7 +26446,6 @@
     "A07GS": [
         "pan",
         "fry",
-        "/",
         "shallow",
         "frying"
     ],
@@ -26263,7 +26464,8 @@
         "roasting"
     ],
     "A07GZ": [
-        "broiling/grilling"
+        "broiling",
+        "grill"
     ],
     "A07HA": [
         "griddling"
@@ -26274,7 +26476,6 @@
     ],
     "A07HC": [
         "toasting",
-        "/",
         "coffee",
         "roasting"
     ],
@@ -26299,7 +26500,6 @@
     ],
     "A07HJ": [
         "caramelization",
-        "/",
         "browning"
     ],
     "A07HK": [
@@ -26310,7 +26510,6 @@
     ],
     "A07HM": [
         "glazing",
-        "/",
         "ice"
     ],
     "A07HN": [
@@ -26465,7 +26664,6 @@
     ],
     "A07KF": [
         "concentration",
-        "/",
         "evaporation"
     ],
     "A07KG": [
@@ -26479,7 +26677,6 @@
     ],
     "A07KJ": [
         "air",
-        "/",
         "heat",
         "dry"
     ],
@@ -26514,13 +26711,13 @@
     "A07KR": [
         "iqf",
         "freeze",
-        "flash/blast",
+        "flash",
+        "blast",
         "freezing"
     ],
     "A07KS": [
         "physical",
         "division",
-        "/",
         "dimension",
         "reduction"
     ],
@@ -26537,20 +26734,16 @@
     ],
     "A07KY": [
         "mincing",
-        "/",
         "chop",
-        "/",
-        "cutting"
+        "cut"
     ],
     "A07KZ": [
         "grating"
     ],
     "A07LA": [
         "grinding",
-        "/",
         "mill",
-        "/",
-        "crushing"
+        "crush"
     ],
     "A07LB": [
         "sifting"
@@ -26567,11 +26760,11 @@
     ],
     "A07LE": [
         "aerating",
-        "/",
         "whip"
     ],
     "A07LF": [
-        "extrusion/extrusion",
+        "extrusion",
+        "extrusion",
         "cooking"
     ],
     "A07LG": [
@@ -26579,7 +26772,6 @@
     ],
     "A07LH": [
         "flattening",
-        "/",
         "roll"
     ],
     "A07LJ": [
@@ -26588,13 +26780,11 @@
     ],
     "A07LK": [
         "parboiling",
-        "/",
         "pre",
         "gelatinising"
     ],
     "A07LL": [
         "puffing",
-        "/",
         "expand"
     ],
     "A07LM": [
@@ -26605,7 +26795,6 @@
     ],
     "A07LP": [
         "coagulating",
-        "/",
         "clot"
     ],
     "A07LQ": [
@@ -26626,7 +26815,9 @@
     ],
     "A07LX": [
         "hydrolysis",
-        "sugar/proteins/fats"
+        "sugar",
+        "protein",
+        "fat"
     ],
     "A07LY": [
         "pressurizing",
@@ -26646,7 +26837,6 @@
     "A07MB": [
         "separation",
         "fraction",
-        "/",
         "subtraction",
         "component"
     ],
@@ -26677,7 +26867,6 @@
     ],
     "A07MK": [
         "brewing",
-        "/",
         "infusion"
     ],
     "A07ML": [
@@ -26736,7 +26925,8 @@
     "A07NA": [
         "outside",
         "dark",
-        "brown/slightly",
+        "brown",
+        "slightly",
         "burn"
     ],
     "A07NB": [
@@ -26750,7 +26940,10 @@
         "cook"
     ],
     "A07ND": [
-        "meat/fish/bakery/vegetables:",
+        "meat",
+        "fish",
+        "bakery",
+        "vegetables:",
         "presence",
         "burn",
         "spot",
@@ -26812,7 +27005,8 @@
         "part"
     ],
     "A07NT": [
-        "cup/pot"
+        "cup",
+        "pot"
     ],
     "A07NV": [
         "capsule"
@@ -26822,7 +27016,8 @@
         "container"
     ],
     "A07NY": [
-        "envelope/wrap"
+        "envelope",
+        "wrap"
     ],
     "A07NZ": [
         "flexible",
@@ -26830,14 +27025,14 @@
         "container"
     ],
     "A07PA": [
-        "pail/bucket"
+        "pail",
+        "bucket"
     ],
     "A07PB": [
         "tube"
     ],
     "A07PC": [
         "vial",
-        "/",
         "ampoule"
     ],
     "A07PD": [
@@ -26926,7 +27121,7 @@
         "shell"
     ],
     "A07QD": [
-        "w/o",
+        "w",
         "shell"
     ],
     "A07QE": [
@@ -26934,7 +27129,7 @@
         "peel"
     ],
     "A07QF": [
-        "w/o",
+        "w",
         "peel"
     ],
     "A07QG": [
@@ -26942,7 +27137,7 @@
         "stem"
     ],
     "A07QH": [
-        "w/o",
+        "w",
         "stem"
     ],
     "A07QJ": [
@@ -26950,7 +27145,7 @@
         "stone"
     ],
     "A07QK": [
-        "w/o",
+        "w",
         "stone"
     ],
     "A07QL": [
@@ -26958,7 +27153,7 @@
         "bone"
     ],
     "A07QM": [
-        "w/o",
+        "w",
         "bone"
     ],
     "A07QN": [
@@ -26966,7 +27161,7 @@
         "entrails"
     ],
     "A07QP": [
-        "w/o",
+        "w",
         "entrails"
     ],
     "A07QQ": [
@@ -26974,19 +27169,17 @@
         "skin"
     ],
     "A07QR": [
-        "w/o",
+        "w",
         "skin"
     ],
     "A07QS": [
         "with",
         "cap",
-        "/",
         "crown"
     ],
     "A07QT": [
-        "w/o",
+        "w",
         "cap",
-        "/",
         "crown"
     ],
     "A07QV": [
@@ -26996,7 +27189,7 @@
         "skin"
     ],
     "A07QX": [
-        "w/o",
+        "w",
         "easily",
         "detachable",
         "skin"
@@ -27006,7 +27199,7 @@
         "husk"
     ],
     "A07QZ": [
-        "w/o",
+        "w",
         "husk"
     ],
     "A07RA": [
@@ -27014,7 +27207,7 @@
         "pod"
     ],
     "A07RB": [
-        "w/o",
+        "w",
         "pod"
     ],
     "A07RC": [
@@ -27022,7 +27215,7 @@
         "seed"
     ],
     "A07RD": [
-        "w/o",
+        "w",
         "seed"
     ],
     "A07RE": [
@@ -27030,7 +27223,7 @@
         "cob"
     ],
     "A07RF": [
-        "w/o",
+        "w",
         "cob"
     ],
     "A07RG": [
@@ -27038,7 +27231,7 @@
         "core"
     ],
     "A07RH": [
-        "w/o",
+        "w",
         "core"
     ],
     "A07RJ": [
@@ -27047,7 +27240,7 @@
         "leaf"
     ],
     "A07RK": [
-        "w/o",
+        "w",
         "decay",
         "leaf"
     ],
@@ -27056,7 +27249,7 @@
         "top"
     ],
     "A07RM": [
-        "w/o",
+        "w",
         "top"
     ],
     "A07RN": [
@@ -27064,7 +27257,7 @@
         "root"
     ],
     "A07RP": [
-        "w/o",
+        "w",
         "root"
     ],
     "A07RQ": [
@@ -27072,11 +27265,11 @@
         "sepal"
     ],
     "A07RR": [
-        "w/o",
+        "w",
         "sepal"
     ],
     "A07RS": [
-        "w/o",
+        "w",
         "lint"
     ],
     "A07RT": [
@@ -27085,9 +27278,7 @@
     ],
     "A07RV": [
         "farmed",
-        "/",
         "cultivate",
-        "/",
         "aquaculture"
     ],
     "A07RX": [
@@ -27100,13 +27291,14 @@
         "hunt"
     ],
     "A07RZ": [
-        "outdoor/free",
+        "outdoor",
+        "free",
         "range",
         "grow",
         "condition"
     ],
     "A07SA": [
-        "indoor/under",
+        "indoor",
         "glass",
         "grow",
         "condition"
@@ -27135,7 +27327,8 @@
         "condition",
         "reg",
         "eu",
-        "2015/1375"
+        "2015",
+        "1375"
     ],
     "A07SG": [
         "use",
@@ -27150,7 +27343,6 @@
     ],
     "A07SJ": [
         "commissary",
-        "/",
         "centralize",
         "catering",
         "prepared"
@@ -27163,7 +27355,8 @@
     ],
     "A07SL": [
         "prepared",
-        "franchised/chain",
+        "franchised",
+        "chain",
         "fastfood",
         "restaurant"
     ],
@@ -27183,7 +27376,6 @@
     ],
     "A07SQ": [
         "canteen",
-        "/",
         "localize",
         "catering",
         "prepared"
@@ -27191,8 +27383,7 @@
     "A07SR": [
         "street",
         "vendor",
-        "prepare",
-        "and/or",
+        "prepared",
         "sell"
     ],
     "A07SS": [
@@ -27205,7 +27396,8 @@
     ],
     "A07ST": [
         "prepared",
-        "family/relatives"
+        "family",
+        "relative"
     ],
     "A07SV": [
         "prepared",
@@ -27483,16 +27675,15 @@
         "thereof"
     ],
     "A07XK": [
-        "white/refined"
+        "white",
+        "refine"
     ],
     "A07XL": [
         "ripe",
-        "/",
         "mature"
     ],
     "A07XM": [
         "unripe",
-        "/",
         "immature"
     ],
     "A07XN": [
@@ -45307,13 +45498,11 @@
     "A0B8M": [
         "low",
         "sodium",
-        "/",
         "reduce",
         "salt"
     ],
     "A0B8N": [
         "low",
-        "/",
         "reduce",
         "lactose"
     ],
@@ -45326,8 +45515,7 @@
     ],
     "A0B8Q": [
         "rpc",
-        "derivative",
-        "/",
+        "derivatives",
         "ingredient",
         "deprecate"
     ],
@@ -45448,7 +45636,8 @@
         "dry"
     ],
     "A0B9L": [
-        "dairy/egg",
+        "dairy",
+        "egg",
         "soup",
         "dry"
     ],
@@ -45469,7 +45658,8 @@
         "dry"
     ],
     "A0B9Q": [
-        "meat/poultry",
+        "meat",
+        "poultry",
         "soup",
         "dry"
     ],
@@ -45552,7 +45742,8 @@
         "ethanol",
         "10",
         "%",
-        "v/v",
+        "v",
+        "v",
         "food",
         "simulant",
         "a"
@@ -45588,7 +45779,8 @@
     "A0BAB": [
         "ethanol",
         "95%",
-        "v/v",
+        "v",
+        "v",
         "replacement",
         "food",
         "simulant",
@@ -45597,7 +45789,8 @@
     "A0BAC": [
         "ethanol",
         "50%",
-        "v/v",
+        "v",
+        "v",
         "food",
         "simulant",
         "d1"
@@ -45605,7 +45798,8 @@
     "A0BAD": [
         "ethanol",
         "20%",
-        "v/v",
+        "v",
+        "v",
         "food",
         "simulant",
         "c"
@@ -45628,7 +45822,8 @@
         "acetic",
         "acid",
         "3%",
-        "w/v",
+        "w",
+        "v",
         "food",
         "simulant",
         "b"
@@ -46023,8 +46218,9 @@
     ],
     "A0BCL": [
         "rice",
-        "husked/brown",
-        "fee"
+        "husk",
+        "brown",
+        "feed"
     ],
     "A0BCM": [
         "ground",
@@ -46898,7 +47094,6 @@
         "molasses",
         "partially",
         "desugared",
-        "and/or",
         "debetainized",
         "feed"
     ],
@@ -47641,10 +47836,8 @@
     ],
     "A0BMB": [
         "buttermilk",
-        "/",
         "buttermilk",
         "concentrate",
-        "/",
         "buttermilk",
         "powder",
         "feed"
@@ -47664,7 +47857,8 @@
         "fee"
     ],
     "A0BMF": [
-        "colostrum/colostrum",
+        "colostrum",
+        "colostrum",
         "powder",
         "feed"
     ],
@@ -47674,13 +47868,15 @@
         "fee"
     ],
     "A0BMH": [
-        "milk/milk",
+        "milk",
+        "milk",
         "powder",
         "feed"
     ],
     "A0BMJ": [
         "skimmed",
-        "milk/skimmed",
+        "milk",
+        "skim",
         "milk",
         "powder",
         "feed"
@@ -47706,7 +47902,6 @@
     "A0BMN": [
         "milk",
         "permeate",
-        "/",
         "milk",
         "permeate",
         "powder",
@@ -47715,20 +47910,20 @@
     "A0BMP": [
         "milk",
         "retentate",
-        "/",
         "milk",
         "retentate",
         "powder",
         "feed"
     ],
     "A0BMQ": [
-        "whey/whey",
+        "whey",
+        "whey",
         "powder",
         "feed"
     ],
     "A0BMR": [
         "delactosed",
-        "whey/",
+        "whey",
         "delactosed",
         "whey",
         "powder",
@@ -47737,7 +47932,6 @@
     "A0BMS": [
         "whey",
         "protein",
-        "/",
         "whey",
         "protein",
         "powder",
@@ -47746,7 +47940,7 @@
     "A0BMT": [
         "demineralised",
         "delactosed",
-        "whey/",
+        "whey",
         "demineralised",
         "delactosed",
         "whey",
@@ -47756,7 +47950,6 @@
     "A0BMV": [
         "whey",
         "permeate",
-        "/",
         "whey",
         "permeate",
         "powder",
@@ -47765,7 +47958,6 @@
     "A0BMX": [
         "whey",
         "retentate",
-        "/",
         "whey",
         "retentate",
         "powder",
@@ -48067,7 +48259,6 @@
     "A0BPJ": [
         "calcium",
         "sulphate",
-        "/",
         "carbonate",
         "feed"
     ],
@@ -48313,10 +48504,12 @@
         "feed"
     ],
     "A0BQP": [
-        "sodium/ammonium",
+        "sodium",
+        "ammonium",
         "bi",
         "carbonate",
-        "[sodium/ammonium",
+        "[sodium",
+        "ammonium",
         "hydrogen",
         "carbonate]",
         "feed"
@@ -48790,9 +48983,8 @@
         "calves",
         "pre",
         "ruminant",
-        "/",
         "complete",
-        "fee",
+        "feed",
         "feed"
     ],
     "A0BT3": [
@@ -48800,7 +48992,6 @@
         "calf",
         "wean",
         "diet",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -48808,32 +48999,29 @@
     "A0BT4": [
         "fattening",
         "cattle",
-        "/",
         "complete",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BT5": [
         "dairy",
         "cow",
-        "/",
         "complete",
-        "fee",
+        "feed",
         "feed"
     ],
     "A0BT6": [
         "piglets",
         "wean",
         "diet",
-        "/",
         "complete",
         "fee",
         "feed"
     ],
     "A0BT7": [
-        "growing/fattening",
+        "growing",
+        "fattening",
         "pig",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -48841,7 +49029,6 @@
     "A0BT8": [
         "breeding",
         "pig",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -48849,7 +49036,6 @@
     "A0BT9": [
         "lactating",
         "sow",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -48858,7 +49044,6 @@
         "lambs",
         "wean",
         "diet",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -48866,17 +49051,16 @@
     "A0BTB": [
         "fattening",
         "sheep",
-        "/",
         "complete",
-        "fee",
+        "feed",
         "feed"
     ],
     "A0BTC": [
-        "lactating/dairy",
+        "lactating",
+        "dairy",
         "sheep",
-        "/",
         "complete",
-        "fee",
+        "feed",
         "feed"
     ],
     "A0BTD": [
@@ -48884,7 +49068,6 @@
         "kid",
         "wean",
         "diet",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -48892,115 +49075,101 @@
     "A0BTE": [
         "fattening",
         "goat",
-        "/",
         "complete",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BTF": [
-        "lactating/dairy",
+        "lactating",
+        "dairy",
         "goat",
-        "/",
         "complete",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BTG": [
         "horses",
-        "/",
         "complete",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BTH": [
         "poultry",
         "starter",
         "diet",
-        "/",
         "complete",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BTJ": [
         "fattening",
         "chicken",
         "broiler",
-        "/",
         "complete",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BTK": [
         "laying",
         "hen",
-        "/",
         "complete",
         "fee",
         "feed"
     ],
     "A0BTL": [
         "turkeys",
-        "/",
         "complete",
         "fee",
         "feed"
     ],
     "A0BTM": [
         "ducks",
-        "/",
-        "complete",
-        "feed",
-        "feed"
-    ],
-    "A0BTN": [
-        "geese",
-        "/",
         "complete",
         "fee",
         "feed"
     ],
+    "A0BTN": [
+        "geese",
+        "complete",
+        "feed",
+        "feed"
+    ],
     "A0BTP": [
         "pigeon",
-        "/",
         "complete",
         "fee",
         "feed"
     ],
     "A0BTQ": [
         "ostrich",
-        "/",
         "complete",
         "fee",
         "feed"
     ],
     "A0BTR": [
         "rabbits",
-        "/",
         "complete",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BTS": [
         "fish",
-        "/",
         "complete",
-        "fee",
+        "feed",
         "feed"
     ],
     "A0BTT": [
         "aquaculture",
         "exclude",
         "fish",
-        "/",
         "complete",
-        "fee",
+        "feed",
         "feed"
     ],
     "A0BTV": [
         "pet",
         "food",
         "dog",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -49009,16 +49178,14 @@
         "pet",
         "food",
         "cat",
-        "/",
         "complete",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BTY": [
         "pet",
         "food",
         "bird",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -49026,7 +49193,6 @@
     "A0BTZ": [
         "fur",
         "animal",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -49048,9 +49214,8 @@
         "calves",
         "pre",
         "ruminant",
-        "/",
         "complementary",
-        "fee",
+        "feed",
         "feed"
     ],
     "A0BV3": [
@@ -49058,23 +49223,20 @@
         "calf",
         "wean",
         "diet",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BV4": [
         "fattening",
         "cattle",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BV5": [
         "dairy",
         "cow",
-        "/",
         "complementary",
         "fee",
         "feed"
@@ -49083,15 +49245,14 @@
         "piglets",
         "wean",
         "diet",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BV7": [
-        "growing/fattening",
+        "growing",
+        "fattening",
         "pig",
-        "/",
         "complementary",
         "fee",
         "feed"
@@ -49099,7 +49260,6 @@
     "A0BV8": [
         "breeding",
         "pig",
-        "/",
         "complementary",
         "fee",
         "feed"
@@ -49107,32 +49267,29 @@
     "A0BV9": [
         "lactating",
         "sow",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BVA": [
         "lambs",
         "wean",
         "diet",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BVB": [
         "fattening",
         "sheep",
-        "/",
         "complementary",
-        "fee",
+        "feed",
         "feed"
     ],
     "A0BVC": [
-        "lactating/dairy",
+        "lactating",
+        "dairy",
         "sheep",
-        "/",
         "complementary",
         "fee",
         "feed"
@@ -49142,151 +49299,133 @@
         "kid",
         "wean",
         "diet",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BVE": [
         "fattening",
         "goat",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BVF": [
-        "lactating/dairy",
+        "lactating",
+        "dairy",
         "goat",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BVG": [
         "horses",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BVH": [
         "poultry",
         "starter",
         "diet",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BVJ": [
         "fattening",
         "chicken",
         "broiler",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BVK": [
         "laying",
         "hen",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BVL": [
         "turkeys",
-        "/",
         "complementary",
         "fee",
         "feed"
     ],
     "A0BVM": [
         "ducks",
-        "/",
-        "complementary",
-        "feed",
-        "feed"
-    ],
-    "A0BVN": [
-        "geese",
-        "/",
         "complementary",
         "fee",
         "feed"
     ],
+    "A0BVN": [
+        "geese",
+        "complementary",
+        "feed",
+        "feed"
+    ],
     "A0BVP": [
         "pigeon",
-        "/",
         "complementary",
         "fee",
         "feed"
     ],
     "A0BVQ": [
         "ostrich",
-        "/",
         "complementary",
         "fee",
         "feed"
     ],
     "A0BVR": [
         "rabbits",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BVS": [
         "fish",
-        "/",
         "complementary",
-        "fee",
+        "feed",
         "feed"
     ],
     "A0BVT": [
         "aquaculture",
         "exclude",
         "fish",
-        "/",
         "complementary",
-        "fee",
+        "feed",
         "feed"
     ],
     "A0BVV": [
         "pet",
         "food",
         "dog",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BVX": [
         "pet",
         "food",
         "cat",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BVY": [
         "pet",
         "food",
         "bird",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BVZ": [
         "fur",
         "animal",
-        "/",
         "complementary",
-        "feed",
+        "fee",
         "feed"
     ],
     "A0BX0": [
@@ -49348,7 +49487,6 @@
     ],
     "A0BX9": [
         "fruit",
-        "/",
         "vegetable",
         "juice",
         "nectar"
@@ -49621,7 +49759,6 @@
     ],
     "A0BYP": [
         "canning",
-        "/",
         "jarring"
     ],
     "A0BYQ": [
@@ -49916,13 +50053,11 @@
     "A0C0N": [
         "preservation",
         "substance",
-        "/",
         "ingredient"
     ],
     "A0C0P": [
         "modification",
         "substance",
-        "/",
         "ingredient"
     ],
     "A0C0Q": [
@@ -50037,7 +50172,9 @@
         "supplement",
         "define",
         "directive",
-        "2002/46/ec"
+        "2002",
+        "46",
+        "ec"
     ],
     "A0C18": [
         "fa",
@@ -50142,7 +50279,8 @@
         "regulation",
         "eec",
         "no",
-        "1601/91"
+        "1601",
+        "91"
     ],
     "A0C1H": [
         "fa",
@@ -50155,7 +50293,8 @@
         "regulation",
         "ec",
         "no",
-        "110/2008"
+        "110",
+        "2008"
     ],
     "A0C1J": [
         "fa",
@@ -50193,7 +50332,8 @@
         "regulation",
         "eec",
         "no",
-        "1234/2007",
+        "1234",
+        "2007",
         "alcohol",
         "free",
         "counterpart"
@@ -50284,7 +50424,9 @@
         "nectar",
         "define",
         "directive",
-        "2001/112/ec",
+        "2001",
+        "112",
+        "ec",
         "vegetable",
         "nectar",
         "similar",
@@ -50299,7 +50441,9 @@
         "juice",
         "define",
         "directive",
-        "2001/112/ec",
+        "2001",
+        "112",
+        "ec",
         "vegetable",
         "juice"
     ],
@@ -50315,7 +50459,9 @@
         "water",
         "define",
         "directive",
-        "2009/54/ec",
+        "2009",
+        "54",
+        "ec",
         "spring",
         "water",
         "bottle",
@@ -50349,7 +50495,8 @@
         "regulation",
         "ec",
         "no",
-        "41/2009",
+        "41",
+        "2009",
         "4"
     ],
     "A0C22": [
@@ -50386,7 +50533,9 @@
         "purpose",
         "define",
         "directive",
-        "1999/21/ec",
+        "1999",
+        "21",
+        "ec",
         "exclude",
         "product",
         "food",
@@ -50411,7 +50560,9 @@
         "purpose",
         "define",
         "directive",
-        "1999/21/ec"
+        "1999",
+        "21",
+        "ec"
     ],
     "A0C25": [
         "fa",
@@ -50445,7 +50596,9 @@
         "define",
         "commission",
         "directive",
-        "1999/21/ec",
+        "1999",
+        "21",
+        "ec",
         "3",
         "special",
         "formula",
@@ -50478,7 +50631,9 @@
         "define",
         "commission",
         "directive",
-        "2006/125/ec",
+        "2006",
+        "125",
+        "ec",
         "2"
     ],
     "A0C29": [
@@ -50490,7 +50645,9 @@
         "formula",
         "define",
         "directive",
-        "2006/141/ec"
+        "2006",
+        "141",
+        "ec"
     ],
     "A0C2A": [
         "fa",
@@ -50502,7 +50659,9 @@
         "define",
         "commission",
         "directive",
-        "2006/141/ec",
+        "2006",
+        "141",
+        "ec",
         "1"
     ],
     "A0C2B": [
@@ -50524,8 +50683,9 @@
         "us",
         "define",
         "directive",
-        "2009/",
-        "39/ec"
+        "2009",
+        "39",
+        "ec"
     ],
     "A0C2D": [
         "fa",
@@ -50697,7 +50857,9 @@
         "honey",
         "define",
         "directive",
-        "2001/110/ec"
+        "2001",
+        "110",
+        "ec"
     ],
     "A0C30": [
         "fa",
@@ -50715,7 +50877,9 @@
         "syrup",
         "define",
         "directive",
-        "2001/111/ec"
+        "2001",
+        "111",
+        "ec"
     ],
     "A0C32": [
         "fa",
@@ -50819,7 +50983,6 @@
         "use",
         "combination",
         "nitrite",
-        "and/or",
         "nitrate",
         "include",
         "compound",
@@ -50851,7 +51014,6 @@
         "mixture",
         "contain",
         "nitrite",
-        "and/or",
         "nitrate",
         "salt",
         "component",
@@ -50859,7 +51021,8 @@
         "meat",
         "follow",
         "period",
-        "stabilisation/maturation"
+        "stabilisation",
+        "maturation"
     ],
     "A0C3E": [
         "fa",
@@ -50879,7 +51042,6 @@
         "solution",
         "contain",
         "nitrite",
-        "and/or",
         "nitrate",
         "salt",
         "component"
@@ -50947,7 +51109,8 @@
         "regulation",
         "ec",
         "no",
-        "853/2004"
+        "853",
+        "2004"
     ],
     "A0C3M": [
         "fa",
@@ -50962,7 +51125,8 @@
         "regulation",
         "ec",
         "n0",
-        "853/2004"
+        "853",
+        "2004"
     ],
     "A0C3N": [
         "fa",
@@ -50977,7 +51141,8 @@
         "regulation",
         "ec",
         "n0",
-        "853/2004",
+        "853",
+        "2004",
         "deprecate"
     ],
     "A0C3P": [
@@ -51200,7 +51365,9 @@
         "product",
         "cover",
         "directive",
-        "2000/36/ec"
+        "2000",
+        "36",
+        "ec"
     ],
     "A0C4G": [
         "fa",
@@ -51253,7 +51420,9 @@
         "puree",
         "define",
         "directive",
-        "2001/113/ec"
+        "2001",
+        "113",
+        "ec"
     ],
     "A0C4M": [
         "fa",
@@ -51267,7 +51436,9 @@
         "jelly",
         "define",
         "directive",
-        "2001/113/ec"
+        "2001",
+        "113",
+        "ec"
     ],
     "A0C4N": [
         "fa",
@@ -51431,7 +51602,8 @@
         "regulation",
         "ec",
         "no",
-        "1234/2007",
+        "1234",
+        "2007",
         "liquid",
         "emulsion"
     ],
@@ -51614,7 +51786,9 @@
         "milk",
         "define",
         "directive",
-        "2001/114/ec"
+        "2001",
+        "114",
+        "ec"
     ],
     "A0C5P": [
         "fa",
@@ -51819,7 +51993,6 @@
     ],
     "A0C6N": [
         "pulping",
-        "/",
         "mashing"
     ],
     "A0C6P": [
@@ -53914,7 +54087,6 @@
     ],
     "A0CQM": [
         "sweet",
-        "/",
         "mild"
     ],
     "A0CQN": [
@@ -53932,11 +54104,10 @@
     "A0CQS": [
         "extra",
         "old",
-        "/",
         "old"
     ],
     "A0CQT": [
-        "w/o",
+        "w",
         "germ"
     ],
     "A0CQV": [
@@ -60135,7 +60306,8 @@
     "A0EJF": [
         "malformed",
         "rice",
-        "milled/chalky",
+        "mill",
+        "chalky",
         "rice",
         "mill",
         "feed"
@@ -60224,7 +60396,8 @@
         "nature"
     ],
     "A0EJY": [
-        "grilling/griddling",
+        "grilling",
+        "griddle",
         "high",
         "temperature",
         "cooking"
@@ -60441,14 +60614,16 @@
         "nature"
     ],
     "A0ELG": [
-        "stems/stalks",
+        "stems",
+        "stalk",
         "eaten",
         "vegetable",
         "part",
         "nature"
     ],
     "A0ELH": [
-        "stalks/canes",
+        "stalks",
+        "cane",
         "sugar",
         "part",
         "nature"
@@ -60461,8 +60636,7 @@
     ],
     "A0ELK": [
         "marinated",
-        "/",
-        "pickle",
+        "pickled",
         "vegetable",
         "part",
         "nature"
@@ -60555,7 +60729,6 @@
     ],
     "A0EMA": [
         "fruit",
-        "/",
         "vegetable",
         "jam",
         "part",
@@ -60563,7 +60736,6 @@
     ],
     "A0EMB": [
         "fruit",
-        "/",
         "vegetable",
         "marmalade",
         "part",
@@ -60597,7 +60769,6 @@
     ],
     "A0EMG": [
         "insects",
-        "/",
         "arachnids",
         "meat",
         "part",
@@ -60616,7 +60787,8 @@
         "nature"
     ],
     "A0EMK": [
-        "canned/jarred",
+        "canned",
+        "jarred",
         "meat",
         "part",
         "nature"
@@ -60628,7 +60800,8 @@
         "nature"
     ],
     "A0EMM": [
-        "structured/textured",
+        "structured",
+        "textured",
         "fish",
         "meat",
         "part",
@@ -60663,7 +60836,8 @@
         "nature"
     ],
     "A0EMS": [
-        "canned/jarred",
+        "canned",
+        "jarred",
         "fish",
         "part",
         "nature"
@@ -60688,14 +60862,14 @@
     ],
     "A0EMY": [
         "marinated",
-        "/",
-        "pickle",
+        "pickled",
         "fish",
         "part",
         "nature"
     ],
     "A0EMZ": [
-        "canned/jarred",
+        "canned",
+        "jarred",
         "seafood",
         "part",
         "nature"
@@ -60714,7 +60888,6 @@
     ],
     "A0ENC": [
         "marinated",
-        "/",
         "pickle",
         "seafood",
         "part",
@@ -60772,7 +60945,8 @@
         "nature"
     ],
     "A0ENM": [
-        "fortified/liqueur",
+        "fortified",
+        "liqueur",
         "wine",
         "part",
         "nature"
@@ -60819,7 +60993,8 @@
         "nature"
     ],
     "A0ENV": [
-        "isotonic/sport",
+        "isotonic",
+        "sport",
         "drink",
         "part",
         "nature"
@@ -60851,7 +61026,8 @@
     ],
     "A0EPA": [
         "stock",
-        "cubes/granulates",
+        "cube",
+        "granulates",
         "part",
         "nature"
     ],
@@ -60878,7 +61054,8 @@
     ],
     "A0EPF": [
         "sauces",
-        "fermented/hydrolised",
+        "ferment",
+        "hydrolised",
         "source",
         "similar",
         "part",
@@ -60932,7 +61109,8 @@
         "nature"
     ],
     "A0EPP": [
-        "herbs/spices",
+        "herbs",
+        "spice",
         "sauce",
         "part",
         "nature"
@@ -60956,12 +61134,14 @@
         "nature"
     ],
     "A0EPT": [
-        "chips/crisps",
+        "chips",
+        "crisp",
         "part",
         "nature"
     ],
     "A0EPV": [
-        "puffs/curls",
+        "puffs",
+        "curl",
         "type",
         "extrude",
         "snack",
@@ -60996,7 +61176,8 @@
     "A0EQB": [
         "ingredients",
         "food",
-        "fortification/enrichment",
+        "fortification",
+        "enrichment",
         "part",
         "nature"
     ],
@@ -61089,7 +61270,8 @@
         "mass"
     ],
     "A0EQS": [
-        "chocolate/cocoa",
+        "chocolate",
+        "cocoa",
         "base",
         "product"
     ],
@@ -61102,13 +61284,15 @@
         "nature"
     ],
     "A0EQV": [
-        "puffs/curls",
+        "puffs",
+        "curl",
         "type",
         "extrude",
         "snack"
     ],
     "A0EQX": [
-        "chips/crisps"
+        "chips",
+        "crisp"
     ],
     "A0EQY": [
         "chips",
@@ -61164,7 +61348,8 @@
         "nature"
     ],
     "A0ERG": [
-        "herbs/spices",
+        "herbs",
+        "spice",
         "sauce"
     ],
     "A0ERH": [
@@ -61209,7 +61394,8 @@
         "nature"
     ],
     "A0ERQ": [
-        "canned/jarred",
+        "canned",
+        "jarred",
         "vegetable",
         "part",
         "nature"
@@ -61224,7 +61410,6 @@
     ],
     "A0ERS": [
         "fruit",
-        "/",
         "vegetable",
         "compote",
         "part",
@@ -61349,7 +61534,9 @@
         "nature"
     ],
     "A0ESQ": [
-        "stalks/canes/trunk",
+        "stalks",
+        "cane",
+        "trunk",
         "sap",
         "similar",
         "sugar"
@@ -61375,7 +61562,8 @@
         "mint"
     ],
     "A0ESX": [
-        "stems/stalks"
+        "stems",
+        "stalk"
     ],
     "A0ESY": [
         "flowers"
@@ -61464,7 +61652,8 @@
         "derivative"
     ],
     "A0ETQ": [
-        "canned/jarred",
+        "canned",
+        "jar",
         "vegetable"
     ],
     "A0ETR": [
@@ -61482,12 +61671,14 @@
         "vegetable"
     ],
     "A0ETV": [
-        "fruit/vegetable",
+        "fruit",
+        "vegetable",
         "juice",
         "concentrate"
     ],
     "A0ETX": [
-        "fruit/vegetable",
+        "fruit",
+        "vegetable",
         "juice",
         "powder"
     ],
@@ -61532,7 +61723,8 @@
     "A0EVE": [
         "ingredients",
         "food",
-        "fortification/enrichment",
+        "fortification",
+        "enrichment",
         "supplement"
     ],
     "A0EVF": [
@@ -61789,7 +61981,8 @@
         "product"
     ],
     "A0EYN": [
-        "preserved/processed",
+        "preserved",
+        "process",
         "fat",
         "tissue"
     ],
@@ -61804,7 +61997,8 @@
         "meat"
     ],
     "A0EYR": [
-        "canned/jarred",
+        "canned",
+        "jar",
         "fish"
     ],
     "A0EYS": [
@@ -61817,7 +62011,8 @@
         "fish"
     ],
     "A0EYV": [
-        "structured/textured",
+        "structured",
+        "textured",
         "fish",
         "meat",
         "product",
@@ -61838,7 +62033,6 @@
     ],
     "A0EZA": [
         "marinated",
-        "/",
         "pickle",
         "seafood"
     ],
@@ -61853,7 +62047,8 @@
     ],
     "A0EZD": [
         "sauces",
-        "fermented/hydrolised",
+        "ferment",
+        "hydrolised",
         "source",
         "similar"
     ],
@@ -61916,7 +62111,9 @@
         "thereof"
     ],
     "A0EZP": [
-        "fruit/vegetables/plant",
+        "fruit",
+        "vegetables",
+        "plant",
         "drink",
         "spread",
         "related",
@@ -61962,7 +62159,9 @@
         "product"
     ],
     "A0EZY": [
-        "hot/piquant/spicy"
+        "hot",
+        "piquant",
+        "spicy"
     ],
     "A0EZZ": [
         "semi",
@@ -62039,19 +62238,22 @@
         "nut"
     ],
     "A0F0M": [
-        "nut/seeds",
-        "paste/emulsion/mass"
+        "nut",
+        "seed",
+        "paste",
+        "emulsion",
+        "mass"
     ],
     "A0F0N": [
         "dried",
-        "nuts/seeds",
+        "nut",
+        "seed",
         "related",
         "flour",
         "powder"
     ],
     "A0F0P": [
         "marinated",
-        "/",
         "pickle",
         "fish"
     ],
@@ -62084,7 +62286,9 @@
         "eat"
     ],
     "A0F0X": [
-        "fermented/pickled/marinated",
+        "fermented",
+        "pickle",
+        "marinated",
         "vegetable",
         "part",
         "nature"
@@ -62147,12 +62351,16 @@
     "A0F1K": [
         "only",
         "external",
-        "layer/rind/casing"
+        "layer",
+        "rind",
+        "casing"
     ],
     "A0F1L": [
-        "w/o",
+        "w",
         "external",
-        "layer/rind/casing",
+        "layer",
+        "rind",
+        "case",
         "internal",
         "part"
     ],
@@ -62185,7 +62393,9 @@
     "A0F1R": [
         "with",
         "external",
-        "layer/rind/casing"
+        "layer",
+        "rind",
+        "casing"
     ],
     "A0F1S": [
         "with",
@@ -62305,7 +62515,7 @@
         "medium"
     ],
     "A0F2X": [
-        "w/o",
+        "w",
         "surround",
         "medium"
     ],
@@ -62313,7 +62523,8 @@
         "dark"
     ],
     "A0F2Z": [
-        "pale/light",
+        "pale",
+        "light",
         "colour"
     ],
     "A0F3A": [
@@ -62328,12 +62539,14 @@
         "use",
         "hot",
         "drink",
-        "creamer/whitener"
+        "creamer",
+        "whitener"
     ],
     "A0F3D": [
         "animal",
         "vegetable",
-        "fats/oils"
+        "fat",
+        "oil"
     ],
     "A0F3E": [
         "vegetable",
@@ -146105,7 +146318,8 @@
     "A15NE": [
         "secale",
         "cornutum",
-        "plant/fungus"
+        "plant",
+        "fungus"
     ],
     "A15NF": [
         "secamone",
@@ -148142,13 +148356,15 @@
         "food",
         "additive",
         "class",
-        "1333/2008"
+        "1333",
+        "2008"
     ],
     "A163S": [
         "microbiological",
         "criterion",
         "class",
-        "2073/2005"
+        "2073",
+        "2005"
     ],
     "A163T": [
         "mc",
@@ -148944,8 +149160,10 @@
     "A167B": [
         "acrylamide",
         "class",
-        "307/2010",
-        "647/2013"
+        "307",
+        "2010",
+        "647",
+        "2013"
     ],
     "A167C": [
         "ac",
@@ -149506,7 +149724,6 @@
         "starter",
         "wean",
         "diet",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149517,7 +149734,6 @@
         "ii",
         "wean",
         "diet",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149525,7 +149741,6 @@
     "A16AE": [
         "pig",
         "grower",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149533,22 +149748,19 @@
     "A16AF": [
         "pig",
         "finisher",
-        "/",
         "complete",
         "fee",
         "feed"
     ],
     "A16AG": [
         "sows",
-        "/",
         "complete",
-        "feed",
+        "fee",
         "feed"
     ],
     "A16AH": [
         "gestating",
         "sow",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149556,7 +149768,6 @@
     "A16AJ": [
         "broiler",
         "starter",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149564,7 +149775,6 @@
     "A16AK": [
         "broiler",
         "grower",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149572,7 +149782,6 @@
     "A16AL": [
         "broiler",
         "finisher",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149581,16 +149790,14 @@
         "layer",
         "phase",
         "i",
-        "/",
         "complete",
-        "feed",
+        "fee",
         "feed"
     ],
     "A16AN": [
         "layer",
         "phase",
         "ii",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149598,7 +149805,6 @@
     "A16AP": [
         "turkey",
         "starter",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149606,7 +149812,6 @@
     "A16AQ": [
         "turkey",
         "grower",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149614,21 +149819,20 @@
     "A16AR": [
         "turkey",
         "finisher",
-        "/",
         "complete",
         "fee",
         "feed"
     ],
     "A16AS": [
         "turkey",
-        "breeder/",
+        "breeder",
         "complete",
         "fee",
         "feed"
     ],
     "A16AT": [
         "rabbit",
-        "breeder/",
+        "breeder",
         "complete",
         "fee",
         "feed"
@@ -149636,28 +149840,25 @@
     "A16AV": [
         "rabbit",
         "grower",
-        "finisher/",
+        "finisher",
         "complete",
-        "fee",
+        "feed",
         "feed"
     ],
     "A16AX": [
         "salmon",
-        "/",
         "complete",
         "fee",
         "feed"
     ],
     "A16AY": [
         "carp",
-        "/",
         "complete",
         "fee",
         "feed"
     ],
     "A16AZ": [
         "trout",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149666,16 +149867,14 @@
         "dog",
         "food",
         "dry",
-        "/",
         "complete",
-        "fee",
+        "feed",
         "feed"
     ],
     "A16BB": [
         "dog",
         "food",
         "wet",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149684,16 +149883,14 @@
         "cat",
         "food",
         "dry",
-        "/",
         "complete",
-        "fee",
+        "feed",
         "feed"
     ],
     "A16BD": [
         "cat",
         "food",
         "wet",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149702,21 +149899,18 @@
         "chicken",
         "rear",
         "lay",
-        "/",
         "complete",
-        "fee",
+        "feed",
         "feed"
     ],
     "A16BF": [
         "sheep",
-        "/",
         "complete",
         "fee",
         "feed"
     ],
     "A16BG": [
         "goat",
-        "/",
         "complete",
         "fee",
         "feed"
@@ -149726,7 +149920,6 @@
         "pre",
         "ruminant",
         "mineral",
-        "/",
         "complementary",
         "fee",
         "feed"
@@ -149735,7 +149928,6 @@
         "fattening",
         "cattle",
         "mineral",
-        "/",
         "complementary",
         "fee",
         "feed"
@@ -149744,21 +149936,18 @@
         "dairy",
         "cow",
         "mineral",
-        "/",
         "complementary",
         "fee",
         "feed"
     ],
     "A16BL": [
         "sheep",
-        "/",
         "complementary",
         "fee",
         "feed"
     ],
     "A16BM": [
         "goat",
-        "/",
         "complementary",
         "fee",
         "feed"
@@ -149766,7 +149955,6 @@
     "A16BN": [
         "sheep",
         "mineral",
-        "/",
         "complementary",
         "fee",
         "feed"
@@ -149774,14 +149962,13 @@
     "A16BP": [
         "goat",
         "mineral",
-        "/",
         "complementary",
         "fee",
         "feed"
     ],
     "A16BQ": [
         "horses",
-        "mineral/",
+        "mineral",
         "complementary",
         "fee",
         "feed"
@@ -150069,8 +150256,8 @@
         "base",
         "cereal",
         "product",
-        "and/or",
-        "nuts/fruits",
+        "nut",
+        "fruit",
         "similar"
     ],
     "A16ER": [
@@ -150184,7 +150371,6 @@
     "A16FQ": [
         "with",
         "probiotic",
-        "and/or",
         "prebiotics"
     ],
     "A16FR": [
@@ -150241,7 +150427,8 @@
     ],
     "A16GF": [
         "rice",
-        "fish/seafood",
+        "fish",
+        "seafood",
         "vegetable",
         "base",
         "dish"
@@ -150338,16 +150525,13 @@
     ],
     "A16HA": [
         "fetus",
-        "/",
         "stillbirth",
-        "/",
         "neonatus",
         "part",
         "nature"
     ],
     "A16HB": [
         "esophagus",
-        "/",
         "esophageal",
         "swab",
         "part",
@@ -150355,7 +150539,6 @@
     ],
     "A16HC": [
         "nose",
-        "/",
         "nasal",
         "swab",
         "part",
@@ -150375,7 +150558,6 @@
     ],
     "A16HF": [
         "saliva",
-        "/",
         "saliva",
         "swab",
         "part",
@@ -150398,7 +150580,6 @@
     ],
     "A16HK": [
         "vagina",
-        "/",
         "vaginal",
         "swab",
         "part",
@@ -151261,7 +151442,8 @@
     ],
     "A16RL": [
         "insect",
-        "pupae/nymphs"
+        "pupa",
+        "nymph"
     ],
     "A16RM": [
         "insect",
@@ -151660,7 +151842,8 @@
     "A16XD": [
         "edible",
         "insect",
-        "pupae/nymphs"
+        "pupa",
+        "nymph"
     ],
     "A16XE": [
         "edible",
@@ -151730,7 +151913,8 @@
         "nature"
     ],
     "A16XT": [
-        "organ/tissue",
+        "organ",
+        "tissue",
         "zoonosis",
         "part",
         "nature"
@@ -151768,19 +151952,20 @@
         "10531"
     ],
     "A16YB": [
-        "large/big"
+        "large",
+        "big"
     ],
     "A16YC": [
         "small"
     ],
     "A16YD": [
-        "deers/",
+        "deers",
         "complete",
         "fee",
         "feed"
     ],
     "A16YE": [
-        "deers/",
+        "deers",
         "complementary",
         "fee",
         "feed"
@@ -152700,7 +152885,8 @@
         "baels"
     ],
     "A176H": [
-        "tracheal/oropharyngeal",
+        "tracheal",
+        "oropharyngeal",
         "swab",
         "part",
         "nature"
@@ -156851,7 +157037,8 @@
         "molasses",
         "betaine",
         "rich",
-        "liquid/dried",
+        "liquid",
+        "dry",
         "feed"
     ],
     "A186E": [
@@ -157719,7 +157906,8 @@
         "feed"
     ],
     "A18DQ": [
-        "dairy/reproductive",
+        "dairy",
+        "reproductive",
         "cow",
         "fee"
     ],
@@ -157783,12 +157971,14 @@
     ],
     "A18EF": [
         "young",
-        "breeder/layer",
+        "breeder",
+        "layer",
         "poultry",
         "feed"
     ],
     "A18EG": [
-        "breeding/laying",
+        "breeding",
+        "lay",
         "poultry",
         "feed"
     ],
@@ -157803,12 +157993,14 @@
     ],
     "A18EK": [
         "young",
-        "breeder/layer",
+        "breeder",
+        "layer",
         "chick",
         "feed"
     ],
     "A18EL": [
-        "breeding/laying",
+        "breeding",
+        "lay",
         "chicken",
         "feed"
     ],
@@ -157851,7 +158043,8 @@
         "feed"
     ],
     "A18EV": [
-        "dairy/reproductive",
+        "dairy",
+        "reproductive",
         "sheep",
         "feed"
     ],
@@ -157864,7 +158057,8 @@
         "feed"
     ],
     "A18EY": [
-        "dairy/reproductive",
+        "dairy",
+        "reproductive",
         "goat",
         "feed"
     ],
@@ -157989,7 +158183,8 @@
         "sigma"
     ],
     "A18GB": [
-        "embryo/unhatched",
+        "embryo",
+        "unhatched",
         "egg"
     ],
     "A18GC": [

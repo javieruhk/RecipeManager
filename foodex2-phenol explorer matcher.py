@@ -3,11 +3,15 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk.corpus import wordnet
+import json
 
 
 input_directory = "./input dbs/"
 phenol_foods_file = input_directory + "foods.xls"
 phenol_composition_data_file = input_directory + "composition-data.xlsx"
+
+output_directory = "./output json files/"
+foodex2_phenol_explorer_matches_file = output_directory + "foodex2_phenol_explorer matches.json"
 
 
 def create_phenol_explorer_composition_data_list(phenol_explorer_file):
@@ -81,8 +85,9 @@ def update_foodex2_phenol_explorer_food_matches_dict(scientific_food_lemas_list,
 		elif matches_n == most_matches_n:
 			foodex2_phenol_explorer_food_matches_name_list.append(phenol_explorer_food_name)
 
-	for phenol_explorer_food_name in foodex2_phenol_explorer_food_matches_name_list:
-		foodex2_phenol_explorer_food_matches_dict[phenol_explorer_food_name] = lemmatized_phenol_explorer_food_dict[phenol_explorer_food_name]
+	if most_matches_n > 0:
+		for phenol_explorer_food_name in foodex2_phenol_explorer_food_matches_name_list:
+			foodex2_phenol_explorer_food_matches_dict[phenol_explorer_food_name] = lemmatized_phenol_explorer_food_dict[phenol_explorer_food_name]
 
 	#print(most_BEDCA_foodex2_matches_dict)
 	return foodex2_phenol_explorer_food_matches_dict
@@ -127,29 +132,29 @@ def create_composition_data_dict(foodex2_phenol_explorer_food_matches_dict, phen
 						phenol_explorer_food_dict[foodex2_phenol_explorer_food_match] = compound_group_dict
 	return phenol_explorer_food_dict
 
+def create_json(lemmatized_dict, file_name):
+	#result = json.dumps(lemmatized_dict, indent = 4)
+	#print(result)
+	with open(file_name, "w") as outfile:
+	    json.dump(lemmatized_dict, outfile, indent = 4)
 
 phenol_explorer_dict = create_phenol_explorer_food_dict(phenol_foods_file)
 #print(phenol_explorer_dict)
 
 lemmatized_phenol_explorer_dict = lemmatize_phenol_explorer_food_dict(stopwords, phenol_explorer_dict)
 #print(lemmatized_phenol_explorer_dict)
-
 	
 stopwords = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
-#name = "Sorghum bicolor L."
-name = "Triticum aestivum L."
+#name = "Sorghum bicolor L." #solo un caso (3 matches)
+#name = "Triticum aestivum L." #más de un caso (3 matches)
+#name = "Setaria italica (L.) P.Beauv." #muchos casos (coincide la L.)(1 match)
+#name = "Eragrostis tef (Zucc.) Trotter" #todos los casos (0 matches)
+#name = input("Introduce a scientific name: ")
+name = "Sorghum bicolor L."
 lemmatized_food_name = lemmatize_food_name(lemmatizer, stopwords, name)
-
-#new = dicto["Sorghum, whole grain"]
-
 foodex2_phenol_explorer_food_matches_dict = update_foodex2_phenol_explorer_food_matches_dict(lemmatized_food_name, lemmatized_phenol_explorer_dict)
-
-#print(foodex2_phenol_explorer_food_matches_dict)
-
 phenol_explorer_composition_data_list = create_phenol_explorer_composition_data_list(phenol_composition_data_file)
-#print(phenol_explorer_composition_data_list)
-
 composition_data_dict = create_composition_data_dict(foodex2_phenol_explorer_food_matches_dict, phenol_explorer_composition_data_list)
+create_json(composition_data_dict, foodex2_phenol_explorer_matches_file)
 print(composition_data_dict)
-	
