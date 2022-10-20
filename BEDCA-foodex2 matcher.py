@@ -24,9 +24,45 @@ def create_foodex2_dict(foodex2_file):
 	return dict(zip(foodex2_df['termCode'], foodex2_df['termExtendedName']))
 
 def create_BEDCA_dict(BEDCA_file):
-	foodex2_data = pd.read_csv(BEDCA_file, sep=';', encoding='windows-1252') 
-	foodex2_df = pd.DataFrame(foodex2_data)		
-	return dict(zip(foodex2_df['id'], foodex2_df['nombre_inglés']))
+	BEDCA_data = pd.read_csv(BEDCA_file, sep=';', encoding='windows-1252') 
+	BEDCA_df = pd.DataFrame(BEDCA_data)		
+	return dict(zip(BEDCA_df['id'], BEDCA_df['nombre_inglés']))
+
+def create_foodex2_facets_dict(foodex2_file):
+	foodex2_data = pd.read_excel(foodex2_file, sheet_name="term")
+	foodex2_df = pd.DataFrame(foodex2_data)	
+	return dict(zip(foodex2_df['termCode'], foodex2_df['allFacets']))
+
+class Foodex2_food(object):
+	def __init__(self, part, ingredient, packaging_format, process):
+		self.part = part 
+		self.ingredient = ingredient 
+		self.packaging_format = packaging_format 
+		self.process = process
+
+	def set_foodex2_part(self, part):
+		self.part.append(part)
+
+	def set_foodex2_ingredient(self, ingredient):
+		self.ingredient.append(ingredient)
+
+	def set_foodex2_packaging_format(self, packaging_format):
+		self.packaging_format.append(packaging_format)
+
+	def set_foodex2_process(self, process):
+		self.process.append(process)
+
+	def get_foodex2_part(self):
+		return self.part
+
+	def get_foodex2_ingredient(self):
+		return self.ingredient
+
+	def get_foodex2_packaging_format(self):
+		return self.packaging_format
+
+	def get_foodex2_process(self):
+		return self.process
 
 def lemmatize_food_name(lemmatizer, stopwords, extended_food_name):
 	extended_food_name_tagged = nltk.pos_tag(nltk.regexp_tokenize(extended_food_name, pattern=r"\s|[\.,;'(/)-]", gaps=True))
@@ -142,6 +178,55 @@ def update_BEDCA_foodex2_matches_dict(BEDCA_food_ingredients_list, BEDCA_foodex2
 	#print(most_BEDCA_foodex2_matches_dict)
 	return most_BEDCA_foodex2_matches_dict
 
+def create_foodex2_object_dict(foodex2_facets_dict, BEDCA_foodex2_matches_dict):
+	foodex2_dict_facets = {}
+	for foodex2_code in BEDCA_foodex2_matches_dict:
+		allfacets = foodex2_facets_dict[foodex2_code].split("#")
+		
+		if len(allfacets) > 1:
+			facets = allfacets[1].split("$")
+			foodex2_food = Foodex2_food([], [], [], [])
+			
+			for facet in range(0, len(facets)):
+				foodex2_facet_codes = facets[facet].split(".")
+				
+				if foodex2_facet_codes[0] == "F02":
+					foodex2_food.set_foodex2_part(foodex2_dict[foodex2_facet_codes[1]])
+				if foodex2_facet_codes[0] == "F04":
+					foodex2_food.set_foodex2_ingredient(foodex2_dict[foodex2_facet_codes[1]])
+				if foodex2_facet_codes[0] == "F18":
+					foodex2_food.set_foodex2_packaging_format(foodex2_dict[foodex2_facet_codes[1]])
+				if foodex2_facet_codes[0] == "F28":
+					foodex2_food.set_foodex2_process(foodex2_dict[foodex2_facet_codes[1]])
+
+				foodex2_dict_facets[foodex2_code] = foodex2_food
+
+	return foodex2_dict_facets
+
+def select_foodex2_entry(foodex2_object_dict, foodex2_dict):
+	for foodex2_object in foodex2_object_dict:
+		part_facet = foodex2_object_dict[foodex2_object].get_foodex2_part()
+		ingredient_facet = foodex2_object_dict[foodex2_object].get_foodex2_ingredient()
+		packaging_format_facet = foodex2_object_dict[foodex2_object].get_foodex2_packaging_format()
+		process_facet = foodex2_object_dict[foodex2_object].get_foodex2_process()
+		print("(" + foodex2_object + ") " + foodex2_dict[foodex2_object])
+		print("part: " + str(part_facet))
+		print("ingredient: " + str(ingredient_facet))
+		print("packaging_format: " + str(packaging_format_facet))
+		print("process: " + str(process_facet) + "\n")
+
+	foodex2_code_selected = input("Introduce the foodex2 code of the food selected: ")
+
+	if foodex2_code_selected in foodex2_object_dict:
+		part_facet = foodex2_object_dict[foodex2_code_selected].get_foodex2_part()
+		ingredient_facet = foodex2_object_dict[foodex2_code_selected].get_foodex2_ingredient()
+		packaging_format_facet = foodex2_object_dict[foodex2_code_selected].get_foodex2_packaging_format()
+		process_facet = foodex2_object_dict[foodex2_code_selected].get_foodex2_process()
+		print("\n(" + foodex2_code_selected + ") " + foodex2_dict[foodex2_code_selected])
+		print("part: " + str(part_facet))
+		print("ingredient: " + str(ingredient_facet))
+		print("packaging_format: " + str(packaging_format_facet))
+		print("process: " + str(process_facet) + "\n")
 
 
 foodex2_dict = create_foodex2_dict(foodex2_file)
@@ -152,9 +237,21 @@ BEDCA_dict = create_BEDCA_dict(BEDCA_file)
 lemmatized_BEDCA_dict = lemmatize_BEDCA_dict(stopwords, BEDCA_dict)
 create_json(lemmatized_BEDCA_dict, BEDCA_lemas_file)
 
+BEDCA_food_ingredients_list = lemmatized_BEDCA_dict.keys()
+BEDCA_foodex2_matches_dict = create_BEDCA_foodex2_matches_dict(lemmatized_BEDCA_dict[list(BEDCA_food_ingredients_list)[0]], lemmatized_foodex2_dict)
+BEDCA_foodex2_matches_dict = update_BEDCA_foodex2_matches_dict(lemmatized_BEDCA_dict[list(BEDCA_food_ingredients_list)[0]], BEDCA_foodex2_matches_dict)
+
+
+foodex2_facets_dict = create_foodex2_facets_dict(foodex2_file)
+foodex2_object_dict = create_foodex2_object_dict(foodex2_facets_dict, BEDCA_foodex2_matches_dict)
+select_foodex2_entry(foodex2_object_dict, foodex2_dict)
+
+"""
 BEDCA_all_foodex2_matches_dict = {}
 for BEDCA_food_ingredients_list in lemmatized_BEDCA_dict:
 	BEDCA_foodex2_matches_dict = create_BEDCA_foodex2_matches_dict(lemmatized_BEDCA_dict[BEDCA_food_ingredients_list], lemmatized_foodex2_dict)
 	BEDCA_foodex2_matches_dict = update_BEDCA_foodex2_matches_dict(lemmatized_BEDCA_dict[BEDCA_food_ingredients_list], BEDCA_foodex2_matches_dict)
 	BEDCA_all_foodex2_matches_dict[BEDCA_food_ingredients_list] = BEDCA_foodex2_matches_dict
 create_json(BEDCA_all_foodex2_matches_dict, BEDCA_foodex2_matches_file)
+
+"""
