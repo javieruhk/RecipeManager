@@ -238,8 +238,9 @@ lemmatized_BEDCA_dict = lemmatize_BEDCA_dict(stopwords, BEDCA_dict)
 create_json(lemmatized_BEDCA_dict, BEDCA_lemas_file)
 
 BEDCA_food_ingredients_list = lemmatized_BEDCA_dict.keys()
-BEDCA_foodex2_matches_dict = create_BEDCA_foodex2_matches_dict(lemmatized_BEDCA_dict[list(BEDCA_food_ingredients_list)[0]], lemmatized_foodex2_dict)
-BEDCA_foodex2_matches_dict = update_BEDCA_foodex2_matches_dict(lemmatized_BEDCA_dict[list(BEDCA_food_ingredients_list)[0]], BEDCA_foodex2_matches_dict)
+foodex2_example = list(BEDCA_food_ingredients_list)[0]
+BEDCA_foodex2_matches_dict = create_BEDCA_foodex2_matches_dict(lemmatized_BEDCA_dict[foodex2_example], lemmatized_foodex2_dict)
+BEDCA_foodex2_matches_dict = update_BEDCA_foodex2_matches_dict(lemmatized_BEDCA_dict[foodex2_example], BEDCA_foodex2_matches_dict)
 
 
 foodex2_facets_dict = create_foodex2_facets_dict(foodex2_file)
