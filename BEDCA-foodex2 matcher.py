@@ -48,9 +48,13 @@ class BEDCA_food(object):
 		self.term_list = term_list
 
 	def __str__(self): 
-		print_message = "BEDCA_food text: %s \n\nmain_Term: %s \n\nterm_list:" % (self.text, self.main_Term)
-		for term_n in range(0, len(self.term_list)):
-			print_message = print_message + "\n    term_%s: %s" % (term_n, self.term_list[term_n])
+		print_message = "text: %s \n\nmain_Term: %s \n\nterm_list:" % (self.text, self.main_Term)
+		
+		if self.term_list == []:
+			print_message = print_message + "[]"
+		else:
+			for term_n in range(0, len(self.term_list)):
+				print_message = print_message + "\n    term_%s: %s" % (term_n, self.term_list[term_n])
 		return print_message
 
 class Term(object):
@@ -75,7 +79,7 @@ class Term(object):
 		else:
 			for coincidence_n in range(0, len(self.coincidence_list)):
 				print_message = print_message + "\n            coincidence_%s: %s" % (coincidence_n, self.coincidence_list[coincidence_n]) 
-			return print_message 
+		return print_message 
 
 class Subterm(object):
 	def __init__(self, conjunction, Term):
@@ -302,7 +306,7 @@ for BEDCA_code in lemmatized_BEDCA_dict:
 """
 
 
-code = 74
+code = 147
 first_element_text = BEDCA_dict[list(BEDCA_dict.keys())[code]]
 first_element_lemmatized = lemmatized_BEDCA_dict[list(lemmatized_BEDCA_dict.keys())[code]]
 #print(first_element_text)
