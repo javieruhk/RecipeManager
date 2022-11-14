@@ -52,16 +52,19 @@ class Term(object):
 				print_message = print_message + "\n            subterm_%s: %s" % (subterm_n, self.subterm_list[subterm_n])
 		
 		print_message = print_message + "\n        coincidences: "
-		facet_print = ["part_coincidences","ingredient_coincidences","packaging_format_coincidences","process_coincidences"]
+		facet_print = ["part","ingredient","packaging_format","process"]
 		
-		for facet_list in range(0, len(self.coincidence_list)):
-			print_message = print_message + "\n            %s_coincidences: " % (facet_print[facet_list])
-
-			if self.coincidence_list[facet_list] == []:
-				print_message = print_message + "[]"
+		if self.coincidence_list == []:
+			print_message = print_message + "[]"
+		else:
+			for facet_list in range(0, len(self.coincidence_list)):
+				print_message = print_message + "\n            %s_coincidences: " % (facet_print[facet_list])
 	
-			else:
-				print_message = print_message + "%s" % (self.coincidence_list[facet_list][0]) 
+				if self.coincidence_list[facet_list] == []:
+					print_message = print_message + "[]"
+		
+				else:
+					print_message = print_message + "%s" % (self.coincidence_list[facet_list][0]) 
 		return print_message 
 
 class Subterm(object):
@@ -155,11 +158,13 @@ def create_BEDCA_foodex2_matches_list(BEDCA_food_lemas_list, foodex2_dict_lemmat
 	for foodex2_code in foodex2_dict_lemmatized:
 		matches = 0
 
-		for foodex2_food_lemas in foodex2_dict_lemmatized[foodex2_code]:
-	
-			for lema in BEDCA_food_lemas_list:
+		for lema in BEDCA_food_lemas_list:
+			for foodex2_food_lemas in foodex2_dict_lemmatized[foodex2_code]:
 				if lema in foodex2_food_lemas:
 					matches = matches+1
+					break#si no puede contar el mismo match dos veces 
+
+		matches = matches+1
 
 		if matches > maximum_matches:
 			maximum_matches = matches
@@ -178,6 +183,7 @@ def get_BEDCA_ratio(BEDCA_food_lemas_list, foodex2_food_lemas_list):
 		for foodex2_modifier_lemas in foodex2_food_lemas_list:
 			if BEDCA_food_lema in foodex2_modifier_lemas:
 				BEDCA_matches = BEDCA_matches + 1
+				break#si no puede contar el mismo match dos veces 
 
 	BEDCA_food_lemas_len = len(BEDCA_food_lemas_list)
 
@@ -273,7 +279,6 @@ def get_facet_parents_list(foodex2_code, foodex2_parents_list, foodex2_facet_dic
 		foodex2_parents_list.append(foodex2_parent_code)
 		return get_facet_parents_list(foodex2_parent_code, foodex2_parents_list, foodex2_facet_dict, facet)
 
-#**************#
 def order_BEDCA_foodex2_matches_facet_lists(BEDCA_foodex2_matches_facet_lists, foodex2_facet_dict):
 	ordered_BEDCA_foodex2_matches_facet_lists = []
 	for facet in range(0, len(BEDCA_foodex2_matches_facet_lists)):
@@ -286,8 +291,7 @@ def order_BEDCA_foodex2_matches_facet_lists(BEDCA_foodex2_matches_facet_lists, f
 			#crear dict con foodex2 codes ordenados por la cantidad de hijos que tengan
 			#crear dict con foodex2 codes con la cantidad de padres que tiene cada uno
 			for facet_foodex2_code in facet_list:
-				foodex2_parents_list = get_facet_parents_list(facet_foodex2_code, [], foodex2_facet_dict, 1)
-				#print("foodex2_parents_list " + str(foodex2_parents_list))
+				foodex2_parents_list = get_facet_parents_list(facet_foodex2_code, [], foodex2_facet_dict, facet)
 				facet_parents_count_dict[facet_foodex2_code] = len(foodex2_parents_list)
 		
 				for facet_element in facet_list:
@@ -319,7 +323,7 @@ def order_BEDCA_foodex2_matches_facet_lists(BEDCA_foodex2_matches_facet_lists, f
 
 	return ordered_BEDCA_foodex2_matches_facet_lists
 
-def create_coincidences_list(BEDCA_food_lemas_list, foodex2_dict_lemmatized):
+def create_coincidences_list(BEDCA_food_lemas_list, foodex2_dict_lemmatized, foodex2_facet_dict):
 	BEDCA_foodex2_matches_list = create_BEDCA_foodex2_matches_list(BEDCA_food_lemas_list, foodex2_dict_lemmatized)
 
 	BEDCA_foodex2_matches_ratio_dict = create_BEDCA_foodex2_matches_ratio_dict(BEDCA_food_lemas_list, foodex2_dict_lemmatized, BEDCA_foodex2_matches_list)
@@ -327,31 +331,30 @@ def create_coincidences_list(BEDCA_food_lemas_list, foodex2_dict_lemmatized):
 	foodex2_ratio_dict = filter_BEDCA_foodex2_matches_ratios(BEDCA_foodex2_matches_ratio_dict, 1)
 	filtered_BEDCA_foodex2_matches_list = filter_BEDCA_foodex2_matches_ratios(foodex2_ratio_dict, 2)
 
-	foodex2_facet_dict = create_foodex2_facet_dict(foodex2_file)
-
 	BEDCA_foodex2_matches_facet_lists = create_BEDCA_foodex2_matches_facet_lists(filtered_BEDCA_foodex2_matches_list, foodex2_facet_dict)
-	
-	filtered_BEDCA_foodex2_matches_list = order_BEDCA_foodex2_matches_facet_lists(BEDCA_foodex2_matches_facet_lists, foodex2_facet_dict)
-	
+
 	coincidences_list = []
+	
+	if BEDCA_foodex2_matches_facet_lists != [[],[],[],[]]:
+		filtered_BEDCA_foodex2_matches_list = order_BEDCA_foodex2_matches_facet_lists(BEDCA_foodex2_matches_facet_lists, foodex2_facet_dict)
 
-	for facet_BEDCA_foodex2_matches_list in filtered_BEDCA_foodex2_matches_list:
-		facet_coincidences_list = []
-
-		if facet_BEDCA_foodex2_matches_list != []:
-			for code in range(0, len(facet_BEDCA_foodex2_matches_list)):
-				foodex2_code = facet_BEDCA_foodex2_matches_list[code]
-				foodex2_food_lemas_list = BEDCA_foodex2_matches_ratio_dict[foodex2_code][0]
-				BEDCA_ratio = BEDCA_foodex2_matches_ratio_dict[foodex2_code][1]
-				ratio_foodex2 = BEDCA_foodex2_matches_ratio_dict[foodex2_code][2]
-		
-				new_coincidence = Coindicence(foodex2_code, foodex2_food_lemas_list, BEDCA_ratio, ratio_foodex2)
-				facet_coincidences_list.append(new_coincidence)
-		coincidences_list.append(facet_coincidences_list)
+		for facet_BEDCA_foodex2_matches_list in filtered_BEDCA_foodex2_matches_list:
+			facet_coincidences_list = []
+	
+			if facet_BEDCA_foodex2_matches_list != []:
+				for code in range(0, len(facet_BEDCA_foodex2_matches_list)):
+					foodex2_code = facet_BEDCA_foodex2_matches_list[code]
+					foodex2_food_lemas_list = BEDCA_foodex2_matches_ratio_dict[foodex2_code][0]
+					BEDCA_ratio = BEDCA_foodex2_matches_ratio_dict[foodex2_code][1]
+					ratio_foodex2 = BEDCA_foodex2_matches_ratio_dict[foodex2_code][2]
+			
+					new_coincidence = Coindicence(foodex2_code, foodex2_food_lemas_list, BEDCA_ratio, ratio_foodex2)
+					facet_coincidences_list.append(new_coincidence)
+			coincidences_list.append(facet_coincidences_list)
 
 	return coincidences_list
 
-def create_term(BEDCA_modifier_lemas, foodex2_dict_lemmatized):
+def create_term(BEDCA_modifier_lemas, foodex2_dict_lemmatized, foodex2_facet_dict):
 	actual_term_lema = []
 	actual_term_subterm_list = []
 	actual_term_coincidences = []
@@ -363,7 +366,7 @@ def create_term(BEDCA_modifier_lemas, foodex2_dict_lemmatized):
 		if BEDCA_modifier_lemas[lema] in conjunction_list:
 			if subterm_flag:
 				new_term_lema = BEDCA_modifier_lemas[last_lema+1:lema]
-				new_term_coincidences = create_coincidences_list(new_term_lema, foodex2_dict_lemmatized)
+				new_term_coincidences = create_coincidences_list(new_term_lema, foodex2_dict_lemmatized, foodex2_facet_dict)
 				new_term = Term(new_term_lema, [], new_term_coincidences)
 
 				new_subterm_conjunction = BEDCA_modifier_lemas[last_lema]
@@ -377,7 +380,7 @@ def create_term(BEDCA_modifier_lemas, foodex2_dict_lemmatized):
 					last_lema = lema
 				else:
 					actual_term_lema = BEDCA_modifier_lemas[:lema]
-					actual_term_coincidences = create_coincidences_list(actual_term_lema, foodex2_dict_lemmatized)
+					actual_term_coincidences = create_coincidences_list(actual_term_lema, foodex2_dict_lemmatized, foodex2_facet_dict)
 
 					subterm_flag = True
 					last_lema = lema
@@ -386,7 +389,7 @@ def create_term(BEDCA_modifier_lemas, foodex2_dict_lemmatized):
 			if lema == len(BEDCA_modifier_lemas)-1:
 				if subterm_flag:
 					new_term_lema = BEDCA_modifier_lemas[last_lema+1:]
-					new_term_coincidences = create_coincidences_list(new_term_lema, foodex2_dict_lemmatized)
+					new_term_coincidences = create_coincidences_list(new_term_lema, foodex2_dict_lemmatized, foodex2_facet_dict)
 					new_term = Term(new_term_lema, [], new_term_coincidences)
 
 					new_subterm_conjunction = BEDCA_modifier_lemas[last_lema]
@@ -395,20 +398,20 @@ def create_term(BEDCA_modifier_lemas, foodex2_dict_lemmatized):
 					actual_term_subterm_list.append(new_subterm)
 				else:
 					actual_term_lema = BEDCA_modifier_lemas
-					actual_term_coincidences = create_coincidences_list(BEDCA_modifier_lemas, foodex2_dict_lemmatized)
+					actual_term_coincidences = create_coincidences_list(BEDCA_modifier_lemas, foodex2_dict_lemmatized, foodex2_facet_dict)
 
 	actual_term = Term(actual_term_lema, actual_term_subterm_list, actual_term_coincidences)
 
 	return actual_term
 
-def create_BEDCA_food_object(BEDCA_element, BEDCA_element_lemmatized, foodex2_dict_lemmatized):
-	main_term = create_term(BEDCA_element_lemmatized[0], foodex2_dict_lemmatized)
+def create_BEDCA_food_object(BEDCA_element, BEDCA_element_lemmatized, foodex2_dict_lemmatized, foodex2_facet_dict):
+	main_term = create_term(BEDCA_element_lemmatized[0], foodex2_dict_lemmatized, foodex2_facet_dict)
 	term_list = []
 
 	if len(BEDCA_element_lemmatized) > 1:
 		
 		for BEDCA_modifier in range(1, len(BEDCA_element_lemmatized)):
-			term = create_term(BEDCA_element_lemmatized[BEDCA_modifier], foodex2_dict_lemmatized)
+			term = create_term(BEDCA_element_lemmatized[BEDCA_modifier], foodex2_dict_lemmatized, foodex2_facet_dict)
 			term_list.append(term)
 
 	BEDCA_food_object = BEDCA_food(BEDCA_element, main_term, term_list)
@@ -418,15 +421,13 @@ def create_BEDCA_food_object(BEDCA_element, BEDCA_element_lemmatized, foodex2_di
 def create_web_service_BEDCA_food(BEDCA_name):
 	BEDCA_dict = create_BEDCA_dict(BEDCA_file)
 	BEDCA_dict_lemmatized = lemmatize_dict(stopwords_list, BEDCA_dict)
-	code = 87
+	code = 337
+	#337 -210 -694 805 807 877 914
 	#0 multiple facets
-	#87 comprobar (sugar, brown)
-	#153 multiple childs
-	#140
-	#74
+	#74 conjunction
 	BEDCA_element = BEDCA_dict[list(BEDCA_dict.keys())[code]]
 	BEDCA_element_lemmatized = BEDCA_dict_lemmatized[list(BEDCA_dict_lemmatized.keys())[code]]
-	print(BEDCA_element)
+	print(BEDCA_element_lemmatized)
 
 	#BEDCA_code = 0
 	#for key, value in BEDCA_dict.items():
@@ -438,8 +439,10 @@ def create_web_service_BEDCA_food(BEDCA_name):
 	
 	foodex2_dict = create_foodex2_dict(foodex2_file)
 	foodex2_dict_lemmatized = lemmatize_dict(stopwords_list, foodex2_dict)
+
+	foodex2_facet_dict = create_foodex2_facet_dict(foodex2_file)
 	
-	BEDCA_food_object = create_BEDCA_food_object(BEDCA_element, BEDCA_element_lemmatized, foodex2_dict_lemmatized)
+	BEDCA_food_object = create_BEDCA_food_object(BEDCA_element, BEDCA_element_lemmatized, foodex2_dict_lemmatized, foodex2_facet_dict)
 	print(BEDCA_food_object)
 	return(BEDCA_food_object)
 
