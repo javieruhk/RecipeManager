@@ -115,20 +115,20 @@ def lemmatize_modifier(lemmatizer, stopwords, modifier):
 	for (word, tag) in modifier_tagged:
 		if word not in stopwords:
 			if(tag.startswith('J')):
-				lema = lemmatizer.lemmatize(word, wordnet.ADJ)
-				modifier_lemas.append(lema.lower())
+				lema = lemmatizer.lemmatize(word.lower(), wordnet.ADJ)
+				modifier_lemas.append(lema)
 			elif tag.startswith('V'):
-				lema = lemmatizer.lemmatize(word, wordnet.VERB)
-				modifier_lemas.append(lema.lower())
+				lema = lemmatizer.lemmatize(word.lower(), wordnet.VERB)
+				modifier_lemas.append(lema)
 			elif tag.startswith('N'):
-				lema = lemmatizer.lemmatize(word, wordnet.NOUN)
-				modifier_lemas.append(lema.lower())
+				lema = lemmatizer.lemmatize(word.lower(), wordnet.NOUN)
+				modifier_lemas.append(lema)
 			elif tag.startswith('R'):
-				lema = lemmatizer.lemmatize(word, wordnet.ADV)        
-				modifier_lemas.append(lema.lower())
+				lema = lemmatizer.lemmatize(word.lower(), wordnet.ADV)        
+				modifier_lemas.append(lema)
 			else:
-				lema = lemmatizer.lemmatize(word)
-				modifier_lemas.append(lema.lower())
+				lema = lemmatizer.lemmatize(word.lower())
+				modifier_lemas.append(lema)
 		
 	#ver qué hacer con foodex2 ---> Bread and rolls with special ingredients added
 	return modifier_lemas
@@ -147,6 +147,7 @@ def lemmatize_dict(stopwords, BEDCA_dict):
 			modifier_lemas = lemmatize_modifier(lemmatizer, stopwords, modifier)
 			if modifier_lemas != []:
 				food_lemas.append(modifier_lemas)
+		
 		dict_lemmatized[BEDCA_code] = food_lemas
 	
 	return dict_lemmatized
@@ -312,7 +313,7 @@ def order_BEDCA_foodex2_matches_facet_lists(BEDCA_foodex2_matches_facet_lists, f
 					parents_dict[sorted_childs_count_dict[parent]][parent] = facet_parents_count_dict[parent]
 				else:
 					parents_dict[sorted_childs_count_dict[parent]] = {parent: facet_parents_count_dict[parent]}
-		
+
 			for parents in parents_dict:
 				sorted_parents_dict = dict(sorted(parents_dict[parents].items(), key=lambda x:x[1]))
 				sorted_parents_foodex2_codes = list(sorted_parents_dict.keys())
@@ -337,7 +338,6 @@ def create_coincidences_list(BEDCA_food_lemas_list, foodex2_dict_lemmatized, foo
 	
 	if BEDCA_foodex2_matches_facet_lists != [[],[],[],[]]:
 		filtered_BEDCA_foodex2_matches_list = order_BEDCA_foodex2_matches_facet_lists(BEDCA_foodex2_matches_facet_lists, foodex2_facet_dict)
-
 		for facet_BEDCA_foodex2_matches_list in filtered_BEDCA_foodex2_matches_list:
 			facet_coincidences_list = []
 	
@@ -421,13 +421,12 @@ def create_BEDCA_food_object(BEDCA_element, BEDCA_element_lemmatized, foodex2_di
 def create_web_service_BEDCA_food(BEDCA_name):
 	BEDCA_dict = create_BEDCA_dict(BEDCA_file)
 	BEDCA_dict_lemmatized = lemmatize_dict(stopwords_list, BEDCA_dict)
-	code = 337
+	code = 337                                
 	#337 -210 -694 805 807 877 914
 	#0 multiple facets
 	#74 conjunction
 	BEDCA_element = BEDCA_dict[list(BEDCA_dict.keys())[code]]
 	BEDCA_element_lemmatized = BEDCA_dict_lemmatized[list(BEDCA_dict_lemmatized.keys())[code]]
-	print(BEDCA_element_lemmatized)
 
 	#BEDCA_code = 0
 	#for key, value in BEDCA_dict.items():
