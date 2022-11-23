@@ -37,6 +37,26 @@ class BEDCA_food(object):
 				print_message = print_message + "\n    term_%s: %s" % (term_n, self.term_list[term_n])
 		return print_message
 
+	def get_text(self):
+		return self.text
+
+	def get_main_Term(self):
+		return self.main_Term
+
+	def get_term_list(self):
+		return self.term_list
+
+	def get_BEDCA_food_dict(self, code):
+		BEDCA_food_dict = {}
+		BEDCA_food_dict["BEDCA code"] = code
+		BEDCA_food_dict["main term"] = self.main_Term.get_term_dict()
+		term_list_dict = {}
+		for term_n in range(0, len(self.term_list)):
+			term_name = "term_%s" % (term_n) 
+			term_list_dict[term_name] = self.term_list[term_n].get_term_dict()
+		BEDCA_food_dict["term list"] = term_list_dict
+		return BEDCA_food_dict
+
 class Term(object):
 	def __init__(self, lema, subterm_list, coincidence_list):
 		self.lema = lema 
@@ -67,6 +87,36 @@ class Term(object):
 					print_message = print_message + "%s" % (self.coincidence_list[facet_list][0]) 
 		return print_message 
 
+	def get_lema(self):
+		return self.lema
+
+	def get_subterm_list(self):
+		return self.subterm_list
+
+	def get_coincidence_list(self):
+		return self.coincidence_list
+
+	def get_term_dict(self):
+		term_dict = {}
+		term_dict["lema"] = self.lema
+		if self.subterm_list == []:
+			term_dict["subterm list"] = []
+		else:
+			subterm_dict = {}
+			for subterm_n in range(0, len(self.subterm_list)):
+				subterm_name = "subterm_%s" % (subterm_n)
+				subterm_dict[subterm_name] = self.subterm_list[subterm_n].get_subterm_dict()
+			term_dict["subterm list"] = subterm_dict
+		
+		coincidence_dict = {}
+		facet = ["part coincidences","ingredient coincidences","packaging format coincidences","process coincidences"]
+		for coincidence_n in range(0, len(self.coincidence_list)):
+			if self.coincidence_list[coincidence_n] != []:
+				coincidence_dict[facet[coincidence_n]] = self.coincidence_list[coincidence_n][0].get_coincidence_dict()
+		term_dict["coincidences"] = coincidence_dict
+		return term_dict
+
+
 class Subterm(object):
 	def __init__(self, conjunction, Term):
 		self.conjunction = conjunction 
@@ -74,6 +124,15 @@ class Subterm(object):
 
 	def __str__(self): 
 		return "\n                conjunction: %s\n                term: %s" % (self.conjunction, self.Term) 
+
+	def get_term(self):
+		return self.Term
+
+	def get_subterm_dict(self):
+		subterm_dict = {}
+		subterm_dict["conjunction"] = self.conjunction
+		subterm_dict["term"] = self.Term.get_term_dict()
+		return subterm_dict
 
 class Coindicence(object):
 	def __init__(self, foodex2_code, foodex2_term, ri, rf):
@@ -84,6 +143,20 @@ class Coindicence(object):
 
 	def __str__(self): 
 		return "foodex2_code: %s, foodex2_term: %s, ri: %s, rf: %s" % (self.foodex2_code, self.foodex2_term, self.ri, self.rf) 
+
+	def get_ri(self):
+		return self.ri
+
+	def get_rf(self):
+		return self.rf
+
+	def get_coincidence_dict(self):
+		coincidence_dict = {}
+		coincidence_dict["foodex2_code"] = self.foodex2_code
+		coincidence_dict["foodex2_term"] = self.foodex2_term
+		coincidence_dict["ri"] = self.ri
+		coincidence_dict["rf"] = self.rf
+		return coincidence_dict
 
 
 def create_BEDCA_dict(BEDCA_file):
@@ -428,13 +501,13 @@ def create_web_service_BEDCA_food(BEDCA_name):
 	BEDCA_element = BEDCA_dict[list(BEDCA_dict.keys())[code]]
 	BEDCA_element_lemmatized = BEDCA_dict_lemmatized[list(BEDCA_dict_lemmatized.keys())[code]]
 
-	#BEDCA_code = 0
-	#for key, value in BEDCA_dict.items():
-	#	if value == BEDCA_name:
-	#		BEDCA_code = key
-	#print(BEDCA_dict[BEDCA_code])
-	#BEDCA_element = BEDCA_dict[BEDCA_code]
-	#BEDCA_element_lemmatized = BEDCA_dict_lemmatized[BEDCA_code]
+	BEDCA_code = 0
+	for key, value in BEDCA_dict.items():
+		if value == BEDCA_name:
+			BEDCA_code = key
+	print(BEDCA_dict[BEDCA_code])
+	BEDCA_element = BEDCA_dict[BEDCA_code]
+	BEDCA_element_lemmatized = BEDCA_dict_lemmatized[BEDCA_code]
 	
 	foodex2_dict = create_foodex2_dict(foodex2_file)
 	foodex2_dict_lemmatized = lemmatize_dict(stopwords_list, foodex2_dict)
@@ -445,13 +518,78 @@ def create_web_service_BEDCA_food(BEDCA_name):
 	print(BEDCA_food_object)
 	return(BEDCA_food_object)
 
-create_web_service_BEDCA_food("")
 
-#BEDCA_food_dict = {}
-#for BEDCA_code in BEDCA_dict:
-#	BEDCA_food_object = create_BEDCA_food_object(BEDCA_dict[BEDCA_code], BEDCA_dict_lemmatized[BEDCA_code])
-#	BEDCA_food_dict[BEDCA_code] = new_BEDCA_food
+def check_term_coincidence_ratio(term):
+	coincidences_list = term.get_coincidence_list()
+	
+	for facet in coincidences_list:
+		if facet != []:
+			coincidence = facet[0]
+			if coincidence.get_ri() == 1 and coincidence.get_rf() == 1:
+				subterm_list = term.get_subterm_list()
+				if subterm_list != []:
+					check_term = True
+					for subterm in subterm_list:
+						term_subterm = subterm.get_term()
+						if check_term_coincidence_ratio(term_subterm) == False:
+							return False
+					return True
+				else:
+					return True
+			else:
+				return False
+
+def create_BEDCA_foodex2_matches_json(BEDCA_perfect_coincidences, BEDCA_not_perfect_coincidences):
+	#result = json.dumps(lemmatized_foodex2_dict, indent = 4)
+	#print(result)
+	with open("./output json files/perfect matches.json", "w") as outfile:
+	    json.dump(BEDCA_perfect_coincidences, outfile, indent = 4)
+
+	with open("./output json files/not perfect matches.json", "w") as outfile:
+	    json.dump(BEDCA_not_perfect_coincidences, outfile, indent = 4)
+
+#create_web_service_BEDCA_food("Beer, low alcohol")
 
 
+BEDCA_dict = create_BEDCA_dict(BEDCA_file)
+BEDCA_dict_lemmatized = lemmatize_dict(stopwords_list, BEDCA_dict)
 
-#cambiar BEDCA por bedca
+foodex2_dict = create_foodex2_dict(foodex2_file)
+foodex2_dict_lemmatized = lemmatize_dict(stopwords_list, foodex2_dict)
+
+foodex2_facet_dict = create_foodex2_facet_dict(foodex2_file)
+
+BEDCA_perfect_coincidences = {}
+BEDCA_not_perfect_coincidences = {}
+
+for code in BEDCA_dict:
+	BEDCA_element = BEDCA_dict[code]
+	BEDCA_element_lemmatized = BEDCA_dict_lemmatized[code]
+
+	#code = 337                                
+	#BEDCA_element = BEDCA_dict[list(BEDCA_dict.keys())[code]]
+	#BEDCA_element_lemmatized = BEDCA_dict_lemmatized[list(BEDCA_dict_lemmatized.keys())[code]]
+	
+	BEDCA_food_object = create_BEDCA_food_object(BEDCA_element, BEDCA_element_lemmatized, foodex2_dict_lemmatized, foodex2_facet_dict)
+	
+	
+	main_term = BEDCA_food_object.get_main_Term()
+	flag_term_list_perfect = True
+	
+	if check_term_coincidence_ratio(main_term):
+		term_list = BEDCA_food_object.get_term_list()
+		for term_n in term_list:
+			if not check_term_coincidence_ratio(term_n):
+				flag_term_list_perfect = False
+				break
+	
+	else:
+		flag_term_list_perfect = False
+	
+	if flag_term_list_perfect:
+		BEDCA_perfect_coincidences[BEDCA_food_object.get_text()] = BEDCA_food_object.get_BEDCA_food_dict(code)
+	else:
+		BEDCA_not_perfect_coincidences[BEDCA_food_object.get_text()] = BEDCA_food_object.get_BEDCA_food_dict(code)
+	
+
+create_BEDCA_foodex2_matches_json(BEDCA_perfect_coincidences, BEDCA_not_perfect_coincidences)
