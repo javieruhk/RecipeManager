@@ -9,152 +9,135 @@ import json
 input_directory = "./input dbs/"
 phenol_foods_file = input_directory + "foods.xls"
 phenol_composition_data_file = input_directory + "composition-data.xlsx"
+foodex2_file = input_directory + "MTX.xls"
 
 output_directory = "./output json files/"
 foodex2_phenol_explorer_matches_file = output_directory + "foodex2_phenol_explorer matches.json"
 
-
-def create_phenol_explorer_composition_data_list(phenol_explorer_file):
-	phenol_info_data = pd.read_excel(phenol_explorer_file, sheet_name="Sheet1")
-	phenol_info_df = pd.DataFrame(phenol_info_data)
-	#return dict(zip(phenol_info_df['food'], (phenol_info_df['compound_group'], phenol_info_df['compound_sub_group'])))
-	phenol_explorer_composition_data_list = list(zip(phenol_info_df['food'], phenol_info_df['compound_group'], phenol_info_df['compound_sub_group'], phenol_info_df['mean']))
-	return phenol_explorer_composition_data_list
-
-def create_phenol_explorer_food_dict(phenol_explorer_file):
+def create_phenol_explorer_foods_scientific_names_dict(phenol_explorer_file):
 	phenol_explorer_data = pd.read_excel(phenol_explorer_file, sheet_name="Phenol-Explorer Foods")
 	phenol_explorer_df = pd.DataFrame(phenol_explorer_data)		
 	return dict(zip(phenol_explorer_df['Name'], phenol_explorer_df['Scientific Name']))
 
-def lemmatize_food_name(lemmatizer, stopwords, extended_food_name):
-	extended_food_name_tagged = nltk.pos_tag(nltk.regexp_tokenize(extended_food_name, pattern=r"\s|[\.,;'(/)-]", gaps=True))
-	extended_food_name_lemas = []
+def create_phenol_explorer_foods_names_dict(phenol_explorer_file):
+	phenol_explorer_data = pd.read_excel(phenol_explorer_file, sheet_name="Phenol-Explorer Foods")
+	phenol_explorer_df = pd.DataFrame(phenol_explorer_data)		
+	return dict(zip(phenol_explorer_df['ID'], phenol_explorer_df['Name']))
+
+def create_foodex2_scientific_names_dict(foodex2_file):
+	foodex2_data = pd.read_excel(foodex2_file, sheet_name="term")
+	foodex2_df = pd.DataFrame(foodex2_data)		
+	return dict(zip(foodex2_df['termCode'], foodex2_df['scientificNames']))
+
+def process_foodex2_scientific_names(foodex2_dict):
+	foodex2_dict_processed = {}
+	for entry in foodex2_dict:
+		scientific_name = foodex2_dict[entry]
+		scientific_name_filtered = ""
+		if isinstance(scientific_name, str):
+			main_scientific_name = scientific_name.split("$")
+			scientific_name_splitted = main_scientific_name[0].split(" ")
 	
-	for (word, tag) in extended_food_name_tagged:
-		if word not in stopwords:
-			if(tag.startswith('J')):
-				lema = lemmatizer.lemmatize(word, wordnet.ADJ)
-				extended_food_name_lemas.append(lema.lower())
-			elif tag.startswith('V'):
-				lema = lemmatizer.lemmatize(word, wordnet.VERB)
-				extended_food_name_lemas.append(lema.lower())
-			elif tag.startswith('N'):
-				lema = lemmatizer.lemmatize(word, wordnet.NOUN)
-				extended_food_name_lemas.append(lema.lower())
-			elif tag.startswith('R'):
-				lema = lemmatizer.lemmatize(word, wordnet.ADV)        
-				extended_food_name_lemas.append(lema.lower())
-			else:
-				lema = lemmatizer.lemmatize(word)
-				extended_food_name_lemas.append(lema.lower())
+			if scientific_name_splitted[0].islower():
+				scientific_name_mayus_list = []
+				copy_flag = False
+				for pos in range(0, len(scientific_name_splitted)):
+					word = scientific_name_splitted[pos]
+					first_letter = word[0]
+					if first_letter.isupper():
+						copy_flag = True
+					if copy_flag:
+						scientific_name_mayus_list.append(word)
+				scientific_name_splitted = scientific_name_mayus_list
 	
-	return extended_food_name_lemas
-
-def lemmatize_phenol_explorer_food_dict(stopwords, phenol_explorer_food_dict):
-	stopwords = set(stopwords.words('english'))
-	lemmatizer = WordNetLemmatizer()
-	lemmatized_dict = {}
-
-	for phenol_explorer_food_name in phenol_explorer_food_dict:
-		scientific_food_name = phenol_explorer_food_dict[phenol_explorer_food_name]
-		#tiene nombre científico en foods
-		if isinstance(scientific_food_name, str):
-			scientific_food_name_lemas = lemmatize_food_name(lemmatizer, stopwords, scientific_food_name)
-			lemmatized_dict[phenol_explorer_food_name] = scientific_food_name_lemas
-		#else
-		#no tiene nombre científico en foods (ver otro método para buscarlo)
-	
-	#print(lemmatized_dict)
-	return lemmatized_dict
-
-def update_foodex2_phenol_explorer_food_matches_dict(scientific_food_lemas_list, lemmatized_phenol_explorer_food_dict):
-	foodex2_phenol_explorer_food_matches_dict = {}
-	foodex2_phenol_explorer_food_matches_name_list = [] 
-	most_matches_n = 0
-
-	for phenol_explorer_food_name in lemmatized_phenol_explorer_food_dict:
-		matches_n = 0
-		
-		for modifier_n in range(0, len(scientific_food_lemas_list)):#ver si poner a partir de la coma todos en una lista
-			if scientific_food_lemas_list[modifier_n] in lemmatized_phenol_explorer_food_dict[phenol_explorer_food_name]:
-				matches_n = matches_n+1
-		
-		if matches_n > most_matches_n:
-			most_matches_n = matches_n
-			foodex2_phenol_explorer_food_matches_name_list = [phenol_explorer_food_name]
-		elif matches_n == most_matches_n:
-			foodex2_phenol_explorer_food_matches_name_list.append(phenol_explorer_food_name)
-
-	if most_matches_n > 0:
-		for phenol_explorer_food_name in foodex2_phenol_explorer_food_matches_name_list:
-			foodex2_phenol_explorer_food_matches_dict[phenol_explorer_food_name] = lemmatized_phenol_explorer_food_dict[phenol_explorer_food_name]
-
-	#print(most_BEDCA_foodex2_matches_dict)
-	return foodex2_phenol_explorer_food_matches_dict
-
-def create_composition_data_dict(foodex2_phenol_explorer_food_matches_dict, phenol_explorer_composition_data_list):
-	phenol_explorer_food_dict = {}
-	for foodex2_phenol_explorer_food_match in foodex2_phenol_explorer_food_matches_dict:
-		
-		for phenol_explorer_composition_data_elem in range(0, len(phenol_explorer_composition_data_list)):
-			compound_name = phenol_explorer_composition_data_list[phenol_explorer_composition_data_elem][0]
-			if foodex2_phenol_explorer_food_match == compound_name:
-				compound_mean = phenol_explorer_composition_data_list[phenol_explorer_composition_data_elem][3]
-				compound_group = phenol_explorer_composition_data_list[phenol_explorer_composition_data_elem][1]
-				if compound_group == 'Flavonoids':
-					compound_sub_group = phenol_explorer_composition_data_list[phenol_explorer_composition_data_elem][2]
-					if foodex2_phenol_explorer_food_match in phenol_explorer_food_dict.keys():
-						if compound_group in phenol_explorer_food_dict[foodex2_phenol_explorer_food_match].keys():
-							if compound_sub_group in phenol_explorer_food_dict[foodex2_phenol_explorer_food_match][compound_group].keys():
-								phenol_explorer_food_dict[foodex2_phenol_explorer_food_match][compound_group][compound_sub_group] = phenol_explorer_food_dict[foodex2_phenol_explorer_food_match][compound_group][compound_sub_group] + compound_mean
-							else:
-								phenol_explorer_food_dict[foodex2_phenol_explorer_food_match][compound_group][compound_sub_group] = compound_mean
-						else:
-							compound_sub_group_dict = {}
-							compound_sub_group_dict[compound_sub_group] = compound_mean
-							phenol_explorer_food_dict[foodex2_phenol_explorer_food_match][compound_group] = compound_sub_group_dict
+			scientific_name_filtered_list = []
+			copy_flag = False
+			for pos in range(0, len(scientific_name_splitted)):
+				word = scientific_name_splitted[pos]
+				
+				if word != "":
+					if  "." not in word and "(" not in word and (pos == 0 or (pos != 0 and word.islower())):
+						scientific_name_filtered_list.append(word)
 					else:
-						compound_group_dict = {}
-						compound_sub_group_dict = {}
-						compound_sub_group_dict[compound_sub_group] = compound_mean
-						compound_group_dict[compound_group] = compound_sub_group_dict
-						phenol_explorer_food_dict[foodex2_phenol_explorer_food_match] = compound_group_dict
-	
-				else:
-					if foodex2_phenol_explorer_food_match in phenol_explorer_food_dict.keys():
-						if compound_group in phenol_explorer_food_dict[foodex2_phenol_explorer_food_match].keys():
-							phenol_explorer_food_dict[foodex2_phenol_explorer_food_match][compound_group] = phenol_explorer_food_dict[foodex2_phenol_explorer_food_match][compound_group] + compound_mean
-						else:
-							phenol_explorer_food_dict[foodex2_phenol_explorer_food_match][compound_group] = compound_mean
-					else:
-						compound_group_dict = {}
-						compound_group_dict[compound_group] = compound_mean
-						phenol_explorer_food_dict[foodex2_phenol_explorer_food_match] = compound_group_dict
-	return phenol_explorer_food_dict
+						break
+			scientific_name_filtered = " ".join(scientific_name_filtered_list)
+			foodex2_dict_processed[entry] = scientific_name_filtered
+	return foodex2_dict_processed
 
-def create_json(lemmatized_dict, file_name):
-	#result = json.dumps(lemmatized_dict, indent = 4)
-	#print(result)
-	with open(file_name, "w") as outfile:
-	    json.dump(lemmatized_dict, outfile, indent = 4)
 
-phenol_explorer_dict = create_phenol_explorer_food_dict(phenol_foods_file)
-#print(phenol_explorer_dict)
+def create_scientific_names_matches_list(foodex2_scientific_name, phenol_explorer_food_dict):
+	scientific_names_matches_list = []
+	for phenol_explorer_entry in phenol_explorer_food_dict:
+		if foodex2_scientific_name in str(phenol_explorer_food_dict[phenol_explorer_entry]):
+			scientific_names_matches_list.append(phenol_explorer_entry)
+			print(phenol_explorer_entry + " => " + phenol_explorer_food_dict[phenol_explorer_entry])
+	return scientific_names_matches_list
 
-lemmatized_phenol_explorer_dict = lemmatize_phenol_explorer_food_dict(stopwords, phenol_explorer_dict)
-#print(lemmatized_phenol_explorer_dict)
-	
-stopwords = set(stopwords.words('english'))
-lemmatizer = WordNetLemmatizer()
-#name = "Sorghum bicolor L." #solo un caso (3 matches)
-#name = "Triticum aestivum L." #más de un caso (3 matches)
-#name = "Setaria italica (L.) P.Beauv." #muchos casos (coincide la L.)(1 match)
-#name = "Eragrostis tef (Zucc.) Trotter" #todos los casos (0 matches)
-#name = input("Introduce a scientific name: ")
-name = "Sorghum bicolor L."
-lemmatized_food_name = lemmatize_food_name(lemmatizer, stopwords, name)
-foodex2_phenol_explorer_food_matches_dict = update_foodex2_phenol_explorer_food_matches_dict(lemmatized_food_name, lemmatized_phenol_explorer_dict)
-phenol_explorer_composition_data_list = create_phenol_explorer_composition_data_list(phenol_composition_data_file)
-composition_data_dict = create_composition_data_dict(foodex2_phenol_explorer_food_matches_dict, phenol_explorer_composition_data_list)
-create_json(composition_data_dict, foodex2_phenol_explorer_matches_file)
-print(composition_data_dict)
+
+"""
+
+foodex2_scientific_names_dict = create_foodex2_scientific_names_dict(foodex2_file)
+foodex2_dict_processed = process_foodex2_scientific_names(foodex2_scientific_names_dict)
+
+##casos de ejemplo que tienen coincidencias
+#foodex2_scientific_name = foodex2_dict_processed[list(foodex2_dict_processed.keys())[6]]
+#foodex2_scientific_name = foodex2_dict_processed[list(foodex2_dict_processed.keys())[8]]
+#foodex2_scientific_name = foodex2_dict_processed[list(foodex2_dict_processed.keys())[9]]
+#foodex2_scientific_name = foodex2_dict_processed[list(foodex2_dict_processed.keys())[12]]
+#foodex2_scientific_name = foodex2_dict_processed[list(foodex2_dict_processed.keys())[145]]
+#foodex2_scientific_name = foodex2_dict_processed[list(foodex2_dict_processed.keys())[503]]
+#foodex2_scientific_name = foodex2_dict_processed["A000T"]
+#foodex2_scientific_name = foodex2_dict_processed["A000J"] #no tiene nombre científico
+
+foodex2_code = "A000T"
+foodex2_scientific_name = ""
+if foodex2_code in foodex2_dict_processed:
+	foodex2_scientific_name = foodex2_dict_processed[foodex2_code]
+
+phenol_explorer_food_dict = create_phenol_explorer_foods_scientific_names_dict(phenol_foods_file)
+
+scientific_names_matches_list = create_scientific_names_matches_list(foodex2_scientific_name, phenol_explorer_food_dict)
+
+print(scientific_names_matches_list)
+
+
+##imprimir los nombres cientificos procesados numerados
+#num = 0
+#for entry in foodex2_dict_processed:
+#	print(str(num) + " => " + entry + " => " + foodex2_dict_processed[entry])
+#	num = num + 1 
+
+"""
+
+phenol_explorer_foods_names_dict = create_phenol_explorer_foods_names_dict(phenol_foods_file)
+print(phenol_explorer_foods_names_dict)
+
+word_list = ["raw", "fresh", "peeled", "whole", "dehulled", "dried"]
+
+phenol_explorer_foods_names_dict_processed = {}
+for phenol_explorer_code in phenol_explorer_foods_names_dict:
+	food_name = phenol_explorer_foods_names_dict[phenol_explorer_code]
+#	print(food_name)
+	splitted_name_by_commas = food_name.split(", ")
+#	print(splitted_name_by_commas)
+
+	ordered_name_list = []
+	for modifier in splitted_name_by_commas:
+		if "[" in modifier and "]" in modifier:
+			start = modifier.index('[')
+			end = modifier.index(']')
+			first_words = modifier[:start-1]
+			last_words = modifier[start+1:end]
+			modifier = last_words + " " + first_words
+
+		splitted_name_by_spaces = modifier.split(" ")
+		for word in splitted_name_by_spaces:
+			if word not in word_list:
+				ordered_name_list.append(word)
+
+	ordered_name = " ".join(ordered_name_list)
+	phenol_explorer_foods_names_dict_processed[phenol_explorer_code] = ordered_name
+
+
+print(phenol_explorer_foods_names_dict_processed)
+
