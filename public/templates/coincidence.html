@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Coincidences Details</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/css/style.css') }}">
+	</head>
+	<body>
+		<h1>
+			Search results:
+		</h1>
+		<ul>
+			{% for key, value in busqueda.items() %}
+    			 <li>
+    			 	<a id="text_{{ key }}" onclick="submit_form('ejemplo_{{ key }}')" style="cursor:pointer; " onmouseover="underline_onmouseover('text_{{ key }}')" onmouseout="not_underline_onmouseout('text_{{ key }}')">
+    			 		{{ value }}
+    			 	</a>
+    			 	<form id="ejemplo_{{ key }}" action="/food_information" method="GET" >
+    			 		<input type="hidden" name="food_name_code" value="{{ key }}">
+					</form>
+				</li>
+			{% endfor %}
+		</ul>
+		<form id="back" action="/search" method="GET" >
+			<button type="submit">Back</button>
+		</form>
+
+	<script type="text/javascript" src="{{ url_for('static', path='/js/script.js') }}">	</script>
+		
+	</body>
+</html>

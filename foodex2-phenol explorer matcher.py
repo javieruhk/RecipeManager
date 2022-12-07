@@ -14,6 +14,8 @@ foodex2_file = input_directory + "MTX.xls"
 output_directory = "./output json files/"
 foodex2_phenol_explorer_matches_file = output_directory + "foodex2_phenol_explorer matches.json"
 
+lemmatizer = WordNetLemmatizer()
+
 def create_phenol_explorer_food_scientific_names_dict(phenol_explorer_file):
 	phenol_explorer_data = pd.read_excel(phenol_explorer_file, sheet_name="Phenol-Explorer Foods")
 	phenol_explorer_df = pd.DataFrame(phenol_explorer_data)		
@@ -81,7 +83,7 @@ def create_scientific_names_matches_list(foodex2_scientific_name, phenol_explore
 
 stopwords_list = ["type","n/e","unspecified","not specified","i","me","my","myself","we","our","ours","ourselves","you","you're","you've","you'll","you'd","your","yours","yourself","yourselves","he","him","his","himself","she","she's","her","hers","herself","it","it's","its","itself","they","them","their","theirs","themselves","what","which","who","whom","this","that","that'll","these","those","am","is","are","was","were","be","been","being","have","has","had","having","do","does","did","doing","a","an","the","but","if","because","as","until","while","of","at","by","for","about","against","between","into","through","during","before","after","above","below","to","from","up","down","out","on","off","over","under","again","further","then","once","here","there","when","where","why","how","all","any","both","each","few","more","most","other","some","such","no","nor","not","only","own","same","so","than","too","very","s","t","can","will","just","don","don't","should","should've","now","d","ll","m","o","re","ve","y","ain","aren","aren't","couldn","couldn't","didn","didn't","doesn","doesn't","hadn","hadn't","hasn","hasn't","haven","haven't","isn","isn't","ma","mightn","mightn't","mustn","mustn't","needn","needn't","shan","shan't","shouldn","shouldn't","wasn","wasn't","weren","weren't","won","won't","wouldn","wouldn't"]
 
-def lemmatize_modifier(lemmatizer, modifier):
+def lemmatize_modifier(modifier):
 	modifier_tagged = nltk.pos_tag(nltk.regexp_tokenize(modifier, pattern=r"\s|\(|\)|\[.*\]|[.,;'-]|\"", gaps=True))
 	modifier_lemas_list = []
 
@@ -106,7 +108,7 @@ def lemmatize_modifier(lemmatizer, modifier):
 	modifier_lemas = " ".join(modifier_lemas_list)
 	return modifier_lemas
 
-def process_phenol_explorer_food_names_dict(phenol_explorer_food_names_dict, scientific_names_matches_list, lemmatizer):
+def process_phenol_explorer_food_names_dict(phenol_explorer_food_names_dict, scientific_names_matches_list):
 	phenol_explorer_food_names_dict_processed = {}
 	phenol_explorer_iterable = []
 
@@ -134,7 +136,7 @@ def process_phenol_explorer_food_names_dict(phenol_explorer_food_names_dict, sci
 					ordered_food_name_list.append(word)
 	
 		ordered_food_name = " ".join(ordered_food_name_list)
-		food_name_lemmatized = lemmatize_modifier(lemmatizer, ordered_food_name)
+		food_name_lemmatized = lemmatize_modifier(ordered_food_name)
 		phenol_explorer_food_names_dict_processed[phenol_explorer_code] = food_name_lemmatized.split(" ")
 	
 	return phenol_explorer_food_names_dict_processed
@@ -232,11 +234,11 @@ def create_foodex2_phenol_explorer_matches_ratio_dict(foodex2_name_list, foodex2
 
 	return foodex2_phenol_explorer_matches_ratio_dict
 
-def format_foodex2_food_name_word_list(foodex2_food_name, lemmatizer):	
+def format_foodex2_food_name_word_list(foodex2_food_name):	
 	foodex2_food_name_word_list = []
 	food_name_splitted_by_comma = foodex2_food_name.split(", ")
 	for food_name_comma_part in food_name_splitted_by_comma:
-		food_name_lemmatized = lemmatize_modifier(lemmatizer, food_name_comma_part)
+		food_name_lemmatized = lemmatize_modifier(food_name_comma_part)
 		food_name_splitted_by_spaces = food_name_lemmatized.split(" ")
 		for food_name_space_part in food_name_splitted_by_spaces:
 			foodex2_food_name_word_list.append(food_name_space_part)
@@ -270,32 +272,24 @@ def filter_foodex2_phenol_explorer_matches_ratios(foodex2_phenol_explorer_matche
 
 word_list = ["raw", "fresh", "peeled", "whole", "dehulled", "dried"]
 
+
+
+
 def get_foodex2_phenol_explorer_match(foodex2_code):
-	foodex2_scientific_names_dict = create_foodex2_scientific_names_dict(foodex2_file)
-	foodex2_scientific_names_dict_processed = process_foodex2_scientific_names_dict(foodex2_scientific_names_dict)
-	
-	
 	scientific_names_matches_list = []
 	if foodex2_code in foodex2_scientific_names_dict_processed:
 		foodex2_scientific_name = foodex2_scientific_names_dict_processed[foodex2_code]
 	
-		phenol_explorer_food_dict = create_phenol_explorer_food_scientific_names_dict(phenol_foods_file)
 	
 		previous_scientific_names_matches_list = create_scientific_names_matches_list(foodex2_scientific_name, phenol_explorer_food_dict)
 		
 		if previous_scientific_names_matches_list != {}:
 			scientific_names_matches_list = previous_scientific_names_matches_list
 	
-	foodex2_dict = create_foodex2_dict(foodex2_file)
 	foodex2_food_name = foodex2_dict[foodex2_code]
 
-	lemmatizer = WordNetLemmatizer()
-
-	foodex2_food_name_word_list = format_foodex2_food_name_word_list(foodex2_food_name, lemmatizer)
+	foodex2_food_name_word_list = format_foodex2_food_name_word_list(foodex2_food_name)
 	print(foodex2_food_name_word_list)
-	
-	phenol_explorer_food_names_dict = create_phenol_explorer_food_names_dict(phenol_foods_file)
-	phenol_explorer_food_names_dict_processed = process_phenol_explorer_food_names_dict(phenol_explorer_food_names_dict, scientific_names_matches_list, lemmatizer)
 	
 	foodex2_phenol_explorer_matches_dict = create_foodex2_phenol_explorer_matches_dict(foodex2_food_name_word_list, phenol_explorer_food_names_dict_processed)
 	
@@ -305,8 +299,15 @@ def get_foodex2_phenol_explorer_match(foodex2_code):
 
 	print(foodex2_phenol_explorer_matches_ratio_dict_filtered)
 
+
+foodex2_scientific_names_dict = create_foodex2_scientific_names_dict(foodex2_file)
+foodex2_scientific_names_dict_processed = process_foodex2_scientific_names_dict(foodex2_scientific_names_dict)
+phenol_explorer_food_dict = create_phenol_explorer_food_scientific_names_dict(phenol_foods_file)
+foodex2_dict = create_foodex2_dict(foodex2_file)
+phenol_explorer_food_names_dict = create_phenol_explorer_food_names_dict(phenol_foods_file)
+phenol_explorer_food_names_dict_processed = process_phenol_explorer_food_names_dict(phenol_explorer_food_names_dict, scientific_names_matches_list)
+
 foodex2_code = "A002Z"
 #foodex2_code = "A000T"
 foodex2_code = "A005G"
-
 get_foodex2_phenol_explorer_match(foodex2_code)
