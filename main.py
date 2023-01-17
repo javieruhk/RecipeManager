@@ -42,14 +42,17 @@ def root():
     return FileResponse(html_adress, status_code=200)
 """
 
+
 @app.get("/search", response_class=HTMLResponse)
 def search_food_name(request: Request):
     return templates.TemplateResponse("search.html", {"request": request})
+
 
 @app.get("/coincidences", response_class=HTMLResponse)
 def get_coincidences(request: Request, busqueda: str):
     search_dict = BEDCA_foodex2_matcher.create_search_coincidences_dict(busqueda)
     return templates.TemplateResponse("coincidence.html", {"request": request, "busqueda": search_dict})   
+
 
 @app.get("/food_information", response_class=HTMLResponse)
 def get_food_information(request: Request, food_name_code: int):
