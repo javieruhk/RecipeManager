@@ -311,3 +311,8 @@ foodex2_code = "A002Z"
 #foodex2_code = "A000T"
 foodex2_code = "A005G"
 get_foodex2_phenol_explorer_match(foodex2_code)
+
+
+#si el codigo foodex tiene nombre científico se busca el nombre científico en las entradas de phenol explorer,
+#si hay coincidencias se crea una lista de los nombres normales de los alimentos cuyo nombre científico coincide
+#tanto si se saca lista de coincidencias de nombres científicos como si no se buscan los nombres de phenol explorer que tienen mayor ratio de coincidencia

@@ -86,7 +86,8 @@ class Term(object):
 					print_message = print_message + "[]"
 		
 				else:
-					print_message = print_message + "%s" % (self.coincidence_list[facet_list][0]) 
+					print_message = print_message + "%s" % (self.coincidence_list[facet_list][0])
+
 		return print_message 
 
 	def get_lema(self):
@@ -537,7 +538,6 @@ def create_web_service_BEDCA_food(BEDCA_code):
 	return(BEDCA_food_object)
 
 
-
 def check_term_coincidence_ratio(term):
 	coincidences_list = term.get_coincidence_list()
 	
@@ -571,6 +571,7 @@ BEDCA_dict = create_BEDCA_dict(BEDCA_file)
 foodex2_dict = create_foodex2_dict(foodex2_file)
 foodex2_dict_lemmatized = lemmatize_dict(foodex2_dict)
 foodex2_facet_dict = create_foodex2_facet_dict(foodex2_file)
+
 
 #create_web_service_BEDCA_food("Beer, low alcohol")
 
