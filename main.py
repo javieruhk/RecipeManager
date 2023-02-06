@@ -2,9 +2,7 @@ from fastapi import FastAPI, Query, Request
 from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-
-BEDCA_foodex2_matcher = __import__("BEDCA-foodex2 matcher")
-
+import BEDCA_foodex2_matcher
 
 #BEDCA_dict = BEDCA_foodex2_matcher.create_BEDCA_dict(BEDCA_foodex2_matcher.BEDCA_file)
 #foodex2_dict = BEDCA_foodex2_matcher.create_foodex2_dict(BEDCA_foodex2_matcher.foodex2_file)
@@ -42,17 +40,20 @@ def root():
     return FileResponse(html_adress, status_code=200)
 """
 
+
 @app.get("/search", response_class=HTMLResponse)
 def search_food_name(request: Request):
     return templates.TemplateResponse("search.html", {"request": request})
+
 
 @app.get("/coincidences", response_class=HTMLResponse)
 def get_coincidences(request: Request, busqueda: str):
     search_dict = BEDCA_foodex2_matcher.create_search_coincidences_dict(busqueda)
     return templates.TemplateResponse("coincidence.html", {"request": request, "busqueda": search_dict})   
 
+
 @app.get("/food_information", response_class=HTMLResponse)
 def get_food_information(request: Request, food_name_code: int):
     print(food_name_code)
     web_service_BEDCA_food = BEDCA_foodex2_matcher.create_web_service_BEDCA_food(food_name_code)
-    return templates.TemplateResponse("food details.html", {"request": request, "food_information": web_service_BEDCA_food})   
+    return templates.TemplateResponse("food_details.html", {"request": request, "food_information": web_service_BEDCA_food})   
