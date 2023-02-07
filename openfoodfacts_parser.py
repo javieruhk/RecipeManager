@@ -171,7 +171,8 @@ class FoodFacts:
 if __name__ == '__main__':
     already_processed = 0
     filename = 'openfoodfacts-products.jsonl.gz'
-    file_path = 'C:\\Users\\ralonso\\Downloads\\'
+    file_path = 'U:\\PRÁCTICAS\\RecipeManager\\'
+    #file_path = 'C:\\Users\\ralonso\\Downloads\\'
 
     start = time.time()
 
