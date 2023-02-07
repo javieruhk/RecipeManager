@@ -4,6 +4,7 @@ from operator import is_, xor
 import nltk
 from nltk import Tree
 from flair.data import Sentence
+from flair.data import Sentence
 from flair.models import SequenceTagger
 from flair.models import MultiTagger
 
