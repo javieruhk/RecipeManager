@@ -84,7 +84,7 @@ if __name__ == '__main__':
     #text = 'Meat loaf with cheese, vegetables or other'
     #text = 'Omelette with mushrooms'
     #text = 'My pretty old dog'
-    text = 'Gratin of Belgian endives with ham and cheese sauce'
+    #text = 'Gratin of Belgian endives with ham and cheese sauce'
     #text = 'Kebab with yoghurt'
 
     flair_pos_tagger = MultiTagger.load(['pos', 'ner'])

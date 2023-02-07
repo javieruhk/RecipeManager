@@ -3,7 +3,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 import json
-from food_terminologies.BEDCA import BEDCA_food
+from food_terminologies.bedca.old_csv.BEDCA import BEDCA_food
 from FoodTokenizer import Term, Subterm, Coincidence
 
 input_directory = "./input dbs/"
