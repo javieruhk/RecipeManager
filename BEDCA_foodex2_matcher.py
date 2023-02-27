@@ -7,7 +7,7 @@ from nltk import Tree
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 from operator import is_, xor
-from FoodTokenizer import Term, Subterm, Coincidence
+from food_matching.FoodTokenizer import Term, Subterm, Coincidence
 from food_terminologies.bedca.old_csv.BEDCA import BEDCA_food
 from food_matching.FoodNameProcessed import FoodNameProcessed, FacetProcessed, FoodNameProcessedEncoder
 from collections import namedtuple
@@ -54,7 +54,7 @@ def process_tree(node):
     else:
         data, neg_data, _, _, _, l0_cum, l0_neg_cum = process_tree_node(node, [], [], [], False, 0, l0_cum, l0_neg_cum)
         if len(data) > 0 or len(neg_data) > 0:
-            res.append({'pos': data, 'neg': neg_data})
+            result_p_t.append({'pos': data, 'neg': neg_data})
         #elif len(last_el) > 0:
         #    result_p_t.append({'pos': data.append(last_el), 'neg': neg_data})
     return result_p_t
