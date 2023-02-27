@@ -38,70 +38,88 @@ def parse_conjuctions(node):
 	word, category = node
 	return word.lower() in negative_conjunction_list # 'nor',
 
-def process_tree_node(node, data, neg_data, cur_el, is_negation, level):
-	# simple NP
-	if type(node) == tuple:
-		word, category = node
-		if category in ('PP', 'JJ') or category.startswith('N'): # NN, NPP, NP
-			contains_free = False
-			if '-free' in word:
-				is_negation = not is_negation
-				word = word.replace('-free', '')
-				contains_free = True
-				cur_el.append(dict(term='free', probable_type='MODIFIER', category='JJ', negated=is_negation))
-			elif 'free' in word:
-				is_negation = not is_negation
-				contains_free = True
-				cur_el.append(dict(term='free', probable_type='MODIFIER', category='JJ', negated=is_negation))
-			else:
-				is_negation = xor(parse_conjuctions(node), is_negation)
-
-			if not word == '':
-				probable_type = 'INGREDIENT'
-				if contains_free:
-					category = 'NN_F'
-				elif category in ('JJ'):
-					probable_type = 'MODIFIER'
-			
-
-				if not contains_free:
-					cur_el.append(dict(term=word, probable_type=probable_type, category=category, negated=is_negation))
-		elif category.startswith('V'):
-			cur_el.append(dict(term=word, probable_type='METHOD', category=category, negated=is_negation))
-		elif category in ('IN', 'RB', 'CD', 'TO'):
-			is_negation = xor(parse_conjuctions(node), is_negation)
-			cur_el.append(dict(term=word, probable_type='MODIFIER', category=category, negated=is_negation))
-		else:  # , . DT
-			is_negation = xor(parse_conjuctions(node), is_negation)
-
-		return data, neg_data, cur_el, is_negation, level
-	# subtree NP
-	if type(node) == Tree:
-		for sub_node in node:
-			data_r, neg_data_r, cur_el, is_negation, _ = process_tree_node(sub_node, data, neg_data, cur_el, is_negation, level + 1)
-		if level == 1 and len(cur_el) > 0:
-			if is_negation:
-				neg_data_r.append(cur_el.copy())
-			else:
-				data_r.append(cur_el.copy())
-			cur_el = []
-			is_negation = False
-
-		return data_r, neg_data_r, cur_el, is_negation, level
-
 def process_tree(node):
-	result_p_t = []
+    result_p_t = []
+    l0_cum = []
+    l0_neg_cum = []
+    if type(node) == Tree:
+        for sub_node in node:
+            data, neg_data, _, _, _, l0_cum, l0_neg_cum = process_tree_node(sub_node, [], [], [], False, 0, l0_cum, l0_neg_cum)
+            if len(data) > 0 or len(neg_data) > 0:
+                result_p_t.append({'pos': data, 'neg': neg_data})
+            #elif len(last_el) >0:
+            #    result_p_t.append({'pos': data.append(last_el), 'neg': neg_data})
+        if len(l0_cum)>0 or len(l0_neg_cum)>0 :
+            result_p_t.append({'pos': l0_cum, 'neg': l0_neg_cum})
+    else:
+        data, neg_data, _, _, _, l0_cum, l0_neg_cum = process_tree_node(node, [], [], [], False, 0, l0_cum, l0_neg_cum)
+        if len(data) > 0 or len(neg_data) > 0:
+            res.append({'pos': data, 'neg': neg_data})
+        #elif len(last_el) > 0:
+        #    result_p_t.append({'pos': data.append(last_el), 'neg': neg_data})
+    return result_p_t
 
-	if type(node) == Tree:
-		for sub_node in node:
-			data, neg_data, _, _, _ = process_tree_node(sub_node, [], [], [], False, 0)
-			if len(data)>0 or len(neg_data)>0:
-				result_p_t.append({'pos': data, 'neg': neg_data})
-	else:
-		data, neg_data, _, _, _ = process_tree_node(node, [], [], [], False, 0)
-		if len(data) > 0 or len(neg_data) > 0:
-			res.append({'pos': data, 'neg': neg_data})
-	return result_p_t
+
+def process_tree_node(node, data, neg_data, cur_el, is_negation, level, l0_cum, l0_neg_cum):
+    # simple NP
+    if type(node) == tuple:
+        word, category = node
+        if category in ('PP', 'JJ') or category.startswith('N'): # NN, NPP, NP
+            contains_free = False
+            if '-free' in word:
+                is_negation = not is_negation
+                word = word.replace('-free', '')
+                cur_el.append(dict(term='free', probable_type='MODIFIER', category='JJ', negating=is_negation))
+            elif 'free' in word:
+                is_negation = not is_negation
+                cur_el.append(dict(term='free', probable_type='MODIFIER', category='JJ', negating=is_negation))
+            if not word == '':
+                probable_type = 'INGREDIENT'
+                if contains_free:
+                    category = 'NN_F'
+                elif category in ('JJ'):
+                    probable_type = 'MODIFIER'
+                cur_el.append(dict(term=word, probable_type=probable_type, category=category, negated=is_negation))
+        elif category.startswith('V'):
+            cur_el.append(dict(term=word, probable_type='METHOD', category=category, negated=is_negation))
+        elif category in ('IN', 'RB', 'CD', 'TO'): # TODO: IN -> accumulate to same sentenec or split (with, of)
+            is_negation = xor(parse_conjuctions(node), is_negation)
+            cur_el.append(dict(term=word, probable_type='MODIFIER', category=category, negating=is_negation))
+        else:  # , . DT CC
+            is_negation = xor(parse_conjuctions(node), is_negation)
+
+        # acumulate those sentences without NOUNS until ',' OR CC
+        if level == 0:
+            if len(cur_el) > 0:
+                if is_negation:
+                    l0_neg_cum += cur_el.copy()
+                else:
+                    l0_cum += cur_el.copy()
+            else:
+                if is_negation:
+                    neg_data += l0_neg_cum.copy()
+                else:
+                    data += l0_cum.copy()
+                cur_el = []
+                l0_cum = []
+                l0_neg_cum = []
+            is_negation = False
+
+        return data, neg_data, cur_el, is_negation, level, l0_cum, l0_neg_cum
+    # subtree NP
+    if type(node) == Tree:
+        for sub_node in node:
+            data_r, neg_data_r, cur_el, is_negation, _, _, _ = process_tree_node(sub_node, data, neg_data, cur_el, is_negation, level + 1, [], [])
+        if level == 1 and len(cur_el) > 0:
+            if is_negation:
+                neg_data_r += cur_el.copy()
+            else:
+                data_r += cur_el.copy()
+            cur_el = []
+            is_negation = False
+
+        return data_r, neg_data_r, cur_el, is_negation, level, l0_cum, l0_neg_cum
+
 
 def create_tree(BEDCA_name):
 	modifier_tagged = nltk.regexp_tokenize(BEDCA_name, pattern=r"\s|\(|\)|\[.*\]|[.;-]|\"", gaps=True)
