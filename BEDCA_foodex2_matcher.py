@@ -72,7 +72,7 @@ def process_tree_node(node, data, neg_data, cur_el, is_negation, level, l0_cum, 
                 cur_el.append(dict(term='free', probable_type='MODIFIER', category='JJ', negating=is_negation))
             elif 'free' in word:
                 is_negation = not is_negation
-                cur_el.append(dict(term='free', probable_type='MODIFIER', category='JJ', negating=is_negation))
+                #cur_el.append(dict(term='free', probable_type='MODIFIER', category='JJ', negating=is_negation))
             if not word == '':
                 probable_type = 'INGREDIENT'
                 if contains_free:
