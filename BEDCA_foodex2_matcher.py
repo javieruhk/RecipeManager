@@ -85,6 +85,8 @@ def process_tree_node(node, data, neg_data, cur_el, is_negation, level, l0_cum, 
         elif category in ('IN', 'RB', 'CD', 'TO'): # TODO: IN -> accumulate to same sentenec or split (with, of)
             is_negation = xor(parse_conjuctions(node), is_negation)
             cur_el.append(dict(term=word, probable_type='MODIFIER', category=category, negating=is_negation))
+        elif category in ('FW'): # TODO: -> NN+
+            cur_el.append(dict(term=word, probable_type='LOCAL', category=category, negating=is_negation))
         else:  # , . DT CC
             is_negation = xor(parse_conjuctions(node), is_negation)
 
