@@ -72,7 +72,7 @@ def process_tree_node(node, data, neg_data, cur_el, is_negation, level, l0_cum, 
                 cur_el.append(dict(term='free', probable_type='MODIFIER', category='JJ', negating=is_negation))
             elif 'free' in word:
                 is_negation = not is_negation
-                cur_el.append(dict(term='free', probable_type='MODIFIER', category='JJ', negating=is_negation))
+                #cur_el.append(dict(term='free', probable_type='MODIFIER', category='JJ', negating=is_negation))
             if not word == '':
                 probable_type = 'INGREDIENT'
                 if contains_free:
@@ -85,6 +85,8 @@ def process_tree_node(node, data, neg_data, cur_el, is_negation, level, l0_cum, 
         elif category in ('IN', 'RB', 'CD', 'TO'): # TODO: IN -> accumulate to same sentenec or split (with, of)
             is_negation = xor(parse_conjuctions(node), is_negation)
             cur_el.append(dict(term=word, probable_type='MODIFIER', category=category, negating=is_negation))
+        elif category in ('FW'): # TODO: -> NN+
+            cur_el.append(dict(term=word, probable_type='LOCAL', category=category, negating=is_negation))
         else:  # , . DT CC
             is_negation = xor(parse_conjuctions(node), is_negation)
 
