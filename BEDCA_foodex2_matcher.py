@@ -79,9 +79,9 @@ def process_tree_node(node, data, neg_data, cur_el, is_negation, level, l0_cum, 
                     category = 'NN_F'
                 elif category in ('JJ'):
                     probable_type = 'MODIFIER'
-                cur_el.append(dict(term=word, probable_type=probable_type, category=category, negated=is_negation))
+                cur_el.append(dict(term=word, probable_type=probable_type, category=category, negating=is_negation))
         elif category.startswith('V'):
-            cur_el.append(dict(term=word, probable_type='METHOD', category=category, negated=is_negation))
+            cur_el.append(dict(term=word, probable_type='METHOD', category=category, negating=is_negation))
         elif category in ('IN', 'RB', 'CD', 'TO'): # TODO: IN -> accumulate to same sentenec or split (with, of)
             is_negation = xor(parse_conjuctions(node), is_negation)
             cur_el.append(dict(term=word, probable_type='MODIFIER', category=category, negating=is_negation))
@@ -173,9 +173,17 @@ def lemmatize_dict(dictionary):
 	BEDCA_list_keys = list(dictionary.keys())
 
 	#[[oat, grain], [roll], [red]]
-	#for BEDCA_code in range(0, len(BEDCA_list_keys)):
-	for BEDCA_code in range(0, 3):
+	"""
+	leng = 0
+	limit = 20
+	if len(BEDCA_list_keys) > 1000:
+		leng = 2090
+		limit = 2110
+	for BEDCA_code in range(leng, limit):
+	"""
+	for BEDCA_code in range(0, len(BEDCA_list_keys)):
 		BEDCA_name = dictionary[BEDCA_list_keys[BEDCA_code]]
+		print(BEDCA_name)
 		name_lemmatized = lemmatize_name(BEDCA_name)
 
 		dict_lemmatized[BEDCA_list_keys[BEDCA_code]] = name_lemmatized
@@ -190,7 +198,6 @@ def create_foodex2_facet_dict(foodex2_file):
 
 def lemmatize_name(BEDCA_name):
 	name_tree = create_tree(BEDCA_name) 
-	#print(name_tree)
 
 	facet_processed_list = []
 	#modifiers = []
@@ -202,21 +209,63 @@ def lemmatize_name(BEDCA_name):
 				modifier_lemas = []
 				positive = True
 				probable_type = ""
+
+				lema = lemmatize_modifier(mod["term"], mod["category"])
+
+				if lema != "":
+					modifier_lemas.append(lema)
+					aux_type = mod["probable_type"]
+					probable_type = aux_type
+						
+					positive = not mod["negating"]
+					#modifiers.append((modifier_lemas, positive, probable_type)) 
+					facet_processed_list.append(FacetProcessed(modifier_lemas, positive, probable_type, facet_n))
+					facet_n = facet_n+1
+				"""
 				for pos in mod:
+					print(pos["category"])
 					lema = lemmatize_modifier(pos["term"], pos["category"])
 					if lema != "":
 						modifier_lemas.append(lema)
 						aux_type = pos["probable_type"]
 						probable_type = aux_type
-						
 				positive = not pos["negated"]
 				#modifiers.append((modifier_lemas, positive, probable_type)) 
 				facet_processed_list.append(FacetProcessed(modifier_lemas, positive, probable_type, facet_n))
 				facet_n = facet_n+1
+				"""
 
 	food_name_processed = FoodNameProcessed(facet_processed_list)
 	#print(modifiers)
 	return food_name_processed
+
+def create_perfect_coincidences_list(BEDCA_element_lemmatized, foodex2_dict_lemmatized, foodex2_facet_dict):
+	coincidences_list = None
+	lema_list = []
+	
+	for name in BEDCA_element_lemmatized.get_facet_processed_list():
+		lema_list.append(name.get_name_lematized_list()[0])
+	perfect_matches_list = create_BEDCA_foodex2_matches_list(lema_list, foodex2_dict_lemmatized)
+	
+	if len(perfect_matches_list) == 1:
+		coincidences_list = []
+		ratio_dict = create_BEDCA_foodex2_matches_ratio_dict(lema_list, foodex2_dict_lemmatized, perfect_matches_list)
+		matches_facet_list = create_BEDCA_foodex2_matches_facet_lists(perfect_matches_list, foodex2_facet_dict)
+
+		for facet_matches_list in matches_facet_list:
+			facet_coincidences_list = []
+	
+			if facet_matches_list != []:
+				for code in range(0, len(facet_matches_list)):
+					foodex2_code = facet_matches_list[code]
+					foodex2_food_lemas_list = ratio_dict[foodex2_code][0]
+					BEDCA_ratio = ratio_dict[foodex2_code][1]
+					ratio_foodex2 = ratio_dict[foodex2_code][2]
+			
+					new_coincidence = Coincidence(foodex2_code, foodex2_food_lemas_list, BEDCA_ratio, ratio_foodex2)
+					facet_coincidences_list.append(new_coincidence)
+			coincidences_list.append(facet_coincidences_list)
+	return coincidences_list
 
 def create_BEDCA_foodex2_matches_list(BEDCA_food_lemas_list, foodex2_dict_lemmatized):
 	BEDCA_foodex2_matches_list = []
@@ -461,9 +510,21 @@ def create_coincidences_list(BEDCA_food_lemas_list, foodex2_dict_lemmatized, foo
 					facet_coincidences_list.append(new_coincidence)
 			coincidences_list.append(facet_coincidences_list)
 
+
 	return coincidences_list
 
-def create_term(BEDCA_modifier_lemas_structure, foodex2_dict_lemmatized, foodex2_facet_dict, contains_modifier_flag):
+
+
+
+def create_coincidences(BEDCA_element_lemmatized, term_lema, foodex2_dict_lemmatized, foodex2_facet_dict, probable_type, contains_modifier_flag):
+	perfect_coincidences_list = create_perfect_coincidences_list(BEDCA_element_lemmatized, foodex2_dict_lemmatized, foodex2_facet_dict)
+
+	if perfect_coincidences_list == None:
+		perfect_coincidences_list = create_coincidences_list(term_lema, foodex2_dict_lemmatized, foodex2_facet_dict, probable_type, contains_modifier_flag)
+	
+	return perfect_coincidences_list	
+
+def create_term(BEDCA_modifier_lemas_structure, foodex2_dict_lemmatized, foodex2_facet_dict, contains_modifier_flag, BEDCA_element_lemmatized):
 	actual_term_lema = []
 	actual_term_subterm_list = []
 	actual_term_coincidences = []
@@ -474,11 +535,15 @@ def create_term(BEDCA_modifier_lemas_structure, foodex2_dict_lemmatized, foodex2
 	BEDCA_modifier_lemas = BEDCA_modifier_lemas_structure.get_name_lematized_list()
 	probable_type = BEDCA_modifier_lemas_structure.get_probable_type()
 
+	#checkear si hay alguna coincidencia que contenga todos los lemas
+
 	for lema in range(0, len(BEDCA_modifier_lemas)):
 		if BEDCA_modifier_lemas[lema] in conjunction_list:
 			if subterm_flag:
 				new_term_lema = BEDCA_modifier_lemas[last_lema+1:lema]
-				new_term_coincidences = create_coincidences_list(new_term_lema, foodex2_dict_lemmatized, foodex2_facet_dict, probable_type, contains_modifier_flag)
+
+				new_term_coincidences = create_coincidences(BEDCA_element_lemmatized, new_term_lema, foodex2_dict_lemmatized, foodex2_facet_dict, probable_type, contains_modifier_flag)
+				
 				new_term = Term(new_term_lema, [], new_term_coincidences)
 
 				new_subterm_conjunction = BEDCA_modifier_lemas[last_lema]
@@ -492,7 +557,8 @@ def create_term(BEDCA_modifier_lemas_structure, foodex2_dict_lemmatized, foodex2
 					last_lema = lema
 				else:
 					actual_term_lema = BEDCA_modifier_lemas[:lema]
-					actual_term_coincidences = create_coincidences_list(actual_term_lema, foodex2_dict_lemmatized, foodex2_facet_dict, probable_type, contains_modifier_flag)
+
+					actual_term_coincidences = create_coincidences(BEDCA_element_lemmatized, actual_term_lema, foodex2_dict_lemmatized, foodex2_facet_dict, probable_type, contains_modifier_flag)
 
 					subterm_flag = True
 					last_lema = lema
@@ -501,7 +567,9 @@ def create_term(BEDCA_modifier_lemas_structure, foodex2_dict_lemmatized, foodex2
 			if lema == len(BEDCA_modifier_lemas)-1:
 				if subterm_flag:
 					new_term_lema = BEDCA_modifier_lemas[last_lema+1:]
-					new_term_coincidences = create_coincidences_list(new_term_lema, foodex2_dict_lemmatized, foodex2_facet_dict, probable_type, contains_modifier_flag)
+
+					new_term_coincidences = create_coincidences(BEDCA_element_lemmatized, new_term_lema, foodex2_dict_lemmatized, foodex2_facet_dict, probable_type, contains_modifier_flag)
+
 					new_term = Term(new_term_lema, [], new_term_coincidences)
 
 					new_subterm_conjunction = BEDCA_modifier_lemas[last_lema]
@@ -510,7 +578,8 @@ def create_term(BEDCA_modifier_lemas_structure, foodex2_dict_lemmatized, foodex2
 					actual_term_subterm_list.append(new_subterm)
 				else:
 					actual_term_lema = BEDCA_modifier_lemas
-					actual_term_coincidences = create_coincidences_list(BEDCA_modifier_lemas, foodex2_dict_lemmatized, foodex2_facet_dict, probable_type, contains_modifier_flag)
+
+					actual_term_coincidences = create_coincidences(BEDCA_element_lemmatized, actual_term_lema, foodex2_dict_lemmatized, foodex2_facet_dict, probable_type, contains_modifier_flag)
 
 	actual_term = Term(actual_term_lema, actual_term_subterm_list, actual_term_coincidences)
 
@@ -520,7 +589,7 @@ def create_BEDCA_food_object(BEDCA_element, BEDCA_element_lemmatized, foodex2_di
 	facet_processed = BEDCA_element_lemmatized.get_facet_processed_list()[0]
 
 	contain_flag = facet_processed.get_contain_flag()
-	main_term = create_term(facet_processed, foodex2_dict_lemmatized, foodex2_facet_dict, contain_flag)
+	main_term = create_term(facet_processed, foodex2_dict_lemmatized, foodex2_facet_dict, contain_flag, BEDCA_element_lemmatized)
 	term_list = []
 
 	facets_list_processed = BEDCA_element_lemmatized.get_facet_processed_list()
@@ -530,7 +599,7 @@ def create_BEDCA_food_object(BEDCA_element, BEDCA_element_lemmatized, foodex2_di
 		for BEDCA_modifier in range(1, len(facets_list_processed)):
 			facet_processed = facets_list_processed[BEDCA_modifier]
 			contain_flag = facet_processed.get_contain_flag()
-			term = create_term(facet_processed, foodex2_dict_lemmatized, foodex2_facet_dict, contain_flag)
+			term = create_term(facet_processed, foodex2_dict_lemmatized, foodex2_facet_dict, contain_flag, BEDCA_element_lemmatized)
 			term_list.append(term)
 
 	BEDCA_food_object = BEDCA_food(BEDCA_element, main_term, term_list)
@@ -542,7 +611,8 @@ def create_web_service_BEDCA_food(BEDCA_code):
 	BEDCA_element_lemmatized = lemmatize_name(BEDCA_element)
 
 	BEDCA_food_object = []
-	BEDCA_food_object = create_BEDCA_food_object(BEDCA_element, BEDCA_element_lemmatized, foodex2_dict_lemmatized, foodex2_facet_dict)
+	
+	BEDCA_food_object = create_BEDCA_food_object(BEDCA_element, BEDCA_element_lemmatized, foodex2_dict_lemmatized, foodex2_facet_dict, perfect_coincidences_list)
 
 	return(BEDCA_food_object)
 
@@ -571,24 +641,29 @@ def check_term_coincidence_ratio(term):
 def create_BEDCA_foodex2_matches_json(BEDCA_perfect_coincidences, BEDCA_not_perfect_coincidences):
 	#result = json.dumps(lemmatized_foodex2_dict, indent = 4)
 	#print(result)
-	with open("./output json files/perfect_matches_1.json", "w") as outfile:
+	with open("./output json files/perfect_matches_2.json", "w") as outfile:
 		json.dump(BEDCA_perfect_coincidences, outfile, indent = 4)
 
-	with open("./output json files/not_perfect_matches_1.json", "w") as outfile:
+	with open("./output json files/not_perfect_matches_2.json", "w") as outfile:
 		json.dump(BEDCA_not_perfect_coincidences, outfile, indent = 4)
+
+
 
 def create_BEDCA_foodex2_matches(BEDCA_dict, BEDCA_dict_lemmatized, foodex2_dict_lemmatized, foodex2_facet_dict):
 	BEDCA_perfect_coincidences = {}
 	BEDCA_not_perfect_coincidences = {}
 	
-	for code in BEDCA_dict:
+	#for code in BEDCA_dict:
+	for code in BEDCA_dict_lemmatized:
 	
-		BEDCA_element = BEDCA_dict[code]
+		BEDCA_element = BEDCA_dict[int(code)]
 		BEDCA_element_lemmatized = BEDCA_dict_lemmatized[str(code)]	
 		
 		if BEDCA_element_lemmatized != []:
-			BEDCA_food_object = create_BEDCA_food_object(BEDCA_element, BEDCA_element_lemmatized, foodex2_dict_lemmatized, foodex2_facet_dict)
-		
+			#perfect_coincidences_list = create_perfect_coincidences_list(BEDCA_element_lemmatized, foodex2_dict_lemmatized, foodex2_facet_dict)
+
+			BEDCA_food_object = create_BEDCA_food_object(BEDCA_element, BEDCA_element_lemmatized, foodex2_dict_lemmatized, foodex2_facet_dict,)
+			print(BEDCA_food_object)
 			
 			main_term = BEDCA_food_object.get_main_Term()
 			flag_term_list_perfect = True
@@ -610,35 +685,252 @@ def create_BEDCA_foodex2_matches(BEDCA_dict, BEDCA_dict_lemmatized, foodex2_dict
 		
 	create_BEDCA_foodex2_matches_json(BEDCA_perfect_coincidences, BEDCA_not_perfect_coincidences)
 
-
 """
 BEDCA_dict = create_BEDCA_dict(BEDCA_file)
-#BEDCA_dict_lemmatized = {}
-#BEDCA_dict_lemmatized = lemmatize_dict(BEDCA_dict)
+BEDCA_dict_lemmatized = lemmatize_dict(BEDCA_dict)
 
-#with open("./output json files/BEDCA_dict_lemmatized_objects.json", "w") as outfile:
-#	json.dump(BEDCA_dict_lemmatized, outfile, indent = 4, cls = FoodNameProcessedEncoder)
+with open("./output json files/BEDCA_dict_lemmatized_objects.json", "w") as outfile:
+	json.dump(BEDCA_dict_lemmatized, outfile, indent = 4, cls = FoodNameProcessedEncoder)
 
+foodex2_dict = create_foodex2_dict(foodex2_file)
+foodex2_dict_lemmatized = lemmatize_dict(foodex2_dict)
+
+with open("./output json files/foodex2_dict_lemmatized_objects.json", "w") as outfile:
+	json.dump(foodex2_dict_lemmatized, outfile, indent = 4, cls = FoodNameProcessedEncoder)
+
+"""
+"""
+BEDCA_dict_lemmatized = {}
 with open("./output json files/BEDCA_dict_lemmatized_objects.json") as json_file:
 	BEDCA_dict_lemmatized_encoded = json.load(json_file)
-
 BEDCA_dict_lemmatized = FoodNameProcessed.from_json_to_food_name_processed_dict(BEDCA_dict_lemmatized_encoded)
 
 
-foodex2_dict = create_foodex2_dict(foodex2_file)
 foodex2_dict_lemmatized = {}
-#foodex2_dict_lemmatized = lemmatize_dict(foodex2_dict)
-
-#with open("./output json files/foodex2_dict_lemmatized_objects.json", "w") as outfile:
-#	json.dump(foodex2_dict_lemmatized, outfile, indent = 4, cls = FoodNameProcessedEncoder)
-
 with open("./output json files/foodex2_dict_lemmatized_objects.json") as json_file:
 	foodex2_dict_lemmatized_encoded = json.load(json_file)
-
 foodex2_dict_lemmatized = FoodNameProcessed.from_json_to_food_name_processed_dict(foodex2_dict_lemmatized_encoded)
-
 
 foodex2_facet_dict = create_foodex2_facet_dict(foodex2_file)
 
+BEDCA_dict = create_BEDCA_dict(BEDCA_file)
+foodex2_dict = create_foodex2_dict(foodex2_file)
 create_BEDCA_foodex2_matches(BEDCA_dict, BEDCA_dict_lemmatized, foodex2_dict_lemmatized, foodex2_facet_dict)
 """
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+phenol_foods_file = input_directory + "foods.xls"
+
+word_list = ["raw", "fresh", "peeled", "whole", "dehulled", "dried"]
+
+def create_foodex2_scientific_names_dict(foodex2_file):
+	foodex2_data = pd.read_excel(foodex2_file, sheet_name="term")
+	foodex2_df = pd.DataFrame(foodex2_data)		
+	return dict(zip(foodex2_df['termCode'], foodex2_df['scientificNames']))
+
+def create_phenol_explorer_food_scientific_names_dict(phenol_explorer_file):
+	phenol_explorer_data = pd.read_excel(phenol_explorer_file, sheet_name="Phenol-Explorer Foods")
+	phenol_explorer_df = pd.DataFrame(phenol_explorer_data)		
+	return dict(zip(phenol_explorer_df['ID'], phenol_explorer_df['Scientific Name']))
+
+def create_phenol_explorer_food_names_dict(phenol_explorer_file):
+	phenol_explorer_data = pd.read_excel(phenol_explorer_file, sheet_name="Phenol-Explorer Foods")
+	phenol_explorer_df = pd.DataFrame(phenol_explorer_data)		
+	return dict(zip(phenol_explorer_df['ID'], phenol_explorer_df['Name']))
+
+def process_foodex2_scientific_names_dict(foodex2_dict):
+	foodex2_scientific_names_dict_processed = {}
+	for entry in foodex2_dict:
+		scientific_name = foodex2_dict[entry]
+		scientific_name_filtered = ""
+		if isinstance(scientific_name, str):
+			main_scientific_name = scientific_name.split("$")
+			scientific_name_splitted = main_scientific_name[0].split(" ")
+	
+			if scientific_name_splitted[0].islower():
+				scientific_name_mayus_list = []
+				copy_flag = False
+				for pos in range(0, len(scientific_name_splitted)):
+					word = scientific_name_splitted[pos]
+					first_letter = word[0]
+					if first_letter.isupper():
+						copy_flag = True
+					if copy_flag:
+						scientific_name_mayus_list.append(word)
+				scientific_name_splitted = scientific_name_mayus_list
+	
+			scientific_name_filtered_list = []
+			copy_flag = False
+			for pos in range(0, len(scientific_name_splitted)):
+				word = scientific_name_splitted[pos]
+				
+				if word != "":
+					if  "." not in word and "(" not in word and (pos == 0 or (pos != 0 and word.islower())):
+						scientific_name_filtered_list.append(word)
+					else:
+						break
+			scientific_name_filtered = " ".join(scientific_name_filtered_list)
+			foodex2_scientific_names_dict_processed[entry] = scientific_name_filtered
+	return foodex2_scientific_names_dict_processed
+
+def create_scientific_names_matches_list(foodex2_scientific_name, phenol_explorer_food_dict):
+	scientific_names_matches_list = {}
+	for phenol_explorer_code in phenol_explorer_food_dict:
+		phenol_explorer_scientific_name = str(phenol_explorer_food_dict[phenol_explorer_code])
+		if foodex2_scientific_name in phenol_explorer_scientific_name:
+			scientific_names_matches_list[phenol_explorer_code] = phenol_explorer_scientific_name
+			#print(str(phenol_explorer_code) + " => " + phenol_explorer_scientific_name)
+	return scientific_names_matches_list
+
+def process_phenol_explorer_food_names_dict(phenol_explorer_food_names_dict, scientific_names_matches_dict):
+	phenol_explorer_food_names_dict_processed = {}
+	phenol_explorer_iterable = []
+
+	if scientific_names_matches_dict != {}:
+		phenol_explorer_iterable = scientific_names_matches_dict
+	else:
+		phenol_explorer_iterable = phenol_explorer_food_names_dict
+
+	for phenol_explorer_code in phenol_explorer_iterable:
+		food_name = phenol_explorer_food_names_dict[phenol_explorer_code]
+		food_name_splitted_by_comma = food_name.split(", ")
+	
+		ordered_food_name_list = []
+		for modifier in food_name_splitted_by_comma:
+			if "[" in modifier and "]" in modifier:
+				start = modifier.index('[')
+				end = modifier.index(']')
+				first_words = modifier[:start-1]
+				last_words = modifier[start+1:end]
+				modifier = last_words + " " + first_words
+	
+			food_name_splitted_by_spaces = modifier.split(" ")
+			for word in food_name_splitted_by_spaces:
+				if word not in word_list:
+					ordered_food_name_list.append(word)
+	
+		ordered_food_name = " ".join(ordered_food_name_list)
+		food_name_lemmatized = lemmatize_name(ordered_food_name)
+		phenol_explorer_food_names_dict_processed[phenol_explorer_code] = food_name_lemmatized
+	
+	return phenol_explorer_food_names_dict_processed
+
+def create_foodex2_phenol_explorer_matches_dict(foodex2_name_list, phenol_explorer_names_dict):
+	foodex2_phenol_explorer_matches_dict = {}
+	maximum_matches = 0
+
+	for phenol_explorer_code in phenol_explorer_names_dict:
+		phenol_explorer_facets = phenol_explorer_names_dict[phenol_explorer_code].get_facet_processed_list()
+
+		matches = 0
+	
+		for phenol_explorer_facet in phenol_explorer_facets:
+			phenol_explorer_facet_lemmas = phenol_explorer_facet.get_name_lematized_list() 
+
+			foodex2_facets = foodex2_name_list.get_facet_processed_list()
+			for foodex2_facet in foodex2_facets:
+				foodex2_facet_lemmas = foodex2_facet.get_name_lematized_list()
+			
+				if foodex2_facet_lemmas[0] in phenol_explorer_facet_lemmas:
+					matches = matches+1
+
+		if matches > maximum_matches:
+			maximum_matches = matches
+			foodex2_phenol_explorer_matches_dict = {phenol_explorer_code: phenol_explorer_names_dict[phenol_explorer_code]}
+		elif matches == maximum_matches and maximum_matches != 0:
+			foodex2_phenol_explorer_matches_dict[phenol_explorer_code] = phenol_explorer_names_dict[phenol_explorer_code]
+	return foodex2_phenol_explorer_matches_dict
+
+def create_foodex2_phenol_explorer_matches_ratio_dict(foodex2_name_lemmatized, phenol_explorer_food_names_dict_processed, foodex2_phenol_explorer_matches_dict):
+	foodex2_phenol_explorer_matches_ratio_dict = {}
+	lema_list = []
+
+	for name in foodex2_name_lemmatized.get_facet_processed_list():
+		lema_list.append(name.get_name_lematized_list()[0])
+
+	foodex2_phenol_explorer_matches_list = list(foodex2_phenol_explorer_matches_dict.keys())
+
+	foodex2_phenol_explorer_matches_ratio_dict = create_BEDCA_foodex2_matches_ratio_dict(lema_list, phenol_explorer_food_names_dict_processed, foodex2_phenol_explorer_matches_list)
+
+	return foodex2_phenol_explorer_matches_ratio_dict
+
+def filter_foodex2_phenol_explorer_matches_ratios(foodex2_phenol_explorer_matches_ratio_dict):
+	new_foodex2_phenol_explorer_matches_ratio_dict = {}
+	maximum_foodex2_ratio = 0
+	
+	for phenol_explorer_code in foodex2_phenol_explorer_matches_ratio_dict:
+		maximum_ratio = foodex2_phenol_explorer_matches_ratio_dict[phenol_explorer_code][1]
+		if maximum_ratio > maximum_foodex2_ratio:
+			maximum_foodex2_ratio = maximum_ratio
+			new_foodex2_phenol_explorer_matches_ratio_dict = {phenol_explorer_code: foodex2_phenol_explorer_matches_ratio_dict[phenol_explorer_code]}
+		elif maximum_ratio == maximum_foodex2_ratio:
+			new_foodex2_phenol_explorer_matches_ratio_dict[phenol_explorer_code] = foodex2_phenol_explorer_matches_ratio_dict[phenol_explorer_code]
+
+	foodex2_phenol_explorer_matches_ratios_dict_filtered = {}
+	maximum_phenol_explorer_ratio = 0
+
+	for phenol_explorer_code in new_foodex2_phenol_explorer_matches_ratio_dict:
+		maximum_ratio = new_foodex2_phenol_explorer_matches_ratio_dict[phenol_explorer_code][2]
+		if maximum_ratio > maximum_phenol_explorer_ratio:
+			maximum_phenol_explorer_ratio = maximum_ratio
+			foodex2_phenol_explorer_matches_ratios_dict_filtered = {phenol_explorer_code: new_foodex2_phenol_explorer_matches_ratio_dict[phenol_explorer_code]}
+		elif maximum_ratio == maximum_phenol_explorer_ratio:
+			foodex2_phenol_explorer_matches_ratios_dict_filtered[phenol_explorer_code] = new_foodex2_phenol_explorer_matches_ratio_dict[phenol_explorer_code]
+
+	return foodex2_phenol_explorer_matches_ratios_dict_filtered
+
+def get_foodex2_phenol_explorer_match(foodex2_code):
+	scientific_names_matches_dict = {}
+	if foodex2_code in foodex2_scientific_names_dict_processed:
+		foodex2_scientific_name = foodex2_scientific_names_dict_processed[foodex2_code]
+	
+		scientific_names_matches_dict = create_scientific_names_matches_list(foodex2_scientific_name, phenol_explorer_food_dict)
+	
+	phenol_explorer_food_names_dict_processed = process_phenol_explorer_food_names_dict(phenol_explorer_food_names_dict, scientific_names_matches_dict)
+
+	foodex2_food_name = foodex2_dict[foodex2_code]
+
+	foodex2_food_name_lemmatized = lemmatize_name(foodex2_food_name)
+	print(foodex2_food_name_lemmatized)
+
+	foodex2_phenol_explorer_matches_dict = create_foodex2_phenol_explorer_matches_dict(foodex2_food_name_lemmatized, phenol_explorer_food_names_dict_processed)
+	
+	foodex2_phenol_explorer_matches_ratio_dict = create_foodex2_phenol_explorer_matches_ratio_dict(foodex2_food_name_lemmatized, phenol_explorer_food_names_dict_processed, foodex2_phenol_explorer_matches_dict)
+
+	foodex2_phenol_explorer_matches_ratio_dict_filtered = filter_foodex2_phenol_explorer_matches_ratios(foodex2_phenol_explorer_matches_ratio_dict)
+
+	print(foodex2_phenol_explorer_matches_ratio_dict_filtered)
+
+
+foodex2_scientific_names_dict = create_foodex2_scientific_names_dict(foodex2_file)
+foodex2_scientific_names_dict_processed = process_foodex2_scientific_names_dict(foodex2_scientific_names_dict)
+phenol_explorer_food_dict = create_phenol_explorer_food_scientific_names_dict(phenol_foods_file)
+foodex2_dict = create_foodex2_dict(foodex2_file)
+phenol_explorer_food_names_dict = create_phenol_explorer_food_names_dict(phenol_foods_file)
+
+foodex2_code = "A002Z"
+#foodex2_code = "A000T"
+foodex2_code = "A005G"
+
+"""
+phenol_explorer_food_scientific_names_dict = create_phenol_explorer_food_scientific_names_dict(phenol_foods_file)
+phenol_explorer_food_scientific_names_dict_lemmatized = lemmatize_dict(phenol_explorer_food_scientific_names_dict)
+
+with open("./output json files/phenol_explorer_food_scientific_names_dict_lemmatized_objects.json", "w") as outfile:
+	json.dump(phenol_explorer_food_scientific_names_dict_lemmatized, outfile, indent = 4, cls = FoodNameProcessedEncoder)
+phenol_explorer_food_names_dict = create_phenol_explorer_food_names_dict(phenol_foods_file)
+phenol_explorer_food_names_dict_lemmatized = lemmatize_dict(phenol_explorer_food_names_dict)
+
+with open("./output json files/phenol_explorer_food_names_dict_lemmatized_objects.json", "w") as outfile:
+	json.dump(phenol_explorer_food_names_dict_lemmatized, outfile, indent = 4, cls = FoodNameProcessedEncoder)
+
+foodex2_scientific_names_dict = create_foodex2_scientific_names_dict(foodex2_file)
+foodex2_scientific_names_dict_lemmatized = lemmatize_dict(foodex2_scientific_names_dict)
+
+with open("./output json files/foodex2_scientific_names_dict_lemmatized_objects.json", "w") as outfile:
+	json.dump(foodex2_scientific_names_dict_lemmatized, outfile, indent = 4, cls = FoodNameProcessedEncoder)
+"""
+
+
+get_foodex2_phenol_explorer_match(foodex2_code)

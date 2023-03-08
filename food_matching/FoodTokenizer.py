@@ -89,6 +89,9 @@ class Coincidence(object):
         return "foodex2_code: %s, foodex2_term: %s, ri: %s, rf: %s" % (
         self.foodex2_code, self.foodex2_term, self.ri, self.rf)
 
+    def get_foodex2_code(self):
+        return self.foodex2_code    
+
     def get_ri(self):
         return self.ri
 
