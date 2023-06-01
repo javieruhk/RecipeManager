@@ -1,0 +1,134 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "pollo",
+            "food": "chicken",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "piel",
+            "physical_quality": "skin",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "Mostaza de Dijon",
+            "food": "Dijon mustard",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Deli Queso suizo",
+            "food": "deli Swiss cheese",
+            "quantity": "4",
+            "unit_spanish": "rodajas",
+            "unit": "slices",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "deli jam\u00f3n",
+            "food": "deli ham",
+            "quantity": "4",
+            "unit_spanish": "rodajas",
+            "unit": "slices",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "palillo de dientes",
+            "food": "toothpick",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina de todo prop\u00f3sito",
+            "food": "all - purpose flour",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "golpeados",
+            "process": "beaten"
+        },
+        {
+            "food_spanish": "Migajas de pan pan de pan",
+            "food": "panko bread crumbs",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Queso parmesano",
+            "food": "Parmesan cheese",
+            "quantity": "3",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "rallado",
+            "process": "grated"
+        },
+        {
+            "food_spanish": "spray para cocinar",
+            "food": "cooking spray",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Coloque una pechuga de pollo en una superficie de trabajo plana. Rebane horizontalmente a trav\u00e9s del medio, teniendo cuidado de no cortar todo el camino a trav\u00e9s del otro lado. Abra los 2 lados y exti\u00e9ndalos como un libro abierto. Coloque la pechuga de pollo entre 2 hojas de pl\u00e1stico pesado en una superficie s\u00f3lida y plana; golpee ligeramente con el lado liso de un mazo de carne a un espesor de 1/4-pulgada. Repita con el pechuga de pollo restante.",
+        "Sazonar cada pechuga de pollo con sal y pimienta. Esparcer la mostaza de Dijon por encima. Colocar 1 rebanada de queso en cada pechuga. Cubrir cada una con 2 rebanadas de jam\u00f3n y 1 rebanada de queso.",
+        "Colocar la harina en un taz\u00f3n poco profundo. Colocar el huevo en un segundo taz\u00f3n. Mezclar las migajas de pan panko y rallar el parmesano en un tercer taz\u00f3n.",
+        "Precaliente una freidora a 350 grados F (175 grados C).",
+        "Mientras tanto, dragar pechugas de pollo en harina; sacudir el exceso. Sumergir en huevo batido, permitiendo que cualquier exceso de huevo gotee de nuevo en el taz\u00f3n. Presione en la mezcla de miga de pan para cubrir ambos lados; colocar las pechugas de pollo empanadas en un plato y rociar con aerosol antiadherente. Dejar reposar durante 5 minutos mientras la freidora precalienta, luego organizar el pollo empanado en una sola capa en la cesta de la freidora.",
+        "Cocine en la freidora de aire precalentada durante 10 minutos; gire las pechugas de pollo y roc\u00ede cualquier punto seco con aerosol antiadherente. Cocine hasta que el pollo ya no sea rosado en el centro, 8 minutos m\u00e1s. Un term\u00f3metro de lectura instant\u00e1nea insertado en el centro debe leer al menos 165 grados F (74 grados C).",
+        "Los datos nutricionales de esta receta incluyen la cantidad completa de ingredientes para empanar. La cantidad real de empanada consumida variar\u00e1."
+    ]
+}

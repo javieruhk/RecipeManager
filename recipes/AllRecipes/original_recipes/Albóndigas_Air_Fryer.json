@@ -1,0 +1,109 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "carne de vacuno",
+            "food": "beef",
+            "quantity": "16",
+            "unit_spanish": "onzas",
+            "unit": "ounces",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "carne de cerdo",
+            "food": "pork",
+            "quantity": "4",
+            "unit_spanish": "onzas",
+            "unit": "ounces",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "Queso parmesano",
+            "food": "Parmesan cheese",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "rallado",
+            "process": "grated"
+        },
+        {
+            "food_spanish": "Migajas italianas de pan sazonado",
+            "food": "Italian seasoned bread crumbs",
+            "quantity": "3",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "2",
+            "unit_spanish": "clavos",
+            "unit": "cloves",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "picadas",
+            "process": "minced"
+        },
+        {
+            "food_spanish": "Condimento italiano",
+            "food": "Italian seasoning",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Su freidora es el secreto para las alb\u00f3ndigas perfectas que son crujientes en el exterior, pero tierna y jugosa en el interior. Volver\u00e1 a esta receta de alb\u00f3ndiga de la freidora una y otra vez.",
+        "Encontrar\u00e1s una lista detallada de ingredientes e instrucciones paso a paso en la siguiente receta, pero vamos a repasar los conceptos b\u00e1sicos de hacer alb\u00f3ndigas de freidora:",
+        "Estos son los ingredientes simples que usted necesitar\u00e1 para hacer esta receta de alb\u00f3ndiga de la freidora en casa:",
+        "He aqu\u00ed un breve resumen de lo que puede esperar cuando haga alb\u00f3ndigas fritas:",
+        "En una freidora precalentada a 350 grados F, las alb\u00f3ndigas deben cocinar durante unos 10 minutos. No se olvide de agitar la canasta en la marca de 8 minutos! Adem\u00e1s, deje que las alb\u00f3ndigas descansen durante cinco minutos antes de servir.",
+        "Sirva estas alb\u00f3ndigas fritas sobre espaguetis con nuestra Mejor Salsa Marinara Sin embargo, para un plato cl\u00e1sico, agradable a la multitud. Estas alb\u00f3ndigas tambi\u00e9n funcionan perfectamente como aperitivo, en un s\u00e1ndwich, o servido sobre pur\u00e9 de patatas, arroz o fideos de huevo.",
+        "S\u00ed! Congelar alb\u00f3ndigas es una gran manera de preparar la comida. Aqu\u00ed est\u00e1 c\u00f3mo congelar alb\u00f3ndigas de freidora de aire, seg\u00fan el creador de la receta y Allrecipes Allstar Soup Loving Nicole:",
+        "\u201cDespu\u00e9s del paso 2, coloque la bandeja de hornear en el congelador durante 4 horas. Transfiera las alb\u00f3ndigas congeladas a un recipiente seguro con congelador. El tiempo de cocci\u00f3n tendr\u00e1 que aumentarse a 15 minutos: Cocine durante 12 minutos, agitar, y luego cocine por 3 minutos m\u00e1s.\u201d",
+        "\u201cRealmente me gust\u00f3 c\u00f3mo result\u00f3 esto,\u201d raves Anna Dorothea. \u201cMucho mejor que en el horno \u2014 tierno en el interior con una corteza marr\u00f3n fuera. Los cocin\u00e9 a 375 grados F en lugar de 350 grados F y me gust\u00f3 el resultado. Definitivamente un guardi\u00e1n!\u201d",
+        "\u201cHice la receta tal como estaba escrita y eran perfectas\u201d, seg\u00fan Peg. \u201cMi esposo las amaba y se hab\u00edan ido al d\u00eda siguiente. No voy a fre\u00edr ni hornear alb\u00f3ndigas de nuevo. R\u00e1pido y f\u00e1cil.\u201d",
+        "\u201cHe hecho la m\u00eda con una mezcla de carne de venado y ternera\u201d, dice Kayla. \u201c\u00a1Tambi\u00e9n puse una peque\u00f1a bola de queso mozzarella en el medio y fue genial!\u201d",
+        "Contribuciones editoriales de Corey Williams",
+        "Precaliente una freidora a 350 grados F (175 grados C).",
+        "Combine carne de res, cerdo, queso parmesano, migas de pan, huevo, ajo, condimento italiano y sal en un taz\u00f3n grande. Mezcle hasta que se combine uniformemente. Forme 16 alb\u00f3ndigas iguales (una peque\u00f1a cucharada de helado es \u00fatil) y coloque en una bandeja para hornear.",
+        "Coloque 1/2 de las alb\u00f3ndigas en la cesta de la freidora y cocine 8 minutos. Agite la cesta y cocine 2 minutos m\u00e1s. Transfiera a un plato de servir y deje reposar durante 5 minutos. Repita con las alb\u00f3ndigas restantes."
+    ]
+}

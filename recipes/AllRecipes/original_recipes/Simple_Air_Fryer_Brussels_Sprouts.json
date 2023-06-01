@@ -1,0 +1,64 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Coles de Bruselas",
+            "food": "Brussels sprouts",
+            "quantity": null,
+            "unit_spanish": "libras",
+            "unit": "pounds",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo en polvo",
+            "food": "garlic powder",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        }
+    ],
+    "steps": [
+        "Precaliente una freidora a 390 grados F (200 grados C) durante 15 minutos.",
+        "Mientras que la freidora est\u00e1 precalentando, corte las coles de Bruselas. Coloque en un taz\u00f3n con aceite de oliva, ajo en polvo, sal y pimienta en un taz\u00f3n y mezcle bien.",
+        "Cocine en la freidora precalentada durante 15 minutos, agitando la canasta a mitad del ciclo."
+    ]
+}

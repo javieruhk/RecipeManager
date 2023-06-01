@@ -1,0 +1,88 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Patata",
+            "food": "potato",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "medio",
+            "physical_quality": "medium",
+            "process_spanish": "pelados",
+            "process": "peeled"
+        },
+        {
+            "food_spanish": "Aceite de canola",
+            "food": "canola oil",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal kosher",
+            "food": "kosher salt",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1\u20444",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo en polvo",
+            "food": "garlic powder",
+            "quantity": "\u2044",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "piment\u00f3n",
+            "food": "paprika",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        }
+    ],
+    "steps": [
+        "En serio, no hay necesidad de ir a un restaurante para conseguir patatas fritas crujientes, dulces y sabrosas cuando usted tiene esta receta f\u00e1cil de 20 minutos.",
+        "Vas a estar haciendo estas patatas fritas para ir con cada comida, as\u00ed que mejor que lo guardes ahora.",
+        "A continuaci\u00f3n encontrar\u00e1s la receta completa, paso a paso, pero esto es lo que puedes esperar al hacer estas f\u00e1ciles papas fritas de batata:",
+        "Sazone las batatas rebanadas con aceite de canola, sal, pimienta, ajo en polvo y piment\u00f3n. Alfr\u00edelas hasta que las papas fritas est\u00e9n crujientes y doradas.",
+        "Creemos que esta receta utiliza el mejor m\u00e9todo para las patatas fritas crujientes y totalmente cocidas. Fre\u00edr las patatas fritas (en una sola capa) durante 10 minutos para lograr patatas fritas doradas. Puede tirar la cesta despu\u00e9s de 5 minutos para asegurar que incluso cocinar por todos lados.",
+        "Las patatas fritas de la freidora de aire hacen un gran plato de acompa\u00f1amiento para tantas entradas, as\u00ed que usted puede dejar su imaginaci\u00f3n correr salvaje. Pero, si usted necesita un peque\u00f1o plato principal inspo, sugerimos probar una de estas recetas:",
+        "15 Las mejores recetas de hamburguesa con quesoNuestras 8 mejores recetas de s\u00e1ndwich de pollo fritoNuestras 15 mejores recetas de pollo barbacoa de todos los tiempos",
+        "O, explore toda nuestra colecci\u00f3n de recetas de platos principales.",
+        "\u00a1No te olvides de la salsa! Nos encanta servir estas papas fritas con un lado de salsa de tomate, rancho, o fre\u00edr salsa para sumergir.",
+        "Almacenar las patatas fritas de la freidora en una bolsa con cremallera o recipiente herm\u00e9tico en la nevera hasta por cuatro d\u00edas. Recaliente en la freidora para asegurar las sobras crujientes.",
+        "Contribuciones editoriales de Bailey Fink",
+        "Precaliente la freidora a 400 grados F (200 grados C).",
+        "Cortar la batata en papas fritas de 1/2 pulgada de ancho. Colocar en un taz\u00f3n con aceite de canola; mezclar para cubrir. Sazonar con sal, pimienta, ajo en polvo y piment\u00f3n; mezclar hasta que todas las papas fritas est\u00e9n uniformemente recubiertas.",
+        "Trabajar en lotes si es necesario, colocar una capa uniforme de papas fritas en la cesta de la freidora.",
+        "Cocine en la freidora precalentada hasta que est\u00e9 dorada, unos 10 minutos. Repita para cocinar las papas fritas restantes.",
+        "Servir caliente y disfrutar!"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Pl\u00e1tano",
+            "food": "banana",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite de aguacate",
+            "food": "avocado oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Re\u00fane todos los ingredientes.",
+        "Precaliente una freidora a 375 grados F (190 grados C) seg\u00fan las instrucciones del fabricante.Line la cesta de la freidora, si lo desea.",
+        "Coloque las rodajas de pl\u00e1tano en la cesta, asegur\u00e1ndose de que no se toquen; cocine en lotes si es necesario.",
+        "Cocine en la freidora durante 5 minutos. Retire la cesta y voltear las rebanadas de pl\u00e1tano cuidadosamente (estar\u00e1n suaves). Cocine hasta que las rebanadas de pl\u00e1tano est\u00e9n doradas y caramelizadas, otros 2 a 3 minutos. Retire cuidadosamente de la cesta."
+    ]
+}

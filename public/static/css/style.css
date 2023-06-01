@@ -1,3 +1,32 @@
 body {
 	background-color:  #87CEFA;
 }
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+tr.header {
+	background-color: #6699CC;
+}
+
+tr.hover {
+	background-color: #A7C8FF;
+}
+
+tr.hover:hover {
+	cursor: pointer;
+	/*background-color: #BFEFFF;*/
+	background-color: #D2E7FF;
+}
+
+tr.not-hover {
+	background-color: #A7C8FF;
+	/*
+	background-color: #D2E7FF;
+	91D4FF 
+	*/
+}
+
+

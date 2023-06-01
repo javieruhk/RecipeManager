@@ -1,0 +1,121 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": null,
+            "food": null,
+            "quantity": "4",
+            "unit_spanish": "filetes",
+            "unit": "fillets",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ralladura de lim\u00f3n",
+            "food": "lemon zest",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "2",
+            "unit_spanish": "clavos",
+            "unit": "cloves",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "picadas",
+            "process": "minced"
+        },
+        {
+            "food_spanish": "granos de pimienta",
+            "food": "peppercorns",
+            "quantity": null,
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "piment\u00f3n",
+            "food": "paprika",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "spray para cocinar",
+            "food": "cooking spray",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Perejil rallado",
+            "food": "sprig parsley",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "picado",
+            "process": "chopped"
+        },
+        {
+            "food_spanish": "lim\u00f3n",
+            "food": "lemon",
+            "quantity": "4",
+            "unit_spanish": "cu\u00f1as",
+            "unit": "wedges",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente la freidora a 400 grados F (200 grados C) durante 3 minutos.",
+        "Mientras tanto, enjuague los filetes de tilapia y seque con una toalla de papel.",
+        "Mezclar la ralladura de lim\u00f3n, aceite de oliva, ajo, pimienta y sal en un taz\u00f3n peque\u00f1o hasta que est\u00e9 bien combinado. Frotar sobre las tapas de los filetes, a continuaci\u00f3n, espolvorear ligeramente con piment\u00f3n. Recubrir ligeramente la cesta de la freidora con aerosol para cocinar. Colocar los filetes uniformemente en la cesta, lado especiado hacia arriba. No se abarroten; si es necesario, cocine en lotes.",
+        "Cocine en la freidora precalentada hasta que el pescado se cocine f\u00e1cilmente con un tenedor, de 7 a 10 minutos. Retire los filetes a un plato y decora con perejil. Sirva con cu\u00f1as de lim\u00f3n.",
+        "El tiempo de cocci\u00f3n depender\u00e1 del grosor de sus filetes y del tipo de freidora utilizada."
+    ]
+}

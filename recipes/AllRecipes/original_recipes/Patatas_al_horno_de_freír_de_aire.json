@@ -1,0 +1,43 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Patatas",
+            "food": "potatoes",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": "depurado",
+            "process": "scrubbed"
+        },
+        {
+            "food_spanish": "Aceite de man\u00ed",
+            "food": "peanut oil",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal marina",
+            "food": "sea salt",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": "gruesa",
+            "physical_quality": "coarse",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente una freidora a 400 grados F (200 grados C).",
+        "Cepille las patatas con aceite de man\u00ed, espolvoree con sal y col\u00f3quelas en la cesta de la freidora.",
+        "Cocine las patatas hasta que est\u00e9n muy tiernas cuando se las haya perforado con un tenedor, aproximadamente 1 hora.",
+        "Las patatas no necesitan ser pinchadas con un tenedor antes de cocinar o giradas durante la cocci\u00f3n."
+    ]
+}

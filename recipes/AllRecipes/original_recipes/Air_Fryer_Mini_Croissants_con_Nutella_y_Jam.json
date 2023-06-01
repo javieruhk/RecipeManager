@@ -1,0 +1,80 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Pasteler\u00eda congelada de hojaldre",
+            "food": "frozen puff pastry",
+            "quantity": "1",
+            "unit_spanish": "hoja",
+            "unit": "sheet",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "descongelado",
+            "process": "thawed"
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "agua",
+            "food": "water",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "chocolate - ha zel nuez untada",
+            "food": "chocolate - ha zel nut spread",
+            "quantity": "8",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mermelada de fresa",
+            "food": "strawberry jam",
+            "quantity": "4",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar canela",
+            "food": "cinnamon sugar",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente la freidora a 300 grados F (150 grados C).",
+        "Extender la hojaldre en una superficie ligeramente enharinada en un cuadrado grande, cerca de 12 pulgadas. Cortar en 4 cuadrados iguales, y luego cortar cada cuadrado en mitad diagonal, haciendo 8 tri\u00e1ngulos.",
+        "Coloque el tri\u00e1ngulo por lo que el extremo ancho est\u00e1 frente a usted, y el punto est\u00e1 lejos de usted. Sumerja la punta de su dedo en un poco de agua, y humedecer los bordes de cada tri\u00e1ngulo. Batir el huevo y la cucharada de agua en un taz\u00f3n peque\u00f1o, y reservar.",
+        "Agregue una cucharadita de nutella al centro y col\u00f3quela con una media cucharadita de mermelada de fresa. Comenzando por el extremo ancho, enrolle la masa sobre el relleno hacia el punto, pellizque la masa, para que el relleno no se eche a perder, y moldee los extremos en forma de media luna. Cepille cada media luna con un lavado de huevo y espolvoree con az\u00facar canela.",
+        "Coloque la cesta de la freidora con un forro de pergamino o spray con aerosol para cocinar. Coloque los croissants en su cesta de la freidora, la costura hacia abajo, por lo que no est\u00e1n tocando.",
+        "Cocine en la freidora hasta que est\u00e9 dorada, de 11 a 14 minutos. Su tiempo de cocci\u00f3n puede variar dependiendo del tama\u00f1o y la marca de su freidora.",
+        "Transfiera a una rejilla de alambre y enfr\u00ede durante 5 minutos. Sirva caliente.",
+        "Si quieres croissants m\u00e1s grandes, simplemente corta la hojaldre en 4 cuadrados y rellena con la doble cantidad de Nutella y mermelada."
+    ]
+}

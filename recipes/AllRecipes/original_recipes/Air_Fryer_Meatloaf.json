@@ -1,0 +1,109 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "carne de vacuno",
+            "food": "beef",
+            "quantity": "1",
+            "unit_spanish": "libra",
+            "unit": "pound",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "peque\u00f1o",
+            "physical_quality": "small",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "migajas de pan",
+            "food": "bread crumbs",
+            "quantity": "3",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": "seco",
+            "physical_quality": "dry",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "tomillo",
+            "food": "thyme",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": "fresco",
+            "physical_quality": "fresh",
+            "process_spanish": "picado",
+            "process": "chopped"
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "champi\u00f1ones",
+            "food": "mushrooms",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente una freidora a 392 grados F (200 grados C).",
+        "Mezclar la carne de res molida, la cebolla, las migajas de pan, el tomillo, el huevo, la sal y la pimienta en un taz\u00f3n. Amasar y mezclar bien. Pasar la mezcla a una cacerola peque\u00f1a.",
+        "Pastel de carne asado en la freidora de aire precalentada hasta que est\u00e9 bien dorado, unos 25 minutos. Un term\u00f3metro de lectura instant\u00e1nea insertado en el centro debe leer al menos 165 grados F (72 grados C).",
+        "Deje reposar el pan de carne al menos 10 minutos antes de cortar en cu\u00f1as y servir."
+    ]
+}

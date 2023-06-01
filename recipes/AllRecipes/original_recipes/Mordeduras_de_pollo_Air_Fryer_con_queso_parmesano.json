@@ -1,0 +1,132 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "2",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Salsa Worcestershire",
+            "food": "Worcestershire sauce",
+            "quantity": "2",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Condimento italiano",
+            "food": "Italian seasoning",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": "desecado",
+            "physical_quality": "dried",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo en polvo",
+            "food": "garlic powder",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1\u20444",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "\u2044",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pollo",
+            "food": "chicken",
+            "quantity": "1",
+            "unit_spanish": "libra",
+            "unit": "pound",
+            "physical_quality_spanish": "deshuesado",
+            "physical_quality": "boneless",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina de todo prop\u00f3sito",
+            "food": "all - purpose flour",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "spray para cocinar",
+            "food": "cooking spray",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Queso parmesano",
+            "food": "Parmesan cheese",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "triturados",
+            "process": "shredded"
+        },
+        {
+            "food_spanish": "perejil",
+            "food": "parsley",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": "fresco",
+            "physical_quality": "fresh",
+            "process_spanish": "picado",
+            "process": "chopped"
+        }
+    ],
+    "steps": [
+        "Batir aceite de oliva, Worcestershire, condimento italiano, polvo de ajo, sal y pimienta juntos en un taz\u00f3n. Agregar los cubos de pollo y revolver para cubrir.",
+        "Precaliente una freidora a 370 grados F (185 grados C) durante 10 minutos.",
+        "Agregue la harina a la mezcla de pollo y revuelva hasta que se absorba todo el l\u00edquido.",
+        "Coloque el pollo en la cesta de la freidora y cocine durante 8 minutos. Usando pinzas, d\u00e9 la vuelta a las piezas. Roc\u00ede las tapas con aerosol antiadherente y cocine 8 minutos m\u00e1s.",
+        "Espolvoree el queso parmesano y el perejil sobre el pollo. Cocine hasta que el queso haya comenzado a derretirse, unos 2 minutos m\u00e1s. Sirva inmediatamente."
+    ]
+}

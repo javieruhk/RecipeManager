@@ -1,0 +1,21 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "tocino",
+            "food": "bacon",
+            "quantity": "1\u20442",
+            "unit_spanish": "paquete",
+            "unit": "package",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente una freidora a 390 grados F (200 grados C) seg\u00fan las instrucciones del fabricante.",
+        "Colocar el tocino en la cesta de la freidora en una sola capa; alg\u00fan solapamiento est\u00e1 bien.",
+        "Fr\u00ede durante 8 minutos. Voltea y contin\u00faa cocinando hasta que el tocino est\u00e9 crujiente, unos 7 minutos m\u00e1s.",
+        "Transfiera el tocino cocido a un plato forrado con toallas de papel para absorber el exceso de grasa."
+    ]
+}

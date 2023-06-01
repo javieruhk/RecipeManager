@@ -1,0 +1,111 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Pl\u00e1tano",
+            "food": "banana",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "peque\u00f1o",
+            "physical_quality": "small",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": "entero",
+            "physical_quality": "whole",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "masticar",
+            "food": "chew",
+            "quantity": "3",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite",
+            "food": "oil",
+            "quantity": "3",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "polvo para hornear",
+            "food": "baking powder",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "canela",
+            "food": "cinnamon",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para empezar con la preparaci\u00f3n del bizcocho de pl\u00e1tano y huevo, bate el huevo a temperatura ambiente con la pizca de sal. Agrega en forma de lluvia el az\u00facar mascabo.",
+        "Luego, a\u00f1ade el aceite y contin\u00faa batiendo. Deber\u00e1s batir en total unos 5 minutos para incorporar suficiente aire a tu batido y que tu bizcocho quede bien esponjoso.",
+        "Por otro lado, pela y pisa el pl\u00e1tano. Puedes mezclarlo con queso crema o miel si lo deseas. Ambos ingredientes le sumar\u00e1n humedad a tu bizcocho, pero tambi\u00e9n calor\u00edas.",
+        "Lleva el pl\u00e1tano pisado al batido que hab\u00edas hecho anteriormente junto con la harina integral tamizada, el polvo para hornear, la canela y la leche.",
+        "Integra con movimientos envolventes y corrobora la consistencia de tu preparaci\u00f3n. Debe quedar un tanto m\u00e1s espesa que la de los panqueques. De lo contrario, puedes agregar m\u00e1s leche o harina. Esto depender\u00e1 del tama\u00f1o del huevo y de la capacidad de hidrataci\u00f3n de la harina. Ll\u00e9vala al molde donde deseas cocinarlo, que deber\u00e1 estar previamente engrasado y enharinado. En este caso es de 24 x 9 x 6 cm.",
+        "Cocina tu bizcocho o pastel de pl\u00e1tano y canela en el horno precalentado a 180 \u00baC por unos 30 minutos o hasta que, al pincharlo, no salgan restos de la preparaci\u00f3n. Aguarda hasta que se enfr\u00ede antes de desmoldarlo y servirlo. \u00a1A comer el mejor bizcocho de pl\u00e1tano del mundo! Cu\u00e9ntanos si lo pruebas y comparte la foto del resultado final."
+    ]
+}

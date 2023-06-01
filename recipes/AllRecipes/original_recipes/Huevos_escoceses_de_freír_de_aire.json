@@ -1,0 +1,157 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Yogur griego",
+            "food": "Greek yogurt",
+            "quantity": "3",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mango chutney",
+            "food": "mango chutney",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mayonesa",
+            "food": "mayonnaise",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "polvo de curry",
+            "food": "curry powder",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Pimienta cayena",
+            "food": "cayenne pepper",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Salchicha de cerdo",
+            "food": "pork sausage",
+            "quantity": "1",
+            "unit_spanish": "libra",
+            "unit": "pound",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "huevos",
+            "food": "eggs",
+            "quantity": "6",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "sin c\u00e1scara",
+            "process": "shelled"
+        },
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "3",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "huevos",
+            "food": "eggs",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Migajas de pan pan de pan",
+            "food": "panko bread crumbs",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "spray para cocinar",
+            "food": "cooking spray",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Hacer la salsa de inmersi\u00f3n: Combine yogurt, chutney, mayonesa, sal, pimienta, curry en polvo y cayena en un taz\u00f3n peque\u00f1o. Refrigere hasta que est\u00e9 listo para usar.",
+        "Hacer los huevos escoceses: Dividir la salchicha de cerdo en 6 porciones iguales. Aplanar cada porci\u00f3n en una empanada delgada. Colocar 1 huevo duro en el centro de cada empanada y envolver la salchicha alrededor de los huevos, sellando todos los lados.",
+        "Precaliente la freidora a 390 grados F (200 grados C).",
+        "Coloque la harina en un taz\u00f3n peque\u00f1o, los huevos batidos en otro taz\u00f3n peque\u00f1o, y panko en un plato. Sumerja cada huevo envuelto en salchichas en harina, luego sumerja en huevo batido, dejando que el exceso gotee.",
+        "Roc\u00ede la cesta de la freidora con spray para cocinar. Coloque los huevos en la cesta en una sola capa sin hacinamiento; cocine en lotes si es necesario. Cocine en la freidora precalentada durante 12 minutos, girando los huevos a mitad de camino. Repita con los huevos restantes.",
+        "Servir con salsa de inmersi\u00f3n.",
+        "Usted puede encontrar chutney de mango en la secci\u00f3n india de su tienda de comestibles.",
+        "Si prefieres una salsa de inmersi\u00f3n m\u00e1s suave, usa un mini procesador de alimentos y mezcla. Si te gusta mucha salsa, haz un lote doble."
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Mejillones",
+            "food": "mussels",
+            "quantity": "11\u20442",
+            "unit_spanish": "kilogramos",
+            "unit": "kilograms",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "2",
+            "unit_spanish": "clavos",
+            "unit": "cloves",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "vino",
+            "food": "wine",
+            "quantity": "150",
+            "unit_spanish": "mililitros",
+            "unit": "milliliter",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "tomate",
+            "food": "tomato",
+            "quantity": "125",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "fritos",
+            "process": "fried"
+        },
+        {
+            "food_spanish": "piment\u00f3n",
+            "food": "paprika",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina de postre",
+            "food": "dessert flour",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite",
+            "food": "oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para preparar los mejillones en salsa de la abuela, primero limpia los mejillones, l\u00e1valos bajo el grifo, qu\u00edtale las valvas y rasca un poco la c\u00e1scara. A\u00f1ade en una cazuela los mejillones limpios, pon medio vasito de agua, tapa y deja que cuezan unos minutos. Cuando los mejillones se abran, apaga el fuego para que no se cocinen demasiado. Reserva, no tires el caldo que han soltado.",
+        "Pica la cebolla y el pimiento verde. A\u00f1ade una cazuela a fuego medio, cubre con aceite, incorpora la cebolla y el pimiento. Deja que se poche con cuidado que no se queme.",
+        "Cuando empiece a adquirir color el sofrito para los mejillones, a\u00f1ade los dientes de ajos picado, deja unos minutos y, seguido, a\u00f1ade el piment\u00f3n dulce o picado, puede ser de los dos. Mezcla bien con cuidado no se queme el piment\u00f3n, es mejor bajar el fuego.",
+        "A\u00f1ade una cucharada de harina, remueve para que se cocine un poco y vierte el tomate frito. Deja que se cocine unos minutos, si ves que se espesa demasiado a\u00f1ade un poco de vino blanco.",
+        "Vierte el vino blanco y deja unos minutos para que reduzca el alcohol.",
+        "Cuela los mejillones y vierteel agua de la cocci\u00f3n en la salsa, retira la concha que queda vac\u00eda. Incorpora los mejillones en salsa de la abuela a la cazuela y deja que se cocinen unos 10 minutos, prueba como est\u00e1 la salsa de mejillones r\u00e1pida, ya que el agua de los mejillones ya aportan sabor. A\u00f1ade un poco de sal si hace falta, un poco de pimienta y, si no ha quedado muy picante y te gusta, a\u00f1ade un poco m\u00e1s de piment\u00f3n picante.",
+        "Sirve calentitos los mejillones en salsa de la abuela y un poco de pan de pay\u00e9s. \u00a1A comer! Cu\u00e9ntanos en los comentarios tu opini\u00f3n y comparte con nosotros una fotograf\u00eda del resultado final."
+    ]
+}

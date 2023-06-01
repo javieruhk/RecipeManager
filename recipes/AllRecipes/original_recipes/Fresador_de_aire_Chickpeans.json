@@ -1,0 +1,77 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "garbanzos",
+            "food": "chickpeas",
+            "quantity": "1",
+            "unit_spanish": "puede",
+            "unit": "can",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "enjuagado",
+            "process": "rinsed"
+        },
+        {
+            "food_spanish": "aceite de aguacate",
+            "food": "avocado oil",
+            "quantity": "3\u20444",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "chile - condimento de cal",
+            "food": "chili - lime seasoning",
+            "quantity": "2",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo en polvo",
+            "food": "garlic powder",
+            "quantity": "1\u20444",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Pimienta cayena",
+            "food": "cayenne pepper",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente la freidora a 400 grados F (200 grados C). Roc\u00ede la cesta de la freidora con spray para cocinar o use un forro de pergamino.",
+        "Coloque los garbanzos en un plato de papel forrado con toallas para secar, d\u00e1ndole palmaditas con otra toalla de papel encima. A\u00f1ada los garbanzos secos a un taz\u00f3n mediano, roc\u00ede con aceite de aguacate, espolvoree con Tajin, polvo de ajo y cayena, y mezcle para recubrir.",
+        "Transfiera los garbanzos a la cesta de la freidora, y cocine, revolviendo o agitando a mitad de camino, hasta que alcance su crujiente deseado, de 12 a 15 minutos. El tiempo de cocci\u00f3n puede variar dependiendo de la marca y tama\u00f1o de la freidora.",
+        "Sazonar con sal y dejar enfriar ligeramente los garbanzos.",
+        "Si no tiene aceite de aguacate, use aceite de oliva. Aseg\u00farese de que los garbanzos est\u00e9n secos los ayudar\u00e1 a que est\u00e9n crujientes y que el condimento se pegue mejor. Almacene los garbanzos refrigerados en un recipiente herm\u00e9tico a temperatura ambiente hasta por una semana. Si se ablandan, col\u00f3quelos de nuevo en la freidora durante un par de minutos para que est\u00e9n crujientes."
+    ]
+}

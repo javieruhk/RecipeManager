@@ -1,0 +1,64 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "1",
+            "unit_spanish": "cabeza",
+            "unit": "head",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "l\u00e1mina de aluminio",
+            "food": "aluminum foil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1\u20444",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1\u20444",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        }
+    ],
+    "steps": [
+        "Precaliente la freidora a 380 grados F (190 grados C).",
+        "Cortar la parte superior de la cabeza del ajo y colocar en un pedazo cuadrado de papel de aluminio. Llevar el papel de aluminio hacia arriba y alrededor del ajo. Vierta el aceite de oliva por encima y sazonar con sal y pimienta. Cerrar los extremos del papel de aluminio sobre el ajo, creando una bolsa.",
+        "Fre\u00edr al aire hasta que el ajo est\u00e9 suave, de 16 a 20 minutos. Abrir la bolsa de papel aluminio con mucho cuidado, ya que el vapor caliente escapar\u00e1."
+    ]
+}

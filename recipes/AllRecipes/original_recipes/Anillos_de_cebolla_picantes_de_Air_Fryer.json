@@ -1,0 +1,135 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "cebollas",
+            "food": "onions",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "suero de leche",
+            "food": "buttermilk",
+            "quantity": "3",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina de todo prop\u00f3sito",
+            "food": "all - purpose flour",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Red Hot Chile y mezcla de condimentos de cal",
+            "food": "Red Hot Chile and Lime Seasoning Blend",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sazonamiento con fines generales",
+            "food": "all - purpose seasoning",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Migajas de pan pan de pan",
+            "food": "panko bread crumbs",
+            "quantity": "2",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sazonamiento con fines generales",
+            "food": "all - purpose seasoning",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Red Hot Chile y mezcla de condimentos de cal",
+            "food": "Red Hot Chile and Lime Seasoning Blend",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal kosher",
+            "food": "kosher salt",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Batir el suero de mantequilla, el huevo, la harina, el chile y el condimento de lim\u00f3n, y el condimento de adobo para la masa en un taz\u00f3n poco profundo. Tapar y refrigerar durante 30 minutos.",
+        "Combine el panko, el condimento de adobo, y el chile y el condimento de cal en un plato poco profundo; mezcle bien. Retire la masa de la nevera. Sumerja los aros de cebolla primero en la masa, luego en la mezcla de miga de pan, volvi\u00e9ndose para cubrir, y sacuda suavemente el exceso de migajas.",
+        "Precaliente la freidora a 340 grados F (170 grados C).Line la cesta de la freidora con un forro de pergamino o roc\u00ede ligeramente con aceite.",
+        "Coloque los aros de cebolla empanada en la cesta de la freidora en una capa uniforme, dejando alrededor de 1/2 pulgada de espacio entre las rebanadas.",
+        "Cocine hasta que est\u00e9 crujiente y ligeramente dorado, dando la vuelta a la mitad, de 10 a 12 minutos. Es posible que tenga que cocinar en lotes, y el tiempo de cocci\u00f3n puede variar dependiendo del tama\u00f1o y la marca de su freidora.",
+        "Retirar de la freidora, pasar a una bandeja para hornear, espolvorear con sal kosher, y colocar en un horno de 250 grados F (120 grados C) para mantener caliente.",
+        "Usted puede encontrar Chile n' Lime sazonando y Adobo sazonando en la secci\u00f3n hispana de su supermercado. Adobo debe estar disponible en la mayor\u00eda de las tiendas, pero si Chile n' Lime no lo est\u00e1, utilice todo Adobo.",
+        "Refrigerar la masa har\u00e1 que el pan se adhiera mejor. Usted puede pan los aros de cebolla, cubrir temprano en el d\u00eda, y refrigerar hasta que est\u00e9 listo para cocinar."
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Yuk\u00f3n Patatas de oro",
+            "food": "Yukon Gold potatoes",
+            "quantity": "4",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "medio",
+            "physical_quality": "medium",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mantequilla",
+            "food": "butter",
+            "quantity": "3",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "derretido",
+            "process": "melted"
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "3",
+            "unit_spanish": "clavos",
+            "unit": "cloves",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "triturado",
+            "process": "crushed"
+        },
+        {
+            "food_spanish": "piment\u00f3n",
+            "food": "paprika",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "perejil",
+            "food": "parsley",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": "fresco",
+            "physical_quality": "fresh",
+            "process_spanish": "picado",
+            "process": "chopped"
+        }
+    ],
+    "steps": [
+        "Precalienta una freidora a 350 grados F (175 grados C) y recoge todos los ingredientes.",
+        "Corte las rebanadas de 1/4 pulgadas en cada patata, asegur\u00e1ndose de que el cuchillo s\u00f3lo corta hasta la parte inferior 1/2 pulgada, manteniendo la parte inferior de la patata intacta. Combine la mantequilla, el aceite de oliva, el ajo y el piment\u00f3n en un taz\u00f3n peque\u00f1o.",
+        "Cepille un poco de la mezcla sobre cada patata y en las hendiduras. Sazone con sal y pimienta.",
+        "Coloque las patatas en la cesta y cocine en la freidora precalentada durante 15 minutos.",
+        "Cepille las patatas con la mezcla de mantequilla, asegur\u00e1ndose de que gotea por las rebanadas aventadas para asegurar que las patatas no est\u00e9n secas. Cocine hasta que las patatas est\u00e9n cocidas, unos 15 minutos m\u00e1s.",
+        "Retirar las patatas de la cesta y cepillar con la mezcla de mantequilla restante. Espolvorear con perejil picado."
+    ]
+}

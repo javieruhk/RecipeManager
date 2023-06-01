@@ -1,0 +1,134 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "ketchup",
+            "food": "ketchup",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Salsa de soja",
+            "food": "soy sauce",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "jerez",
+            "food": "sherry",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Salsa Worcestershire",
+            "food": "Worcestershire sauce",
+            "quantity": "2",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "picadas",
+            "process": "minced"
+        },
+        {
+            "food_spanish": "pollo",
+            "food": "chicken",
+            "quantity": "1",
+            "unit_spanish": "libra",
+            "unit": "pound",
+            "physical_quality_spanish": "menos",
+            "physical_quality": "less",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "huevos",
+            "food": "eggs",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": "golpeados",
+            "process": "beaten"
+        },
+        {
+            "food_spanish": "Migajas de pan pan de pan",
+            "food": "panko bread crumbs",
+            "quantity": null,
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "spray para cocinar",
+            "food": "cooking spray",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Preparar la salsa: Batir ketchup, salsa de soja, az\u00facar morena, jerez, salsa Worcestershire y ajo juntos en un taz\u00f3n hasta que el az\u00facar se haya disuelto.",
+        "Precaliente una freidora a 350 grados F (175 grados C).",
+        "Mientras tanto, colocar trozos de pollo en una superficie de trabajo limpia. Sazonar con sal y pimienta.",
+        "Coloque los huevos batidos en un plato plano o taz\u00f3n poco profundo. Vierta las migajas de pan en un segundo plato plano. Trozos de pollo dragados en huevo y luego en migajas de pan. Repita dragando el pollo en huevo y luego las migajas de pan de nuevo, presionando hacia abajo para que las migajas de pan se peguen al pollo.",
+        "Coloque los trozos de pollo en la cesta de la freidora de aire precalentada. Roc\u00ede las tapas con aerosol antiadherente para cocinar.",
+        "Fre\u00edr durante 10 minutos. Voltear trozos de pollo usando una esp\u00e1tula y rociar las tapas con aerosol antiadherente para cocinar. Cocinar durante 8 minutos m\u00e1s. Transferir el pollo a una tabla de cortar y rebanar. Servir con salsa katsu.",
+        "Los datos nutricionales de esta receta incluyen la cantidad completa de ingredientes para empanar. La cantidad real de empanada consumida variar\u00e1."
+    ]
+}

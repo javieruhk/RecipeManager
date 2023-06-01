@@ -1,0 +1,76 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Patatas",
+            "food": "potatoes",
+            "quantity": "2",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": "fr\u00edo",
+            "physical_quality": "cold",
+            "process_spanish": "pur\u00e9",
+            "process": "mashed"
+        },
+        {
+            "food_spanish": "Queso cheddar",
+            "food": "Cheddar cheese",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "triturados",
+            "process": "shredded"
+        },
+        {
+            "food_spanish": "cebollas",
+            "food": "onions",
+            "quantity": "3",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "picado",
+            "process": "chopped"
+        },
+        {
+            "food_spanish": "trocitos de tocino",
+            "food": "bacon bits",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": "real",
+            "physical_quality": "real",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina de todo prop\u00f3sito",
+            "food": "all - purpose flour",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "peque\u00f1o",
+            "physical_quality": "small",
+            "process_spanish": "golpeados",
+            "process": "beaten"
+        }
+    ],
+    "steps": [
+        "Mezclar el pur\u00e9 de patatas, queso cheddar, cebolla verde, trozos de tocino y harina en un taz\u00f3n; mezclar. Mezclar en huevo batido.",
+        "Precaliente la freidora a 400 grados F (200 grados C) durante 10 minutos.",
+        "Forme la mezcla en 6 empanadas y col\u00f3quela en una bandeja para hornear. Coloque la bandeja para hornear en el congelador durante 10 minutos mientras precalienta la freidora.",
+        "Coloque las empanadas en la cesta de la freidora en lotes, asegur\u00e1ndose de no sobrepoblar. Cocine sin perturbar durante 12 minutos. Repita con las empanadas restantes."
+    ]
+}

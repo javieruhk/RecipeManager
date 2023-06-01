@@ -1,0 +1,111 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "oso bu",
+            "food": "bear bu",
+            "quantity": "2",
+            "unit_spanish": "rodajas",
+            "unit": "slices",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "4",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "vino",
+            "food": "wine",
+            "quantity": "1",
+            "unit_spanish": "vidrio",
+            "unit": "glass",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "or\u00e9gano",
+            "food": "oregano",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Hoja de laurel",
+            "food": "bay leaf",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "tomillo",
+            "food": "thyme",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "chipotle en polvo",
+            "food": "chipotle powder",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para empezar con la preparaci\u00f3n del osobuco al vino blanco, reboza las rodajas de carne en la harina. Esto har\u00e1 que logren un dorado incre\u00edble y mantengan su jugosidad dentro.",
+        "Con la olla bien caliente y una cucharada de aceite en ella, sella la carne por ambos lados sin moverla m\u00e1s que para girarla. Por el contrario, se pegar\u00e1.",
+        "Una vez dorado, retira el osobuco y, en el mismo fondo de cocci\u00f3n, saltea la cebolla picada con la parte blanca de la cebolla de verdeo. Puedes usar puerro en lugar de verdeo si lo prefieres. Si el salteado se est\u00e1 secando, puedes a\u00f1adir unas cucharadas de agua caliente.",
+        "Agrega el vino y los condimentos como laurel, chipotle, or\u00e9gano y tomillo. Puedes usar otros condimentos si lo prefieres.",
+        "Cuando se haya evaporado el alcohol, sentir\u00e1s un olor dulce, en lugar de \u00e1cido. En ese momento, a\u00f1ade el osobuco y cantidad de agua suficiente como para cubrirlo. Tapa la olla a presi\u00f3n y, cuando comience a sonar, baja el fuego a medio-bajo. Coc\u00ednalo por unos 40 minutos.",
+        "Retira la carne de la olla junto con las cebollas y la salsita que se haya formado de la reducci\u00f3n del vino. \u00a1A comer! Cu\u00e9ntanos si lo pruebas y comparte la foto del resultado final."
+    ]
+}

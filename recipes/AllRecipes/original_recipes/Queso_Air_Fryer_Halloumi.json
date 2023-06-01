@@ -1,0 +1,44 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "hall o umi cheese",
+            "food": "hall o umi cheese",
+            "quantity": "8",
+            "unit_spanish": "onzas",
+            "unit": "ounces",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "2",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "spray para cocinar",
+            "food": "cooking spray",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente la freidora a 360 grados F (180 grados C).",
+        "Cortar los halloumi en 6 rebanadas iguales, cortar cada rebanada por la mitad, y secar con una toalla de papel. Cepille todos los lados con aceite de oliva.",
+        "Roc\u00ede ligeramente la cesta de la freidora con spray para cocinar. Coloque las rebanadas de halloumi en la cesta, asegur\u00e1ndose de que no se toquen.",
+        "Cocine durante 7 a 9 minutos hasta que se dore, pero aseg\u00farese de no cocinar en exceso o se vuelven de goma. Servir inmediatamente.",
+        "El tiempo de cocci\u00f3n puede variar dependiendo de la marca y el tama\u00f1o de la freidora."
+    ]
+}

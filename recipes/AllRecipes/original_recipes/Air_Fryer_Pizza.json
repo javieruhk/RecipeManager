@@ -1,0 +1,90 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "masa de pizza",
+            "food": "pizza dough",
+            "quantity": "1",
+            "unit_spanish": "paquete",
+            "unit": "package",
+            "physical_quality_spanish": "refrigerados",
+            "physical_quality": "refrigerated",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Salsa de pizza",
+            "food": "pizza sauce",
+            "quantity": "6",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "divididos",
+            "process": "divided"
+        },
+        {
+            "food_spanish": "queso mozzarella",
+            "food": "mozzarella cheese",
+            "quantity": "10",
+            "unit_spanish": "onzas",
+            "unit": "ounces",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "divididos",
+            "process": "divided"
+        },
+        {
+            "food_spanish": "pepperoni",
+            "food": "pepperoni",
+            "quantity": "14",
+            "unit_spanish": "rodajas",
+            "unit": "slices",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "divididos",
+            "process": "divided"
+        },
+        {
+            "food_spanish": "Rebanadas de cebolla",
+            "food": "onion slices",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "divididos",
+            "process": "divided"
+        },
+        {
+            "food_spanish": "albahaca",
+            "food": "basil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "desecado",
+            "physical_quality": "dried",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente la freidora durante 5 minutos a 380 grados F (190 grados C). Roc\u00ede la cesta de la freidora con spray de aceite de oliva o l\u00ednela con un forro de pergamino para evitar que se pegue.",
+        "Retire la corteza de la lata y c\u00f3rtela por la mitad. Configure cada trozo de masa en un c\u00edrculo y enrosque los bordes para formar una corteza. Aseg\u00farese de que cabe en su cesta de la freidora. Transfiera cuidadosamente una corteza de pizza a la cesta de la freidora y roc\u00ede ligeramente con spray de aceite de oliva. Pique la masa con un tenedor y precocine durante 3 minutos.",
+        "Esparce 3 cucharadas de salsa de pizza sobre la corteza en la cesta de la freidora y espolvoree con 1/2 del queso mozzarella. Cubra con 7 rebanadas de pepperoni y la mitad de las rebanadas de cebolla. Espolvoree con albahaca y copos de pimienta roja, si lo usa.",
+        "Cocine hasta que la corteza est\u00e9 dorada y crujiente y el queso se haya derretido, de 7 a 9 minutos. Tenga en cuenta que los tiempos de cocci\u00f3n pueden variar dependiendo de la marca y el tama\u00f1o de su freidora, as\u00ed que compruebe con frecuencia para asegurarse de que nada sobrecocina o quemaduras. Repita el procedimiento con la segunda corteza de pizza. Sirva caliente.",
+        "La forma m\u00e1s f\u00e1cil de montar la pizza es en la freidora. Es m\u00e1s f\u00e1cil de manejar y se asegura de que se cocina al mismo tiempo que los ingredientes.",
+        "Me gusta darle a la parte superior de la pizza un poco de rociado extra de queso mozzarella que cuando se derrite, ayudar\u00e1 a anclar los toppings y evitar que vuelen por todo el lugar.",
+        "Si desea mantener caliente la primera pizza mientras se cocina la segunda, col\u00f3quela en el horno a la temperatura m\u00e1s baja disponible. Para recalentar las sobras en la freidora, ponga la temperatura a 325 grados F (165 grados C), y cocine durante unos 4 minutos."
+    ]
+}

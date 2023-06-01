@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "okra",
+            "food": "okra",
+            "quantity": "1\u20442",
+            "unit_spanish": "libra",
+            "unit": "pound",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "recortado",
+            "process": "trimmed"
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1\u20444",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        }
+    ],
+    "steps": [
+        "Precaliente una freidora a 350 grados F (175 grados C).",
+        "Coloque la okra, el aceite de oliva, la sal y la pimienta en un taz\u00f3n; revuelva suavemente para recubrir. Coloque la okra en una sola capa en la cesta de la freidora.",
+        "Cocine en la freidora precalentada durante 10 minutos, lanzando la cesta a mitad de camino.",
+        "Retire la cesta y revuelva la okra; contin\u00fae cocinando hasta que est\u00e9 crujiente, unos 2 minutos m\u00e1s. Sirva inmediatamente."
+    ]
+}

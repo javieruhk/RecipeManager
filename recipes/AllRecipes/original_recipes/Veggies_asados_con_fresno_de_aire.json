@@ -1,0 +1,126 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "zucchini",
+            "food": "zucchini",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "en cubitos",
+            "process": "diced"
+        },
+        {
+            "food_spanish": "Calabaza de verano",
+            "food": "summer squash",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "en cubitos",
+            "process": "diced"
+        },
+        {
+            "food_spanish": "champi\u00f1ones",
+            "food": "mushrooms",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "en cubitos",
+            "process": "diced"
+        },
+        {
+            "food_spanish": "coliflor",
+            "food": "cauliflower",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "en cubitos",
+            "process": "diced"
+        },
+        {
+            "food_spanish": "esp\u00e1rragos",
+            "food": "asparagus",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "en cubitos",
+            "process": "diced"
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "en cubitos",
+            "process": "diced"
+        },
+        {
+            "food_spanish": "aceite vegetal",
+            "food": "vegetable oil",
+            "quantity": "2",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1\u20444",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1\u20444",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "condimentos",
+            "food": "seasoning",
+            "quantity": "/",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Re\u00fane todos los ingredientes.",
+        "Precaliente la freidora a 360 grados F (180 grados C).",
+        "Agregue calabac\u00edn, calabaza, champi\u00f1ones, coliflor, esp\u00e1rragos, pimiento rojo, aceite, sal, pimienta, y condimento deseado a un taz\u00f3n grande. Mezcle para cubrir; arr\u00e9glelo en una sola capa en la cesta de la freidora.",
+        "Cocine, revolviendo a medio camino, en la freidora de aire precalentada hasta que est\u00e9 tierna y crujiente, unos 10 minutos.",
+        "Servir caliente y disfrutar!",
+        "1. Condimento italiano",
+        "2. Herbes de Provence",
+        "3. Piment\u00f3n ahumado",
+        "4. Gremolata: 1/2 taza de perejil fresco picado, 2 cucharaditas de ralladura de lim\u00f3n y 2 dientes de ajo picado",
+        "Si usa verduras firmes (por ejemplo, papa nueva, zanahoria, nabo, chiriv\u00eda, calabaza de invierno, apio, batata), cocine durante 15 minutos, revolviendo cada 5 minutos."
+    ]
+}

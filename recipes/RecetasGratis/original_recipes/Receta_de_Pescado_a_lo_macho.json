@@ -1,0 +1,270 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Pescado",
+            "food": "fish",
+            "quantity": "4",
+            "unit_spanish": "filetes",
+            "unit": "fillets",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Langostinos",
+            "food": "prawn",
+            "quantity": "100",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "calamar en anillos",
+            "food": "squid in rings",
+            "quantity": "100",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pulpo",
+            "food": "octopus",
+            "quantity": "100",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "picado",
+            "process": "chopped"
+        },
+        {
+            "food_spanish": "conchas",
+            "food": "shells",
+            "quantity": "8",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": null,
+            "food": null,
+            "quantity": "8",
+            "unit_spanish": "ros",
+            "unit": "ros",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "vino",
+            "food": "wine",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mantequilla",
+            "food": "butter",
+            "quantity": "3",
+            "unit_spanish": "cubos",
+            "unit": "cubes",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "trimestres",
+            "process": "quarters"
+        },
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "un ji en pasta",
+            "food": "a ji in pasta",
+            "quantity": "3",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "a",
+            "food": "a",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Tomates",
+            "food": "tomatoes",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "trimestres",
+            "process": "quarters"
+        },
+        {
+            "food_spanish": "Pasta de tomate",
+            "food": "tomato paste",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina de ma\u00edz",
+            "food": "maize flour",
+            "quantity": "70",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "almid\u00f3n de ma\u00edz",
+            "food": "maize starch",
+            "quantity": "70",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "j ora chic",
+            "food": "j ora chic",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "chun",
+            "food": "chun",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "menta",
+            "food": "peppermint",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "aceite",
+            "food": "oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "c",
+            "physical_quality": "c",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "perejil",
+            "food": "parsley",
+            "quantity": null,
+            "unit_spanish": "n",
+            "unit": "n",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "picadas",
+            "process": "minced"
+        }
+    ],
+    "steps": [
+        "Empieza sazonando los filetes de pescado con ajo molido, pimienta y sal al gusto. Aparte, en un recipiente amplio, vierte la harina de ma\u00edz, maicena y empaniza los filetes dentro de esta mezcla.",
+        "Calienta una sart\u00e9n con abundante aceite, sacude el exceso de harina de los pescados y sum\u00e9rgelos en aceite para fre\u00edrlos. Cuando el pescado est\u00e9 bien cocido, retira del aceite y deja escurriendo sobre papel toalla.",
+        "Limpia los mariscos. Lava los choros, col\u00f3calos en una olla peque\u00f1a con agua, d\u00e9jalos hervir por un par de minutos hasta que se abran, ret\u00edralos de sus valvas y con una tijera qu\u00edtales las \u201cbarbas\u201d. Pela los caparazones de las colas de los langostinos y res\u00e9rvalas. A continuaci\u00f3n, en la parte dorsal de los langostinos haz una incisi\u00f3n y con la ayuda de la punta de un cuchillo jala los intestinos. Adem\u00e1s, retira las conchas de abanico de sus valvas. Seguidamente, coloca una sart\u00e9n a fuego alto, agrega un par de cubos de mantequilla, deja que se derritan y saltea todos los mariscos (pulpos, calamares, langostinos, choros y conchas).",
+        "Cuando los mariscos se vean ligeramente dorados, vierte un chorro de vino blanco y saltea por un par de segundos hasta que se evapore. Reserva aparte.",
+        "En la misma sart\u00e9n, vierte un chorro de aceite y sofr\u00ede la cebolla junto con los tomates picados en cuartos. En este momento puedes agregar las carcasas de los langostinos y mantenlos en fuego hasta que se suavicen.",
+        "Cuando las cebollas est\u00e9n doradas, a\u00f1ade el aj\u00ed amarillo, el aj\u00ed panca, el ajo molido o de preferencia picado y la pasta de tomate. Mezcla bien y deja cocinar por un par de minutos los aj\u00edes removiendo ocasionalmente.",
+        "Vierte la chicha de jora o la cerveza, deja que rompa hervor y lleva a licuar hasta obtener una salsa sedosa. Puedes verter un chorro de caldo de pescado o agua para que la salsa de pescado a lo macho no quede tan densa.",
+        "En la misma sart\u00e9n, reincorpora los mariscos sellados e incorpora la salsa peruana para pescado previamente licuada. Si deseas, agrega unas rodajas de rocoto para darle picor. Agrega sal al gusto y la pimienta negra molida.",
+        "Por otro lado, en un bowl peque\u00f1o diluye el chu\u00f1o con un poco de agua y vi\u00e9rtelo sobre la salsa para espesarla, ligarla y darle brillo.",
+        "Contin\u00faa removiendo hasta que espese y para finalizar a\u00f1ade la crema de leche.",
+        "Deja hervir, rectifica la saz\u00f3n, sirve el pescado en salsa de mariscos y decora con culantro. \u00a1Buen provecho! Cu\u00e9ntanos en los comentarios tu opini\u00f3n y comparte con nosotros una fotograf\u00eda del resultado final."
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "esp\u00e1rragos",
+            "food": "asparagus",
+            "quantity": "1",
+            "unit_spanish": "grupo",
+            "unit": "bunch",
+            "physical_quality_spanish": "fresco",
+            "physical_quality": "fresh",
+            "process_spanish": "recortado",
+            "process": "trimmed"
+        },
+        {
+            "food_spanish": "aceite de aguacate",
+            "food": "avocado oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo en polvo",
+            "food": "garlic powder",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Sal del Himalaya",
+            "food": "Himalayan salt",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "multicolor",
+            "food": "multi colored",
+            "quantity": "1\u20444",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "copos de pimienta",
+            "food": "pepper flakes",
+            "quantity": "1\u20444",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Queso parmesano",
+            "food": "Parmesan cheese",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "\u00a1Olv\u00eddate del horno y asa esp\u00e1rragos en tu freidora! Esta receta de esp\u00e1rragos fritos por aire es r\u00e1pida, f\u00e1cil y deliciosa.",
+        "Encontrar\u00e1s una lista detallada de ingredientes e instrucciones paso a paso en la siguiente receta, pero vamos a repasar los conceptos b\u00e1sicos:",
+        "Estos son los ingredientes simples que necesitar\u00e1 para hacer esta receta de esp\u00e1rragos fritos por aire:",
+        "He aqu\u00ed un breve resumen de lo que puedes esperar cuando haces esp\u00e1rragos en la freidora:",
+        "Mise los esp\u00e1rragos con aceite de aguacate, mezcle con condimentos y c\u00fabralos con Parmesano. Cocine en la freidora precalentada hasta que los esp\u00e1rragos empiecen a char.",
+        "En una freidora precalentada a 375 grados F, las lanzas de esp\u00e1rragos deben comenzar a char perfectamente en unos 7 a 9 minutos.",
+        "Esta freidora asada esp\u00e1rragos sabr\u00e1 mejor el d\u00eda que est\u00e9 cocida. Sin embargo, si tienes sobras, puedes guardarlas en un recipiente herm\u00e9tico en el refrigerador por un m\u00e1ximo de tres d\u00edas.",
+        "\u201cEsto fue delicioso y tan f\u00e1cil\u201d, seg\u00fan Michigan Cook. \u201cEl FRESH Parmesan es la clave, [en mi opini\u00f3n]. Encontr\u00e9 que para mi freidora, el esp\u00e1rrago estaba perfectamente hecho a los 6 minutos. Gracias por una gran receta. Definitivamente un guardi\u00e1n.\u201d",
+        "\u201cHe estado asando esp\u00e1rragos en mi freidora desde que lo consegu\u00ed\u201d, dice Greekgirrl. \u201cEs absolutamente la mejor manera de cocinar esp\u00e1rragos\u201d.",
+        "Contribuciones editoriales de Corey Williams",
+        "Precaliente la freidora a 375 grados F (190 grados C).Line la cesta con papel pergamino.",
+        "Coloque las lanzas de esp\u00e1rragos en la cesta preparada y bruma con aceite de aguacate. Espolvoree con ajo en polvo, sal, pimienta y copos de pimienta.",
+        "Fr\u00ede aire hasta que las lanzas de esp\u00e1rragos comiencen a char, 7 a 9 minutos."
+    ]
+}

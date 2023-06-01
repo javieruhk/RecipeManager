@@ -1,0 +1,66 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "anacardos",
+            "food": "cashews",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": "en bruto",
+            "physical_quality": "raw",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "condimento de lim\u00f3n - pimienta",
+            "food": "lemon - pepper seasoning",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo en polvo",
+            "food": "garlic powder",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Coloque los anacardos crudos en un taz\u00f3n. A\u00f1ada el aceite de oliva y mezcle para cubrir. Espolvoree con condimento de pimienta de lim\u00f3n, ajo en polvo y sal.",
+        "Precaliente una freidora a 330 grados F (165 grados C).",
+        "Esparce anacardos sazonados en la cesta de la freidora.",
+        "Cocine por 3 minutos. Sacuda la cesta y cocine hasta que est\u00e9 dorada, unos 4 minutos m\u00e1s.",
+        "Transfiera los anacardos a un plato forrado con toalla de papel y deje enfriar por completo. Almacene las sobras en un recipiente herm\u00e9tico."
+    ]
+}

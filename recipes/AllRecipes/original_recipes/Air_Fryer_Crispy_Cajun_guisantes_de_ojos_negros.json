@@ -1,0 +1,44 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "guisantes",
+            "food": "peas",
+            "quantity": "1",
+            "unit_spanish": "puede",
+            "unit": "can",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "drenados",
+            "process": "drained"
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Condimento caj\u00fan",
+            "food": "Cajun seasoning",
+            "quantity": null,
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Forrar una bandeja para hornear con toallas de papel; esparcir los guisantes escurridos en una capa uniforme, desechando conchas y guisantes cocidos. Secar con toallas de papel adicionales.",
+        "Precaliente una freidora a 400 grados Fahrenheit (200 grados C) seg\u00fan las instrucciones del fabricante.",
+        "Batir el aceite y el condimento de Cajun en un taz\u00f3n. Revuelva los guisantes hasta que est\u00e9n uniformemente recubiertos.",
+        "Coloque los guisantes en la cesta de la freidora. Cocine durante 7 minutos. Agite la cesta y cocine 7 minutos m\u00e1s.",
+        "Estos se sirven mejor inmediatamente. Almacene las sobras en un recipiente herm\u00e9tico hasta por 3 d\u00edas."
+    ]
+}

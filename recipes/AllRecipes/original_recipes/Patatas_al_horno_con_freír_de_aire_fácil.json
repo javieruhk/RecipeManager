@@ -1,0 +1,76 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "patatas para hornear",
+            "food": "baking potatoes",
+            "quantity": "4",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": "depurado",
+            "process": "scrubbed"
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal kosher",
+            "food": "kosher salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo en polvo",
+            "food": "garlic powder",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "perejil",
+            "food": "parsley",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": "desecado",
+            "physical_quality": "dried",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mantequilla",
+            "food": "butter",
+            "quantity": "4",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente una freidora a 400 grados F (200 grados C).",
+        "Frotar las patatas con aceite de oliva y sazonar con sal, pimienta, ajo en polvo y perejil. Colocar las patatas en la cesta de la freidora.",
+        "Cocine en la freidora de aire precalentada hasta que las patatas est\u00e9n blandas, de 40 a 50 minutos, dependiendo del tama\u00f1o de la patata.",
+        "Cortar las patatas longitudinalmente. Pegar ambos lados de cada patata, usando las manos y forzando a las patatas a abrir, hasta que el interior esponjoso comience a salir. A\u00f1adir 1 cucharada de mantequilla en cada patata."
+    ]
+}

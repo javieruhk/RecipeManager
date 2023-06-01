@@ -1,0 +1,89 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "huevos",
+            "food": "eggs",
+            "quantity": "3",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "2",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mantequilla",
+            "food": "butter",
+            "quantity": "4",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "4",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "lim\u00f3n",
+            "food": "lemon",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "rallado",
+            "process": "grated"
+        },
+        {
+            "food_spanish": "polvo para hornear",
+            "food": "baking powder",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para empezar a preparar esta receta de queque f\u00e1cil, primero debes batir el az\u00facar con la mantequilla. El resultado debe ser una crema suave y blanquecina. Puedes usar unas varillas el\u00e9ctricas si lo deseas.",
+        "A continuaci\u00f3n, separa las yemas de claras. Primero incorpora las yemas a la mezcla anterior de uno en uno. Esto quiere decir que no echaras la siguiente yema hasta que la primera se haya integrado por completo en la masa del queque casero.",
+        "Aparte, monta las claras a punto de nieve. Para conseguir una textura consistente a\u00f1ade una pizca de sal. Cuando est\u00e9n listas a\u00f1\u00e1delas a la masa del queque f\u00e1cil y esponjoso con movimientos suaves y envolventes, agrega tambi\u00e9n la ralladura de lim\u00f3n. Las claras son el secreto para hacer un bizcocho bien esponjoso y suave.",
+        "Para terminar de preparar la masa del queque f\u00e1cil, a\u00f1ade la harina tamizada mezclada con el polvo de hornear alternando con la leche de forma pausada. Ve a\u00f1adiendo estos ingredientes poco a poco mientras continuas batiendo la mezcla. Lo ideal es que no queden grumos en la masa.",
+        "Finalmente, engrasa con un poco de mantequilla un molde para horno y vac\u00eda toda la mezcla en \u00e9l. Cocina el queque f\u00e1cil en el horno precalentado a 180 \u00baC por 40 minutos. Es importante que no abras el horno durante el proceso de cocci\u00f3n.",
+        "Cuando est\u00e9 listo, retira el queque casero, deja que se enfr\u00ede y desm\u00f3ldalo. \u00bfF\u00e1cil verdad? Puedes hacer una torta decorada con merengue, o puedes acompa\u00f1ar tu queque f\u00e1cil con una ganache de chocolate o la cobertura que m\u00e1s te guste."
+    ]
+}

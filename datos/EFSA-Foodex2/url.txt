@@ -1,3 +1,0 @@
-https://www.efsa.europa.eu/en/supporting/pub/en-1726
-https://github.com/openefsa/catalogue-browser
-https://github.com/openefsa/efsa-catalogues/releases

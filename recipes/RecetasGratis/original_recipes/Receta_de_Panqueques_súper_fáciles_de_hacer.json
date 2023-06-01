@@ -1,0 +1,78 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Harina de ning",
+            "food": "leave ning flour",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "1",
+            "unit_spanish": "corriente",
+            "unit": "stream",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "3\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mantequilla",
+            "food": "butter",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "miel",
+            "food": "honey",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "corriente",
+            "physical_quality": "stream",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Hacer la receta de panqueques es s\u00faper f\u00e1cil. Primero, re\u00fane todos los ingredientes. Si no tienes harina leudante o preparada, que es harina de trigo que ya incluye levadura (tambi\u00e9n se llama harina de reposter\u00eda), puedes usar harina de trigo normal y a\u00f1adir una cucharadita de levadura qu\u00edmica en polvo (polvo de hornear).",
+        "Coloca la harina en un bol y a\u00f1ade el huevo y la leche. Mezcla bien hasta que se integren estos ingredientes y no queden casi grumos.",
+        "Para terminar de hacer la masa de los panqueques caseros, agrega un chorrito de aceite y mezcla bien. Ver\u00e1s que el aceite hace que se terminen de disolver los grumos de harina y quede una masa lisa y homog\u00e9nea.",
+        "Para hacer los panqueques, calienta una sart\u00e9n a fuego medio-bajo con un poquito de aceite o mantequilla. Cuando la sart\u00e9n est\u00e9 caliente, a\u00f1ade una cucharada de mezcla y d\u00e9jala al fuego hasta que empiecen a salir burbujas en la superficie, entonces dale la vuelta y cocina por el otro lado.",
+        "Para servir la receta de panqueques s\u00faper f\u00e1ciles de hacer, a\u00f1ade un poquito de mantequilla y miel y a disfrutar. Si quieres comerlos con algo salado, puedes servirlos con bacon y huevos fritos o un revuelto con jam\u00f3n.",
+        "Si quieres descubrir una forma todav\u00eda m\u00e1s sencilla de hacer panqueques caseros, no te pierdas este v\u00eddeo en el que te mostramos c\u00f3mo se hacen los panqueques con una botella."
+    ]
+}

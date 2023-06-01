@@ -1,0 +1,78 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Queso pardo",
+            "food": "Brie cheese",
+            "quantity": "1",
+            "unit_spanish": "redonda",
+            "unit": "round",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "masa de filo",
+            "food": "phyllo dough",
+            "quantity": "1",
+            "unit_spanish": "paquete",
+            "unit": "package",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "descongelado",
+            "process": "thawed"
+        },
+        {
+            "food_spanish": "mermelada de frambuesa",
+            "food": "raspberry jam",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mantequilla",
+            "food": "butter",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "derretido",
+            "process": "melted"
+        },
+        {
+            "food_spanish": "miel",
+            "food": "honey",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "escamas",
+            "physical_quality": "flake",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Cortar el brie en cuadrados de aproximadamente 1\u20442 pulgada de espesor y 1 a 1 1\u20442 pulgadas de ancho.",
+        "Extender 1 hoja de masa filo verticalmente en una gran superficie de trabajo. Cepillar la mitad inferior de la masa con mantequilla derretida, luego doblar la mitad superior sobre s\u00ed mismo.",
+        "Coloque 1 pedazo de queso en el centro inferior de la masa, aproximadamente 2 pulgadas de los bordes. Cuchare alrededor de 2 cucharaditas de mermelada de frambuesa en el queso. Cepillo de mantequilla derretida alrededor del resto de la masa.",
+        "Doble en la parte inferior 2 pulgadas de masa sobre el queso, luego doble por ambos lados. Cepille m\u00e1s mantequilla en la masa restante, luego gire cuidadosamente el relleno hacia arriba hasta que se envuelve completamente. Cepille m\u00e1s mantequilla en la parte superior y poner en la freidora probar.",
+        "Ponga la freidora a 375 grados F (190 grados C).",
+        "Aire fre\u00edr en lotes para evitar el hacinamiento hasta dorado-marr\u00f3n, de 4 a 5 minutos. Decorar con una llovizna delgada de miel y una pizca de sal descascarillada. Servir inmediatamente."
+    ]
+}

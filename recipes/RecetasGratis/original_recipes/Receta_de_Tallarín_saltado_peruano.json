@@ -1,0 +1,148 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "fideos",
+            "food": "noodles",
+            "quantity": "1",
+            "unit_spanish": "envase",
+            "unit": "pack",
+            "physical_quality_spanish": "espeso",
+            "physical_quality": "thick",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "lomo",
+            "food": "loin",
+            "quantity": "250",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": "Bien.",
+            "physical_quality": "fine",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Tomates",
+            "food": "tomatoes",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Presidencia",
+            "food": "chairing",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "o o",
+            "food": "o th",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla china",
+            "food": "Chinese onion",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "c",
+            "physical_quality": "c",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "cilantro",
+            "food": "cilantro",
+            "quantity": null,
+            "unit_spanish": "n",
+            "unit": "n",
+            "physical_quality_spanish": "c",
+            "physical_quality": "c",
+            "process_spanish": "picadas",
+            "process": "minced"
+        },
+        {
+            "food_spanish": "chu",
+            "food": "chu",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite",
+            "food": "oil",
+            "quantity": "1",
+            "unit_spanish": "squirt",
+            "unit": "squirt",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Empieza limpiando el lomo quit\u00e1ndole las partes grasas y blancas. Cuando el lomo est\u00e9 limpio, procede a cortarlo en tiras largas para cortarlas de forma transversal y obtener cubos medianos. Reserva.",
+        "Despepita los aj\u00edes amarillos frescos, es decir, qu\u00edtales el tallo, c\u00f3rtalos en mitades y retira las semillas y venas. Despu\u00e9s, c\u00f3rtalos en juliana. Adem\u00e1s, corta las cebollas por la mitad, retira los extremos, la capa externa y el coraz\u00f3n, luego corta estas mitades en tiras gruesas. Tambi\u00e9n, corta los tomates en gajos del mismo tama\u00f1o que las cebollas. Por \u00faltimo, corta la parte verde de la cebolla china para picarlo en piezas de 4 cm aproximadamente.",
+        "Procede a sancochar los tallarines. Coloca una olla grande con abundante agua a hervir y, en el momento que rompa hervor, vierte un pu\u00f1ado de sal, remueve bien y a\u00f1ade la pasta. Cuando empiecen a ablandarse, revu\u00e9lvelos para que no se peguen y deja hervir a fuego alto por 12 minutos o hasta que est\u00e9n al dente. Seguidamente, cu\u00e9lalos y res\u00e9rvalos, tambi\u00e9n en un bowl reserva un poco del agua de cocci\u00f3n.",
+        "Coloca una sart\u00e9n o un wok a fuego alto y vi\u00e9rtele un chorrito de aceite. Cuando est\u00e9 muy caliente, con mucho cuidado, coloca los cubos de carne y deja sellar por un par de minutos sin mover, cuando ese lado se vea bien dorado, dales vuelta y deja que se doren. El fuego debe estar al m\u00e1ximo para evitar que la carne se sobrecocine.",
+        "Incorpora la cebolla en gajos y el aj\u00ed en juliana, salt\u00e9alos.",
+        "A\u00f1ade los tomates picados y sazona con la salsa de osti\u00f3n y un buen chorro de sillao. Mant\u00e9n salteando o utiliza unas pinzas para remover.",
+        "Antes de integrar la pasta, en un bowl peque\u00f1o disuelve el chu\u00f1o en un poco de agua, mezcla bien hasta que no queden grumos y vi\u00e9rtelo en la sart\u00e9n de lomo saltado. Vuelve a remover bien y, si empieza a secarse, a\u00f1ade el agua de los tallarines o, mejor a\u00fan, caldo de carne.",
+        "Inmediatamente, agrega los tallarines cocidos y contin\u00faa salteando o removiendo hasta que se integre con el resto de los ingredientes.",
+        "Finalmente, rectifica la sal, agrega el culantro picado y la cebolla china.",
+        "Saltea por \u00faltima vez y sirve inmediatamente el tallar\u00edn saltado de carne. \u00a1Buen provecho! Cu\u00e9ntanos en los comentarios tu opini\u00f3n y comparte con nosotros una fotograf\u00eda del resultado final."
+    ]
+}

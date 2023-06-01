@@ -1,0 +1,69 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "pl\u00e1tanos",
+            "food": "bananas",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": "pelados",
+            "process": "peeled"
+        },
+        {
+            "food_spanish": "mantequilla",
+            "food": "butter",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "derretido",
+            "process": "melted"
+        },
+        {
+            "food_spanish": "extracto de vainilla",
+            "food": "vanilla extract",
+            "quantity": "2",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "canela",
+            "food": "cinnamon",
+            "quantity": "/",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        }
+    ],
+    "steps": [
+        "Precalienta la freidora a 390 grados F (195 grados C)",
+        "Extender las rodajas de pl\u00e1tano en un plato. Combinar la mantequilla y el extracto de vainilla y rociar sobre los pl\u00e1tanos.",
+        "Combinar el az\u00facar moreno y la canela. Espolvorear la mitad de la mezcla de az\u00facar sobre las rodajas, voltear, y espolvorear el az\u00facar restante sobre el otro lado. Aseg\u00farese de que ambos lados est\u00e1n bien recubiertos.",
+        "Roc\u00ede la cesta de la freidora con spray para cocinar o l\u00ednela con un papel pergamino.",
+        "Colocar las rebanadas de pl\u00e1tano en la cesta de la freidora en una sola capa asegur\u00e1ndose de no sobrepoblar o superponer. Cocinar hasta que est\u00e9n doradas y caramelizadas a su gusto, de 7 a 9 minutos. No es necesario voltear las rebanadas de pl\u00e1tano.",
+        "Retirar los pl\u00e1tanos de la cesta, enfriar ligeramente, y servir.",
+        "Dependiendo del tama\u00f1o de su freidora puede necesitar fre\u00edr pl\u00e1tanos en lotes.",
+        "El tiempo de cocci\u00f3n puede variar dependiendo del tama\u00f1o y la marca de su freidora. Si s\u00f3lo tiene mantequilla sin sal, agregue una pizca de sal."
+    ]
+}

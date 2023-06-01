@@ -1,0 +1,43 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "mantequilla",
+            "food": "butter",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "huevos",
+            "food": "eggs",
+            "quantity": "4",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente la freidora a 300 grados F (150 grados C). Coloque el forro de silicona en la cesta de la freidora y ponga la mantequilla encima.",
+        "Dejar que la mantequilla se derrita, de 1 a 2 minutos. Aumentar el calor a 310 grados F (154 grados C).",
+        "Mientras tanto, combine los huevos y la sal en un taz\u00f3n y batir hasta que est\u00e9n bien combinados. Vierta la mezcla de huevo en el revestimiento de silicona.",
+        "Cocine los huevos durante 2 minutos. Revuelva los huevos con una esp\u00e1tula y contin\u00fae cocinando hasta que los huevos est\u00e9n a su gusto, de 4 a 5 minutos. Espolvoree con pimienta antes de servir."
+    ]
+}

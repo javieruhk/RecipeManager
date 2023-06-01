@@ -1,0 +1,91 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Queso crema",
+            "food": "cream cheese",
+            "quantity": "1",
+            "unit_spanish": "paquete",
+            "unit": "package",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "ablandado",
+            "process": "softened"
+        },
+        {
+            "food_spanish": "salm\u00f3n",
+            "food": "salmon",
+            "quantity": "3",
+            "unit_spanish": "onzas",
+            "unit": "ounces",
+            "physical_quality_spanish": "fr\u00edo",
+            "physical_quality": "cold",
+            "process_spanish": "ahumado",
+            "process": "smoked"
+        },
+        {
+            "food_spanish": "alcaparras",
+            "food": "capers",
+            "quantity": null,
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "picadas",
+            "process": "minced"
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": null,
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Envoltorios wonton",
+            "food": "wonton wrappers",
+            "quantity": "48",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "agua",
+            "food": "water",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "spray para cocinar",
+            "food": "cooking spray",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Combine el queso crema, el salm\u00f3n, las alcaparras y la cebolla roja en un taz\u00f3n. Llene un segundo taz\u00f3n peque\u00f1o con agua.",
+        "Trabajar con 6 envoltorios de wonton a la vez, separarlos en una superficie de trabajo limpia. Colocar 1 cucharadita de mezcla de salm\u00f3n en el centro de cada wonton. No llenar, ya que la mezcla puede exhalar.",
+        "Sumerja su dedo en el recipiente de agua, y humedezca ligeramente los 4 bordes de cada envoltorio de wonton. Doble suavemente en medio diagonal para hacer un tri\u00e1ngulo, y selle los bordes. Trate de no dejar el exceso de aire en el wonton, lo que puede hacer que estallen. Moje ligeramente la parte inferior del tri\u00e1ngulo, y doble el lado derecho sobre el medio, luego el lado izquierdo, presionando todos los bordes para sellar. Ponga wontons a un lado, cubierto con una toalla de papel h\u00fameda, mientras termina de hacer los wontons restantes.",
+        "Precalentar la freidora a 330 grados F (166 grados C). Micer generosamente ambos lados de wontons con spray para cocinar.",
+        "Coloque tantos wontons en la cesta de la freidora como cabe, sin hacinamiento.",
+        "Fre\u00edr el aire durante 5 minutos, dando la vuelta a la mitad. Retirar a una rejilla de refrigeraci\u00f3n y dejar enfriar mientras se cocinan los wontons restantes en lotes. Mejor servido ligeramente caliente o a temperatura ambiente.",
+        "He montado estos hasta 8 horas antes de tiempo con excelentes resultados. Colocar en una sola capa, cubierta con una toalla de papel h\u00fameda, dentro de un recipiente sellado en el refrigerador hasta que est\u00e9 listo para fre\u00edr.",
+        "Tambi\u00e9n puede congelarlos sin cocer. Si se cocinan a partir de congelados, dejar reposar a temperatura ambiente durante 15 minutos, y a\u00f1adir 1 minuto para cocinar el tiempo."
+    ]
+}

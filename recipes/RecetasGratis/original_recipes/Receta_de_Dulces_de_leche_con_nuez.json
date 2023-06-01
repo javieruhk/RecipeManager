@@ -1,0 +1,83 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "leche en polvo",
+            "food": "milk powder",
+            "quantity": "125",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "125",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "190",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": "condensado",
+            "physical_quality": "condensed",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "extracto de nuez",
+            "food": "nut extract",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "nuez de nuez de pacana",
+            "food": "pecan nut",
+            "quantity": "50",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "capa",
+            "food": "cape",
+            "quantity": "50",
+            "unit_spanish": "mini",
+            "unit": "mini",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "En un bowl o recipiente hondo, combina la leche condensada con la leche en polvo hasta obtener una masa pegajosa.",
+        "Agrega el extracto de nuez y mezcla todo muy bien.",
+        "Incorpora el az\u00facar glass pero bate s\u00f3lo hasta integrar la mitad de los ingredientes para que la masa a\u00fan quede un tanto porosa, de esta manera ser\u00e1 m\u00e1s f\u00e1cil formar las bolitas de dulce de leche, sin que se hagan tan bizcosas.",
+        "Pica la mitad de la nuez y el resto troc\u00e9ala en mitades, res\u00e9rvalas.",
+        "Forma bolitas con las manos todas de un tama\u00f1o similar. Repite el procedimiento hasta acabar con la mezcla de dulce de leche. Puedes ayudarte con una cucharita medidora para estandarizar tus medidas.",
+        "Coloca las bolitas en los capacillos y decora con las nueces en mitades.",
+        "Para la segunda forma de decoraci\u00f3n, toma las bolitas y p\u00e1salas suavemente sobre la nuez picada.",
+        "Repite el procedimiento alternando entre nuez en mitades y nuez picada. Procura que los dulces no pierdan su forma redondeada. ",
+        "Con las proporciones que te compartimos en esta receta, obtendr\u00e1s aproximadamente 50 unidades de dulce de leche con nuez.",
+        "La forma m\u00e1s tradicional y t\u00edpica en que encuentras estos dulces es en capacillos rojos o blancos, pero te sugerimos darles un toque m\u00e1s moderno, original y divertido utilizando capacillos de colores. \u00a1Seguro que a los ni\u00f1os les encantar\u00e1n!",
+        "Puedes conservar los dulces de leche con nueces casero en un recipiente cerrado a temperatura ambiente por un par de d\u00edas o en el refrigerador hasta 5 d\u00edas. Estos t\u00edpicos dulces mexicanos no pueden faltar en tus comidas festivas del 5 de mayo, del 15 o 16 de septiembre para dar el grito de independencia, o en los altares del d\u00eda de muertos el 2 de Noviembre. Esperamos que disfrutes de esta receta f\u00e1cil y pr\u00e1ctica para agasajar a tus seres queridos, y recuerda compartir una foto del resultado final con nosotros si es que la intentas en casa."
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Harina de todo prop\u00f3sito",
+            "food": "all - purpose flour",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Migajas de pan pan de pan",
+            "food": "panko bread crumbs",
+            "quantity": "2",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal marina",
+            "food": "sea salt",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "Anillos de calamar",
+            "food": "calamari rings",
+            "quantity": "1",
+            "unit_spanish": "libra",
+            "unit": "pound",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "spray para cocinar",
+            "food": "cooking spray",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "antiadherente",
+            "physical_quality": "nonstick",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente una freidora a 400 grados F (200 grados C).",
+        "Coloque la harina en un taz\u00f3n. Bata el huevo y la leche en un taz\u00f3n separado. Combine el panko, la sal y la pimienta en un tercer taz\u00f3n.",
+        "Los anillos de calamar de abrigo primero en harina, luego en mezcla de huevo, y finalmente en mezcla de panko.",
+        "Coloque los anillos en la cesta de la freidora para que no se superpongan. Trabaje en lotes si es necesario. Roc\u00ede las tapas con aerosol antiadherente para cocinar.",
+        "Cocine en la freidora precalentada durante 4 minutos. Voltee los anillos, roc\u00ede con aerosol antiadherente y cocine hasta que est\u00e9n dorados y crujientes, unos 3 minutos m\u00e1s."
+    ]
+}

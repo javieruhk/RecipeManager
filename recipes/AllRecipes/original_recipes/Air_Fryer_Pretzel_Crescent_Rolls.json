@@ -1,0 +1,67 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "agua",
+            "food": "water",
+            "quantity": "1",
+            "unit_spanish": "cuarteto",
+            "unit": "quart",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "bicarbonato de sodio",
+            "food": "baking soda",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "masa de rollo creciente",
+            "food": "crescent roll dough",
+            "quantity": "1",
+            "unit_spanish": "paquete",
+            "unit": "package",
+            "physical_quality_spanish": "refrigerados",
+            "physical_quality": "refrigerated",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal pretzel",
+            "food": "pretzel salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "spray para cocinar",
+            "food": "cooking spray",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Coloque una olla grande a fuego alto. Agregue agua y hierva a fuego alto.",
+        "Mientras tanto, dar forma a las media lunas en la forma deseada y precalentar la freidora a 350\u00b0",
+        "Precalentar una freidora a 350 grados F (175 grados C). Recubrir la cesta de la freidora con un trozo de pergamino. Rociar generosamente con spray para cocinar.",
+        "Una vez que el agua est\u00e9 hirviendo, agregue cuidadosamente bicarbonato de sodio (\u00a1se har\u00e1 burbuja!). La media luna baja se enrolla en la salmuera con un colador de ara\u00f1a; hierva durante 5 segundos. Transfiera al papel pergamino en la cesta de la freidora. Espolvoree con sal.",
+        "Fre\u00edr el aire hasta que los rollos de media luna est\u00e9n cocidos y dorados, unos 12 minutos. Servir inmediatamente.",
+        "No todas las freidoras funcionan igual. Si te preocupa la quema de pretzels, puedes seguir los mismos pasos y hornear durante 18 a 20 minutos a 350 grados C (175 grados C) pero no tendr\u00e1 la textura crujiente que viene de la freidora,"
+    ]
+}

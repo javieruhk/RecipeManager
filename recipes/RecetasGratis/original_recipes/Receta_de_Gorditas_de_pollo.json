@@ -1,0 +1,273 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "pollo",
+            "food": "chicken",
+            "quantity": "250",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "tomate",
+            "food": "tomato",
+            "quantity": "250",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "125",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "2",
+            "unit_spanish": "clavos",
+            "unit": "cloves",
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "chipotle",
+            "food": "chipotle",
+            "quantity": "2",
+            "unit_spanish": "puede",
+            "unit": "can",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": "Bien.",
+            "physical_quality": "fine",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "masa de ma\u00edz",
+            "food": "maize mass",
+            "quantity": "800",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "chic",
+            "food": "chic",
+            "quantity": "150",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "prensado",
+            "process": "pressed"
+        },
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "6",
+            "unit_spanish": "clavos",
+            "unit": "cloves",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Mantequilla de cerdo",
+            "food": "pork butter",
+            "quantity": "6",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "6",
+            "unit_spanish": "pellizcos",
+            "unit": "pinches",
+            "physical_quality_spanish": "Bien.",
+            "physical_quality": "fine",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de fre\u00edr",
+            "food": "frying oil",
+            "quantity": "200",
+            "unit_spanish": "mililitros",
+            "unit": "milliliter",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "agua",
+            "food": "water",
+            "quantity": "4",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1\u20444",
+            "unit_spanish": "pieza",
+            "unit": "piece",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "1",
+            "unit_spanish": "clavo",
+            "unit": "clove",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimientos",
+            "food": "peppers",
+            "quantity": "3",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grasa",
+            "physical_quality": "fat",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "tomillo",
+            "food": "thyme",
+            "quantity": "1",
+            "unit_spanish": "sucursal",
+            "unit": "branch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal marina",
+            "food": "sea salt",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "panel de un queso",
+            "food": "panel a cheese",
+            "quantity": "100",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "rallado",
+            "process": "grated"
+        },
+        {
+            "food_spanish": "nata",
+            "food": "cream",
+            "quantity": "125",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Hojas de lechuga",
+            "food": "lettuce leaves",
+            "quantity": "1",
+            "unit_spanish": "grupo",
+            "unit": "bunch",
+            "physical_quality_spanish": "desinfectados",
+            "physical_quality": "disinfected",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "salsa",
+            "food": "sauce",
+            "quantity": "1",
+            "unit_spanish": "vidrio",
+            "unit": "glass",
+            "physical_quality_spanish": "peque\u00f1o",
+            "physical_quality": "small",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "salsa",
+            "food": "sauce",
+            "quantity": "1",
+            "unit_spanish": "vidrio",
+            "unit": "glass",
+            "physical_quality_spanish": "peque\u00f1o",
+            "physical_quality": "small",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para comenzar prepara el consom\u00e9 de pollo colocando en una cacerola a fuego medio-alto la pechuga de pollo junto con el agua, el cuarto de cebolla, el diente de ajo, el ramito de tomillo, la pimienta y la cucharada de sal de mar. Tapa y a partir de que rompa el hervor cuenta 30 minutos. Retira del fuego y permite que el consom\u00e9 se enfr\u00ede.",
+        "Deshebra la pechuga de pollo y reserva tambi\u00e9n el consom\u00e9, todo esto se va a necesitar mas adelante para el relleno de las gorditas mexicanas. Deshecha los pellejos, cart\u00edlagos o huesos restantes.",
+        "Asa el jitomate junto con los ajos destinados al relleno de las gorditas, ya sea directo al fuego o sobre un sart\u00e9n.",
+        "Tambi\u00e9n rebana la cebolla en tiras delgadas y reserva.",
+        "Lic\u00faa el jitomate junto el chile chipotle, los ajos asados y una cucharadita de sal fina.",
+        "En una cacerola a fuego medio, calienta un poco de aceite y sofr\u00ede la cebolla rebanada hasta que luzca un poco transparente.",
+        "Agrega el pollo deshebrado y mueve constantemente.",
+        "Incorpora el jitomate molido y mezcla todo muy bien. Agrega consom\u00e9 de pollo al gusto, seg\u00fan qu\u00e9 tan seco quieras que quede el relleno de pollo para las gorditas.",
+        "Baja el fuego y cuece el pollo de 10 a 15 minutos m\u00e1s para que el jitomate se sazone y se integren bien los sabores. Rectifica el saz\u00f3n, apaga el fuego y reserva.",
+        "Para las gorditas de pollo: en un recipiente mezcla la masa de ma\u00edz junto con el chicharron prensado, la manteca de cerdo, la sal fina y los ajos destinados para la masa; previamente asados en su piel, pelados y machacados.",
+        "Divide la masa en 8 a 10 porciones de tama\u00f1os similares, forma bolitas grandes, am\u00e1salas y con tus manos apl\u00e1stalas para darles forma redonda.",
+        "Calienta el aceite en una sart\u00e9n y fr\u00ede las gorditas hasta que est\u00e9n bien doradas por ambos lados.",
+        "Por \u00faltimo, escurre el exceso de aceite sobre papel absorbente y permite que las gorditas se enfr\u00eden un poco antes de rellenar las gorditas con el guisado de pollo.",
+        "Abre las gorditas por la mitad, rellena con el pollo y acompa\u00f1a con crema, queso rallado, lechuga y salsa verde o roja. Esperamos que disfrutes de esta receta de gorditas de pollo, un antojito mexicano t\u00edpico de los puestos de comida callejeros llevado directamente hasta tu hogar. Recuerda que si tienes alguna duda respecto a los ingredientes o el procedimiento, nos los puedes hacer saber en la secci\u00f3n de comentarios, con gusto te responderemos."
+    ]
+}

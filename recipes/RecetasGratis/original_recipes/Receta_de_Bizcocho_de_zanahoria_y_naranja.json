@@ -1,0 +1,111 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "180",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "polvo para hornear",
+            "food": "baking powder",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite neutro",
+            "food": "neutral oil",
+            "quantity": "60",
+            "unit_spanish": "cent\u00edmetros",
+            "unit": "centimetres",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar de mascar",
+            "food": "chewing sugar",
+            "quantity": "60",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "zanahoria",
+            "food": "carrot",
+            "quantity": "100",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "rallado",
+            "process": "grated"
+        },
+        {
+            "food_spanish": "naranja",
+            "food": "orange",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "rejilla",
+            "process": "grating"
+        },
+        {
+            "food_spanish": "esencia de vainilla",
+            "food": "vanilla essence",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "bicarbonato s\u00f3dico",
+            "food": "sodium bicarbonate",
+            "quantity": "1\u20444",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Antes de comenzar con la preparaci\u00f3n, enciende el horno a 180 \u00b0C para precalentarlo y acondiciona un molde de 24 x 9 x 6 cm unt\u00e1ndolo con aceite y enharin\u00e1ndolo.",
+        "Coloca en un bol el huevo, el aceite, el az\u00facar y la esencia de vainilla. Bate hasta espumar.",
+        "A\u00f1ade al batido la ralladura, el jugo de la naranja y la zanahoria rallada e integra.",
+        "A continuaci\u00f3n, incorpora la harina tamizada junto con el polvo de hornear y el bicarbonato de sodio. Integra suavemente con una esp\u00e1tula para no bajar la preparaci\u00f3n.",
+        "Ya puedes verter la masa del bizcocho en el molde y llevarlo al horno precalentado a 180 \u00b0C por aproximadamente 30 minutos. Para comprobar si est\u00e1 cocido, p\u00ednchalo en el centro con un cuchillo. Si sale seco, ya est\u00e1 listo. D\u00e9jalo enfriar antes de desmoldar.",
+        "La tarta de zanahoria y naranja h\u00famedo y esponjoso est\u00e1 listo. \u00a1A comer! Cu\u00e9ntanos en los comentarios tu opini\u00f3n y comparte con nosotros una fotograf\u00eda del resultado final."
+    ]
+}

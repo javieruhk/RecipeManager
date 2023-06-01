@@ -1,0 +1,170 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": null,
+            "food": null,
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "polvo para hornear",
+            "food": "baking powder",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "agua",
+            "food": "water",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": "tibio",
+            "physical_quality": "warm",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite",
+            "food": "oil",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": null,
+            "food": null,
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "zap",
+            "food": "zap",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "calabaza",
+            "food": "pumpkin",
+            "quantity": "400",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Queso crema",
+            "food": "cream cheese",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Queso",
+            "food": "cheese",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "rallado",
+            "process": "grated"
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "En primer lugar, cocina la calabaza. Lo ideal es hacerla en el horno envuelta en papel de aluminio para que quede lo m\u00e1s seca posible. Pero si lo prefieres, puedes cocerla en el microondas o hervida. En cualquiera de estos casos, una vez hecha, d\u00e9jala en un colador para eliminar la mayor cantidad posible de l\u00edquido. Luego, haz pur\u00e9 y reserva.",
+        "A continuaci\u00f3n, prepara la masa de tarta de verduras. Coloca sobre la mesa de trabajo la harina en forma de corona. Vierte en el centro los condimentos, el aceite y la mitad del agua. Comienza a integrar del centro hacia afuera y si notas que es necesario, contin\u00faa agregando agua de a poco. Una vez armado el bollo, amasa por aproximadamente 5 minutos.",
+        "Coloca el bollo en un recipiente, c\u00fabrelo con repasador y deja descansar.",
+        "Ahora, pela y pica la cebolla. D\u00f3rala en una sart\u00e9n con una cucharada sopera de aceite. Reserva",
+        "Lava y corta los zapallitos en cubos.",
+        "D\u00f3ralos a fuego fuerte para sellarlos y que no desprendan demasiado l\u00edquido. Reserva.",
+        "Enciende el horno para precalentarlo a 200\u00b0C. Estira la masa y cubre con ella la tartera untada con aceite.",
+        "Incorpora la cebolla y los zapallitos al pur\u00e9 de calabaza. Tambi\u00e9n a\u00f1ade el queso crema, el queso rallado, los condimentos y el huevo. Mezcla bien todo hasta integrar.",
+        "Vierte el relleno en la tartera y cocina en horno precalentado a 200\u00b0C por aproximadamente 25/30 minutos hasta que est\u00e9 cocida y dorada en la superficie.",
+        "La tarta de zapallitos f\u00e1cil y r\u00e1pida est\u00e1 lista. Deja enfriar unos minutos, corta y sirve \u00a1A comer! Cu\u00e9ntanos en los comentarios tu opini\u00f3n y comparte con nosotros una fotograf\u00eda del resultado final."
+    ]
+}

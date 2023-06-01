@@ -1,0 +1,67 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Queso crema",
+            "food": "cream cheese",
+            "quantity": "400",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Yogur griego",
+            "food": "Greek yogurt",
+            "quantity": "3",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "huevos",
+            "food": "eggs",
+            "quantity": "3",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "125",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "esencia de vainilla",
+            "food": "vanilla essence",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para hacer la tarta de queso y yogur griegoempieza por colocar los ingredientes fuera de la nevera un rato para que est\u00e9n a temperatura ambiente. En un bol a\u00f1ade la crema de queso y bate con unas varillas hasta que se quede como una crema, seguido a\u00f1ade el az\u00facar y la esencia de vainilla, mezcla. Pon el horno a calentar a 170 \u00baC.",
+        "Incorpora a la mezcla los yogures griegos, mezcla muy bien hasta que est\u00e9 todo bien incorporado.",
+        "A\u00f1ade los huevos de uno en uno y mezclando antes de echar el siguiente. Debe quedar toda la crema bien mezclada. Utiliza los huevos grandes, si son peque\u00f1os a\u00f1ade uno m\u00e1s.",
+        "Bate hasta que nos quede una crema lisa y sin grumos.",
+        "Prepara el molde, coge un molde de 18-20 cm. \u00fantalo de mantequilla y forra con papel vegetal o de horno. Pon una hoja en la base y otra alrededor o una entera. Vierte la masa en el molde e introduce en el horno a 170\u00baC con calor arriba y abajo, en la parte central del horno. Deja que se cocine la tarta alrededor de 1 hora.",
+        "Cuando observes que la tarta de queso y yogur griego al pinchar sale seca, apaga el horno y deja que se enfr\u00ede dentro del horno con la puerta abierta unos 15 minutos. Debes saber que la tarta sube mucho en el horno y luego baja y, si la retiramos de golpe, bajar\u00eda mucho. Desmolda e introduce en la nevera hasta la hora de comer. \u00a1Lista! Cu\u00e9ntanos en los comentarios tu opini\u00f3n y comparte con nosotros una fotograf\u00eda del resultado final."
+    ]
+}

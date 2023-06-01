@@ -1,0 +1,124 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "arroz",
+            "food": "rice",
+            "quantity": "400",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": "largo",
+            "physical_quality": "long",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pollo",
+            "food": "chicken",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "zucchini",
+            "food": "zucchini",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "chi",
+            "food": "chi",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "zanahorias",
+            "food": "carrots",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "champi\u00f1ones",
+            "food": "mushrooms",
+            "quantity": "100",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "huevos",
+            "food": "eggs",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de s\u00e9samo",
+            "food": "sesame oil",
+            "quantity": "1",
+            "unit_spanish": "corriente",
+            "unit": "stream",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "jengibre",
+            "food": "ginger",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": "fresco",
+            "physical_quality": "fresh",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para que quede suelto el arroz, el truco est\u00e1 en a\u00f1adirlo en un bol con agua, debes remover hasta que el agua est\u00e9 blanca. Vierte el agua y vuelve a repetir la misma operaci\u00f3n 2-3 veces m\u00e1s, el agua debe quedar blanco, el arroz habr\u00e1 soltado todo el almid\u00f3n y nos quedar\u00e1 m\u00e1s suelto. A continuaci\u00f3n, a\u00f1ade una cazuela con agua y el arroz a cocer, tapa y deja el tiempo que indique el fabricante. Cuando est\u00e9, apaga el fuego y deja en la misma olla unos 30 minutos. Retira y aclara con bastante agua, con las manos manipula para separarlo bien.",
+        "Corta todas las verduras en trozos peque\u00f1os y coloca una sart\u00e9n amplia con aceite. A\u00f1ade las verduras menos los champi\u00f1ones, deja que se pochen bien.",
+        "Cuando est\u00e9n a medio pochar las verduras, pica los champi\u00f1ones y a\u00f1ade a las verduras.",
+        "Pica el pollo en trozos peque\u00f1os y a\u00f1ade con las verduras que se cocine todo junto. Incorpora un poco de sal.",
+        "Elabora una tortilla con los dos huevos y corta en tiras o en trozos peque\u00f1os.",
+        "En una cazuela bien ancha, a\u00f1ade un poco de aceite de semillas, girasol o s\u00e9samo y coloca el arroz a fuego fuerte. Saltea y a\u00f1ade 3-4 cucharadas de soja y un poco de jengibre, remueve todo.",
+        "A\u00f1ade las verduras al arroz y la tortilla en trozos. Saltea todo a fuego fuerte unos 2-3 minutos y prueba por si debes a\u00f1adir alg\u00fan ingrediente m\u00e1s.",
+        "Sirve el arroz japon\u00e9s frito y listo para comer. Cu\u00e9ntanos en los comentarios tu opini\u00f3n y comparte con nosotros una fotograf\u00eda del resultado final."
+    ]
+}

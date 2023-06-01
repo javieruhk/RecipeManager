@@ -1,0 +1,77 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "tambor de pollo",
+            "food": "chicken drum",
+            "quantity": "2",
+            "unit_spanish": "libras",
+            "unit": "pounds",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": null,
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo en polvo",
+            "food": "garlic powder",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "\u2044",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "salsa barbacoa",
+            "food": "barbecue sauce",
+            "quantity": "3\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente una freidora a 360 grados F (180 grados C).",
+        "Coloque las drummias en un taz\u00f3n grande. A\u00f1ada el aceite de oliva, el polvo de ajo, la sal y la pimienta. Mezcle hasta que se combinen uniformemente.",
+        "Cocine tambores durante 25 minutos.",
+        "Usando pinzas, retire las bater\u00edas de la freidora y col\u00f3quelas en un taz\u00f3n grande. Vierta la barbacoa sobre la parte superior y agitar para cubrir.",
+        "Cocine hasta que las drummias ya no est\u00e9n rosadas en el hueso y los jugos est\u00e9n limpios, unos 5 minutos m\u00e1s. Un term\u00f3metro de lectura instant\u00e1nea insertado cerca del hueso debe leer 165 grados F (74 grados C). Sirva inmediatamente."
+    ]
+}

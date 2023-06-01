@@ -1,0 +1,204 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": null,
+            "food": null,
+            "quantity": "200",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": "fresco",
+            "physical_quality": "fresh",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "had en",
+            "food": "had en",
+            "quantity": "200",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "naranja",
+            "food": "orange",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "limones",
+            "food": "lemons",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "2",
+            "unit_spanish": "clavos",
+            "unit": "cloves",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "soja",
+            "food": "soy",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de s\u00e9samo",
+            "food": "sesame oil",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "vinagre de arroz",
+            "food": "rice vinegar",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "3",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": null,
+            "food": null,
+            "quantity": "1",
+            "unit_spanish": "cubo",
+            "unit": "cube",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cons de pollo",
+            "food": "chicken cons",
+            "quantity": "1",
+            "unit_spanish": "cubo",
+            "unit": "bucket",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mayonesa",
+            "food": "mayonnaise",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "chipotle",
+            "food": "chipotle",
+            "quantity": "1",
+            "unit_spanish": "puede",
+            "unit": "can",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aguacate",
+            "food": "avocado",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Tostadas de ma\u00edz",
+            "food": "corn toast",
+            "quantity": "1",
+            "unit_spanish": "envase",
+            "unit": "pack",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pepino",
+            "food": "cucumber",
+            "quantity": "1\u20442",
+            "unit_spanish": "pieza",
+            "unit": "piece",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1\u20444",
+            "unit_spanish": "pieza",
+            "unit": "piece",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para comenzar, pica finamente el ajo, la cebolla y el jengibre. Reserva por separado todos los ingredientes.",
+        "En una cacerola a fuego medio calienta un poco el aceite de ajonjol\u00ed y sofr\u00ede la cebolla. Despu\u00e9s, incorpora el ajo. Cuando la cebolla adquiera un color ligeramente transparente, incorpora la salsa de soya.",
+        "Agrega a la preparaci\u00f3n el jugo de lim\u00f3n, jugo de naranja, jengibre picado, vinagre de arroz y el az\u00facar. Mezcla todo muy bien y en cuanto rompa el primer hervor, retira del fuego, reserva y permite que la marinada se enfr\u00ede perfectamente lejos de la estufa.",
+        "Para la mayonesa de chipotle: lic\u00faa la mayonesa, el chile chipotle y el cubo de consom\u00e9 de pollo. Cuando est\u00e9 todo bien integrado, pasa la mezcla por un colador para separar las semillas y hollejos del chile. Reserva aparte.",
+        "Para preparar las tostadas de at\u00fan: en una sart\u00e9n bien caliente engrasada con un poco de aceite, sella el filete de at\u00fan por ambos lados, apenas lo necesario para preservar sus jugos sin que llegue a cocerse demasiado. Retira del fuego y reserva.",
+        "Marina el filete por 1 hora en el preparado de salsa de soya, recordando darle la vuelta a la mitad del tiempo para que se impregnen bien los sabores por ambos lados.",
+        "Mientras tanto, rebana el pepino en l\u00e1minas delgadas y reserva para el momento de montar las tostadas de at\u00fan. Pica tambi\u00e9n el mango en cubos medianos. Reserva aparte.",
+        "Transcurrido el tiempo de reposo, pica el at\u00fan en cubos mediados de un tama\u00f1o similar al que hayas cortado los cubos de mango.",
+        "Regresa el at\u00fan a la marinada de soya junto con el mango, mezcla todo muy bien y permite que los ingredientes reposen de 20 minutos a 1 hora mas, para que los sabores se integren perfectamente.",
+        "Por \u00faltimo, sobre las tostadas de ma\u00edz unta una capa de aguacate molido y espolvorea una pizca de sal, encima disp\u00f3n una cama de pepinos rebanados.",
+        "Sirve el at\u00fan con mango, ba\u00f1a todo ligeramente con la marinada de soya, procurando no remojar demasiado las tostadas para que no se aguaden y decora con mayonesa de chipotle. Disfruta las tostadas de at\u00fan con mango como entrante de tus mejores comidas en compa\u00f1\u00eda de amigos o familiares y no olvides que puedes dejarnos todas tus dudas en caso de que las tengas."
+    ]
+}

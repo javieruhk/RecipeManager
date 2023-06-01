@@ -1,0 +1,43 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Coles de Bruselas",
+            "food": "Brussels sprouts",
+            "quantity": "12",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "a la mitad",
+            "process": "halved"
+        },
+        {
+            "food_spanish": "Condimento de carne de Montreal",
+            "food": "Montreal steak seasoning",
+            "quantity": "2",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "tocino",
+            "food": "bacon",
+            "quantity": "12",
+            "unit_spanish": "rodajas",
+            "unit": "slices",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente la freidora a 400 grados F (200 grados C).",
+        "Coloque las coles de Bruselas a la mitad en un taz\u00f3n; espolvoree con condimento de bistec y mezcle para cubrir.",
+        "Envuelva una media rebanada de tocino alrededor de una mitad de cole de Bruselas y coloque la costura en la cesta de la freidora. Repita con el tocino restante y las coles de Bruselas.",
+        "Cocine durante 10 minutos sin molestar. Usando pinzas, transferir a un plato y servir inmediatamente."
+    ]
+}

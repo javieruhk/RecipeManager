@@ -1,0 +1,58 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "masa de galletas de chocolate",
+            "food": "chocolate chip cookie dough",
+            "quantity": "5",
+            "unit_spanish": "piezas",
+            "unit": "pieces",
+            "physical_quality_spanish": "refrigerados",
+            "physical_quality": "refrigerated",
+            "process_spanish": "cortar",
+            "process": "cut"
+        },
+        {
+            "food_spanish": "Gelato de vainilla",
+            "food": "vanilla gelato",
+            "quantity": "1",
+            "unit_spanish": "Cuchara",
+            "unit": "scoop",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "nata",
+            "food": "cream",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "azotados",
+            "process": "whipped"
+        },
+        {
+            "food_spanish": "chocolate",
+            "food": "chocolate",
+            "quantity": "1",
+            "unit_spanish": "onza",
+            "unit": "ounce",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "derretido",
+            "process": "melted"
+        }
+    ],
+    "steps": [
+        "Precaliente la freidora a 360 grados F (175 grados C).",
+        "Obtener un pedazo grande de papel de aluminio y doblarlo en un cuadrado de 8x8 pulgadas. Usted puede hacer un peque\u00f1o plato de la l\u00e1mina doblando los bordes hacia arriba.",
+        "Coloque 1 pedazo de masa de galleta en el medio de su papel de aluminio. Organice las piezas restantes de masa de galleta alrededor de ella en un patr\u00f3n similar al 5 lado de un dado.",
+        "Hornea una galleta en la freidora durante 6 minutos. Abre la freidora y empuja suavemente la parte superior de la galleta; contin\u00faa horneando hasta que est\u00e9 bien dorada, de 2 a 4 minutos m\u00e1s.",
+        "A\u00f1adir gelatina, crema batida, y una llovizna de chocolate derretido, y disfrutar!",
+        "NESTL\u00ae TOLL HOUSE\u00ae Chocolate Chip Cookie Dough Bar tambi\u00e9n se puede utilizar para esta receta.",
+        "La mitad de la galleta no necesita ser completamente horneada, si lo prefiere, porque la masa de galletas pre-hecho no tiene que ser totalmente cocinada para ser consumible.",
+        "La galleta puede necesitar tiempo para tranquilizarse despu\u00e9s de hornear. Y aseg\u00farese de tener cuidado al retirar el papel de aluminio de la freidora."
+    ]
+}

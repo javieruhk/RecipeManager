@@ -1,0 +1,107 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Bono de cerdo",
+            "food": "pork bond",
+            "quantity": "400",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1",
+            "unit_spanish": "sucursal",
+            "unit": "branch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cerveza",
+            "food": "beer",
+            "quantity": "1\u20442",
+            "unit_spanish": "litro",
+            "unit": "liter",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "000",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "postre de levadura",
+            "food": "yeast dessert",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": "desecado",
+            "physical_quality": "dried",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "miel",
+            "food": "honey",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para empezar con la preparaci\u00f3n del s\u00e1ndwich de bondiola de cerdo, disuelve la miel junto con la levadura seca, en una parte de la leche tibia.",
+        "Agrega la mezcla a la harina junto con el resto de la leche tibia. Comienza a integrar y amasar hasta tener un bollo liso.",
+        "Reserva tu masa tapada mientras cocinas la carne.",
+        "Corta la bondiola en churrasquitos de unos 2 dedos de ancho. Retira previamente un poco de la grasa visible.",
+        "Calienta a fuego m\u00e1ximo la plancha con una cucharada de aceite. Dora la carne por ambos lados.",
+        "Mientras, pela y pica la cebolla morada junto con la parte blanca de la cebolla de verdeo. Reserva la parte verde para despu\u00e9s.",
+        "Cuando la carne est\u00e9 dorada por ambos lados, agrega las cebollas y mu\u00e9velas para que no se quemen, sino que se pongan blanditas.",
+        "Agrega un poco de cerveza como para cubrir el fondo de la carne. G\u00edralas para que se cocinen de forma pareja, tanto sobre su eje, como por los distintos lugares de la plancha. Si se evapora todo el l\u00edquido, agrega un poco m\u00e1s hasta que la carne est\u00e9 bien cocida.",
+        "Mientras tu carne se cocina, contin\u00faa con el pan para tu s\u00e1ndwich de bondiola de cerdo. Divide la masa en 4 y haz bollitos. Ub\u00edcalos en un molde previamente engrasado y t\u00e1palos para que leuden unos 10 minutos, mientras calientas el horno a temperatura m\u00e1xima.",
+        "Cocina tus panes en el horno precalentado a 200-200 \u00baC por unos 10 minutos hasta que est\u00e9n dorados. Res\u00e9rvalos.",
+        "Una vez cocida la carne, ay\u00fadate con dos tenedores para desmenuzarla. Una vez lista, m\u00e9zclala con la salsa de la reducci\u00f3n de la cerveza y la parte verde de la cebolla de verdeo.",
+        "Con cuidado de no quemarte, abre los pancitos por la mitad y rell\u00e9nalos con la carne desmenuzada. Si lo deseas, puedes agregar un poco de queso. Lleva tus s\u00e1ndwich de bondiola de cerdo al horno por unos 5 minutos para que se caliente la carne con el pan y se derrita el queso, si decidiste agregarlo.",
+        "Sirve tus s\u00e1ndwich de bondiola de cerdo reci\u00e9n salidos del horno. \u00a1A comer! Cu\u00e9ntanos si lo pruebas y comparte la foto del resultado final."
+    ]
+}

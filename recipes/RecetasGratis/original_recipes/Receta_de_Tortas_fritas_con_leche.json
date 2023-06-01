@@ -1,0 +1,91 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "240",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "100",
+            "unit_spanish": "cent\u00edmetros",
+            "unit": "centimetres",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "polvo para hornear",
+            "food": "baking powder",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite",
+            "food": "oil",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de fre\u00edr",
+            "food": "frying oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pista",
+            "food": "rink",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "Sp",
+            "process": "Sp"
+        }
+    ],
+    "steps": [
+        "Lo primero que debes hacer es entibiar la leche en un recipiente y disolver en ella la sal.",
+        "Realiza una corona con la harina sobre la mesada. Coloca en el centro el aceite y la leche tibia.",
+        "Integra los ingredientes y amasa hasta obtener un bollo suave y liso que no se pega en los dedos. Cubre con un repasador y deja reposar 20 minutos.",
+        "Forma las tortas fritas. Puedes hacer las tradicionales redondas armando bollos peque\u00f1os y aplan\u00e1ndolos, o tambi\u00e9n puedes estirar toda la masa con palote y cortarlas de la forma que prefieras, triangular, rectangular o cuadrada como hicimos en este caso. Pincha con tenedor cada pieza y realiza un corte en el centro.",
+        "Calienta el aceite para fre\u00edr en un recipiente profundo.",
+        "Fr\u00ede las tortas fritas por unos minutos hasta que doren.",
+        "Al retirarlas, d\u00e9jalas sobre papel absorbente y espolvorea con az\u00facar.",
+        "Ya puedes probar estas deliciosas, suaves y esponjosas tortas fritas con leche. \u00a1A comer! Cu\u00e9ntanos qu\u00e9 te pareci\u00f3 esta receta en comentarios."
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "garbanzos",
+            "food": "chickpeas",
+            "quantity": "400",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "Cocidos",
+            "process": "cooked"
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "r\u00e1banos",
+            "food": "radishes",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Tomates",
+            "food": "tomatoes",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceitunas",
+            "food": "olives",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": null,
+            "food": null,
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "lim\u00f3n",
+            "food": "lemon",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "comino",
+            "food": "cumin",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para preparar la ensalada de verano con garbanzos mediterr\u00e1nea, primero prepara los garbanzos. Puedes comprar los garbanzos ya cocidos o cocerlos en casa. Para ello, solo debes dejarlos en remojo toda la noche unas 12 horas y, luego, cocinarlos con una hoja de laurel o solos hasta que queden tiernos, esto ser\u00e1 un par de horas.",
+        "Prepara las verduras, pica el pimiento rojo y el pimiento verde en trozos peque\u00f1os. Adem\u00e1s, pela y corta la cebolla.",
+        "Lava los rabanitos y corta en rodajas finas.",
+        "Lava los tomates, c\u00f3rtalos en rodajas y, luego, por la mitad. Si te gusta puedes c\u00f3rtalos en cuadrados m\u00e1s peque\u00f1os. Tambi\u00e9n puedes utilizar tomates cherrys.",
+        "Coloca los garbanzos en una fuente de servir. L\u00e1valos y esc\u00farrelos bien si son cocidos de bote.",
+        "Coloca todas las verduras con los garbanzos, m\u00e9zclalo todo. A\u00f1ade los tomates alrededor del plato para que se sirvan los comensales de todo. Pon unas aceitunas verdes o negras en la ensalada.",
+        "Prepara el ali\u00f1o. Para ello, en un vaso o bol peque\u00f1o a\u00f1ade un buen chorro de aceite de oliva, zumo de lim\u00f3n, un poco de sal, pimienta y comino en polvo, m\u00e9zclalo muy bien. Ali\u00f1a la ensalada de garbanzos mediterr\u00e1nea o s\u00edrvelo aparte y que cada uno se lo ali\u00f1e al gusto. Puedes poner todo el ali\u00f1o en un bote con tapadera, cierra bien y bate, as\u00ed quedar\u00e1 bien emulsionado.",
+        "Guarda la ensalada r\u00e1pida de garbanzos en la nevera sin ali\u00f1ar hasta la hora de servir."
+    ]
+}

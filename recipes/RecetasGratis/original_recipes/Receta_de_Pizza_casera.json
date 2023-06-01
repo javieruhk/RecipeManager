@@ -1,0 +1,70 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Harina de fuerza",
+            "food": "force meal",
+            "quantity": "1",
+            "unit_spanish": "kilogramo",
+            "unit": "kilogram",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": "Bien.",
+            "physical_quality": "fine",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "agua",
+            "food": "water",
+            "quantity": "21\u20442",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": "tibio",
+            "physical_quality": "warm",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "levadura",
+            "food": "yeast",
+            "quantity": "30",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": "fresco",
+            "physical_quality": "fresh",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Antes de empezar con la receta de pizza casera f\u00e1cil resulta fundamental hacer una peque\u00f1a aclaraci\u00f3n sobre la harina. Para realizar este tipo de masas, la harina m\u00e1s recomendada es la de fuerza, puesto que al contener un mayor porcentaje de gluten el resultado ser\u00e1 una masa de pizza casera mucho m\u00e1s esponjosa. En los pa\u00edses de Am\u00e9rica Latina, sobre todo, este tipo de harina es conocido como harina 00. Ahora bien, si quieres hacer pizza casera sin gluten, consulta esta otra receta.",
+        "Ahora s\u00ed, \u00a1empezamos la receta de pizza casera! Para ello, lo primero que vamos a hacer es mezclar en un recipiente el agua templada con la levadura fresca. Para elaborar una masa para pizza casera f\u00e1cilmente puedes utilizar este tipo de levadura o hacer una masa de pizza con levadura seca, ambas son v\u00e1lidas. En el caso de que prefieras la seca, deber\u00e1s mezclarla con la harina y si, por el contrario, prefieres la fresca, es fundamental mezclarla con agua tibia. La levadura fresca es aquella que se vende en bloque y se tiene que conservar en el frigor\u00edfico.",
+        "Cuando hayas mezclado la levadura con el agua, agrega las dos cucharadas de aceite. Mezcla bien para que se integren todos los ingredientes para la pizza.",
+        "Antes de que la preparaci\u00f3n se enfr\u00ede, a\u00f1ade en un bol amplio la harina de fuerza y la sal, acom\u00f3dalas en forma de volc\u00e1n. Vierte la mezcla anterior en el centro.",
+        "Ahora es cuando tienes que empezar a amasar bien hasta que notes que la masa de pizza casera deja de pegarse en tus manos y puedes manejarla sin problemas.",
+        "Cuando tengas la masa de pizza esponjosa lista, deber\u00e1s darle forma de tubo largo y cortarla en 4 particiones. Despu\u00e9s, haz una bola con cada partici\u00f3n y t\u00e1palas con un trapo limpio y seco. Deber\u00e1s dejarlas reposar durante 45 minutos. Ver\u00e1s que, poco a poco, empiezan a elevarse hasta duplicar su volumen. Cada bola de masa te servir\u00e1 para hacer una pizza casera normal.",
+        "Pasado el tiempo correspondiente, espolvorea un poco de harina sobre una mesa para preparar la pizza casera, coge una de las bolas y col\u00f3cala sobre ella. Ahora deber\u00e1s extenderla con tus manos estirando desde el centro hacia los costados, d\u00e1ndole forma circular. Si dispones de rodillo tambi\u00e9n puedes utilizarlo para que quede m\u00e1s fina la masa. Una vez estirada, ya puedes a\u00f1adir la salsa para pizza casera y los ingredientes para pizza que prefieras. Puedes usar esta deliciosa receta casera de salsa de tomate y cebolla para pizza.",
+        "Una vez hayas escogido los ingredientes y tengas tu masa de pizza casera terminada, deber\u00e1s precalentar el horno a temperatura m\u00e1xima durante unos 20 minutos.",
+        "Pasado el tiempo, introduce la preparaci\u00f3n pizza casera y horn\u00e9ala durante 10 minutos aproximadamente. Deber\u00e1s vigilarla porque el tiempo final variar\u00e1 en funci\u00f3n del tipo de horno y la intensidad que tenga. \u00a1Listo, tu pizza casera al horno estar\u00e1 para chuparse los dedos!"
+    ]
+}

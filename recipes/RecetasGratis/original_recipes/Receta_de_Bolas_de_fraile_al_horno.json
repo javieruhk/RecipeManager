@@ -1,0 +1,103 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "500",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "levadura",
+            "food": "yeast",
+            "quantity": "25",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": "fresco",
+            "physical_quality": "fresh",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "40",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ung\u00fcento de mantequilla",
+            "food": "butter ointment",
+            "quantity": "50",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "esencia de vainilla",
+            "food": "vanilla essence",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "180",
+            "unit_spanish": "cent\u00edmetros",
+            "unit": "centimeters",
+            "physical_quality_spanish": "tibio",
+            "physical_quality": "lukewarm",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "dulce de leche",
+            "food": "dulce de leche",
+            "quantity": "300",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para preparar las bolas de fraile f\u00e1ciles y r\u00e1pidas, comenzaremos preparando una esponja con la levadura, un par de cucharadas de az\u00facar y harina de la receta y 1/3 de la leche tibia. Mezcla bien y deja reposar tapado hasta que se active la levadura y espumee.",
+        "A continuaci\u00f3n, arma una corona con la harina, coloca el az\u00facar en sus bordes y en el centro, la esponja de levadura, el huevo levemente batido, el resto de la leche, la esencia de vainilla. Integra los ingredientes del centro hacia afuera armando la masa.",
+        "Ahora integra la manteca pomada. Al principio parece que vas a necesitar m\u00e1s harina y que no se va a poder integrar, pero no agregues nada, contin\u00faa amasando y ver\u00e1s que vuelve a formarse un bollo bien suave y liso.",
+        "Coloca el bollo en un recipiente, c\u00fabrelo y deja leudar hasta que duplique su volumen.",
+        "Una vez que haya duplicado el volumen, deber\u00e1s dividir la masa en peque\u00f1os bollos, no demasiado grandes, ya que deben leudar nuevamente.",
+        "Col\u00f3calos en una asadera engrasada separados entre s\u00ed, para que no se peguen cuando aumenten su tama\u00f1o. Cubre y deja que leven por segunda vez, hasta duplicar su volumen. Mientras tanto, enciende el horno para precalentarlo a 180 \u00b0C.",
+        "Antes de hornear las bolas de fraile argentinas, p\u00edntalas con una mezcla de leche y az\u00facar. Luego, cocina en horno a 180 \u00b0C hasta que est\u00e9n doradas (15 / 20 minutos)",
+        "Retira y cuando se hayan enfriado, corta por la mitad y rellena con dulce de leche repostero.",
+        "Para finalizar, puedes espolvorear las bolitas de fraile al horno con az\u00facar impalpable y listas para comer. Comparte con nosotros tus fotos y opini\u00f3n sobre esta receta en los comentarios."
+    ]
+}

@@ -1,0 +1,155 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Migajas de pan italianas",
+            "food": "Italian bread crumbs",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Queso parmesano",
+            "food": "Parmesan cheese",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Condimento italiano",
+            "food": "Italian seasoning",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "albahaca",
+            "food": "basil",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": "desecado",
+            "physical_quality": "dried",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo en polvo",
+            "food": "garlic powder",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla en polvo",
+            "food": "onion powder",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "huevos",
+            "food": "eggs",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": "golpeados",
+            "process": "beaten"
+        },
+        {
+            "food_spanish": "berenjena",
+            "food": "eggplant",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "medio",
+            "physical_quality": "medium",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Salsa marinara",
+            "food": "marinara sauce",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "queso mozzarella",
+            "food": "mozzarella cheese",
+            "quantity": "8",
+            "unit_spanish": "rodajas",
+            "unit": "slices",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Combine las migajas de pan, queso parmesano, condimento italiano, sal, albahaca, polvo de ajo, polvo de cebolla y pimienta negra en un taz\u00f3n poco profundo. Coloque la harina en un taz\u00f3n poco profundo separado y los huevos batidos en un tercer taz\u00f3n poco profundo.",
+        "Sumerja la berenjena rebanada primero en harina, luego en huevos batidos, y finalmente revuelva con la mezcla de pan rallado. Coloque la berenjena recubierta en una bandeja y deje reposar durante 5 minutos.",
+        "Precaliente una freidora a 370 grados F (185 grados C).",
+        "Colocar las rondas de berenjenas empanadas en la cesta de la freidora, asegur\u00e1ndose de que no se toquen; trabajar en lotes si es necesario. Cocinar durante 8 a 10 minutos, voltear cada ronda, y cocinar hasta que se alcance la crujiente deseada, 4 a 6 minutos m\u00e1s.",
+        "Cubra cada berenjena con salsa marinara y 1 rebanada de queso mozzarella. Coloque la cesta de nuevo en la freidora y cocine hasta que el queso haya comenzado a derretirse, de 1 a 2 minutos. Repita con la berenjena restante, si es necesario.",
+        "Servir caliente y disfrutar!"
+    ]
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food nutritional information</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/css/style.css') }}">
+</head>
+<body>
+	<h1>
+		{% if quantity != None %}
+			{% if unit != None %}
+				{{ food_name }} ({{ quantity }} {{ unit }}):
+			{% else %}
+				{{ food_name }} ({{ quantity }}):
+			{% endif %}
+		{% elif unit != None %}
+			{{ food_name }} ({{ unit }}):
+		{% else %}
+			{{ food_name }}:
+		{% endif %}
+	</h1>
+
+	{% if BEDCA_response[0] == 200 and BEDCA_response[1] != {} %}
+	{% 		set BEDCA_json = BEDCA_response[1] %}
+
+			<h2>Información nutricional de BEDCA:</h2>
+				<table>
+				<tr class="header">
+					<th>Componente</th>
+					<th>Cantidad</th>
+					<th>Unidad</th>
+				</tr>
+
+				{% for componente, valor in BEDCA_json["micronutrientes"].items() %}
+					{% if valor %}
+						<tr class="not-hover">
+							<td>{{ componente }}</td>
+							<td>{{ valor }}</td>
+							<td>mg/100 g</td>
+						</tr>
+					{% endif %}
+				{% endfor %}
+			</table>
+
+	{% endif %}
+
+	{% if phenol_explorer_response[0] == 200 and phenol_explorer_response[1] != {} %}
+	{% 		set phenol_explorer_json = phenol_explorer_response[1] %}
+			<h2>Información nutricional de Phenol_Explorer:</h2>
+				<table>
+					<thead>
+						<tr class="header">
+							<th>Grupo de componente Group</th>
+							<th>Subgroupo de componente</th>
+							<th>Componente</th>
+							<th>Cantidad</th>
+							<th>Unidad</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for compound in phenol_explorer_json['compounds'] %}
+							{% for subgroup in compound['compound_subgroups'] %}
+								{% for quantity in subgroup['compound_quantity'] %}
+									{% if quantity['compound'] != "Polyphenols, total" %}
+										<tr class="not-hover">
+											<td>{{ compound['compound_group'] }}</td>
+											<td>{{ subgroup['compound_sub_group'] }}</td>
+											<td>{{ quantity['compound'] }}</td>
+											<td>{{ quantity['mean'] }}</td>
+											<td>{{ quantity['units'] }}</td>
+										</tr>
+									{% endif %}
+								{% endfor %}
+							{% endfor %}
+						{% endfor %}
+
+						{% for compound in phenol_explorer_json['compounds'] %}
+							{% for subgroup in compound['compound_subgroups'] %}
+								{% for quantity in subgroup['compound_quantity'] %}
+									{% if quantity['compound'] == "Polyphenols, total" %}
+										<tr class="not-hover" style="font-weight: bold;">
+											<td>{{ compound['compound_group'] }}</td>
+											<td>{{ subgroup['compound_sub_group'] }}</td>
+											<td>{{ quantity['compound'] }}</td>
+											<td>{{ quantity['mean'] }}</td>
+											<td>{{ quantity['units'] }}</td>
+										</tr>
+									{% endif %}
+								{% endfor %}
+							{% endfor %}
+						{% endfor %}
+					</tbody>
+				</table>
+	{% endif %}
+
+	<form id="back" action="{{ recipe_direction }}" method="GET" >
+		<button type="submit">Volver</button>
+	</form>	
+
+
+	{% if (BEDCA_response[0] == 400 or BEDCA_response[0] == 404 or BEDCA_response[1] == {}) and (phenol_explorer_response[0] == 400 or phenol_explorer_response[0] == 404 or phenol_explorer_response[1] == {}) %}
+		<script>
+			window.addEventListener("load", function() {
+				setTimeout(function() {
+					alert("No hay información nutricional sobre el ingrediente seleccionado");
+				}, 100);
+			})
+		</script>
+	{% elif (BEDCA_response[0] == 400 or BEDCA_response[0] == 404 or BEDCA_response[1] == {}) %}
+		<script>
+			window.addEventListener("load", function() {
+				setTimeout(function() {
+					alert("No hay información en BEDCA sobre el ingrediente seleccionado");
+				}, 100);
+
+			})
+		</script>
+	{% elif (phenol_explorer_response[0] == 400 or phenol_explorer_response[0] == 404 or phenol_explorer_response[1] == {}) %}
+		<script>
+			window.addEventListener("load", function() {
+				setTimeout(function() {
+					alert("No hay información en Phenol Explorer sobre el ingrediente seleccionado");
+				}, 100);
+
+			})
+		</script>
+	{% elif (BEDCA_response[0] == 500 or BEDCA_response[0] == -1) %}
+		<script>
+			window.addEventListener("load", function() {
+				setTimeout(function() {
+					alert("Ha ocurrido un error al acceder a la información de BEDCA");
+				}, 100);
+			})
+		</script>
+	{% elif (phenol_explorer_response[0] == 500 or phenol_explorer_response[0] == -1) %}
+		<script>
+			window.addEventListener("load", function() {
+				setTimeout(function() {
+					alert("Ha ocurrido un error al acceder a la información de Phenol Explorer");
+				}, 100);
+			})
+		</script>
+	{% endif %}
+
+
+</body>
+</html>

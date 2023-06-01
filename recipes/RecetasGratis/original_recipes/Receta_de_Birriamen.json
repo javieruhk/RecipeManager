@@ -1,0 +1,101 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "pasta de ramen",
+            "food": "ramen paste",
+            "quantity": "80",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": "desecado",
+            "physical_quality": "dried",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "bir",
+            "food": "bir",
+            "quantity": "2",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "carne de vacuno",
+            "food": "beef",
+            "quantity": "100",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "limones",
+            "food": "lemons",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "cilantro",
+            "food": "cilantro",
+            "quantity": "1",
+            "unit_spanish": "grupo",
+            "unit": "bunch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1\u20444",
+            "unit_spanish": "pieza",
+            "unit": "piece",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "pieza",
+            "unit": "piece",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "agua",
+            "food": "water",
+            "quantity": "2",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Hierve dos tazas de agua en una olla y a\u00f1ade los fideos. Cocina por 3 minutos mezclando ocasionalmente. ",
+        "Apaga el fuego y retira los fideos del agua. Escurre muy bien el exceso de l\u00edquido y reserva los fideos para ramen aparte.",
+        "Calienta el consom\u00e9 de birria a fuego medio, moviendo constantemente. Si tienes dudas sobre c\u00f3mo preparar la carne y consom\u00e9 de birria, puedes consultar las instrucciones paso a paso en la receta de tacos de birria con queso que te compartimos anteriormente.",
+        "Pica la carne de costilla de res ya cocida y retira todos los huesos o pellejos que pueda tener.",
+        "Una vez que el consom\u00e9 de birria rompa el hervor, agrega la carne y mezcla todo muy bien.",
+        "Vac\u00eda la birria en un plato hondo y agrega los fideos para ramen. Rectifica el saz\u00f3n por si es necesario agregar con un poco de sal o condimentos extras.",
+        "Disfruta de la birriamen mientras est\u00e1 caliente junto con un poco de cilantro y cebolla finamente picada, as\u00ed como con jugo de lim\u00f3n al gusto. \u00bfSab\u00edas que en las fiestas patrias de septiembre m\u00e1s recientes algunos mexicanos tambi\u00e9n hicimos pozole-ramen? Cu\u00e9ntanos en los comentarios si se te antoja probarlo y si te ha gustado esta fusi\u00f3n de cocina tradicional mexicana modernizada con un toque oriental. "
+    ]
+}

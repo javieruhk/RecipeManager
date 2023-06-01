@@ -1,0 +1,93 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "carne de cerdo",
+            "food": "pork",
+            "quantity": "500",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "sacrificio",
+            "process": "slaughter"
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "4",
+            "unit_spanish": "sucursales",
+            "unit": "branches",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pur\u00e9 de ajo",
+            "food": "garlic puree",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Almid\u00f3n de ma\u00edz",
+            "food": "cornstarch",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Patatas",
+            "food": "potatoes",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para empezar con la preparaci\u00f3n del matambre al verdeo, cocina la carne en una olla a presi\u00f3n con variedad de verduras por unos 30 minutos. Puedes usar puerro, zanahoria, cebolla, pero recomendamos no uses caldos industriales. Si no tienes este tipo de ollas, puedes cocinarlo perfectamente en una olla regular, pero el doble de tiempo, asegur\u00e1ndote que no se quede sin l\u00edquido. As\u00ed, tu matambre estar\u00e1 bien tierno y delicioso.",
+        "Mientras, pela y pica la cebolla bien finita. Tambi\u00e9n lava y corta la cebolla de verdeo separando la parte blanca de la verde. Pica la blanca y reserva la verde para usar luego.",
+        "Para comenzar con la cocci\u00f3n de la salsa de verdeo, agrega una cucharada de aceite en una sart\u00e9n a fuego m\u00e1ximo. Condimenta con el pur\u00e9 de ajo.",
+        "Agrega la cebolla y la parte blanca de la cebolla de verdeo y, una vez que transparenten, baja el fuego a medio. Si el salteado se est\u00e1 secando, agrega una cucharada de agua caliente. Repite tantas veces como sea necesario para lograr unas cebollas caramelizadas exquisitas. Cuando est\u00e9n bien cocidas, puedes levantar el fondo de cocci\u00f3n con vino blanco en lugar de agua para sumar m\u00e1s sabor.",
+        "Mientras, disuelve la maicena en la leche fr\u00eda. Esta es una versi\u00f3n saludable y r\u00e1pida de una salsa blanca. Sin embargo, si lo prefieres, puedes hacer la cl\u00e1sica calentando una cucharada de manteca con una de harina en una sart\u00e9n y agregando luego la leche. Revuelve hasta que espese.",
+        "Agrega la leche con la maicena al salteado de cebolla y revuelve hasta que espese. Agrega al final la parte verde de la cebolla de verdeo picada.",
+        "Cuando la carne est\u00e9 lista, calienta la plancha a fuego m\u00e1ximo. Agrega la carne y no la muevas sino hasta que est\u00e9 bien dorada. G\u00edrala y d\u00f3rala por el otro lado.",
+        "Al girarla, a\u00f1ade una cucharada de la salsa de verdeo y d\u00e9jala que se termine de calentar con la carne para que tome sabor.",
+        "Para acompa\u00f1ar tu matambre al verdeo, pela y corta la papa en cubos. Sum\u00e9rgela en abundante agua y cu\u00e9lala. Ll\u00e9vala al recipiente de tu freidora de aire y coc\u00ednala por unos 7 minutos a 200 \u00baC. Mu\u00e9velas un poco y coc\u00ednalas 7 minutos m\u00e1s para que est\u00e9n bien doradas.",
+        "Sirve tu matambre al verdeo decorando con m\u00e1s de la parte verde picada junto con las papas doradas y crujientes. \u00a1A comer! Cu\u00e9ntanos si lo pruebas y comparte la foto del resultado final."
+    ]
+}

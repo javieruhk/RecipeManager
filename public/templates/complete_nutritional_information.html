@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Complete nutritional information</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/css/style.css') }}">
+</head>
+<body>
+	<h1>
+		{{ recipe_title }}
+	</h1>
+		{% if nutritional_information_dict != {} %}
+
+			<h2>Valor nutricional total:</h2>
+				<table>
+				<tr class="header">
+					<th>Componente</th>
+					<th>Cantidad</th>
+					<th>Unidad</th>
+				</tr>
+
+				{% for componente, valor in nutritional_information_dict.items() %}
+					{% if valor %}
+						<tr class="not-hover">
+							<td>{{ componente }}</td>
+							<td>{{ valor or "" }}</td>
+							<td>mg/100 g</td>
+						</tr>
+					{% endif %}
+				{% endfor %}
+			</table>
+
+		{% endif %}
+
+	<form id="back" action="{{ recipe_direction }}" method="GET" >
+		<button type="submit">Volver</button>
+	</form>	
+
+	{% if nutritional_information_dict == {} %}
+		<script>
+			window.addEventListener("load", function() {
+				setTimeout(function() {
+					alert("No hay información nutricional sobre la receta seleccionada");
+				}, 100);
+			})
+		</script>
+
+	{% endif %}
+
+</body>
+</html>

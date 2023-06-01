@@ -1,0 +1,77 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "lejos de oto\u00f1o e pastas alimenticias",
+            "food": "far fall e pasta",
+            "quantity": "2",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Queso parmesano",
+            "food": "Parmesan cheese",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "rallado",
+            "process": "grated"
+        },
+        {
+            "food_spanish": "ajo en polvo",
+            "food": "garlic powder",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Condimento italiano",
+            "food": "Italian seasoning",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Lleve una olla grande de agua ligeramente salada a hervir; agregue la pasta y cocine, revolviendo ocasionalmente, hasta que est\u00e9 tierna pero firme a la mordedura, unos 8 minutos. Escurre, pero no enjuague. Deje reposar durante 2 minutos.",
+        "Precaliente una freidora a 400 grados F (200 grados C).",
+        "Mientras tanto, transfiera la pasta a un taz\u00f3n grande y roc\u00ede con aceite de oliva; revuelva el queso parmesano, el polvo de ajo, el condimento italiano y la sal hasta que se combinen uniformemente.",
+        "Cocine en la freidora de aire precalentada durante 5 minutos; d\u00e9 la vuelta y cocine de 2 a 3 minutos m\u00e1s. Transfiera a un plato de papel forrado con toallas y rompa las pastas fritas que se han pegado; deje enfriar por completo. Repita con la pasta restante.",
+        "Todas las freidoras de aire no se crean iguales. La m\u00eda es poco menos de 4 cuartos y he sido capaz de caber 1/4 de la pasta a la vez."
+    ]
+}

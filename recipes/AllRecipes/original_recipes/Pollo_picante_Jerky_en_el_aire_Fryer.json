@@ -1,0 +1,57 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "pollo",
+            "food": "chicken",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "deshuesado",
+            "physical_quality": "boneless",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mojo cri ollo marinado",
+            "food": "mojo cri ollo marinade",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Condimento caj\u00fan",
+            "food": "Cajun seasoning",
+            "quantity": "2",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": null,
+            "food": null,
+            "quantity": "6",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "madera",
+            "physical_quality": "wooden",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Combine las tiras de pollo, la marinada y el condimento Cajun en una bolsa de pl\u00e1stico resellable. Refrigere durante 8 horas a la noche.",
+        "Mida los pinchos para caber a trav\u00e9s de la cesta de la freidora, ligeramente solapando el borde. Recorte el exceso de longitud.",
+        "Precaliente la freidora a 180 grados F (80 grados C) durante 10 minutos.",
+        "Pasa las tiras de pollo a los pinchos, dejando espacio entre cada tira, mientras la freidora est\u00e1 precalentando.",
+        "Ajustar el tiempo de cocci\u00f3n ya que la mayor\u00eda de las freidoras tienen un ajuste m\u00e1ximo de 30 minutos. Reordenar los pinchos durante el tiempo de reinicio.",
+        "Aumentar la temperatura a 200 grados F (95 grados C) y fre\u00edr por 15 minutos adicionales.",
+        "Retirar las tiras a un contenedor de papel forrado con toallas. Sellar. Dejar reposar durante la noche antes de servir."
+    ]
+}

@@ -1,0 +1,169 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Mantequilla de cerdo",
+            "food": "pork butter",
+            "quantity": "6",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mantequilla",
+            "food": "butter",
+            "quantity": "90",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "380",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": "condensado",
+            "physical_quality": "condensed",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "huevos",
+            "food": "eggs",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina de trigo",
+            "food": "wheat flour",
+            "quantity": "4",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "polvo para hornear",
+            "food": "baking powder",
+            "quantity": "2",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "vainilla",
+            "food": "vanilla",
+            "quantity": "2",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "pieza",
+            "unit": "piece",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "nata de vaca",
+            "food": "cow cream",
+            "quantity": "250",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "100",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": "condensado",
+            "physical_quality": "condensed",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "nuez",
+            "food": "walnut",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "picado",
+            "process": "chopped"
+        },
+        {
+            "food_spanish": "coco",
+            "food": "coconut",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "rallado",
+            "process": "grated"
+        },
+        {
+            "food_spanish": "mermelada de fresa",
+            "food": "strawberry jam",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "tarjeta",
+            "food": "card",
+            "quantity": null,
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Bate la crema junto con la manteca y la mantequilla hasta acremar. Para facilitar el procedimiento, la mantequilla y la manteca deben estar a temperatura ambiente. Si est\u00e1n muy fr\u00edas, puedes introducirlas por 20-30 segundos al horno de microondas previo a batir.",
+        "A\u00f1ade la leche condensada, los huevos 1 a 1 y la vainilla. Mezcla todo muy bien.",
+        "Poco a poco, incorpora los ingredientes secos previamente cernidos.",
+        "Bate hasta integrar por completo, cubre la masa con pl\u00e1stico adherente y deja reposar por 20 minutos.",
+        "Transcurrido el tiempo de reposo, cubre una charola con harina y con ayuda de una cuchara tambi\u00e9n enharinada, forma bolitas con la masa, todas del mismo tama\u00f1o. Repite este procedimiento hasta acabar con la masa.",
+        "Calienta una sart\u00e9n a fuego bajo y cubre toda la superficie con un poco de aceite. Pon encima las gorditas dejando algo de espacio entre ellas.",
+        "Aplasta las bolitas suavemente ya sea con la mano o con ayuda de una esp\u00e1tula para formar las gorditas.",
+        "Cocina las gorditas por ambos lados hasta que tomen un color ligeramente dorado y est\u00e9n bien cocidas por el centro.",
+        "Sirve las gorditas de lechera con nuez picada, coco rallado, crema de avellanas o mermelada. En M\u00e9xico tambi\u00e9n es com\u00fan encontrarlas rellenas de queso crema, cajeta o incluso con frijoles. Esperamos que disfrutes de este tradicional postre mexicano que t\u00edpicamente se consume el 12 de diciembre, el d\u00eda de la Guadalupana y que tiene sus ra\u00edces desde hace m\u00e1s de dos siglos por ser una ofrenda, entre otros platillos derivados del ma\u00edz, a Tonantzin, una deidad femenina prehisp\u00e1nica con la que est\u00e1 estrechamente relacionada."
+    ]
+}

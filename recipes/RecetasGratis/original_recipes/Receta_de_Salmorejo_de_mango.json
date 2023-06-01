@@ -1,0 +1,101 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": null,
+            "food": null,
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "maduro",
+            "physical_quality": "mature",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Tomates",
+            "food": "tomatoes",
+            "quantity": "600",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "madura",
+            "physical_quality": "ripe",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pan",
+            "food": "bread",
+            "quantity": "100",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "1",
+            "unit_spanish": "clavo",
+            "unit": "clove",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "150",
+            "unit_spanish": "mililitros",
+            "unit": "milliliter",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "vinagre",
+            "food": "vinegar",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "agua",
+            "food": "water",
+            "quantity": "1",
+            "unit_spanish": "vidrio",
+            "unit": "glass",
+            "physical_quality_spanish": "peque\u00f1o",
+            "physical_quality": "small",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para preparar el salmorejo de mango primero retira la piel a los tomates y c\u00f3rtalos en trozos. Pon el tomate en un vaso para triturar o en un robot de cocina.",
+        "A\u00f1ade el pan troceado para que se remoje con el tomate. A continuaci\u00f3n, a\u00f1ade 1-2 dientes de ajo seg\u00fan te guste. Si te gusta m\u00e1s cantidad de pan, a\u00f1\u00e1delo.",
+        "Tritura la mezcla y, si ves que queda muy espesa, incorpora un poco de agua.",
+        "Pela y corta el mango en trozos peque\u00f1os. Puedes a\u00f1adir m\u00e1s cantidad de mango si te gusta, as\u00ed se notar\u00e1 m\u00e1s el sabor.",
+        "Incorpora el mango en el vaso con la mezcla del salmorejo y a\u00f1ade un poco de sal, vinagre y un chorro de aceite de oliva. Mezcla todo muy bien y bate con la batidora dos o tres veces.",
+        "Ve a\u00f1adiendo aceite de oliva y sigue batiendo hasta que emulsione, debe quedar una crema lisa y homog\u00e9nea. Prueba y a\u00f1ade si hace falta un poco m\u00e1s de sal y vinagre. A continuaci\u00f3n, introduce el salmorejo en la nevera hasta la hora de servir, m\u00ednimo 2-3 horas para que todos los sabores adquieran sabor y est\u00e9 bien fr\u00edo.",
+        "Sirve el salmorejo con mango en copas o bolws si quieres servirlo como entrante. Puedes acompa\u00f1ar el salmorejo con trocitos de mango, te encantar\u00e1 encontrar trocitos al comerlo. \u00a1A comer! Cu\u00e9ntanos en los comentarios tu opini\u00f3n y comparte con nosotros una fotograf\u00eda del resultado final."
+    ]
+}

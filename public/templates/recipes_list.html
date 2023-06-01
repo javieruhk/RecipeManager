@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipes List</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/css/style.css') }}">
+</head>
+<body>
+	<h1>
+		Lista de Recetas: 
+	</h1>
+	{% if recipe_type == "RG" %}
+	{% 		set recipe_dir = "rg-recipes" %}
+	{% elif recipe_type == "AR" %}
+	{% 		set recipe_dir = "ar-recipes" %}
+	{% endif %}
+	<ul>
+		{% for recipe_n in range(recipe_file_names|length()) %}
+		<li><a href="/{{ recipe_dir }}/{{ recipe_file_names[recipe_n] }}">{{ recipe_names[recipe_n] }}</a></li>
+		{% endfor %}
+	</ul>
+
+	<form id="back" action="/" method="GET" >
+		<button type="submit">Volver</button>
+	</form>	
+</body>
+</html>

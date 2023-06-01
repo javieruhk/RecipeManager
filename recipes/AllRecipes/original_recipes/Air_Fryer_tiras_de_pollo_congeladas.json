@@ -1,0 +1,22 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "tiras de pollo",
+            "food": "chicken strips",
+            "quantity": "25",
+            "unit_spanish": "onzas",
+            "unit": "ounces",
+            "physical_quality_spanish": "Congelados",
+            "physical_quality": "frozen",
+            "process_spanish": "paneadas",
+            "process": "breaded"
+        }
+    ],
+    "steps": [
+        "Establecer la temperatura de la freidora a 380 grados F (180 grados C).",
+        "Colocar tiras de pollo congeladas en la cesta de la freidora, sin tocar ni hacinamiento.",
+        "Cocine hasta que crujiente, 11 a 12 minutos. El color no cambiar\u00e1 mucho. Usted puede tener que cocinar en lotes dependiendo del tama\u00f1o de su freidora, y el tiempo de cocci\u00f3n puede variar dependiendo de la marca y el tama\u00f1o de su freidora.",
+        "Retirar de la freidora y servir inmediatamente.",
+        "No es necesario rociar la cesta o las tiras de pollo con spray para cocinar, voltear las tiras a mitad de camino, o incluso precalentar la freidora. Si hay sobras, se pueden recalentar en la freidora durante 2 a 3 minutos."
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Patatas de salchicha",
+            "food": "sausage patties",
+            "quantity": "1",
+            "unit_spanish": "paquete",
+            "unit": "package",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "spray para cocinar",
+            "food": "cooking spray",
+            "quantity": "1",
+            "unit_spanish": "por servir",
+            "unit": "serving",
+            "physical_quality_spanish": "antiadherente",
+            "physical_quality": "nonstick",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Tome sus ingredientes y precaliente una freidora a 400 grados F (200 grados C). Engrase ligeramente el interior de la cesta de la freidora con spray antiadherente.",
+        "Arreglar las empanadas de salchicha en una sola capa en la cesta de la freidora.",
+        "Cocine en la freidora de aire precalentada durante 5 minutos; d\u00e9 la vuelta a las empanadas y cocine unos 3 minutos m\u00e1s. Un term\u00f3metro de lectura instant\u00e1nea insertado en el centro de una empanada debe leer al menos 160 grados F (70 grados C).",
+        "Servir caliente y disfrutar!"
+    ]
+}

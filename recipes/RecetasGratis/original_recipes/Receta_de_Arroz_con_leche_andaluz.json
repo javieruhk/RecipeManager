@@ -1,0 +1,90 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Arroz redondo",
+            "food": "round rice",
+            "quantity": "100",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "800",
+            "unit_spanish": "mililitros",
+            "unit": "milliliter",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "lim\u00f3n",
+            "food": "lemon",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "100",
+            "unit_spanish": "Granos",
+            "unit": "grains",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "canela",
+            "food": "cinnamon",
+            "quantity": "1",
+            "unit_spanish": "sucursal",
+            "unit": "branch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "an\u00eds",
+            "food": "anise",
+            "quantity": null,
+            "unit_spanish": "estrella",
+            "unit": "star",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "canela en polvo",
+            "food": "cinnamon powder",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para hacer el arroz con leche andaluz, primero prepara los ingredientes. A\u00f1ade una cazuela con 2-3 tiras de c\u00e1scara de lim\u00f3n, una rama de canela y 1-2 estrellas de an\u00eds estrellado. Si no dispones de an\u00eds estrellado, puedes verter un chorro de licor de an\u00eds a mitad de la cocci\u00f3n del arroz. Tambi\u00e9n puedes cambiar la c\u00e1scara de lim\u00f3n por la c\u00e1scara de naranja.",
+        "Incorpora la leche y lleva el cazo al fuego. Deja que se cocine a fuego medio alto hasta que empiece a hervir. Luego, baja el fuego.",
+        "A\u00f1ade el arroz y deja que se cocine a fuego medio bajo unos 40 minutos. Ve removiendo de vez en cuando para que se suelte el arroz y vaya soltando el almid\u00f3n, as\u00ed espesar\u00e1 leche y quedar\u00e1 m\u00e1s cremosito.",
+        "A\u00f1ade el az\u00facar a mitad de la cocci\u00f3n y mueve el arroz hasta que el az\u00facar se disuelva, as\u00ed no se quemar\u00e1 o se ira a la parte de abajo de la cazuela. Deja que siga cocinado el arroz hasta que est\u00e9 listo. Pasado un rato prueba de sabor y, si te gusta m\u00e1s dulce, a\u00f1ade un poco m\u00e1s de az\u00facar, es mejor a\u00f1adir poco y luego ir a\u00f1adiendo si hace falta.",
+        "Cuando casi est\u00e9 el arroz con leche tradicional, prueba el arroz y, si ves que est\u00e1 tierno, apaga el fuego. Como est\u00e1 muy caliente se sigue cocinando y suele espesarse un poco m\u00e1s.",
+        "Retira el palo de canela y la c\u00e1scara de lim\u00f3n del arroz. Prepara unos vasitos o moldes para emplatar el arroz con leche andaluz. Deja templar el arroz a temperatura ambiente y, luego, introduce en la nevera hasta la hora de comer o de un d\u00eda para otro. Como m\u00ednimo 3-4 horas en la nevera.",
+        "A la hora de servir espolvorea con un poco de canela en polvo. \u00a1A comer el arroz con leche de toda la vida! Cu\u00e9ntanos en los comentarios tu opini\u00f3n y comparte con nosotros una fotograf\u00eda del resultado final."
+    ]
+}

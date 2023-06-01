@@ -1,0 +1,111 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "remolacha",
+            "food": "beet",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "peque\u00f1o",
+            "physical_quality": "small",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "masticar",
+            "food": "chew",
+            "quantity": "3",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite",
+            "food": "oil",
+            "quantity": "3",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "0000",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "polvo para hornear",
+            "food": "baking powder",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "lim\u00f3n",
+            "food": "lemon",
+            "quantity": "1\u20442",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para empezar con la preparaci\u00f3n de este bizcocho, deber\u00e1s cocinar la remolacha en abundante agua por unos 40 minutos o hasta que est\u00e9 tierna. Es importante que mantengas una parte de su tallo y la piel para que no pierda en el agua su color caracter\u00edstico y nutrientes.",
+        "Por otro lado, disp\u00f3n el huevo junto con la pizca de sal, el az\u00facar mascabo y el aceite en una procesadora. Enci\u00e9ndela hasta que est\u00e9 bien blanquecino y esponjoso.",
+        "Agrega la remolacha ya cocida y fr\u00eda, sin su tallo ni piel. Tambi\u00e9n a\u00f1ade medio lim\u00f3n cortado en gajos a vivo, es decir, sin la parte blanca de la piel. Puedes agregar un poco de su c\u00e1scara rallada si deseas un sabor alimonado m\u00e1s intenso. Procesa hasta obtener una preparaci\u00f3n homogenea, sin pedacitos de remolacha entera.",
+        "A\u00f1ade la mitad de la harina, tamiz\u00e1ndola previamente, junto con el polvo para hornear. Agrega tambi\u00e9n la mitad de la leche. Ci\u00e9rrala bien, dale unos toques a la licuadora y agrega el resto, cuidando la cantidad de leche.",
+        "Cuando hayas procesado toda tu preparaci\u00f3n y est\u00e9 bien integrada, vu\u00e9lcala en el molde donde deseas cocinar tu pastel de remolacha. Este es un savar\u00edn de 16 cent\u00edmetros de di\u00e1metro. Deber\u00e1s engrasarlo y enharinarlo previamente para que se desmolde facilmente.",
+        "Cocina tu tarta de remolacha en el horno precalentado a 180 \u00baC por unos 30 minutos o hasta que, al pincharlo, no salgan restos de la preparaci\u00f3n. Reserva hasta que est\u00e9 fr\u00edo para desmoldarlo. \u00a1A comer! Cu\u00e9ntanos si lo pruebas y comparte la foto del resultado final."
+    ]
+}

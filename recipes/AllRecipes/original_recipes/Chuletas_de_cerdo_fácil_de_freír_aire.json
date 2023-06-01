@@ -1,0 +1,111 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Queso parmesano",
+            "food": "Parmesan cheese",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "rallado",
+            "process": "grated"
+        },
+        {
+            "food_spanish": "piment\u00f3n",
+            "food": "paprika",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo en polvo",
+            "food": "garlic powder",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal kosher",
+            "food": "kosher salt",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "perejil",
+            "food": "parsley",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": "desecado",
+            "physical_quality": "dried",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": null,
+            "food": null,
+            "quantity": "4",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "deshuesado",
+            "physical_quality": "boneless",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Usa tu confiable freidora de aire para hacer las mejores (y m\u00e1s f\u00e1ciles) chuletas de cerdo de tu vida. Conf\u00eda en nosotros: una vez que pruebes esta receta de chuletas de cerdo de freidora, nunca volver\u00e1s a tu viejo m\u00e9todo.",
+        "La r\u00e1pida circulaci\u00f3n de aire de la freidora produce chuletas de cerdo crujientes por fuera, pero sabrosas y jugosas por dentro. \u00bfQu\u00e9 m\u00e1s podr\u00edas querer en una receta f\u00e1cil de chuleta de cerdo?",
+        "Mezcle el parmesano, el piment\u00f3n, el polvo de ajo, la sal, el perejil y la pimienta en un plato poco profundo. Cocine cada chuleta de cerdo en aceite de oliva, luego drague en la mezcla de queso sazonado. Cocine las chuletas de cerdo, dos a la vez, en la freidora de aire precalentado.",
+        "Esta receta debe cocinar por completo chuletas de cerdo de tama\u00f1o mediano en unos 10 minutos en una freidora de aire a 380 grados F. Por supuesto, ya que las chuletas de cerdo var\u00edan en espesor, es mejor probar la temperatura antes de cavar. Un term\u00f3metro instant\u00e1neo de lectura de alimentos insertado en la parte m\u00e1s gruesa de la chuleta debe leer al menos 145 grados F.",
+        "Estas deliciosas chuletas de cerdo merecen un plato igualmente delicioso. \u00bfBuscas alguna inspiraci\u00f3n sabrosa? Explora nuestra colecci\u00f3n de 15 mejores platos laterales para chuletas de cerdo. Estas son algunas de las recetas que encontrar\u00e1s:",
+        "Frijoles verdes y setas MedleyIncre\u00edble y f\u00e1cil cazuela de ma\u00edz cremosoAsado de remolacha y ensalada de kale",
+        "Guarde las chuletas de cerdo sobrantes en un recipiente herm\u00e9tico o bien envuelto en papel de aluminio en el refrigerador hasta por tres d\u00edas. Recaliente en un horno a 350 grados F (con unas gotas de caldo o agua para evitar la sequedad) hasta que el cerdo se caliente a trav\u00e9s.",
+        "\"Esta receta fue muy buena, r\u00e1pida y f\u00e1cil,\" raves laurieb2508. \"A\u00f1ad\u00ed piment\u00f3 piment\u00f3n ahumado para a\u00f1adir m\u00e1s sabor y una peque\u00f1a cantidad de pan rallado y result\u00f3 genial!\"",
+        "\"Super f\u00e1cil, delicioso, y hecho con art\u00edculos que tengo en mi despensa\", seg\u00fan Lala.",
+        "\"La hice [seg\u00fan la receta] y estaba deliciosa\", dice Patricia Eib. \"La serv\u00ed con esp\u00e1rragos y batatas\".",
+        "Contribuciones editoriales de Corey Williams",
+        "Precaliente la freidora a 380 grados F (190 grados C).",
+        "Combine el queso parmesano, el piment\u00f3n, el polvo de ajo, la sal, el perejil y la pimienta en un plato plano poco profundo; mezcle bien.",
+        "Abrigue cada chuleta de cerdo con aceite de oliva. Drague ambos lados de cada chuleta en la mezcla parmesana y ponga en un plato.",
+        "Coloque 2 chuletas en la cesta de la freidora y cocine durante 10 minutos; gire a la mitad del tiempo de cocci\u00f3n. Transfiera a una tabla de cortar y deje reposar durante 5 minutos. Repita con las chuletas restantes.",
+        "Servido caliente y disfrutar!",
+        "Para una limpieza f\u00e1cil y menos desorden, mezcle la mezcla parmesana en un recipiente de pl\u00e1stico largo y plano para llevar. Coloque una chuleta a la vez, chasque la tapa y agite. Transfiera al plato y repita con las chuletas restantes. Cortes perfectamente recubiertas cada vez!"
+    ]
+}

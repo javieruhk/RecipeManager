@@ -1,0 +1,148 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "100",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "100",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "huevos",
+            "food": "eggs",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite vegetal",
+            "food": "vegetable oil",
+            "quantity": "130",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "200",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "bicarbonato s\u00f3dico",
+            "food": "sodium bicarbonate",
+            "quantity": "6",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Almid\u00f3n de ma\u00edz",
+            "food": "cornstarch",
+            "quantity": "12",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "canela en polvo",
+            "food": "cinnamon powder",
+            "quantity": "2",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "nuez moscada",
+            "food": "nutmeg",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "polo",
+            "food": "polo",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "zanahoria",
+            "food": "carrot",
+            "quantity": "280",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "rallado",
+            "process": "grated"
+        }
+    ],
+    "steps": [
+        "Empieza lavando, pelando y rallando las zanahorias, no es necesario que quede muy fina.",
+        "Por otro lado, en un bowl tamiza los ingredientes secos: harina, bicarbonato de sodio, maicena, una pizca de sal y especias como canela en polvo, ki\u00f3n en polvo y nuez moscada molida.",
+        "Aparte, en el bowl de la batidora vierte los dos tipos de az\u00facares (az\u00facar blanca y az\u00facar morena) y a\u00f1ade los huevos. Luego, comienza a batir hasta que llegue a punto cinta; es decir, bate a m\u00e1xima velocidad por aproximadamente 10 minutos hasta que se vea como una espuma densa de color crema y verifica si est\u00e1 lista levantando la mezcla y dej\u00e1ndola caer.",
+        "Vuelve a prender la batidora a velocidad media y vierte el aceite vegetal en forma de hilo. Contin\u00faa batiendo hasta que notes que el aceite se ha integrado a los huevos en punto cinta.",
+        "Retira el bowl de la batidora y sobre este solamente vuelve a cernir un tercio de los ingredientes secos. Mezcla con una esp\u00e1tula de goma de forma envolvente, en otras palabras, dale movimientos circulares de arriba hacia abajo a la masa con la ayuda de la esp\u00e1tula de goma, al mismo tiempo ve girando el bowl.",
+        "Contin\u00faa tamizando e integrando el segundo tercio de ingredientes secos, nuevamente de forma envolvente.",
+        "Finalmente, termina a\u00f1adiendo el \u00faltimo tercio de ingredientes secos y mezcla d\u00e1ndole movimientos envolventes hasta que obtengas una masa homog\u00e9nea.",
+        "Antes de volcar la masa del bizcocho de zanahoria y canela jugoso en el molde, agrega las zanahorias ralladas en dos tiempos y sigue mezclando de forma envolvente.",
+        "A continuaci\u00f3n, vierte en un molde de 18 cm previamente enmantequillado, con un disco de papel manteca en la base y enharinado. Esparce levemente con una esp\u00e1tula la superficie y hornea a 170\u00b0C por 45 minutos o hasta que introduzcas un palillo y \u00e9ste salga limpio.",
+        "Cuando el bizcocho este perfectamente cocido, ret\u00edralo del horno, d\u00e9jalo enfriar, desmolda y decora. \u00a1A disfrutar del mejor bizcocho de zanahoria de mundo! Cu\u00e9ntanos en los comentarios tu opini\u00f3n y comparte con nosotros una fotograf\u00eda del resultado final."
+    ]
+}

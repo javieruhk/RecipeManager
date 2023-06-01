@@ -1,0 +1,160 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "3",
+            "unit_spanish": "clavos",
+            "unit": "cloves",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "pelados",
+            "process": "peeled"
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Condimento de alimentos para el alma",
+            "food": "soul food seasoning",
+            "quantity": "2",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mayonesa",
+            "food": "mayonnaise",
+            "quantity": "2",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Jugo de lim\u00f3n",
+            "food": "lemon juice",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "cuajada de queso",
+            "food": "cheese curd",
+            "quantity": "10",
+            "unit_spanish": "onzas",
+            "unit": "ounces",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina de todo prop\u00f3sito",
+            "food": "all - purpose flour",
+            "quantity": null,
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Condimento de alimentos para el alma",
+            "food": "soul food seasoning",
+            "quantity": "4",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "divididos",
+            "process": "divided"
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": null,
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Migajas de pan pan de pan",
+            "food": "panko bread crumbs",
+            "quantity": null,
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite vegetal",
+            "food": "vegetable oil",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "spray para cocinar",
+            "food": "cooking spray",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "antiadherente",
+            "physical_quality": "nonstick",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para Aioli: Combine el diente de ajo, el aceite de oliva y la 1/2 cucharadita de condimento del alma en un taz\u00f3n peque\u00f1o y mezcle para cubrir. Envuelva el ajo firmemente en un peque\u00f1o trozo de papel de aluminio.",
+        "Precaliente la freidora a 375 grados F (190 grados C). Coloque el ajo envuelto en la cesta de la freidora y alfr\u00ede por 15 minutos.",
+        "Retire el ajo de la freidora y col\u00f3quelo en un taz\u00f3n peque\u00f1o. Mase el ajo asado con la parte posterior de una cuchara. Deje reposar durante 30 minutos.",
+        "Revuelva la mayonesa y el jugo de lim\u00f3n en el pur\u00e9 de ajo hasta que est\u00e9 bien combinado. Cubra y refrigere durante 30 minutos antes de servir.",
+        "Para cuajadas de queso: Coloque cuajadas de queso en una bandeja grande para hornear revestida con papel pergamino. Coloque la bandeja con cuajadas de queso en el congelador durante 30 minutos.",
+        "Mientras tanto, batir la harina y 1 cucharadita de alma sazonando juntos en un taz\u00f3n poco profundo. Batir los huevos y la leche juntos En un taz\u00f3n separado hasta que sea suave y cohesivo. Agitar el panko y 3 cucharaditas restantes de alma sazonando juntos en un tercer taz\u00f3n poco profundo.",
+        "Retirar las cuajadas de queso del congelador. Trabajar en lotes, mojar las cuajadas de queso en la harina para cubrir bien, luego en la mezcla de huevo, asegur\u00e1ndose de sacudir cualquier exceso. Sumergir las cuajadas de nuevo en la mezcla de harina y otra vez en la mezcla de huevo. Finalmente, mojar las cuajadas en panko para cubrir completamente con migajas de pan. Utilice su mano seca para empacar en panko para que se pegue bien. Coloque las cuajadas de queso paneadas de nuevo en la bandeja para hornear. Cuando todas las cuajadas de queso est\u00e9n empanadas, devuelva la bandeja de hornear al congelador durante 30 minutos.",
+        "Precaliente la freidora a 350 grados F (175 grados C). Retire la bandeja del congelador. Usando un se\u00f1or, roc\u00ede ligeramente ambos lados de la cuajada de queso con aceite vegetal. Abrigue la cesta de la freidora con spray de cocci\u00f3n antiadherente.",
+        "Trabajando en lotes, coloca cuajadas de queso en la cesta de la freidora en una sola capa. Alfr\u00ede hasta que est\u00e9n doradas y crujientes por ambos lados, girando a la mitad del tiempo de cocci\u00f3n, de 4 a 6 minutos.",
+        "Dejar reposar en la freidora durante 1 a 2 minutos antes de servir. Servir con aioli de ajo asado.",
+        "Refrigerar los aioles en un recipiente herm\u00e9tico hasta por 7 d\u00edas. Almacenar los requesones de queso sobrantes en un recipiente herm\u00e9tico en el refrigerador hasta por 4 d\u00edas."
+    ]
+}

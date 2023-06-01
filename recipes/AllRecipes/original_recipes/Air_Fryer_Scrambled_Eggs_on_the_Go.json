@@ -1,0 +1,42 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "spray para cocinar",
+            "food": "cooking spray",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "huevos",
+            "food": "eggs",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": "golpeados",
+            "process": "beaten"
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Roc\u00ede ligeramente un plato de ramekin con spray de cocci\u00f3n antiadherente. Vierta los huevos batidos.",
+        "Ponga la freidora a 370 grados F (185 grados C) y coloque el ramekin en la cesta de la freidora.",
+        "Fre\u00edr al aire por 3 minutos. Revolver la mezcla de huevo y cocinar por 3 minutos m\u00e1s. Rociar con un tenedor y sazonar con sal y pimienta."
+    ]
+}

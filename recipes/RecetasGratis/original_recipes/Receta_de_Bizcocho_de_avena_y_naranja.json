@@ -1,0 +1,101 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina de avena en copos",
+            "food": "oatmeal in flakes",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": "entero",
+            "physical_quality": "whole",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "polvo para hornear",
+            "food": "baking powder",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": null,
+            "food": null,
+            "quantity": "1",
+            "unit_spanish": "chica",
+            "unit": "girl",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite",
+            "food": "oil",
+            "quantity": "3",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "masticar",
+            "food": "chew",
+            "quantity": "3",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para empezar con la preparaci\u00f3n del bizcocho de avena y naranja, bate el huevo con una pizca de sal. Agrega tambi\u00e9n el az\u00facar mascabo en forma de lluvia y bate por unos 5 minutos.",
+        "A continuaci\u00f3n, agrega el aceite y bate para emulsionar ambos l\u00edquidos. Reserva.",
+        "Por otro lado, pela la naranja y c\u00f3rtala en gajos para retirarle las semillas.",
+        "Proc\u00e9sala hasta tener un jugo uniforme. De esta forma, en lugar de exprimirla, sumamos fibra a nuestro bizcocho.",
+        "Agrega la naranja exprimida al batido que hab\u00edas reservado anteriormente junto con los copos de avena, la harina integral o de avena y el polvo para hornear. Integra con movimientos envolventes. Si notas una consistencia muy espesa, puedes agregar m\u00e1s naranja, leche o agua. Esto depender\u00e1 del tama\u00f1o del huevo y qu\u00e9 tan jugosa estaba la fruta.",
+        "Vuelca la preparaci\u00f3n de tu bizcocho de avena y naranja en el molde donde desees cocinarlo. En este caso, es un savarin de 16 cm de di\u00e1metro. Deber\u00e1s engrasarlo y enharinarlo previamente para que no se pegue.",
+        "Cocina el bizcocho con harina de avena y naranja en el horno precalentado a 180 \u00baC por unos 30 minutos o hasta que al pincharlo, no salgan restos de la preparaci\u00f3n. Reserva hasta que se enfr\u00ede para desmoldarlo. \u00a1A comer! Cu\u00e9ntanos si lo pruebas y comparte la foto del resultado final."
+    ]
+}

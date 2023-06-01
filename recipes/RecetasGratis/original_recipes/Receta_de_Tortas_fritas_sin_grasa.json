@@ -1,0 +1,90 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "2",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "agua",
+            "food": "water",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": "tibio",
+            "physical_quality": "warm",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "polvo para hornear",
+            "food": "baking powder",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite",
+            "food": "oil",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de fre\u00edr",
+            "food": "frying oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pista",
+            "food": "rink",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "Sp",
+            "process": "Sp"
+        }
+    ],
+    "steps": [
+        "Coloca la harina y la sal sobre la mesada de trabajo. Realiza un hueco en el centro y vierte all\u00ed el aceite y el agua tibia. Toma la masa de las tortas fritas sin grasa integrando los ingredientes del centro hacia afuera.",
+        "Cuando los hayas unido completamente, amasa hasta obtener un bollo liso y homog\u00e9neo. C\u00fabrelo y deja que repose alrededor de 20 minutos.",
+        "Transcurrido el tiempo de reposo, divide la masa formando bollos m\u00e1s peque\u00f1os. Aplana cada bollito de las tortitas fritas argentinas con un palote, realiza un corte en el centro y pincha con tenedor.",
+        "Vierte el aceite para fre\u00edr en un recipiente profundo y lleva a la hornalla para calentar a temperatura de 170 \u00b0C.",
+        "Sumerge las tortas fritas de la abuela en aceite. G\u00edralas para que queden doraditas de ambos lados.",
+        "Cuando las retires del fuego, ap\u00f3yalas en un plato con papel absorbente de modo que quede all\u00ed el exceso de aceite. Luego, espolvorea con az\u00facar (opcional)",
+        "Ya est\u00e1n listas las tortas fritas r\u00e1pidas sin grasa que nadie resistir\u00e1. \u00a1A comer! Cu\u00e9ntanos qu\u00e9 te pareci\u00f3 esta receta en los comentarios."
+    ]
+}

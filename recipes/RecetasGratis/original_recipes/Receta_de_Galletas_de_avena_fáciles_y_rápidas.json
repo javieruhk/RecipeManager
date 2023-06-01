@@ -1,0 +1,99 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "harina de avena",
+            "food": "oatmeal",
+            "quantity": "120",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": "suave",
+            "physical_quality": "soft",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina",
+            "food": "flour",
+            "quantity": "40",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "40",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de girasol",
+            "food": "sunflower oil",
+            "quantity": "60",
+            "unit_spanish": "mililitros",
+            "unit": "milliliter",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "levadura en polvo",
+            "food": "yeast powder",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "canela",
+            "food": "cinnamon",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Mezcla todos los ingredientes en un bol hasta formar una pasta. Si dispones de un robot mezclador, mucho mejor, pero si no es as\u00ed, puedes mezclar con una esp\u00e1tula. Puedes usar az\u00facar blanco, az\u00facar moreno o panela. En cuanto a la harina, puede ser de trigo o de avena. Para este \u00faltimo caso, te recomendamos consultar la Receta de harina de avena casera.",
+        "Forra la bandeja del horno con papel sulfurizado o vegetal y forma las galletas de avena haciendo peque\u00f1as bolas con las manos y luego aplast\u00e1ndolas. Para obtener unas galletas de avena crujientes, el truco est\u00e1 en no hacerlas muy gruesas.",
+        "Con el horno precalentado a 200 \u00baC con calor arriba y abajo y con la funci\u00f3n de ventilador (en caso de tenerla), hornea las galletas de avena durante unos 10 minutos o hasta que est\u00e9n doraditas. Deben quedar ligeramente tostadas, no mucho.",
+        "Pasado ese tiempo, deja que las galletas de avenase enfr\u00eden y gu\u00e1rdalas en una caja o bote cerrado para que sigan crujientes. \u00a1Duran hasta 3 d\u00edas! Como ves, esta es una receta de galletas de avena f\u00e1ciles de hacer, ideal para ni\u00f1os y adultos porque son rapid\u00edsimas y muy saludables (sobre todo si usas az\u00facar moreno o panela).",
+        "Si tienes leche, no te pierdas esta otra receta de galletas de avena crujientes elaboradas con este ingrediente:"
+    ]
+}

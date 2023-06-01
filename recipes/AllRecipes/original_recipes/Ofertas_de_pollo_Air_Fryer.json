@@ -1,0 +1,257 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "pollo",
+            "food": "chicken",
+            "quantity": "2",
+            "unit_spanish": "libras",
+            "unit": "pounds",
+            "physical_quality_spanish": "deshuesado",
+            "physical_quality": "boneless",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Jugo de eneldo",
+            "food": "dill pickle juice",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "humo",
+            "food": "smoke",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": "l\u00edquido",
+            "physical_quality": "liquid",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "huevos",
+            "food": "eggs",
+            "quantity": "3",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aderezo de rancho",
+            "food": "ranch dressing",
+            "quantity": "2",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina para todos los usos",
+            "food": "all purpose flour",
+            "quantity": "2",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "divididos",
+            "process": "divided"
+        },
+        {
+            "food_spanish": "migajas de pan",
+            "food": "bread crumbs",
+            "quantity": "2",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "piment\u00f3n",
+            "food": "paprika",
+            "quantity": "4",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal de ajo",
+            "food": "garlic salt",
+            "quantity": "2",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar de confiter\u00eda",
+            "food": "confectioner ' sugar",
+            "quantity": "2",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "tomillo",
+            "food": "thyme",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": "desecado",
+            "physical_quality": "dried",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "albahaca",
+            "food": "basil",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": "desecado",
+            "physical_quality": "dried",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "or\u00e9gano",
+            "food": "oregano",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": "desecado",
+            "physical_quality": "dried",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal de apio",
+            "food": "celery salt",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mostaza",
+            "food": "mustard",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": "seco",
+            "physical_quality": "dry",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "jengibre",
+            "food": "ginger",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "chile en polvo",
+            "food": "chili powder",
+            "quantity": "2",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal marina",
+            "food": "sea salt",
+            "quantity": "2",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de coco",
+            "food": "coconut oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Cortar las pechugas de pollo en tiras de 1 pulgada a lo largo y colocar en una sart\u00e9n poco profunda.",
+        "Batir el jugo de pepinillo, la leche y el humo l\u00edquido juntos en una taza; verter sobre el pollo, y colocar el pollo en el refrigerador para marinar durante 30 minutos.",
+        "Mientras tanto, batir los huevos y el aderezo del rancho juntos en un taz\u00f3n poco profundo. Coloque 1 taza de harina en un taz\u00f3n poco profundo separado.",
+        "Batir 1 taza restante de harina, pan rallado, piment\u00f3n, pimienta blanca, sal de ajo, az\u00facar de confiter\u00eda, tomillo, albahaca, or\u00e9gano, sal de apio, pimienta negra, mostaza seca, jengibre, chile en polvo y sal juntos en un tercer taz\u00f3n poco profundo.",
+        "Precalentar la freidora a 350 grados F (175 grados C). Escurrir las tiras de pollo y secar completamente con toallas de papel.",
+        "Desgarra las tiras de pollo en harina. Luego moja las tiras en la mezcla de huevo, dejando que el exceso gotee de nuevo en el taz\u00f3n. Suelta las tiras de pollo, 1 a la vez, en la mezcla de pan rallado y recubre bien.",
+        "Colocar tiras en una sola capa sin tocar en la cesta de la freidora. Es posible que tenga que trabajar en lotes. Rociar a fondo con aceite de coco.",
+        "Aire fre\u00edr durante 6 minutos. Dar la vuelta al pollo; rociar con aceite de coco, y continuar al aire fre\u00edr hasta que los jugos est\u00e9n limpios y el pollo ya no est\u00e9 rosado en el centro, unos 6 minutos m\u00e1s. Un term\u00f3metro de lectura instant\u00e1nea insertado cerca del centro debe leer al menos 165 grados F (74 grados C).",
+        "Para hacer esta receta libre de gluten, puede utilizar harina de almendras sin gluten o harina sin gluten medida por medida en lugar de harina de uso general. Utilice una migaja de pan sin gluten, como las migajas de pan plano sin gluten\u00ae de Aleia para las migajas de pan."
+    ]
+}

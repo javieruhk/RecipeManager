@@ -1,0 +1,90 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "cigala",
+            "food": "lobster",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mantequilla",
+            "food": "butter",
+            "quantity": "4",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ralladura de lim\u00f3n",
+            "food": "lemon zest",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "1",
+            "unit_spanish": "clavo",
+            "unit": "clove",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "rallado",
+            "process": "grated"
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "perejil",
+            "food": "parsley",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": "fresco",
+            "physical_quality": "fresh",
+            "process_spanish": "picado",
+            "process": "chopped"
+        },
+        {
+            "food_spanish": "lim\u00f3n",
+            "food": "lemon",
+            "quantity": "2",
+            "unit_spanish": "cu\u00f1as",
+            "unit": "wedges",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente una freidora a 380 grados F (195 grados C).",
+        "Las colas de la langosta se cortan longitudinalmente a trav\u00e9s de los centros de las c\u00e1scaras duras de la parte superior y la carne con tijeras de cocina. Cortar, pero no a trav\u00e9s, los fondos de las c\u00e1scaras. Extender las mitades de la cola aparte. Colocar las colas en la cesta de la freidora con la carne de langosta hacia arriba.",
+        "Derrita la mantequilla en una cacerola peque\u00f1a a fuego medio. Agrega la ralladura de lim\u00f3n y el ajo; calienta hasta que el ajo sea fragante, unos 30 segundos.",
+        "Transferir 2 cucharadas de mezcla de mantequilla a un taz\u00f3n peque\u00f1o; cepillar esto en colas de langosta. Desechar cualquier mantequilla cepillada restante para evitar la contaminaci\u00f3n de la langosta sin cocer. Sazonar la langosta con sal y pimienta.",
+        "Cocine en la freidora precalentada hasta que la carne de langosta sea opaca, de 5 a 7 minutos.",
+        "Cuchara la mantequilla reservada de la cacerola sobre la carne de langosta. Cubra con perejil y sirva con cu\u00f1as de lim\u00f3n.",
+        "Puedes usar colas de langosta congeladas, descongelarlas primero antes de proceder con las instrucciones."
+    ]
+}

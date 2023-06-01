@@ -1,0 +1,68 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "chocolate",
+            "food": "chocolate",
+            "quantity": "600",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Queso crema",
+            "food": "cream cheese",
+            "quantity": "600",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "dulce de leche",
+            "food": "dulce de leche",
+            "quantity": "400",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "1",
+            "unit_spanish": "vidrio",
+            "unit": "glass",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "cacao",
+            "food": "cocoa",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para empezar con la preparaci\u00f3n de la chocotorta helada mezcla el dulce de leche con el queso crema. Pru\u00e9balo y agrega m\u00e1s dulce si lo prefieres.",
+        "Por otro lado, disuelve el cacao en la leche. Si lo prefieres, puedes usar caf\u00e9 en lugar de cacao o agua en lugar de leche. En este l\u00edquido vamos a humedecer un poco las galletitas para que tu chocotorta no quede muy seca.",
+        "Para empezar a armar tu chocotorta, humedece una a una las galletitas por ambos lados y disponlas en la base de tu molde para hacer la primera capa. En este caso, utilizamos un molde de vidrio tipo pirex de 19 x 30 x 5 cm.",
+        "Cubre esa primera capa con la mezcla de dulce de leche y queso crema para tener tu segunda capa. Luego, agrega nuevamente galletitas humedecidas en la leche y repite hasta usar todos los ingredientes.",
+        "Para la capa final, puedes agregar las galletitas rotas sobre la mezcla de dulce y crema. Tambi\u00e9n podr\u00edas reemplazarlas o mezclarlas con chocolate rallado, tanto negro, con leche o blanco, seg\u00fan cu\u00e1l sea tu preferido.",
+        "Cubre con film tu chocotorta helada y ll\u00e9vala al congelador por al menos unos 40 minutos. Ret\u00edrala unos minutos antes de servirla para poder cortarla con mayor facilidad. Recomendamos igualmente el uso de un cuchillo pasado por agua caliente para que sea m\u00e1s sencillo.",
+        "Ahora s\u00ed, ya puedes disfrutar de esta deliciosa chocotorta para ni\u00f1os o adultos. \u00a1A comer! Cu\u00e9ntanos si lo pruebas y comparte la foto del resultado final."
+    ]
+}

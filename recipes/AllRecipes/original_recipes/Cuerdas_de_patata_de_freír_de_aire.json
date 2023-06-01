@@ -1,0 +1,104 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Patatas",
+            "food": "potatoes",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "medio",
+            "physical_quality": "medium",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": null,
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "piment\u00f3n",
+            "food": "paprika",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "copos de perejil",
+            "food": "parsley flakes",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "chile en polvo",
+            "food": "chili powder",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal marina",
+            "food": "sea salt",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        }
+    ],
+    "steps": [
+        "Su fiel freidora de aire es la clave de estas perfectas cu\u00f1as de patata: Son crujientes en el exterior, esponjosas en el interior, y absolutamente irresistible. Esta receta de alta calificaci\u00f3n para las cu\u00f1as de patata frita al aire es una que volver\u00e1 una y otra vez.",
+        "Opte por una variedad de patatas almidonadas, como las patatas russet o Yukon Golds, para obtener resultados perfectos. Evite las patatas cerosas, como los dedos, ya que no se aguantar\u00e1n tambi\u00e9n durante la cocci\u00f3n.",
+        "Para cortar una patata en cu\u00f1as, cortar la patata por la mitad a lo largo. Coloque el lado cortado de la patata en la tabla de cortar y cortarla por la mitad de nuevo para crear cuartos. Repita con la otra mitad. Ahora, coloque cada cuarto de patata con el lado cortado hacia arriba y corte el centro de cada cuarto para crear una cu\u00f1a. Repita con los otros cuartos hasta que toda la patata se corte en cu\u00f1as.",
+        "Encontrar\u00e1s la receta completa a continuaci\u00f3n, pero aqu\u00ed tienes una breve descripci\u00f3n de lo que puedes esperar:",
+        "Las cu\u00f1as de patata sazonadas se colocan en la cesta de una freidora y se cocinan durante 10 minutos. Las cu\u00f1as se voltean con pinzas y se cocinan durante otros cinco minutos, para garantizar la m\u00e1xima crujiente.",
+        "Esta receta no requiere antes de remojar las cu\u00f1as de patata antes de fre\u00edr al aire. Sin embargo, si tienes tiempo para remojar las patatas en agua fr\u00eda durante unos 30 minutos antes de sazonar y \"friturar\", la receta podr\u00eda dar resultados a\u00fan m\u00e1s crujientes.",
+        "Estas cu\u00f1as de patata se sazonan con una mezcla sabrosa de piment\u00f3n, perejil, chile, sal y pimienta. Pero, estas son tus cu\u00f1as de patata, por lo que puedes llegar a ser tan creativo como quieras! Escupirlo con pimienta de cayena o a\u00f1adir un poco de tierra con romero herb\u00e1ceo. S\u00f3lo est\u00e1s limitado a las especias en su despensa.",
+        "Estas cu\u00f1as de patata deben ser perfectamente crujientes despu\u00e9s de unos 15 minutos (10 minutos por un lado, cinco minutos por el otro). Si sientes que tus cu\u00f1as no son lo suficientemente crujientes, puedes fre\u00edrlas por un poco m\u00e1s de tiempo en cada lado, solo aseg\u00farate de que no se quemen.",
+        "Deje enfriar las cu\u00f1as de patata antes de almacenarlas. Coloque las cu\u00f1as de patata sobrantes en un recipiente herm\u00e9tico o bolsa con cremallera forrada con toallas de papel. Almacene en la nevera durante cuatro a cinco d\u00edas. Recaliente en el microondas, en una freidora o en un horno.",
+        "S\u00ed, puede congelar las cu\u00f1as de patata cocidas. Coloque (completamente enfriadas) las cu\u00f1as en una bolsa herm\u00e9tica de congelador, exprima el exceso de aire y selle. Etiquete con la fecha y congele por un m\u00e1ximo de tres meses. No tiene que descongelar las cu\u00f1as de patata congelada \u2014 simplemente vuelva a calentarlas desde congeladas en el microondas, en una freidora o en un horno.",
+        "\"Estos eran absolutamente deliciosos,\" Raves Allrecipes Allstar Yoly. \"El momento era el lugar en. Mis cu\u00f1as de patata eran crujientes en el exterior y cremosos en el interior. Va a hacer esto una y otra vez. Gracias por la receta!\"",
+        "\"Una receta tan f\u00e1cil y deliciosa\", seg\u00fan Karen Taylor. \"Son crujientes por fuera y suaves por dentro. Me encanta.\"",
+        "\"Aplast\u00e9 unas cuantas cu\u00f1as despu\u00e9s de que estaban medio cocidas y les di un spray ligero de aceite de cocina que dio a las partes aplastadas una textura crujiente agradable\", dice Sofabear. \"Tambi\u00e9n us\u00e9 la canasta de rotisserie para cocinarlas en mi freidora\".",
+        "Contribuciones editoriales de Corey Williams",
+        "Precaliente una freidora a 400 grados F (200 grados C).",
+        "Cortar cada patata por la mitad a lo largo. Cortar cada mitad por la mitad a lo largo, y luego cortar cada cuarto por la mitad a lo largo. Tendr\u00e1s 16 cu\u00f1as. Recoger los condimentos.",
+        "Coloque las cu\u00f1as de la patata en un taz\u00f3n grande. Agregue el aceite de oliva, el piment\u00f3n, el perejil, el chile, la sal y la pimienta; mezcle hasta que est\u00e9 bien combinado.",
+        "Coloque 1/2 de las cu\u00f1as de patata en la cesta de la freidora y cocine durante 10 minutos.",
+        "Gire las cu\u00f1as con pinzas y cocine durante 5 minutos adicionales. Retire a un plato.",
+        "Repita para cocinar las cu\u00f1as restantes.",
+        "Servir caliente y disfrutar!"
+    ]
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipe Details</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/css/style.css') }}">
+</head>
+<body>
+	<h1>
+		{{ recipe_title }}: 
+	</h1>
+
+	<h2>Tabla de ingredientes:</h2>
+	<table>
+		<thead>
+			<tr class="header">
+				<th>Alimento</th>
+				<th>Cantidad</th>
+				<th>Unidad</th>
+				<th>Cualidad física</th>
+				<th>Proceso</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for ingredient_n in range(recipe_text.ingredients|length) %}
+			{% set ingredient = recipe_text.ingredients[ingredient_n] %}
+			{% if ingredient.food %}
+			<tr class="hover" onclick="get_ingredient_info('{{ ingredient_n }}')">
+				<td class="food">{{ ingredient.food_spanish ~ '/' ~ ingredient.food if ingredient.food_spanish and ingredient.food else "" }}</td>
+				<td class="quantity">{{ ingredient.quantity or "" }}</td>
+				<td class="unit">{{ ingredient.unit_spanish ~ '/' ~ ingredient.unit if ingredient.unit_spanish and ingredient.unit else ""  }}</td>
+				<td class="quality">{{ ingredient.physical_quality_spanish ~ '/' ~ ingredient.physical_quality if ingredient.physical_quality_spanish and ingredient.physical_quality else "" }}</td>
+				<td class="process">{{ ingredient.process_spanish ~ '/' ~ ingredient.process if ingredient.process_spanish and ingredient.process else ""  }}</td>
+			</tr>
+			{% endif %}
+			{% endfor %}
+		</tbody>
+	</table>
+
+	<h2>Pasos de la receta:</h2>
+
+	{% for step in recipe_text.steps %}
+	<li>{{ step }}</a></li>
+	{% endfor %}
+
+
+	{% if recipe_type == "RG" %}
+	{% 		set recipe_dir = "rg-recipes" %}
+	{% elif recipe_type == "AR" %}
+	{% 		set recipe_dir = "ar-recipes" %}
+	{% endif %}
+	<form id="back" action="/{{recipe_dir}}" method="GET" >
+		<button type="submit">Volver</button>
+	</form>
+	<div>
+		<input type="button" value="Calcular valor nutricional total" onclick="get_all_ingredients_info();">
+	</div>
+	<div>
+		<input type="button" value="Descargar receta en formato Cooklang" onclick="download_cooklang_file();">
+	</div>
+	<script>
+		function get_ingredient_info(ingredient_n) {
+			const ingredient = {{ recipe_text.ingredients|tojson }}[ingredient_n]
+			const recipe_direction = "{{ recipe_direction }}"
+			console.log(ingredient)
+
+			fetch(`/food-information?ingredient=${encodeURIComponent(JSON.stringify(ingredient))}&recipe_direction=${encodeURIComponent(recipe_direction)}`) 					
+			.then(response => response.text())
+			.then(data => {
+				document.open();
+                document.write(data);
+                document.close();
+			})
+			.catch(error => console.error(error));
+		}
+
+		function get_all_ingredients_info() {
+			const ingredient_list = {{ recipe_text.ingredients|tojson }}
+			const recipe_direction = "{{ recipe_direction }}"
+			const recipe_title = " {{ recipe_title }}"
+
+			fetch(`/complete-nutritional-info?ingredient_list=${encodeURIComponent(JSON.stringify(ingredient_list))}&recipe_direction=${encodeURIComponent(recipe_direction)}&recipe_title=${encodeURIComponent(recipe_title)}`) 					
+			.then(response => response.text())
+			.then(data => {
+				document.open();
+                document.write(data);
+                document.close();
+			})
+			.catch(error => console.error(error));
+		}
+
+		function download_cooklang_file() {
+			const filename = "{{ recipe_file_name }}"
+			const recipe_type = "{{ recipe_type }}"
+
+			fetch(`/download-cooklang-file?filename=${encodeURIComponent(filename)}&recipe_type=${encodeURIComponent(recipe_type)}`)
+			.then(response => response.blob())
+			.then(blob => {
+				const url = window.URL.createObjectURL(new Blob([blob]));
+				const a = document.createElement('a');
+				a.href = url;
+				a.download = filename;
+				document.body.appendChild(a);
+				a.click();
+				a.remove();
+			})
+			.catch(error => console.error(error));
+		}
+	</script>
+</body>
+</html>

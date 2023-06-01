@@ -1,0 +1,111 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina de trigo",
+            "food": "wheat flour",
+            "quantity": "11\u20442",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "polvos para hornear",
+            "food": "baking powders",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": "qu\u00edmico",
+            "physical_quality": "chemical",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "leche",
+            "food": "milk",
+            "quantity": "250",
+            "unit_spanish": "cent\u00edmetros",
+            "unit": "centimetres",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "esencia de vainilla",
+            "food": "vanilla essence",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Petr\u00f3leo",
+            "food": "Oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "Imperturbable",
+            "physical_quality": "Unstoppable",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para hacer estos bu\u00f1uelos dulces caseros empezaremos por trabajar los ingredientes secos. Para ello, tamiza en un bol la harina con la sal, el polvo de hornear (levadura en polvo) y el az\u00facar.",
+        "Incorpora la leche y el huevo poco a poco y ve mezclando hasta conseguir una masa homog\u00e9nea. Para conseguirlo, puedes hacer un hueco en el centro de los ingredientes secos y verter la leche en el centro lentamente. Si quieres, puedes usar una batidora el\u00e9ctrica.",
+        "Para terminar con la masa de los bu\u00f1uelos dulces, a\u00f1ade la esencia de vainilla para darle un toque de aroma y sabor. Si quieres, tambi\u00e9n puedes usar otras esencias t\u00edpicas de postres como ralladuras de lim\u00f3n o naranja. Para este \u00faltimo caso, te recomendamos consultar la Receta de bu\u00f1uelos de naranja.",
+        "Ahora que ya tienes la masa de los bu\u00f1uelos lista, calienta una olla con suficiente aceite. Es importante que los bu\u00f1uelos floten en el aceite, as\u00ed que procura calentar la cantidad necesaria. Cuando est\u00e9 bien caliente, ve a\u00f1adiendo porciones de masa con ayuda de un cuchar\u00f3n y fr\u00ede los bu\u00f1uelos hasta que se doren por un lado y por otro, durante unos 2-3 minutos m\u00e1ximo.",
+        "Retira los bu\u00f1uelos y res\u00e9rvalos en un plato con papel absorbente para eliminar el exceso de aceite y, si quieres, c\u00fabrelos con un poco de az\u00facar impalpable para decorar.",
+        "Disfruta en familia de una rica merienda con esta receta f\u00e1cil y r\u00e1pida de bu\u00f1uelos dulces fritos y acomp\u00e1\u00f1alos de una mermelada casera de frutilla o de un tarro de dulce de leche para que cada quien los coma como m\u00e1s le gusten. Y si te ha quedado alguna duda, no te pierdas este v\u00eddeo donde te ense\u00f1amos la receta de los tradicionales bu\u00f1uelos fritos. \u00a1Buen provecho!"
+    ]
+}

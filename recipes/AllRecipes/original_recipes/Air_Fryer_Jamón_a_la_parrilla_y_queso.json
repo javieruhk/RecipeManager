@@ -1,0 +1,88 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "mayonesa",
+            "food": "mayonnaise",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pan",
+            "food": "bread",
+            "quantity": "8",
+            "unit_spanish": "rodajas",
+            "unit": "slices",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Mostaza de Dijon",
+            "food": "Dijon mustard",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "deli jam\u00f3n",
+            "food": "deli ham",
+            "quantity": "8",
+            "unit_spanish": "rodajas",
+            "unit": "slices",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Queso suizo",
+            "food": "Swiss cheese",
+            "quantity": "4",
+            "unit_spanish": "rodajas",
+            "unit": "slices",
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": null,
+            "food": null,
+            "quantity": "8",
+            "unit_spanish": "rodajas",
+            "unit": "slices",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "spray para cocinar",
+            "food": "cooking spray",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Esparce la mayonesa por un lado de cada rebanada de pan. Con la mayonesa hacia abajo, unta ligeramente 4 rebanadas de pan con mostaza de Dijon, cubre cada una uniformemente con queso suizo, rebanadas de jam\u00f3n, dobladas para caber, y rebanadas de pepinillos. Coloque las 4 rebanadas de pan restantes en los s\u00e1ndwiches, el lado de mayonesa hacia arriba, y presione ligeramente los s\u00e1ndwiches para cerrar.",
+        "Precaliente la freidora a 380 grados F (193 grados C). Roc\u00ede la cesta de la freidora con spray para cocinar o l\u00ednela con un forro de pergamino.",
+        "Coloque los s\u00e1ndwiches en la cesta de la freidora en una sola capa, dejando un poco de espacio alrededor de ellos. Es posible que tenga que cocinar los s\u00e1ndwiches en lotes, dependiendo del tama\u00f1o de su freidora.",
+        "Cocine hasta que los s\u00e1ndwiches comiencen a dorar, de 3 a 4 minutos. Rebane y cocine hasta que el queso se haya derretido y los s\u00e1ndwiches est\u00e9n dorados, de 2 a 3 minutos m\u00e1s. Rebane los s\u00e1ndwiches por la mitad y sirva caliente.",
+        "La mayonesa es la \u00fanica cosa que uso en estos d\u00edas en s\u00e1ndwiches a la parrilla. Siempre est\u00e1 listo, se unta f\u00e1cilmente, se dore maravillosamente, y no tiene sabor a mayonesa. Pero se puede utilizar mantequilla, si lo prefiere. Los tiempos de cocci\u00f3n de la freidora pueden variar dependiendo de la marca y el tama\u00f1o. As\u00ed que observe sus s\u00e1ndwiches de cerca, especialmente hacia el final de la cocci\u00f3n."
+    ]
+}

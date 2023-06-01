@@ -1,0 +1,67 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "waffle",
+            "food": "waffle",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "Congelados",
+            "physical_quality": "frozen",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Queso",
+            "food": "cheese",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "triturados",
+            "process": "shredded"
+        },
+        {
+            "food_spanish": "Jarabe de arce",
+            "food": "maple syrup",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Le encantar\u00e1n los sabores dulces y salados en este desayuno f\u00e1cil y todo en uno. Este divertido giro en el cl\u00e1sico huevo en un hoyo se fr\u00ede al aire para cocinar y limpiar f\u00e1cilmente. Adem\u00e1s, el cortado de gofre congelado sirve como el m\u00e1s lindo dipper para recoger el huevo suave. Personal\u00edcelo con sus favoritos del desayuno, como parmesano triturado, trozos de tocino, o incluso salsa picante.",
+        "Precaliente la freidora a 350 grados F (175 grados C).",
+        "Cortar un agujero en el centro del gofre congelado usando el borde de una taza o vidrio (aproximadamente 2 a 3 pulgadas de di\u00e1metro). Mover el gofre a un cuadrado de papel pergamino, luego colocar cuidadosamente el papel pergamino en la freidora de aire precalentada, junto con el peque\u00f1o gofre central.",
+        "Romper el huevo directamente en el centro del agujero de gofre; sazonar con sal y pimienta al gusto. Cerrar la tapa y cocinar hasta que la clara del huevo ha comenzado a ponerse, unos 5 a 6 minutos.",
+        "Retire el waffle central peque\u00f1o de la freidora. Espolvoree el queso rallado en el waffle de huevo, y cocine hasta que el queso se derrita y la clara de huevo est\u00e9 completamente puesta, aproximadamente 1 a 2 minutos.",
+        "Transfiera el waffle de huevo a un plato; llovizna con jarabe de arce y sirva inmediatamente."
+    ]
+}

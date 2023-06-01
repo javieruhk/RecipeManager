@@ -1,0 +1,115 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "pollo",
+            "food": "chicken",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "muslo",
+            "physical_quality": "thigh",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "zap",
+            "food": "zap",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "masa de pastel",
+            "food": "cake dough",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "migajas de pan",
+            "food": "breadcrumbs",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "tomillo",
+            "food": "thyme",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "nuez moscada",
+            "food": "nutmeg",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para empezar con la preparaci\u00f3n de la tarta de zapallitos y pollo, dora el pollo sin la piel en una sart\u00e9n a fuego m\u00e1ximo con 1 cucharadita de aceite. Una vez dorado de un lado, g\u00edralo.",
+        "Cuando est\u00e9 dorado de ambos lados, agrega una taza de agua o caldo casero y baja el fuego a medio. Tapa tu pata muslo y coc\u00ednala por unos 10 minutos. Ten en cuenta que no buscamos que se cocine por completo ya que terminar\u00e1 de hacerlo en el horno.",
+        "Pasados los 10 minutos de cocci\u00f3n, retira la pata y muslo para desmenuzarla con ayuda de dos tenedores. Reserva tambi\u00e9n el l\u00edquido de cocci\u00f3n.",
+        "Pela y pica la cebolla para saltearla en el fondo de cocci\u00f3n del pollo. Hazlo a fuego m\u00e1ximo y b\u00e1jalo al medio cuando transparente. Si el salteado necesita m\u00e1s l\u00edquido, puedes a\u00f1adir el fondo de cocci\u00f3n del pollo o m\u00e1s agua/caldo.",
+        "Cuando la cebolla est\u00e9 bien blandita, ret\u00edrala y saltea, por \u00faltimo, los zapallitos. Deben estar previamente lavados y cortados en cubos del tama\u00f1o que desees. Salt\u00e9alos a fuego alto para que se doren y no larguen mucho l\u00edquido. No los muevas sino hasta que cada cara del cubo est\u00e9 bien dorada.",
+        "Es momento de mezclar la cebolla, con los zapallitos y el pollo demenuzado. Si no estaba del todo cocido, no pruebes tu relleno. Condim\u00e9ntalo al gusto con tomillo, nuez moscada y pimienta.",
+        "Agrega el huevo para unir todos los ingredientes, una vez que est\u00e9n bien fr\u00edos. Reserva el relleno de tu tarta de zapallitos y pollo.",
+        "Engrasa el molde donde deseas cocinar tu tarta de zapallitos f\u00e1cil y r\u00e1pida y f\u00f3rralo con la masa. Puedes hacerla casera para que esta tarta sea m\u00e1s saludable, encuentra la receta en nuestra web. Cubre la base con pan rallado para que absorba la humedad del relleno. En este caso, es un molde de 20 cent\u00edmetros de di\u00e1metro.",
+        "Vuelca el relleno de zapallitos y pollo sobre la masa y cocina tu tarta de zapallo verde por unos 30 minutos en el horno precalentado a 200-220 \u00baC.",
+        "Reserva hasta que tu tarta de zapallitos verde y pollo se entibie un poco para desmolarla. \u00a1A comer! Cu\u00e9ntanos si lo pruebas y comparte la foto del resultado final."
+    ]
+}

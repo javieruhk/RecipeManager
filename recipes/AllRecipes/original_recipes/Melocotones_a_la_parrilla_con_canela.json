@@ -1,0 +1,66 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "melocot\u00f3n",
+            "food": "peach",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "empresa",
+            "physical_quality": "firm",
+            "process_spanish": "chopped",
+            "process": "pitted"
+        },
+        {
+            "food_spanish": "mantequilla",
+            "food": "butter",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "canela",
+            "food": "cinnamon",
+            "quantity": "1\u20444",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "helado de vainilla",
+            "food": "vanilla ice cream",
+            "quantity": "2",
+            "unit_spanish": "Cucurbit\u00e1ceas de piel no comestible",
+            "unit": "scoops",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente la freidora a 350 grados F (175 grados C).",
+        "Coloque las mitades de carne de melocot\u00f3n hacia abajo en la cesta de la freidora. Cocine durante 6 minutos.",
+        "Mientras tanto, derrita la mantequilla. Revuelva el az\u00facar moreno y la canela hasta que el az\u00facar se haya disuelto.",
+        "Usando pinzas, voltear los melocotones para que est\u00e9n del lado de la carne hacia arriba. Cepille la mezcla de mantequilla sobre la parte superior, llenando la cavidad del hoyo con cualquier exceso. Cocine durante 6 minutos m\u00e1s.",
+        "Deje enfriar los melocotones durante 5 minutos. Cubra cada mitad con una cucharada de helado. Sirva inmediatamente."
+    ]
+}

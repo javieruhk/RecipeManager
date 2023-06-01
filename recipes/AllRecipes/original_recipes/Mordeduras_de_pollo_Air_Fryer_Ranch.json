@@ -1,0 +1,110 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "pollo",
+            "food": "chicken",
+            "quantity": "1",
+            "unit_spanish": "libra",
+            "unit": "pound",
+            "physical_quality_spanish": "piel",
+            "physical_quality": "skin",
+            "process_spanish": "recortado",
+            "process": "trimmed"
+        },
+        {
+            "food_spanish": "aceite de aguacate",
+            "food": "avocado oil",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "vinagre",
+            "food": "vinegar",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mezcla de aderezo de rancho",
+            "food": "ranch dressing mix",
+            "quantity": null,
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo en polvo",
+            "food": "garlic powder",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pimienta",
+            "food": "pepper",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Queso cheddar",
+            "food": "Cheddar cheese",
+            "quantity": "3",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "triturados",
+            "process": "shredded"
+        },
+        {
+            "food_spanish": "perejil",
+            "food": "parsley",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": "fresco",
+            "physical_quality": "fresh",
+            "process_spanish": "picado",
+            "process": "chopped"
+        }
+    ],
+    "steps": [
+        "Combine el pollo, el aceite de aguacate, el vinagre blanco, el polvo de rancho, el polvo de ajo, la sal y la pimienta en un taz\u00f3n grande. Revuelva bien hasta que el pollo est\u00e9 recubierto, cubra y marina en la nevera durante 30 a 60 minutos, pero no mucho m\u00e1s, ya que la textura se volver\u00e1 blanda.",
+        "Precaliente la freidora a 380 grados F (190 grados C). Coloque los cubos de pollo en la cesta de la freidora en una sola capa, sin tocar.",
+        "Fre\u00edr el aire hasta que el pollo ya no est\u00e9 rosado en el centro y los jugos est\u00e9n limpios, volte\u00e1ndose una vez cuando los bordes empiecen a dorar, asegur\u00e1ndose de no sobrecocer, de 8 a 11 minutos. Un term\u00f3metro de lectura instant\u00e1nea insertado cerca del hueso debe leer 165 grados F (74 grados C). Su tiempo de cocci\u00f3n puede variar dependiendo de la marca y el tama\u00f1o de su freidora, y es posible que necesite cocinar en lotes.",
+        "Espolvorear el pollo con queso Cheddar. Volver a la freidora hasta que el queso se derrita, durante unos 30 segundos. Servir caliente, adornado con perejil picado.",
+        "Si no tiene aceite de aguacate, aceite subvegetal o aceite de canola."
+    ]
+}

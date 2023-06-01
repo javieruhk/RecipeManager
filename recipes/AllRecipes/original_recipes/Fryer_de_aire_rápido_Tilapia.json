@@ -1,0 +1,100 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Harina de todo prop\u00f3sito",
+            "food": "all - purpose flour",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Condimentos para mariscos",
+            "food": "seafood seasoning",
+            "quantity": null,
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "piment\u00f3n",
+            "food": "paprika",
+            "quantity": "3\u20444",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ajo en polvo",
+            "food": "garlic powder",
+            "quantity": "1\u20442",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Filetes de tilapia",
+            "food": "tilapia fillets",
+            "quantity": "1",
+            "unit_spanish": "libra",
+            "unit": "pound",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "lim\u00f3n",
+            "food": "lemon",
+            "quantity": "4",
+            "unit_spanish": "rodajas",
+            "unit": "slices",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Precaliente una freidora a 400 grados F (200 grados C). Roc\u00ede la cesta de la freidora con spray de aceite de oliva o l\u00ednela con un forro de pergamino.",
+        "Batir harina, condimento de mariscos, piment\u00f3n, ajo en polvo, sal y pimienta juntos en un taz\u00f3n peque\u00f1o.",
+        "Retire los filetes de tilapia del paquete y seque con una toalla de papel. Roc\u00ede ligeramente los filetes con aceite de oliva, y espolvoree condimentos de harina sobre cada filete, presionando para cubrir todos los peces. Gire hacia arriba, y sazone en el otro lado tambi\u00e9n. Coloque los filetes en la cesta de la freidora, sin solapar, para que el aire pueda circular alrededor de los filetes.",
+        "Cocine hasta que los filetes de tilapia se escupen f\u00e1cilmente con un tenedor, de 7 a 10 minutos. No hay necesidad de voltearlos. Dependiendo del tama\u00f1o de su freidora, es posible que tenga que cocinarlos en lotes.",
+        "Cubra cada filete con una rebanada de lim\u00f3n y sirva caliente.",
+        "El tiempo de cocci\u00f3n puede variar dependiendo de la marca y el tama\u00f1o de la freidora."
+    ]
+}

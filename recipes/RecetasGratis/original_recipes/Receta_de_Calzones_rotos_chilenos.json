@@ -1,0 +1,124 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Harina de trigo",
+            "food": "wheat flour",
+            "quantity": "3",
+            "unit_spanish": "tazas",
+            "unit": "cups",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "polvos para hornear",
+            "food": "baking powders",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "az\u00facar",
+            "food": "sugar",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "mantequilla",
+            "food": "butter",
+            "quantity": "60",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": "suave",
+            "physical_quality": "soft",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": "1",
+            "unit_spanish": "pellizco",
+            "unit": "pinch",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "3",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "agua",
+            "food": "water",
+            "quantity": "5",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": "tibio",
+            "physical_quality": "warm",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ron",
+            "food": "rum",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ralladura de naranja",
+            "food": "orange zest",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de fre\u00edr",
+            "food": "frying oil",
+            "quantity": "250",
+            "unit_spanish": "mililitros",
+            "unit": "milliliter",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para empezar a hacer la receta de calzones rotos esponjosos, tamiza todos los ingredientes secos, es decir, la harina, el polvo de hornear, la sal y el az\u00facar flor. D\u00e9jalos en un bol mediano y mezcla. Puedes hacer tu propio az\u00facar flor siguiendo la receta f\u00e1cil de az\u00facar glass.",
+        "Calienta la mantequilla unos segundos, lo suficiente para que est\u00e9 blanda. Ten en cuenta que no debe estar derretida. Integra la mantequilla, el huevo y las yemas, la ralladura de lim\u00f3n y el ron y mezcla bien hasta que quede la masa de los calzones rotos aglomerada.",
+        "Agrega las cucharadas de agua y amasa hasta que quede uniforme y no se pegue en las manos. Forma una bola con la masa para calzones rotos en una superficie plana.",
+        "Pon a calentar el aceite y, mientras tanto, con ayuda de un rodillo extiende la masa hasta dejarla de 3-5 mm de grosor aproximadamente. Trata que quede lo m\u00e1s rectangular posible y corta la masa por la mitad, obteniendo as\u00ed dos rect\u00e1ngulos.",
+        "Para dar la t\u00edpica forma a los calzones rotos corta peque\u00f1os rect\u00e1ngulos de 3x8 cm aproximadamente y hazles un peque\u00f1o corte en el centro a cada uno.",
+        "Mete uno de los bordes por el corte realizado y estira levemente para que se ajuste la forma. Aunque parezca complicado, lo cierto es que hacer calzones rotos es f\u00e1cil, simplemente debes tener cuidado con este paso para evitar que se rompa la masa.",
+        "Fr\u00ede los calzones rotos cuando el aceite est\u00e9 bien caliente. Vig\u00edlalos hasta que los bordes comiencen a ponerse dorados y dales la vuelta para que se doren por el otro lado.",
+        "D\u00e9jalos sobre un papel absorbente para sacar el exceso de aceite y espolvorea con un poco de az\u00facar flor y/o canela. Disfruta de esta exquisita receta de calzones rotos chilenos durante los d\u00edas de fr\u00edo acompa\u00f1\u00e1ndola con una taza de t\u00e9, mate o chocolate caliente."
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "aceite vegetal",
+            "food": "vegetable oil",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "en cubitos",
+            "process": "diced"
+        },
+        {
+            "food_spanish": "ajo",
+            "food": "garlic",
+            "quantity": "1",
+            "unit_spanish": "clavo",
+            "unit": "clove",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "picadas",
+            "process": "minced"
+        },
+        {
+            "food_spanish": "chiles",
+            "food": "chiles",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "picado",
+            "process": "chopped"
+        },
+        {
+            "food_spanish": "Salsa de tomate picante al estilo mexicano",
+            "food": "Mexican - style hot tomato sauce",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pollo rotisserie",
+            "food": "rotisserie chicken",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "triturados",
+            "process": "shredded"
+        },
+        {
+            "food_spanish": "Mezcla de queso mexicano",
+            "food": "Mexican cheese blend",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "triturados",
+            "process": "shredded"
+        },
+        {
+            "food_spanish": "Neu f ch \u00e2 tel queso",
+            "food": "Neu f ch \u00e2 tel cheese",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "tierra",
+            "process": "ground"
+        },
+        {
+            "food_spanish": "Tortillas de ma\u00edz",
+            "food": "corn tortillas",
+            "quantity": "6",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite de aguacate",
+            "food": "avocado oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Caliente el aceite en una sart\u00e9n a fuego medio. Agregue la cebolla; cocine hasta que est\u00e9 suave y transl\u00facida, de 3 a 5 minutos. Agregue el ajo; cocine hasta que fragante, aproximadamente 1 minuto. Agregue los chiles verdes y la salsa de tomate mexicano; revuelva para combinar. Agregue el pollo rallado, la mezcla de queso mexicano y el queso Neufch\u00e2tel. Cocine y revuelva hasta que los quesos se hayan derretido y se calente la mezcla, unos 3 minutos.",
+        "Calentar las tortillas en una sart\u00e9n o directamente sobre las rejillas de una estufa de gas hasta que est\u00e9n suaves y flexibles. Colocar 3 cucharadas de mezcla de pollo por el centro de cada tortilla. Doblar y rodar en taquitos.",
+        "Precaliente una freidora a 400 grados F (200 grados C).",
+        "Coloque los taquitos en una sola capa en la cesta de la freidora, asegur\u00e1ndose de que no se toquen, y bruma con aceite de aguacate. Cocine hasta que est\u00e9n dorados, de 6 a 9 minutos. Gire los taquitos, bruma con aceite de aguacate, y fre\u00edr al aire hasta que est\u00e9n crujientes, de 3 a 5 minutos."
+    ]
+}

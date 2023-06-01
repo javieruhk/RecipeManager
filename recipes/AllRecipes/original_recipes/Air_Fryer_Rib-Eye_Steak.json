@@ -1,0 +1,56 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "bistecs para los ojos de las costillas",
+            "food": "rib - eye steaks",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Salsa de soja",
+            "food": "soy sauce",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de oliva",
+            "food": "olive oil",
+            "quantity": "1\u20444",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "condimentos a la parrilla",
+            "food": "grill seasoning",
+            "quantity": "4",
+            "unit_spanish": "cucharaditas",
+            "unit": "teaspoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Combine los filetes, la salsa de soja, el aceite de oliva y el condimento en una bolsa grande resellable. Marinar la carne durante al menos 2 horas.",
+        "Retire los filetes de la bolsa y desechar la marinada. Pat exceso de aceite de los filetes.",
+        "Agregue aproximadamente 1 cucharada de agua al fondo de la sart\u00e9n para evitar que se fume durante la cocci\u00f3n. Precaliente la freidora a 400 grados F (200 grados C).",
+        "Cocine los filetes en la freidora precalentada por 7 minutos, volt\u00e9elos y cocine unos 7 minutos m\u00e1s por medio-raro. Para un medio, cocine 8 minutos por lado.",
+        "Deje reposar los filetes durante unos 5 minutos antes de servir.",
+        "Los datos nutricionales para esta receta incluyen la cantidad completa de ingredientes de marinada. La cantidad real de marinada consumida variar\u00e1."
+    ]
+}

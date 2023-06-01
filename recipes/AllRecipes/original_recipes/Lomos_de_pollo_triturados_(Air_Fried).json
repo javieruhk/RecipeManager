@@ -1,0 +1,59 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Huevo",
+            "food": "egg",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "grande",
+            "physical_quality": "large",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "migajas de pan",
+            "food": "bread crumbs",
+            "quantity": "1\u20442",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": "seco",
+            "physical_quality": "dry",
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite vegetal",
+            "food": "vegetable oil",
+            "quantity": "2",
+            "unit_spanish": "cucharadas",
+            "unit": "tablespoons",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "pollo",
+            "food": "chicken",
+            "quantity": "8",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Re\u00fane todos los ingredientes.",
+        "Precaliente una freidora a 350 grados F (175 grados C).",
+        "Batir el huevo en un taz\u00f3n peque\u00f1o.",
+        "Mezclar las migajas de pan y el aceite juntos en un segundo taz\u00f3n hasta que la mezcla se desprenda y se desprenda.",
+        "Sumerja cada solomillo de pollo en el taz\u00f3n de huevo; quite cualquier huevo residual. Sumerja el pollo en una mezcla de migajas, asegur\u00e1ndose de que est\u00e9 uniforme y completamente cubierto.",
+        "Colocar los lomos de pollo en la cesta de la freidora en una capa uniforme.",
+        "Fr\u00ede el aire hasta que ya no sea rosado en el centro, unos 12 minutos. Un term\u00f3metro de lectura instant\u00e1nea insertado en el centro debe leer al menos 165 grados F (74 grados C).",
+        "Servir caliente y disfrutar!",
+        "Puede sustituir la mantequilla por el aceite vegetal si lo desea."
+    ]
+}

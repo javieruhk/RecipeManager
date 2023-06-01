@@ -1,0 +1,56 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "Bono porcino",
+            "food": "pig bond",
+            "quantity": "1",
+            "unit_spanish": "kilogramo",
+            "unit": "kilogram",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla",
+            "food": "onion",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cerveza",
+            "food": "beer",
+            "quantity": "1",
+            "unit_spanish": "libra",
+            "unit": "pound",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Para empezar con la preparaci\u00f3n de la bondiola de cerdo al disco, pela y pica la cebolla morada. Tambi\u00e9n lava y pica la cebolla de verdeo, reservando la parte verde para despu\u00e9s.",
+        "Por otro lado, retira un poco de la grasa visible de la carne y c\u00f3rtala en churrascos de unos 2 dedos de ancho.",
+        "Calienta a fuego m\u00e1ximo el disco y agrega una cucharada de aceite. Sella en \u00e9l los churrasquitos de bondiola. Puedes hacerlo sobre el fuego de la parrilla o sobre tu hornalla.",
+        "Cuando est\u00e9n dorados por ambos lados, agrega las cebollas que hab\u00edas picado previamente. Mant\u00e9n el fuego fuerte.",
+        "Cuando las cebollas est\u00e9n transparentes, agrega suficiente cerveza como para cubrir la base de la bondiola. De ser necesario, mueve los churrascos para que todos reciban calor parejo y se cocinen a la perfecci\u00f3n. Puedes tambi\u00e9n girarlos sobre s\u00ed. Si se evapora el l\u00edquido, renueva la cantidad de cerveza.",
+        "Una vez lista, sirve la bondiola de cerdo al disco con la salsita de la reducci\u00f3n de cerveza y decora con la parte verde de la cebolla de verdeo, que hab\u00edas reservado en el primer paso. \u00a1A comer! Cu\u00e9ntanos si lo pruebas y comparte una foto del resultado final."
+    ]
+}

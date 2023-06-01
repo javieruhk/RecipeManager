@@ -1,0 +1,160 @@
+{
+    "ingredients": [
+        {
+            "food_spanish": "pollo",
+            "food": "chicken",
+            "quantity": "1",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "arroz",
+            "food": "rice",
+            "quantity": "1",
+            "unit_spanish": "taza",
+            "unit": "cup",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Fideos chinos",
+            "food": "Chinese noodles",
+            "quantity": "1",
+            "unit_spanish": "paquete",
+            "unit": "package",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "huevos",
+            "food": "eggs",
+            "quantity": "4",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Cebolla china",
+            "food": "Chinese onion",
+            "quantity": "1",
+            "unit_spanish": "pu\u00f1ado",
+            "unit": "handful",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "ki",
+            "food": "ki",
+            "quantity": "1",
+            "unit_spanish": "pieza",
+            "unit": "piece",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": "pelados",
+            "process": "peeled"
+        },
+        {
+            "food_spanish": "pimientos",
+            "food": "peppers",
+            "quantity": "2",
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Habas chinas",
+            "food": "Chinese beans",
+            "quantity": "200",
+            "unit_spanish": "gramos",
+            "unit": "grams",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "alf\u00e9izar",
+            "food": "sill",
+            "quantity": "1",
+            "unit_spanish": "corriente",
+            "unit": "stream",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Salsa de iones",
+            "food": "o th ion sauce",
+            "quantity": "1",
+            "unit_spanish": "cucharada",
+            "unit": "tablespoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "Aceite de s\u00e9samo",
+            "food": "sesame oil",
+            "quantity": "1",
+            "unit_spanish": "cucharadita",
+            "unit": "teaspoon",
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "sal",
+            "food": "salt",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": null,
+            "physical_quality": null,
+            "process_spanish": null,
+            "process": null
+        },
+        {
+            "food_spanish": "aceite",
+            "food": "oil",
+            "quantity": null,
+            "unit_spanish": null,
+            "unit": null,
+            "physical_quality_spanish": "c",
+            "physical_quality": "c",
+            "process_spanish": null,
+            "process": null
+        }
+    ],
+    "steps": [
+        "Comienza graneando el arroz. Coloca una olla grande o una olla arrocera a calentar, vierte un chorro de aceite y el ajo molido. Sofr\u00ede un poco sin dejar que el ajo tome color e incorpora el arroz. Nac\u00e1ralo, es decir, remu\u00e9velo hasta que el aceite se distribuya muy bien en cada grano. Despu\u00e9s de un par de minutos se empezar\u00e1 a ver m\u00e1s trasl\u00facido. Cuanto m\u00e1s tiempo se mantenga nacarando, el arroz quedar\u00e1 m\u00e1s graneado. Luego, vierte el agua, sazona con sal al gusto y deja hervir hasta que el arroz est\u00e9 cocido. Reserva.",
+        "Sancocha los fideos chinos en abundante agua, dej\u00e1ndolos hervir por 3 minutos o hasta que est\u00e9n al dente. Cu\u00e9lalos y deja escurriendo.",
+        "Aparte, corta el pollo en tiras medianas para posteriormente cortarlas en cubos. Reserva. En otra tabla, retira los tallos, venas y semillas de los pimientos y procede a cortarlos en dados peque\u00f1os. Tambi\u00e9n pica la cebolla china y el kion finamente, reserva estos vegetales por separado.",
+        "En un bowl bate los huevos con una pizca de sal, reserva y calienta una sart\u00e9n grande o un wok. Cuando la sart\u00e9n est\u00e9 caliente, vierte un chorro de aceite, distribuye por toda la superficie y vuelca los huevos batidos para hacer una tortilla. Cuando los huevos hayan creado una corteza en la base, dale vuelta y mant\u00e9n en fuego por un par de minutos hasta que est\u00e9 perfectamente cocida. Seguidamente, coloca la tortilla sobre una tabla y c\u00f3rtala en dados.",
+        "En la misma sart\u00e9n vierte otro chorro de aceite y sella los cubos de pollo. Salt\u00e9alos hasta que est\u00e9n cocidos y agrega el kion picado para aromatizar.",
+        "A continuaci\u00f3n, a\u00f1ade los pimientos picados y sigue salteando.",
+        "Integra el arroz graneado y saltea o revuelve con cuidado para que se incorpore a los otros ingredientes.",
+        "Tambi\u00e9n incorpora los fideos y sazona con la salsa de osti\u00f3n, un buen chorro de sillao y sal al gusto.",
+        "Finalmente, vierte la tortilla picada, la cebolla china picada y el frejol chino.",
+        "Antes de emplatar, vierte un chorro de aceite de ajonjol\u00ed.",
+        "Saltea por \u00faltima vez, rectifica la saz\u00f3n y sirve. \u00a1A disfrutar! Cu\u00e9ntanos en los comentarios tu opini\u00f3n y comparte con nosotros una fotograf\u00eda del resultado final."
+    ]
+}
